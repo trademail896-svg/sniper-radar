@@ -14,7 +14,7 @@ import traceback
 import numpy as np
 
 from radar import analyse, carnet, config, donnees, meteo, page, score
-from radar.secteurs import Secteurs
+from radar.secteurs import SECTEURS_TRADFI, Secteurs
 
 
 def main():
@@ -31,9 +31,12 @@ def main():
         tk = tickers.get(m["symbol"])
         if not tk or m["base"].upper() in config.EXCLUS:
             continue
-        tradfi = sect.est_tradfi(m["base"])
+        secteur = sect.secteur(m["base"])
+        tradfi = sect.est_tradfi(m["base"]) or m.get("rwa", False)
+        if tradfi and secteur not in SECTEURS_TRADFI:
+            secteur = "Actions US"
         jours = (maintenant * 1000 - m["launch_ms"]) / 86_400_000 if m["launch_ms"] else 9999
-        t = {**m, **tk, "tradfi": tradfi, "secteur": sect.secteur(m["base"]),
+        t = {**m, **tk, "tradfi": tradfi, "secteur": secteur,
              "nouveau": jours < config.JOURS_NOUVEAU, "jours": int(max(jours, 0))}
         tous.append(t)
         if tradfi or tk["qv24"] >= config.VOLUME_MIN_CRYPTO_USD:

@@ -289,7 +289,10 @@ def generer(r):
         chips = []
         for it in items:
             t = it["token"]
-            fl = "▲" if it["bb"]["sens"] == "long" else "▼"
+            if cat == "marche":                     # tendance : la flèche suit la bande touchée
+                fl = "▲" if it["bb"]["cote"] == "haut" else "▼"
+            else:                                   # retournement attendu : flèche du trade
+                fl = "▲" if it["bb"]["sens"] == "long" else "▼"
             tip = f"{it['score']['points']}/5 · {', '.join(it['score']['raisons']) or 'aucune confirmation'} · touche il y a {it['bb']['bougies_depuis']} bougie(s) 4H · mèche {num(it['bb']['meche'], 2)} %"
             chips.append(f'<a class="chip" {_attr(t)} href="{tv(t["base"])}" target="_blank" rel="noopener" title="{e(tip)}" '
                          f'style="background:{cbg};border:1px solid {bd};color:{cfg}">{fl} {e(t["base"])} <span class="mono">{it["score"]["points"]}/5</span></a>')

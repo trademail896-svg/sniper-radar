@@ -65,6 +65,7 @@ def charger_marches():
             "id": m["id"],
             "base": m["base"],
             "launch_ms": int(_f(info.get("launchTime"), 0) or 0),
+            "rwa": str(info.get("isRwa", "")).upper() == "YES",   # Bitget : actif réel (action, métal…)
         })
     return res
 

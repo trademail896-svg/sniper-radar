@@ -36,7 +36,7 @@ TRADFI = {
     "CL": "Énergie", "WTI": "Énergie", "BRENT": "Énergie", "OIL": "Énergie",
     "USOIL": "Énergie", "UKOIL": "Énergie", "NATGAS": "Énergie", "NG": "Énergie",
     # Indices
-    "SPX": "Indices", "SPY": "Indices", "QQQ": "Indices", "NDX": "Indices",
+    "SPY": "Indices", "NDX100": "Indices", "TQQQ": "Indices", "SOXL": "Indices", "QQQ": "Indices", "NDX": "Indices",
     "NAS100": "Indices", "US30": "Indices", "US500": "Indices", "DJI": "Indices",
     # Actions US
     "TSLA": "Actions US", "NVDA": "Actions US", "AAPL": "Actions US", "MSFT": "Actions US",

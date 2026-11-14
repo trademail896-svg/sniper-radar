@@ -57,8 +57,9 @@ def regime_btc(btc):
     if np.isnan(e) or np.isnan(p):
         return "Inconnu", ""
     ecart = (c - e) / e * 100.0
+    ecart_txt = f"{ecart:+.1f}".replace(".", ",").replace("-", "−")
     if c > e and p > 0:
-        return "Haussier", f"Prix {ecart:+.1f} % vs EMA50 4H, EMA50 qui monte"
+        return "Haussier", f"Prix {ecart_txt} % vs EMA50 4H, EMA50 qui monte"
     if c < e and p < 0:
-        return "Baissier", f"Prix {ecart:+.1f} % vs EMA50 4H, EMA50 qui baisse"
-    return "Neutre", f"Prix {ecart:+.1f} % vs EMA50 4H, pente pas d'accord"
+        return "Baissier", f"Prix {ecart_txt} % vs EMA50 4H, EMA50 qui baisse"
+    return "Neutre", f"Prix {ecart_txt} % vs EMA50 4H, pente pas d'accord"
