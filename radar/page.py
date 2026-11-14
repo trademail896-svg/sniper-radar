@@ -209,7 +209,7 @@ def generer(r):
 <div style="width:44px;height:44px;border-radius:14px;background:#B6FF3B;display:flex;align-items:center;justify-content:center">
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0B1400" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg></div>
 <div style="display:flex;flex-direction:column"><span class="h" style="font-size:26px;letter-spacing:-.5px">{config.NOM}</span>
-<span class="lbl">Perps USDT Bybit · {r['nb_crypto']} crypto · {r['nb_tradfi']} TradFi</span></div></div>
+<span class="lbl">Perps USDT Bitget · {r['nb_crypto']} crypto · {r['nb_tradfi']} TradFi</span></div></div>
 <div style="display:flex;flex-wrap:wrap;gap:10px">
 <span class="pill" style="background:#0E1A12;border:1px solid #2E5A1A;color:#B6FF3B"><span style="width:8px;height:8px;border-radius:50%;background:#B6FF3B"></span>À jour · {heure(maj)} Toronto</span>
 <span class="pill" style="background:#0D1220;border:1px solid #263155;color:#DCE2FF">Prochain scan vers {heure(prochain)}</span>
@@ -324,9 +324,9 @@ def generer(r):
     p.append(f"""<section class="card" aria-label="TradFi" style="display:flex;flex-direction:column;gap:12px">
 <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px"><h2>TradFi</h2><span class="lbl">Actions, indices, métaux, énergie · hors météo crypto</span></div>
 <div class="scroll"><table><thead><tr><th>Contrat</th><th>Secteur</th><th>Prix</th><th>24 h</th><th>MSO 4H</th><th>BB 4H</th></tr></thead>
-<tbody>{"".join(lignes) or '<tr><td colspan="6" class="empty">Aucun contrat TradFi trouvé sur Bybit.</td></tr>'}</tbody></table></div></section>""")
+<tbody>{"".join(lignes) or '<tr><td colspan="6" class="empty">Aucun contrat TradFi trouvé.</td></tr>'}</tbody></table></div></section>""")
 
-    p.append(f"""<footer class="sub" style="text-align:center;padding-top:8px">{config.NOM} V{config.VERSION} · données Bybit · {r['nb_ok']} tokens analysés en {r['duree']:.0f} s · la page se recharge seule toutes les {config.PAGE_RECHARGE_SEC // 60} min</footer>""")
+    p.append(f"""<footer class="sub" style="text-align:center;padding-top:8px">{config.NOM} V{config.VERSION} · données Bitget (OI : OKX) · {r['nb_ok']} tokens analysés en {r['duree']:.0f} s · la page se recharge seule toutes les {config.PAGE_RECHARGE_SEC // 60} min</footer>""")
     p.append(f"</div><script>{JS}</script></body></html>")
 
     os.makedirs(config.DOSSIER_SITE, exist_ok=True)

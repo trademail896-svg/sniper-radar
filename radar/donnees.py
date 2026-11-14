@@ -1,11 +1,11 @@
 """
-SNIPER RADAR — Collecte Bybit (CCXT, API publique, sans clé)
+SNIPER RADAR — Collecte (CCXT, API publiques, sans clé)
 ============================================================
 - Liste des perps USDT linéaires (avec date de lancement)
 - Ticker 24 h de tous les contrats en un seul appel (variation, volume USDT,
   funding, open interest)
 - Bougies 1H et 4H clôturées, en parallèle
-- Historique d'OI 24 h, seulement pour les candidats notés
+- Historique d'OI 24 h (plateforme OI), seulement pour les candidats notés
 """
 import threading
 import time
@@ -21,8 +21,10 @@ _local = threading.local()
 _MARCHES = None
 
 
-def _nouvel_exchange():
-    return ccxt.bybit({"enableRateLimit": True, "timeout": 30000, "options": dict(_OPTIONS)})
+def _nouvel_exchange(nom=None):
+    klass = getattr(ccxt, nom or config.PLATEFORME)
+    return klass({"enableRateLimit": True, "rateLimit": config.RATE_LIMIT_MS, "timeout": 30000,
+                  "options": dict(_OPTIONS)})
 
 
 def _exchange():
@@ -55,7 +57,8 @@ def charger_marches():
                 and m.get("settle") == "USDT" and m.get("active", True)):
             continue
         info = m.get("info") or {}
-        if str(info.get("status", "Trading")) != "Trading":
+        statut = str(info.get("status") or info.get("symbolStatus") or "normal").lower()
+        if statut not in ("trading", "normal", "live", "open"):
             continue
         res.append({
             "symbol": m["symbol"],
@@ -69,19 +72,26 @@ def charger_marches():
 def charger_tickers():
     """symbol → {last, pct24, qv24, funding, oi_valeur}."""
     ex = _exchange()
-    t = ex.fetch_tickers(params={"category": "linear"})
+    t = ex.fetch_tickers()
     out = {}
     for sym, d in t.items():
         info = d.get("info") or {}
+        last = _f(d.get("last"))
         pct = d.get("percentage")
         if pct is None:
-            pct = _f(info.get("price24hPcnt")) * 100.0
+            pct = _f(info.get("change24h", info.get("price24hPcnt"))) * 100.0
+        qv = d.get("quoteVolume")
+        if qv is None:
+            qv = info.get("usdtVolume", info.get("quoteVolume", info.get("turnover24h")))
+        oi_val = _f(info.get("openInterestValue"))
+        if np.isnan(oi_val):
+            oi_val = _f(info.get("holdingAmount"), 0.0) * (last if not np.isnan(last) else 0.0)
         out[sym] = {
-            "last": _f(d.get("last")),
+            "last": last,
             "pct24": _f(pct),
-            "qv24": _f(d.get("quoteVolume") if d.get("quoteVolume") is not None else info.get("turnover24h"), 0.0),
+            "qv24": _f(qv, 0.0),
             "funding": _f(info.get("fundingRate")),
-            "oi_valeur": _f(info.get("openInterestValue"), 0.0),
+            "oi_valeur": oi_val,
         }
     return out
 
@@ -143,10 +153,19 @@ def variation_oi_24h(symboles):
     """symbol → variation % de l'open interest sur 24 h (candidats seulement)."""
     out = {}
 
+    ex_oi = _nouvel_exchange(config.PLATEFORME_OI)
+    try:
+        ex_oi.load_markets()
+    except Exception:
+        return {s: np.nan for s in symboles}
+    verrou = threading.Lock()
+
     def job(sym):
-        ex = _exchange()
+        if sym not in ex_oi.markets:
+            return sym, np.nan
         try:
-            h = ex.fetch_open_interest_history(sym, "1h", limit=25)
+            with verrou:
+                h = ex_oi.fetch_open_interest_history(sym, "1h", limit=25)
         except Exception:
             return sym, np.nan
         vals = [_f(x.get("openInterestAmount")) for x in h if x]

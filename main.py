@@ -1,7 +1,7 @@
 """
 SNIPER RADAR — point d'entrée (lancé chaque heure par GitHub Actions)
 =====================================================================
-1. Univers Bybit (perps USDT) + ticker 24 h
+1. Univers (perps USDT) + ticker 24 h
 2. Bougies 1H / 4H en parallèle
 3. Calculs par token (MSO 4H, BB 4H, RSI 1H, compression…)
 4. Météo, carnet des movers, touches BB, score

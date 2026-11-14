@@ -2,7 +2,7 @@
 
 Dashboard web rafraîchi chaque heure : météo du marché, rotation des secteurs,
 carnet des movers, touches BB 4H, compression, nouveaux contrats et TradFi.
-Données Bybit (perps USDT), publiques, sans clé API.
+Données Bitget (perps USDT), OI 24 h via OKX, publiques, sans clé API.
 
 Page : **https://trademail896-svg.github.io/sniper-radar/**
 
@@ -42,7 +42,7 @@ funding, etc.).
 | Fichier | Rôle |
 |---|---|
 | `main.py` | enchaîne tout, chaque heure |
-| `radar/donnees.py` | collecte Bybit (CCXT) |
+| `radar/donnees.py` | collecte Bitget + OKX (CCXT) |
 | `radar/indicateurs.py` | EMA, BB, RSI, pivots, Heikin Ashi, MSO LuxAlgo (validés contre TradingView) |
 | `radar/analyse.py` | calculs par token |
 | `radar/meteo.py` | météo du marché |

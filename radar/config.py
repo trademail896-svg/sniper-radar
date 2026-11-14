@@ -14,12 +14,19 @@ DOSSIER_DATA = os.getenv("RADAR_DATA", "data")
 DOSSIER_SITE = os.getenv("RADAR_SITE", "site")
 FUSEAU = "America/Toronto"
 
+# ─── Plateformes ─────────────────────────────────────────────────────────────
+# Bybit bloque les serveurs de GitHub (États-Unis) → Bitget pour tout,
+# OKX seulement pour l'historique d'open interest des candidats.
+PLATEFORME = "bitget"
+PLATEFORME_OI = "okx"
+RATE_LIMIT_MS = 250                  # pause min entre 2 requêtes, par connexion
+
 # ─── Univers ─────────────────────────────────────────────────────────────────
 VOLUME_MIN_CRYPTO_USD = 10_000_000      # volume 24 h minimum (crypto seulement)
 JOURS_NOUVEAU = 14                      # badge 🆕 : contrat lancé depuis moins de N jours
 EXCLUS = {"USDC", "USDT", "BUSD", "DAI", "FDUSD", "TUSD", "PYUSD", "USDE", "USDS", "BTCDOM"}
 
-# TradFi : base Bybit → secteur. Ajoute une ligne ici si Bybit lance un nouveau contrat.
+# TradFi : base du contrat → secteur. Ajoute une ligne ici si la plateforme lance un nouveau contrat.
 # Un token crypto classé ici par erreur se corrige dans data/secteurs.json (« manuel »).
 TRADFI = {
     # Métaux
@@ -43,7 +50,7 @@ TRADFI = {
 # ─── Bougies ─────────────────────────────────────────────────────────────────
 NB_BOUGIES_1H = 300
 NB_BOUGIES_4H = 600
-WORKERS = 8
+WORKERS = 4
 
 # ─── Indicateurs ─────────────────────────────────────────────────────────────
 EMA_LONGUEUR = 50
@@ -94,4 +101,4 @@ OI_FOULE_PCT = 5.0
 
 # ─── Page ────────────────────────────────────────────────────────────────────
 PAGE_RECHARGE_SEC = 600
-TV_PREFIXE = "BYBIT"
+TV_PREFIXE = "BITGET"
