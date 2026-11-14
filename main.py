@@ -34,16 +34,16 @@ def main():
         secteur = sect.secteur(m["base"])
         tradfi = sect.est_tradfi(m["base"]) or m.get("rwa", False)
         if tradfi and secteur not in SECTEURS_TRADFI:
-            secteur = "Actions US"
+            secteur = "Actions"                     # action / ETF hors de la liste connue
         jours = (maintenant * 1000 - m["launch_ms"]) / 86_400_000 if m["launch_ms"] else 9999
         t = {**m, **tk, "tradfi": tradfi, "secteur": secteur,
              "nouveau": jours < config.JOURS_NOUVEAU, "jours": int(max(jours, 0))}
         tous.append(t)
-        if tradfi or tk["qv24"] >= config.VOLUME_MIN_CRYPTO_USD:
+        if tk["qv24"] >= (config.VOLUME_MIN_TRADFI_USD if tradfi else config.VOLUME_MIN_CRYPTO_USD):
             univers.append(t)
     print(f"[univers] {len(marches)} perps · {len(univers)} retenus "
-          f"({sum(not t['tradfi'] for t in univers)} crypto ≥ {config.VOLUME_MIN_CRYPTO_USD / 1e6:.0f} M$, "
-          f"{sum(t['tradfi'] for t in univers)} TradFi)")
+          f"({sum(not t['tradfi'] for t in univers)} crypto, {sum(t['tradfi'] for t in univers)} TradFi, "
+          f"volume ≥ {config.VOLUME_MIN_CRYPTO_USD / 1e6:.0f} / {config.VOLUME_MIN_TRADFI_USD / 1e6:.0f} M$)")
 
     # 2. Bougies ─────────────────────────────────────────────────────────────
     bougies = donnees.charger_bougies([t["symbol"] for t in univers])

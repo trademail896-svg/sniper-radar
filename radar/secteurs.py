@@ -19,7 +19,7 @@ def base_simple(base):
     return b or base.upper()
 
 
-SECTEURS_TRADFI = {"Actions US", "Indices", "Métaux", "Énergie"}
+SECTEURS_TRADFI = {"Actions US", "Actions", "Indices", "Métaux", "Énergie"}
 
 
 class Secteurs:

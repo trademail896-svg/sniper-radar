@@ -22,7 +22,8 @@ PLATEFORME_OI = "okx"
 RATE_LIMIT_MS = 250                  # pause min entre 2 requêtes, par connexion
 
 # ─── Univers ─────────────────────────────────────────────────────────────────
-VOLUME_MIN_CRYPTO_USD = 3_000_000       # volume 24 h minimum (crypto seulement) — 3 M$ ≈ 110 cryptos sur Bitget
+VOLUME_MIN_CRYPTO_USD = 1_000_000       # volume 24 h minimum crypto (Bitget : ~55 cryptos ≥ 3 M$, il faut descendre)
+VOLUME_MIN_TRADFI_USD = 1_000_000       # volume 24 h minimum TradFi (~90 contrats sur 421)
 JOURS_NOUVEAU = 14                      # badge 🆕 : contrat lancé (ou 1re bougie 4H) depuis moins de N jours
 EXCLUS = {"USDC", "USDT", "BUSD", "DAI", "FDUSD", "TUSD", "PYUSD", "USDE", "USDS", "BTCDOM"}
 
@@ -33,7 +34,7 @@ TRADFI = {
     "XAU": "Métaux", "XAG": "Métaux", "XPT": "Métaux", "XPD": "Métaux",
     "PAXG": "Métaux", "XAUT": "Métaux", "GOLD": "Métaux", "SILVER": "Métaux", "COPPER": "Métaux",
     # Énergie
-    "CL": "Énergie", "WTI": "Énergie", "BRENT": "Énergie", "OIL": "Énergie",
+    "CL": "Énergie", "BZ": "Énergie", "WTI": "Énergie", "BRENT": "Énergie", "OIL": "Énergie",
     "USOIL": "Énergie", "UKOIL": "Énergie", "NATGAS": "Énergie", "NG": "Énergie",
     # Indices
     "SPY": "Indices", "NDX100": "Indices", "TQQQ": "Indices", "SOXL": "Indices", "QQQ": "Indices", "NDX": "Indices",
