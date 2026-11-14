@@ -1,0 +1,36 @@
+name: SNIPER RADAR — remplir les secteurs
+
+# À lancer à la main (onglet Actions → « Run workflow »), une fois au début,
+# puis quand tu veux classer les nouveaux tokens. Tes corrections « manuel »
+# ne sont jamais touchées.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  secteurs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+      - name: Catégories CoinGecko
+        env:
+          COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+        run: python -X utf8 tools/remplir_secteurs.py
+      - name: Sauvegarder
+        run: |
+          git config user.name  "sniper-radar"
+          git config user.email "sniper-radar@users.noreply.github.com"
+          git add data/secteurs.json
+          if ! git diff --cached --quiet; then
+            git commit -m "radar : secteurs CoinGecko"
+            git pull --rebase --autostash
+            git push
+          fi
