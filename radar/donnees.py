@@ -115,7 +115,7 @@ def _bougies(symbol, tf, limite):
     maintenant = time.time() * 1000
     if a[-1, 0] + _TF_MS[tf] > maintenant:          # retire la bougie non clôturée
         a = a[:-1]
-    if len(a) < 60:
+    if len(a) < config.MIN_BOUGIES:
         return None
     return {"t": a[:, 0].astype(np.int64), "o": a[:, 1], "h": a[:, 2], "l": a[:, 3], "c": a[:, 4],
             "v": a[:, 5]}

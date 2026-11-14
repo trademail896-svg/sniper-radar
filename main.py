@@ -57,6 +57,14 @@ def main():
             ok.append(t)
         except Exception as ex:
             print(f"[analyse] {t['symbol']} : {ex}")
+    # Date de lancement absente (Bitget) : âge = historique de bougies 4H disponible
+    for t in ok:
+        if not t["launch_ms"]:
+            n4 = len(t["b"]["4h"]["t"])
+            if n4 < config.NB_BOUGIES_4H * 0.85:          # historique plus court que ce qu'on demande
+                jours = (maintenant * 1000 - int(t["b"]["4h"]["t"][0])) / 86_400_000
+                t["jours"] = int(max(jours, 0))
+                t["nouveau"] = jours < config.JOURS_NOUVEAU
     par_sym = {t["symbol"]: t for t in ok}
     crypto = [t for t in ok if not t["tradfi"]]
     print(f"[analyse] {len(ok)} tokens analysés")
@@ -101,7 +109,7 @@ def main():
     comp.sort(key=lambda c: c["ratio"])
     comp = comp[:config.COMPRESSION_MAX_AFFICHES]
 
-    nouveaux = sorted([t for t in tous if t["nouveau"]], key=lambda t: t["jours"])
+    nouveaux = sorted([t for t in ok if t["nouveau"]], key=lambda t: t["jours"])
 
     groupes = {}
     for t in ok:

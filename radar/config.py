@@ -22,8 +22,8 @@ PLATEFORME_OI = "okx"
 RATE_LIMIT_MS = 250                  # pause min entre 2 requêtes, par connexion
 
 # ─── Univers ─────────────────────────────────────────────────────────────────
-VOLUME_MIN_CRYPTO_USD = 10_000_000      # volume 24 h minimum (crypto seulement)
-JOURS_NOUVEAU = 14                      # badge 🆕 : contrat lancé depuis moins de N jours
+VOLUME_MIN_CRYPTO_USD = 3_000_000       # volume 24 h minimum (crypto seulement) — 3 M$ ≈ 110 cryptos sur Bitget
+JOURS_NOUVEAU = 14                      # badge 🆕 : contrat lancé (ou 1re bougie 4H) depuis moins de N jours
 EXCLUS = {"USDC", "USDT", "BUSD", "DAI", "FDUSD", "TUSD", "PYUSD", "USDE", "USDS", "BTCDOM"}
 
 # TradFi : base du contrat → secteur. Ajoute une ligne ici si la plateforme lance un nouveau contrat.
@@ -50,6 +50,7 @@ TRADFI = {
 # ─── Bougies ─────────────────────────────────────────────────────────────────
 NB_BOUGIES_1H = 300
 NB_BOUGIES_4H = 600
+MIN_BOUGIES = 20                     # un contrat tout neuf est quand même analysé
 WORKERS = 4
 
 # ─── Indicateurs ─────────────────────────────────────────────────────────────
