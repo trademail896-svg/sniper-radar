@@ -10,12 +10,12 @@
   },
   "4": {
    "bas": {
-    "avance": -1.33654977,
-    "gagnants": 57.01357466,
-    "mae": -1.22965588,
-    "mfe": 2.17265062,
-    "moy": 0.05999202,
-    "n": 221
+    "avance": -1.3640915,
+    "gagnants": 56.75675676,
+    "mae": -1.26733541,
+    "mfe": 2.14169283,
+    "moy": 0.0298332,
+    "n": 222
    },
    "haut": {
     "avance": -0.15928305,
@@ -51,12 +51,12 @@
      "n": 124
     },
     "carnet": {
-     "avance": -0.79388832,
-     "gagnants": 58.06451613,
-     "mae": -4.35656313,
-     "mfe": 3.66416918,
-     "moy": -0.27311074,
-     "n": 31
+     "avance": -1.00191721,
+     "gagnants": 56.25,
+     "mae": -4.52024902,
+     "mfe": 3.40278953,
+     "moy": -0.47192807,
+     "n": 32
     }
    },
    "par_phase": {
@@ -85,12 +85,12 @@
      "n": 3
     },
     "Retracement": {
-     "avance": -0.92585781,
-     "gagnants": 55.55555556,
-     "mae": -5.52404831,
-     "mfe": 2.83815784,
-     "moy": -0.6745948,
-     "n": 9
+     "avance": -1.5783533,
+     "gagnants": 50.0,
+     "mae": -5.93109464,
+     "mfe": 2.0843441,
+     "moy": -1.27066184,
+     "n": 10
     },
     "Zone de rebond": {
      "avance": 4.68534526,
@@ -103,12 +103,12 @@
    },
    "par_score": {
     "0": {
-     "avance": -2.5284517,
-     "gagnants": 33.33333333,
-     "mae": -5.03331608,
-     "mfe": 2.56161879,
-     "moy": -2.36677917,
-     "n": 15
+     "avance": -2.83609926,
+     "gagnants": 31.25,
+     "mae": -5.3183908,
+     "mfe": 2.1077689,
+     "moy": -2.63355955,
+     "n": 16
     },
     "1": {
      "avance": -0.83170857,
@@ -162,48 +162,48 @@
   }
  },
  "jours": 14,
- "maj": 1794744453,
- "nb_signaux": 287,
+ "maj": 1794748042,
+ "nb_signaux": 289,
  "rates": [
-  {
-   "base": "PENGU",
-   "mso4h": 1.38670728,
-   "pct24": -15.608,
-   "secteur": "Memes",
-   "sens": "short",
-   "symbol": "PENGU/USDT:USDT"
-  },
   {
    "base": "KAVA",
    "mso4h": 8.97394364,
-   "pct24": -15.515,
+   "pct24": -19.738,
    "secteur": "L1",
    "sens": "short",
    "symbol": "KAVA/USDT:USDT"
   },
   {
+   "base": "MARSCOIN",
+   "mso4h": 2.64389475,
+   "pct24": -10.867,
+   "secteur": "Memes",
+   "sens": "short",
+   "symbol": "MARSCOIN/USDT:USDT"
+  },
+  {
    "base": "KAITO",
    "mso4h": 0.0,
-   "pct24": -12.143,
+   "pct24": -10.067,
    "secteur": "IA",
    "sens": "short",
    "symbol": "KAITO/USDT:USDT"
   },
   {
+   "base": "APT",
+   "mso4h": 1.28696371,
+   "pct24": -9.874,
+   "secteur": "L1",
+   "sens": "short",
+   "symbol": "APT/USDT:USDT"
+  },
+  {
    "base": "INJ",
    "mso4h": 11.40025754,
-   "pct24": -11.861,
+   "pct24": -9.355,
    "secteur": "RWA",
    "sens": "short",
    "symbol": "INJ/USDT:USDT"
-  },
-  {
-   "base": "MARSCOIN",
-   "mso4h": 2.64389475,
-   "pct24": -11.049,
-   "secteur": "Memes",
-   "sens": "short",
-   "symbol": "MARSCOIN/USDT:USDT"
   }
  ]
 }

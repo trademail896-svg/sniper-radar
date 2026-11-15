@@ -6774,7 +6774,15 @@
  {
   "base": "BLESS",
   "detail": "Retracement",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -7.45081266,
+    "mae": -9.59451157,
+    "marche": 0.81554746,
+    "mfe": -4.69997952,
+    "ret": -6.63526521
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.009766,
@@ -6986,5 +6994,35 @@
   "symbol": "ARIA/USDT:USDT",
   "tradfi": false,
   "ts": 1794744453
+ },
+ {
+  "base": "ARIA",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.25134,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Gaming",
+  "sens": "long",
+  "symbol": "ARIA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794748042
+ },
+ {
+  "base": "PENGU",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.004949,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Memes",
+  "sens": "short",
+  "symbol": "PENGU/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794748042
  }
 ]
