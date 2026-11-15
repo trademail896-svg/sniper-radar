@@ -10,12 +10,12 @@
   },
   "4": {
    "bas": {
-    "avance": -1.37819784,
-    "gagnants": 56.63716814,
-    "mae": -1.42238425,
-    "mfe": 2.19045962,
-    "moy": -0.00967757,
-    "n": 226
+    "avance": -1.36549171,
+    "gagnants": 56.65236052,
+    "mae": -1.47810744,
+    "mfe": 2.16973561,
+    "moy": -0.03028891,
+    "n": 233
    },
    "haut": {
     "avance": -0.15928305,
@@ -27,12 +27,12 @@
    },
    "par_liste": {
     "bb_marche": {
-     "avance": -1.72192811,
-     "gagnants": 74.25742574,
-     "mae": -0.49812389,
-     "mfe": 2.80407993,
-     "moy": 0.63515893,
-     "n": 101
+     "avance": -1.72878551,
+     "gagnants": 73.78640777,
+     "mae": -0.64206478,
+     "mfe": 2.79576352,
+     "moy": 0.59133603,
+     "n": 103
     },
     "bb_probable": {
      "avance": 0.12199465,
@@ -43,12 +43,12 @@
      "n": 4
     },
     "bb_sans": {
-     "avance": -0.875467,
-     "gagnants": 40.0,
-     "mae": -1.25149038,
-     "mfe": 1.50359922,
-     "moy": -0.34000002,
-     "n": 125
+     "avance": -0.86130818,
+     "gagnants": 40.76923077,
+     "mae": -1.25811025,
+     "mfe": 1.49002198,
+     "moy": -0.33943651,
+     "n": 130
     },
     "carnet": {
      "avance": -1.055103,
@@ -111,12 +111,12 @@
      "n": 17
     },
     "1": {
-     "avance": -0.90566193,
-     "gagnants": 43.29896907,
-     "mae": -1.28827961,
-     "mfe": 1.69351512,
-     "moy": -0.12879037,
-     "n": 97
+     "avance": -0.88613623,
+     "gagnants": 44.11764706,
+     "mae": -1.2949133,
+     "mfe": 1.66690119,
+     "moy": -0.13842559,
+     "n": 102
     },
     "2": {
      "avance": -0.44415256,
@@ -144,12 +144,12 @@
     }
    },
    "penalite": {
-    "avance": -1.58989745,
-    "gagnants": 72.32142857,
-    "mae": -0.98705201,
-    "mfe": 2.65067685,
-    "moy": 0.47154256,
-    "n": 112
+    "avance": -1.5984095,
+    "gagnants": 71.92982456,
+    "mae": -1.10852617,
+    "mfe": 2.64585419,
+    "moy": 0.43481865,
+    "n": 114
    }
   },
   "72": {
@@ -162,48 +162,48 @@
   }
  },
  "jours": 14,
- "maj": 1794758841,
- "nb_signaux": 374,
+ "maj": 1794760535,
+ "nb_signaux": 425,
  "rates": [
-  {
-   "base": "ZRO",
-   "mso4h": 2.66483315,
-   "pct24": -9.802,
-   "secteur": "Non classé",
-   "sens": "short",
-   "symbol": "ZRO/USDT:USDT"
-  },
   {
    "base": "SKYAI",
    "mso4h": 98.51954398,
-   "pct24": 9.144,
+   "pct24": 10.134,
    "secteur": "Non classé",
    "sens": "long",
    "symbol": "SKYAI/USDT:USDT"
   },
   {
+   "base": "ZRO",
+   "mso4h": 2.66483315,
+   "pct24": -8.541,
+   "secteur": "Non classé",
+   "sens": "short",
+   "symbol": "ZRO/USDT:USDT"
+  },
+  {
+   "base": "BANANAS31",
+   "mso4h": 31.57520615,
+   "pct24": 8.384,
+   "secteur": "Memes",
+   "sens": "long",
+   "symbol": "BANANAS31/USDT:USDT"
+  },
+  {
    "base": "BERA",
    "mso4h": 1.52090895,
-   "pct24": -8.717,
+   "pct24": -7.295,
    "secteur": "DeFi",
    "sens": "short",
    "symbol": "BERA/USDT:USDT"
   },
   {
-   "base": "FIL",
-   "mso4h": 0.0,
-   "pct24": -8.215,
-   "secteur": "L1",
-   "sens": "short",
-   "symbol": "FIL/USDT:USDT"
-  },
-  {
-   "base": "INJ",
-   "mso4h": 11.65412781,
-   "pct24": -7.668,
-   "secteur": "RWA",
-   "sens": "short",
-   "symbol": "INJ/USDT:USDT"
+   "base": "KITE",
+   "mso4h": 100.0,
+   "pct24": 6.525,
+   "secteur": "IA",
+   "sens": "long",
+   "symbol": "KITE/USDT:USDT"
   }
  ]
 }
