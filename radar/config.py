@@ -25,6 +25,7 @@ RATE_LIMIT_MS = 250                  # pause min entre 2 requêtes, par connexio
 VOLUME_MIN_CRYPTO_USD = 1_000_000       # volume 24 h minimum crypto (Bitget : ~55 cryptos ≥ 3 M$, il faut descendre)
 VOLUME_MIN_TRADFI_USD = 1_000_000       # volume 24 h minimum TradFi (~90 contrats sur 421)
 JOURS_NOUVEAU = 14                      # badge 🆕 : contrat lancé (ou 1re bougie 4H) depuis moins de N jours
+EXCLURE_NOMS_NON_LATINS = True          # ex. 牛来 : pas de chart TradingView fiable, memecoins chinois
 EXCLUS = {"USDC", "USDT", "BUSD", "DAI", "FDUSD", "TUSD", "PYUSD", "USDE", "USDS", "BTCDOM"}
 
 # TradFi : base du contrat → secteur. Ajoute une ligne ici si la plateforme lance un nouveau contrat.

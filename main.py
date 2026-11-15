@@ -31,6 +31,8 @@ def main():
         tk = tickers.get(m["symbol"])
         if not tk or m["base"].upper() in config.EXCLUS:
             continue
+        if config.EXCLURE_NOMS_NON_LATINS and not m["base"].isascii():
+            continue
         secteur = sect.secteur(m["base"])
         tradfi = sect.est_tradfi(m["base"]) or m.get("rwa", False)
         if tradfi and secteur not in SECTEURS_TRADFI:
