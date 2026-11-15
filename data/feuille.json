@@ -10,12 +10,12 @@
   },
   "4": {
    "bas": {
-    "avance": -1.0414791,
-    "gagnants": 60.05747126,
-    "mae": -1.62471687,
-    "mfe": 1.91945879,
-    "moy": -0.06977301,
-    "n": 348
+    "avance": -1.03659682,
+    "gagnants": 60.17191977,
+    "mae": -1.62383393,
+    "mfe": 1.91949653,
+    "moy": -0.06614232,
+    "n": 349
    },
    "haut": {
     "avance": -0.15928305,
@@ -51,12 +51,12 @@
      "n": 219
     },
     "carnet": {
-     "avance": -1.47105726,
-     "gagnants": 50.0,
-     "mae": -5.44743492,
-     "mfe": 3.56209712,
-     "moy": -1.185674,
-     "n": 56
+     "avance": -1.43362757,
+     "gagnants": 50.87719298,
+     "mae": -5.37496367,
+     "mfe": 3.53351,
+     "moy": -1.14386679,
+     "n": 57
     }
    },
    "par_phase": {
@@ -69,12 +69,12 @@
      "n": 18
     },
     "Impulsion": {
-     "avance": -1.781508,
-     "gagnants": 41.66666667,
-     "mae": -7.98409063,
-     "mfe": 3.15447414,
-     "moy": -2.76481152,
-     "n": 12
+     "avance": -1.59351241,
+     "gagnants": 46.15384615,
+     "mae": -7.47120473,
+     "mfe": 3.06048622,
+     "moy": -2.46003087,
+     "n": 13
     },
     "Pause": {
      "avance": 0.76719225,
@@ -103,15 +103,15 @@
    },
    "par_score": {
     "0": {
-     "avance": -2.28429343,
-     "gagnants": 44.11764706,
-     "mae": -4.76851266,
-     "mfe": 1.64938969,
-     "moy": -2.16216131,
-     "n": 34
+     "avance": -2.2001012,
+     "gagnants": 45.71428571,
+     "mae": -4.66988584,
+     "mfe": 1.6574823,
+     "moy": -2.06617564,
+     "n": 35
     },
     "1": {
-     "avance": -0.56303326,
+     "avance": -0.56303325,
      "gagnants": 55.0295858,
      "mae": -1.15311298,
      "mfe": 1.42522156,
@@ -162,29 +162,29 @@
   }
  },
  "jours": 14,
- "maj": 1794776841,
+ "maj": 1794777341,
  "nb_signaux": 453,
  "rates": [
   {
-   "base": "KITE",
-   "mso4h": 100.0,
-   "pct24": 13.164,
-   "secteur": "IA",
-   "sens": "long",
-   "symbol": "KITE/USDT:USDT"
-  },
-  {
    "base": "SKYAI",
    "mso4h": 91.98812037,
-   "pct24": 10.211,
+   "pct24": 12.656,
    "secteur": "Non classé",
    "sens": "long",
    "symbol": "SKYAI/USDT:USDT"
   },
   {
+   "base": "KITE",
+   "mso4h": 100.0,
+   "pct24": 12.08,
+   "secteur": "IA",
+   "sens": "long",
+   "symbol": "KITE/USDT:USDT"
+  },
+  {
    "base": "NIGHT",
    "mso4h": 100.0,
-   "pct24": 8.481,
+   "pct24": 8.882,
    "secteur": "L1",
    "sens": "long",
    "symbol": "NIGHT/USDT:USDT"
@@ -192,18 +192,18 @@
   {
    "base": "NVDL",
    "mso4h": 19.76794186,
-   "pct24": 7.761,
+   "pct24": 8.587,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "NVDL/USDT:USDT"
   },
   {
-   "base": "MINIMAX",
-   "mso4h": 12.68958279,
-   "pct24": 7.503,
+   "base": "ZHIPUHKD",
+   "mso4h": 5.08284605,
+   "pct24": 7.404,
    "secteur": "Actions",
    "sens": "long",
-   "symbol": "MINIMAX/USDT:USDT"
+   "symbol": "ZHIPUHKD/USDT:USDT"
   }
  ]
 }

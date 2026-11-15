@@ -10477,7 +10477,15 @@
  {
   "base": "VVV",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 0.66243466,
+    "mae": -1.31657393,
+    "marche": 0.53490238,
+    "mfe": 1.93263116,
+    "ret": 1.19733704
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 20.128,
