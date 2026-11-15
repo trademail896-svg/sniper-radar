@@ -143,7 +143,9 @@ h2{margin:0;font-family:'Space Grotesk',sans-serif;font-size:20px;font-weight:70
 .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}
 .tile{display:flex;flex-direction:column;gap:4px;padding:14px;border-radius:16px}
 .row2{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-start}
-.filters{display:flex;flex-wrap:wrap;gap:8px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;position:sticky;top:0;z-index:5;background:#06070D;padding:10px 0;margin:-10px 0}
+.cnt{font-size:13px;color:#FFC53D;font-weight:600}
+.fbanner{display:none;padding:10px 14px;border-radius:14px;background:#2A1A03;border:1px solid #8A6210;color:#FFE3A0;font-size:14px}
 .filters button{min-height:44px;padding:0 16px;border-radius:999px;font:600 14px Inter,sans-serif;cursor:pointer;background:#0D1220;color:#DCE2FF;border:1px solid #263155}
 .filters button.on{background:#F5F7FF;color:#06070D;border-color:#F5F7FF}
 .scroll{overflow-x:auto}
@@ -168,11 +170,24 @@ td{padding:10px;border-top:1px solid #1E2A4A}
 """
 
 JS = """
-document.querySelectorAll('.filters button').forEach(function(b){b.addEventListener('click',function(){
- document.querySelectorAll('.filters button').forEach(function(x){x.classList.remove('on')});b.classList.add('on');
- var f=b.dataset.f;document.querySelectorAll('[data-g]').forEach(function(el){
+function appliquer(f){
+ document.querySelectorAll('.filters button').forEach(function(x){x.classList.toggle('on',x.dataset.f===f)});
+ document.querySelectorAll('[data-g]').forEach(function(el){
   var ok=f==='Tout'||(f==='Crypto'&&el.dataset.g==='crypto')||(f==='TradFi'&&el.dataset.g==='tradfi')||el.dataset.s===f;
-  el.classList.toggle('hide',!ok);});});});
+  el.classList.toggle('hide',!ok);});
+ var total=0;
+ document.querySelectorAll('[data-cnt]').forEach(function(c){
+  var box=c.closest('section')||c.parentNode;var n=box.querySelectorAll('[data-g]:not(.hide)').length;
+  if(c.dataset.cnt==='compte'){total+=n;}
+  c.textContent=f==='Tout'?'':' · '+n+' pour « '+f+' »';});
+ var b=document.getElementById('fbanner');
+ if(b){if(f==='Tout'){b.style.display='none';}else{b.style.display='block';
+  b.textContent='Filtre « '+f+' » : '+total+' élément(s) affiché(s) plus bas. La météo du marché ne change pas avec les filtres.';}}
+ try{localStorage.setItem('radar_filtre',f);}catch(e){}
+}
+document.querySelectorAll('.filters button').forEach(function(b){b.addEventListener('click',function(){appliquer(b.dataset.f);});});
+(function(){var f='Tout';try{f=localStorage.getItem('radar_filtre')||'Tout';}catch(e){}
+ if(!document.querySelector('.filters button[data-f="'+f+'"]'))f='Tout';appliquer(f);})();
 """
 
 
@@ -266,7 +281,7 @@ def generer(r):
             '<button type="button" data-f="TradFi">TradFi</button>']
     for s in r["secteurs_filtres"]:
         btns.append(f'<button type="button" data-f="{e(s)}">{e(s)}</button>')
-    p.append(f'<nav class="filters" aria-label="Filtres">{"".join(btns)}</nav>')
+    p.append(f'<nav class="filters" aria-label="Filtres">{"".join(btns)}</nav><div id="fbanner" class="fbanner" role="status"></div>')
 
     # ─── Météo ──────────────────────────────────────────────────────────────
     p.append(f"""<section class="grid4" aria-label="Météo du marché">
@@ -297,7 +312,7 @@ def generer(r):
                      f'<span class="mono" style="font-size:22px;font-weight:700">{num(s["pct"], 1, True)}%</span>'
                      f'<span style="font-size:12px">{s["nb"]} {("contrat" if s["tradfi"] else "token") + ("s" if s["nb"] > 1 else "")}</span></div>')
     p.append(f"""<section class="card" aria-label="Rotation des secteurs" style="display:flex;flex-direction:column;gap:14px">
-<div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px"><h2>Rotation des secteurs</h2><span class="lbl">Variation moyenne 24 h</span></div>
+<div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px"><h2>Rotation des secteurs<span class="cnt" data-cnt="compte"></span></h2><span class="lbl">Variation moyenne 24 h</span></div>
 <div class="tiles">{"".join(tiles) or '<div class="empty">Aucun secteur.</div>'}</div></section>""")
 
     # ─── Carnet des movers ──────────────────────────────────────────────────
@@ -319,7 +334,7 @@ def generer(r):
     if not r["movers"]:
         rows.append('<div class="empty">Aucun mover suivi pour l\'instant : le carnet se remplit dès qu\'un token bouge de ±15 % sur 24 h.</div>')
     carnet_html = f"""<section class="card" aria-label="Carnet des movers" style="flex:999 1 760px;min-width:0;display:flex;flex-direction:column;gap:12px">
-<div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px"><h2>Carnet des movers</h2><span class="lbl">Triés par score de confirmations · {len(r['movers'])} suivis</span></div>
+<div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px"><h2>Carnet des movers<span class="cnt" data-cnt="compte"></span></h2><span class="lbl">Triés par score de confirmations · {len(r['movers'])} suivis</span></div>
 <div class="scroll"><div style="display:flex;flex-direction:column;gap:8px">{"".join(rows)}</div></div></section>"""
 
     # ─── BB 4H ──────────────────────────────────────────────────────────────
@@ -351,11 +366,11 @@ def generer(r):
                    f'style="background:#062027;border:1px solid #0E7490;color:#7DEBFF">{e(n["base"])} · {n["jours"]} j '
                    f'<span style="color:{couleur_pct(n["pct24"])}">{num(n["pct24"], 0, True)}%</span></a>' for n in r["nouveaux"])
     cote = f"""<div style="flex:1 1 340px;min-width:0;display:flex;flex-direction:column;gap:14px">
-<section class="card" aria-label="Touches BB 4H" style="display:flex;flex-direction:column;gap:12px"><h2>Touches BB 4H</h2>{"".join(bb_html)}</section>
+<section class="card" aria-label="Touches BB 4H" style="display:flex;flex-direction:column;gap:12px"><h2>Touches BB 4H<span class="cnt" data-cnt="compte"></span></h2>{"".join(bb_html)}</section>
 <section class="card" aria-label="Compression et nouveaux" style="display:flex;flex-direction:column;gap:12px">
-<h2>Compression 90 j</h2><span class="sub" style="font-size:13px">BB 4H au plus serré : un mouvement s'en vient, le sens reste à voir</span>
+<h2>Compression 90 j et nouveaux<span class="cnt" data-cnt="compte"></span></h2><span class="sub" style="font-size:13px">BB 4H au plus serré : un mouvement s'en vient, le sens reste à voir</span>
 <div class="chips">{comp or '<span class="sub">Aucun token au plus serré</span>'}</div>
-<h2 style="margin-top:6px">Nouveaux contrats</h2><span class="sub" style="font-size:13px">Lancés depuis moins de {config.JOURS_NOUVEAU} jours</span>
+<h2 style="margin-top:6px;font-size:17px">Nouveaux contrats</h2><span class="sub" style="font-size:13px">Lancés depuis moins de {config.JOURS_NOUVEAU} jours</span>
 <div class="chips">{nouv or '<span class="sub">Aucun</span>'}</div></section></div>"""
     p.append(f'<div class="row2">{carnet_html}{cote}</div>')
 
@@ -372,7 +387,7 @@ def generer(r):
                       f'<td class="mono" style="color:{couleur_pct(t["pct24"])}">{num(t["pct24"], 2, True)}%</td>'
                       f'<td><div class="col">{mso_badge(t["m"]["mso4h"])}</div></td><td>{e(bbt)}</td></tr>')
     p.append(f"""<section class="card" aria-label="TradFi" style="display:flex;flex-direction:column;gap:12px">
-<div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px"><h2>TradFi</h2><span class="lbl">Actions, indices, métaux, énergie · hors météo crypto</span></div>
+<div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px"><h2>TradFi<span class="cnt" data-cnt="compte"></span></h2><span class="lbl">Actions, indices, métaux, énergie · hors météo crypto</span></div>
 <div class="scroll"><table><thead><tr><th>Contrat</th><th>Secteur</th><th>Prix</th><th>24 h</th><th>MSO 4H</th><th>BB 4H</th></tr></thead>
 <tbody>{"".join(lignes) or '<tr><td colspan="6" class="empty">Aucun contrat TradFi trouvé.</td></tr>'}</tbody></table></div></section>""")
 

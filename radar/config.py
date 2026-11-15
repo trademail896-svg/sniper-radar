@@ -6,7 +6,7 @@ Changer une valeur ici suffit : aucun autre fichier n'a de chiffre en dur.
 """
 import os
 
-VERSION = "1.01"
+VERSION = "1.02"
 NOM = "SNIPER RADAR"
 
 # ─── Dossiers ────────────────────────────────────────────────────────────────

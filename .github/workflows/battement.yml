@@ -1,0 +1,42 @@
+name: SNIPER RADAR — battement
+
+# GitHub saute les passages programmés de ce dépôt. Ce workflow reste allumé :
+# il lance le scan à HH:07 chaque heure, 5 fois, puis se relance lui-même.
+# Le cron toutes les 6 h ne sert qu'à le redémarrer si la chaîne casse.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 */6 * * *'
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: battement
+  cancel-in-progress: false
+
+jobs:
+  battement:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Un scan par heure (HH:07), 5 heures
+        run: |
+          for i in 1 2 3 4 5; do
+            maintenant=$(date -u +%s)
+            prochain=$(( (maintenant / 3600) * 3600 + 7 * 60 ))
+            [ "$prochain" -le "$maintenant" ] && prochain=$(( prochain + 3600 ))
+            attente=$(( prochain - maintenant ))
+            echo "Prochain scan dans $(( attente / 60 )) min ($(date -u -d @$prochain +%H:%M) UTC)"
+            sleep "$attente"
+            gh workflow run radar.yml --ref main && echo "Scan lancé $(date -u +%H:%M) UTC" || echo "Échec du lancement"
+          done
+
+      - name: Se relancer (chaîne)
+        if: always()
+        run: |
+          gh workflow run battement.yml --ref main && echo "Battement suivant demandé"
