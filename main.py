@@ -13,7 +13,7 @@ import traceback
 
 import numpy as np
 
-from radar import analyse, carnet, config, donnees, meteo, page, score
+from radar import analyse, carnet, config, donnees, etat, journal, meteo, page, score
 from radar.secteurs import SECTEURS_TRADFI, Secteurs
 
 
@@ -130,13 +130,21 @@ def main():
 
     tradfi = sorted([t for t in ok if t["tradfi"]], key=lambda t: (t["secteur"], t["base"]))
 
-    # 7. Page ────────────────────────────────────────────────────────────────
+    # 7. Journal + feuille de match ──────────────────────────────────────────
+    fm = journal.mettre_a_jour(maintenant, movers, bb, par_sym, ok)
+
+    # 8. Page ────────────────────────────────────────────────────────────────
     chemin = page.generer({
         "maintenant": maintenant, "meteo": me, "regime_btc": regime, "movers": movers, "bb": bb,
         "compression": comp, "nouveaux": nouveaux, "rotation": rotation, "secteurs_filtres": secteurs_filtres,
         "tradfi": tradfi, "nb_crypto": len(crypto), "nb_tradfi": len(tradfi), "nb_ok": len(ok),
-        "duree": time.time() - t0,
+        "duree": time.time() - t0, "feuille": fm,
     })
+    sante = etat.lire("sante.json", [])
+    sante = [x for x in sante if x["ts"] >= maintenant - 7 * 86400]
+    sante.append({"ts": maintenant, "nb_ok": len(ok), "nb_univers": len(univers), "duree": round(time.time() - t0),
+                  "movers": len(movers), "bb": sum(len(v) for v in bb.values())})
+    etat.ecrire("sante.json", sante)
     print(f"[page] {chemin} · {len(movers)} movers · BB {sum(len(v) for v in bb.values())} · "
           f"compression {len(comp)} · nouveaux {len(nouveaux)} · {time.time() - t0:.0f} s")
     return 0

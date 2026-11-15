@@ -180,6 +180,52 @@ def _attr(t):
     return f'data-g="{"tradfi" if t["tradfi"] else "crypto"}" data-s="{e(t["secteur"])}"'
 
 
+LISTES_NOM = {"carnet": "Carnet des movers", "bb_probable": "BB 4H · retournement probable",
+              "bb_sans": "BB 4H · sans confirmation", "bb_marche": "BB 4H · marche sur la bande (contre)"}
+
+
+def _ligne_stats(nom, st):
+    if not st:
+        return ""
+    av = st["avance"]
+    return (f'<tr><td>{e(nom)}</td><td class="mono">{st["n"]}</td>'
+            f'<td class="mono" style="color:{couleur_pct(st["moy"])}">{num(st["moy"], 2, True)}%</td>'
+            f'<td class="mono">{num(st["gagnants"], 0)}%</td>'
+            f'<td class="mono" style="color:{couleur_pct(av)}">{num(av, 2, True) + "%" if av is not None else "—"}</td>'
+            f'<td class="mono" style="color:#B6FF3B">{num(st["mfe"], 1, True)}%</td>'
+            f'<td class="mono" style="color:#FF6B8E">{num(st["mae"], 1, True)}%</td></tr>')
+
+
+def feuille_html(f):
+    if not f:
+        return ""
+    h = f["horizons"].get("24", {})
+    entete = ('<thead><tr><th></th><th>Signaux</th><th>Résultat moyen</th><th>Gagnants</th>'
+              '<th>Avance vs marché</th><th>Meilleur moment</th><th>Pire moment</th></tr></thead>')
+    lignes = [_ligne_stats("Score 4–5 (haut de liste)", h.get("haut")), _ligne_stats("Score 0–1 ou pénalité", h.get("bas"))]
+    for sc in ("5", "4", "3", "2", "1", "0"):
+        lignes.append(_ligne_stats(f"Score {sc}/5", h.get("par_score", {}).get(sc)))
+    lignes.append(_ligne_stats("Avec pénalité", h.get("penalite")))
+    for li, st in h.get("par_liste", {}).items():
+        lignes.append(_ligne_stats(LISTES_NOM.get(li, li), st))
+    for ph, st in h.get("par_phase", {}).items():
+        lignes.append(_ligne_stats(f"Carnet · {ph}", st))
+    corps = "".join(x for x in lignes if x)
+    if not corps:
+        corps = ('<tr><td colspan="7" class="empty">Les premiers résultats arrivent 24 h après les premiers signaux. '
+                 'Il faut 1 à 2 semaines de journal pour que les chiffres veuillent dire quelque chose.</td></tr>')
+    rates = "".join(
+        f'<a class="chip" href="{tv(r["base"])}" target="_blank" rel="noopener" '
+        f'style="background:#1A2340;border:1px solid #3A4670;color:#F5F7FF">{e(r["base"])} '
+        f'<span style="color:{couleur_pct(r["pct24"])}">{num(r["pct24"], 0, True)}%</span></a>' for r in f.get("rates", []))
+    return f"""<section class="card" aria-label="Feuille de match" style="display:flex;flex-direction:column;gap:12px">
+<div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px"><h2>Feuille de match</h2>
+<span class="lbl">Résultat 24 h après le signal, dans le sens du setup · {f['jours']} derniers jours · {f['nb_signaux']} signaux · sans frais (≈ 0,12 %)</span></div>
+<div class="scroll"><table>{entete}<tbody>{corps}</tbody></table></div>
+<span class="lbl">Plus gros mouvements des dernières 24 h que le radar n'a pas mis en avant</span>
+<div class="chips">{rates or '<span class="sub">Aucun</span>'}</div></section>"""
+
+
 def generer(r):
     """r = résultats du run (voir main.py)."""
     me = r["meteo"]
@@ -312,6 +358,8 @@ def generer(r):
 <h2 style="margin-top:6px">Nouveaux contrats</h2><span class="sub" style="font-size:13px">Lancés depuis moins de {config.JOURS_NOUVEAU} jours</span>
 <div class="chips">{nouv or '<span class="sub">Aucun</span>'}</div></section></div>"""
     p.append(f'<div class="row2">{carnet_html}{cote}</div>')
+
+    p.append(feuille_html(r.get("feuille")))
 
     # ─── TradFi ─────────────────────────────────────────────────────────────
     lignes = []
