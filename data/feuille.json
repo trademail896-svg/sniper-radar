@@ -10,12 +10,12 @@
   },
   "4": {
    "bas": {
-    "avance": -1.38596715,
-    "gagnants": 56.44444444,
-    "mae": -1.42269734,
-    "mfe": 2.19163432,
-    "moy": -0.0142432,
-    "n": 225
+    "avance": -1.37819784,
+    "gagnants": 56.63716814,
+    "mae": -1.42238425,
+    "mfe": 2.19045962,
+    "moy": -0.00967757,
+    "n": 226
    },
    "haut": {
     "avance": -0.15928305,
@@ -27,12 +27,12 @@
    },
    "par_liste": {
     "bb_marche": {
-     "avance": -1.74284635,
-     "gagnants": 74.0,
-     "mae": -0.48958572,
-     "mfe": 2.81285921,
-     "moy": 0.63133463,
-     "n": 100
+     "avance": -1.72192811,
+     "gagnants": 74.25742574,
+     "mae": -0.49812389,
+     "mfe": 2.80407993,
+     "moy": 0.63515893,
+     "n": 101
     },
     "bb_probable": {
      "avance": 0.12199465,
@@ -96,7 +96,7 @@
      "avance": -2.31306166,
      "gagnants": 75.0,
      "mae": -12.33917983,
-     "mfe": 6.70696441,
+     "mfe": 6.70696442,
      "moy": -2.56462999,
      "n": 4
     }
@@ -144,12 +144,12 @@
     }
    },
    "penalite": {
-    "avance": -1.60755325,
-    "gagnants": 72.07207207,
-    "mae": -0.98376472,
-    "mfe": 2.65720411,
-    "moy": 0.46662322,
-    "n": 111
+    "avance": -1.58989745,
+    "gagnants": 72.32142857,
+    "mae": -0.98705201,
+    "mfe": 2.65067685,
+    "moy": 0.47154256,
+    "n": 112
    }
   },
   "72": {
@@ -162,48 +162,48 @@
   }
  },
  "jours": 14,
- "maj": 1794751651,
- "nb_signaux": 291,
+ "maj": 1794755246,
+ "nb_signaux": 363,
  "rates": [
   {
-   "base": "KAVA",
-   "mso4h": 8.97394364,
-   "pct24": -19.118,
-   "secteur": "L1",
+   "base": "ZRO",
+   "mso4h": 11.03334429,
+   "pct24": -10.767,
+   "secteur": "Non classé",
    "sens": "short",
-   "symbol": "KAVA/USDT:USDT"
+   "symbol": "ZRO/USDT:USDT"
   },
   {
-   "base": "KAITO",
-   "mso4h": 0.0,
-   "pct24": -11.393,
-   "secteur": "IA",
+   "base": "FIL",
+   "mso4h": 0.58238902,
+   "pct24": -9.443,
+   "secteur": "L1",
    "sens": "short",
-   "symbol": "KAITO/USDT:USDT"
+   "symbol": "FIL/USDT:USDT"
   },
   {
    "base": "BERA",
    "mso4h": 1.35795442,
-   "pct24": -10.69,
+   "pct24": -9.378,
    "secteur": "DeFi",
    "sens": "short",
    "symbol": "BERA/USDT:USDT"
   },
   {
+   "base": "APR",
+   "mso4h": 8.56525094,
+   "pct24": -9.132,
+   "secteur": "DeFi",
+   "sens": "short",
+   "symbol": "APR/USDT:USDT"
+  },
+  {
    "base": "MARSCOIN",
    "mso4h": 2.64389475,
-   "pct24": -10.632,
+   "pct24": -8.944,
    "secteur": "Memes",
    "sens": "short",
    "symbol": "MARSCOIN/USDT:USDT"
-  },
-  {
-   "base": "CRV",
-   "mso4h": 0.32798706,
-   "pct24": -9.86,
-   "secteur": "DeFi",
-   "sens": "short",
-   "symbol": "CRV/USDT:USDT"
   }
  ]
 }
