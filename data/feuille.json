@@ -162,48 +162,48 @@
   }
  },
  "jours": 14,
- "maj": 1794755246,
- "nb_signaux": 363,
+ "maj": 1794755972,
+ "nb_signaux": 364,
  "rates": [
+  {
+   "base": "SKYAI",
+   "mso4h": 89.57875076,
+   "pct24": 11.69,
+   "secteur": "Non classé",
+   "sens": "long",
+   "symbol": "SKYAI/USDT:USDT"
+  },
   {
    "base": "ZRO",
    "mso4h": 11.03334429,
-   "pct24": -10.767,
+   "pct24": -11.018,
    "secteur": "Non classé",
    "sens": "short",
    "symbol": "ZRO/USDT:USDT"
   },
   {
-   "base": "FIL",
-   "mso4h": 0.58238902,
-   "pct24": -9.443,
-   "secteur": "L1",
-   "sens": "short",
-   "symbol": "FIL/USDT:USDT"
-  },
-  {
    "base": "BERA",
    "mso4h": 1.35795442,
-   "pct24": -9.378,
+   "pct24": -9.055,
    "secteur": "DeFi",
    "sens": "short",
    "symbol": "BERA/USDT:USDT"
   },
   {
-   "base": "APR",
-   "mso4h": 8.56525094,
-   "pct24": -9.132,
-   "secteur": "DeFi",
+   "base": "XPL",
+   "mso4h": 1.39101315,
+   "pct24": -8.844,
+   "secteur": "L1",
    "sens": "short",
-   "symbol": "APR/USDT:USDT"
+   "symbol": "XPL/USDT:USDT"
   },
   {
-   "base": "MARSCOIN",
-   "mso4h": 2.64389475,
-   "pct24": -8.944,
-   "secteur": "Memes",
+   "base": "INJ",
+   "mso4h": 11.40025754,
+   "pct24": -8.525,
+   "secteur": "RWA",
    "sens": "short",
-   "symbol": "MARSCOIN/USDT:USDT"
+   "symbol": "INJ/USDT:USDT"
   }
  ]
 }
