@@ -90,9 +90,8 @@ def score_html(s):
     barres = "".join(f'<i class="{"on" if k < pts else ""}"></i>' for k in range(5))
     pen = '<span class="pen" title="Pénalité">!</span>' if s["penalite"] else ""
     titre = ", ".join(s["raisons"]) or "aucune confirmation"
-    sens = "▲ long" if s["sens"] == "long" else "▼ short"
     return (f'<div class="score" title="{e(titre)}"><div style="display:flex;align-items:center"><span style="color:{coul}">{pts}/5</span>{pen}</div>'
-            f'<div class="bars">{barres}</div><span class="sub">{sens}</span></div>')
+            f'<div class="bars">{barres}</div></div>')
 
 
 def anneau(pct, coul):
@@ -195,7 +194,7 @@ def _attr(t):
     return f'data-g="{"tradfi" if t["tradfi"] else "crypto"}" data-s="{e(t["secteur"])}"'
 
 
-LISTES_NOM = {"carnet": "Carnet des movers", "bb_probable": "BB 4H · retournement probable",
+LISTES_NOM = {"carnet": "Carnet des prospects", "bb_probable": "BB 4H · retournement probable",
               "bb_sans": "BB 4H · sans confirmation", "bb_marche": "BB 4H · marche sur la bande (contre)"}
 
 
@@ -224,7 +223,7 @@ def feuille_html(f):
     for li, st in h.get("par_liste", {}).items():
         lignes.append(_ligne_stats(LISTES_NOM.get(li, li), st))
     for ph, st in h.get("par_phase", {}).items():
-        lignes.append(_ligne_stats(f"Carnet · {ph}", st))
+        lignes.append(_ligne_stats(f"Prospects · {ph}", st))
     corps = "".join(x for x in lignes if x)
     if not corps:
         corps = ('<tr><td colspan="7" class="empty">Les premiers résultats arrivent 24 h après les premiers signaux. '
@@ -315,27 +314,37 @@ def generer(r):
 <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px"><h2>Rotation des secteurs<span class="cnt" data-cnt="compte"></span></h2><span class="lbl">Variation moyenne 24 h</span></div>
 <div class="tiles">{"".join(tiles) or '<div class="empty">Aucun secteur.</div>'}</div></section>""")
 
-    # ─── Carnet des movers ──────────────────────────────────────────────────
-    rows = ['<div class="mv hd"><span>Score</span><span>Token</span><span>Move</span><span>Retracement</span><span>Phase</span><span>MSO 4H</span><span>Depuis</span></div>']
-    for mv in r["movers"]:
+    # ─── Carnet des prospects : un tableau LONG, un tableau SHORT ──────────
+    entete = '<div class="mv hd"><span>Score</span><span>Token</span><span>Move</span><span>Retracement</span><span>Phase</span><span>MSO 4H</span><span>Depuis</span></div>'
+
+    def ligne(mv):
         t = mv["token"]
         ph = mv["e"]["phase"]
         bg, fg = PHASE_COUL.get(ph, ("#1A2340", "#FFFFFF"))
         retr = max(0.0, min(1.0, mv["e"]["retr"])) * 100
         mp = mv["e"]["move_pct"]
         new = ' <span class="chip" style="padding:1px 6px;background:#062027;border:1px solid #0E7490;color:#7DEBFF;font-size:11px">🆕</span>' if t["nouveau"] else ""
-        rows.append(f"""<div class="mv" {_attr(t)}>{score_html(mv['score'])}
+        return f"""<div class="mv" {_attr(t)}>{score_html(mv['score'])}
 <div class="col"><a class="h" style="font-size:16px" href="{tv(t['base'])}" target="_blank" rel="noopener">{e(t['base'])}</a><span class="sub">{e(t['secteur'])}{new}</span></div>
 <span class="mono" style="font-size:16px;font-weight:700;color:{couleur_pct(mp)}">{num(mp, 0, True)}%</span>
 <div style="display:flex;align-items:center;gap:10px"><div class="bar"><b style="width:{retr:.0f}%;background:{bg}"></b></div><span class="mono" style="font-size:13px;width:44px">{retr:.0f}%</span></div>
 <span class="phase" style="background:{bg};color:{fg}">{e(ph)}</span>
 <div class="col">{mso_badge(t['m']['mso4h'])}</div>
-<span style="font-size:13px;color:#DCE2FF">{duree(mv['e']['phase_depuis_h'])} · le {date_courte(mv['e']['capture_ts'])}</span></div>""")
-    if not r["movers"]:
-        rows.append('<div class="empty">Aucun mover suivi pour l\'instant : le carnet se remplit dès qu\'un token bouge de ±15 % sur 24 h.</div>')
-    carnet_html = f"""<section class="card" aria-label="Carnet des movers" style="flex:999 1 760px;min-width:0;display:flex;flex-direction:column;gap:12px">
-<div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px"><h2>Carnet des movers<span class="cnt" data-cnt="compte"></span></h2><span class="lbl">Triés par score de confirmations · {len(r['movers'])} suivis</span></div>
-<div class="scroll"><div style="display:flex;flex-direction:column;gap:8px">{"".join(rows)}</div></div></section>"""
+<span style="font-size:13px;color:#DCE2FF">{duree(mv['e']['phase_depuis_h'])} · le {date_courte(mv['e']['capture_ts'])}</span></div>"""
+
+    def tableau(sens, titre, coul, bord, fond, aide):
+        lst = [mv for mv in r["movers"] if mv["score"]["sens"] == sens]
+        corps = "".join(ligne(mv) for mv in lst) or f'<div class="empty">Aucun prospect {titre.lower()} pour l\'instant.</div>'
+        return f"""<section class="card" aria-label="Carnet des prospects {titre}" style="border-color:{bord};display:flex;flex-direction:column;gap:12px">
+<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+<h2 style="display:flex;align-items:center;gap:10px"><span style="padding:4px 12px;border-radius:10px;background:{fond};color:{coul};border:1px solid {bord}">{"▲" if sens == "long" else "▼"} {titre}</span>Carnet des prospects<span class="cnt" data-cnt="compte"></span></h2>
+<span class="lbl">{aide} · {len(lst)} suivis · triés par score</span></div>
+<div class="scroll"><div style="display:flex;flex-direction:column;gap:8px">{entete}{corps}</div></div></section>"""
+
+    carnet_html = ('<div style="flex:999 1 760px;min-width:0;display:flex;flex-direction:column;gap:14px">'
+                   + tableau("long", "LONG", "#B6FF3B", "#4C8A1C", "#12260A", "Achat attendu")
+                   + tableau("short", "SHORT", "#FF6B8E", "#8A1C3A", "#2A0A14", "Vente attendue")
+                   + '</div>')
 
     # ─── BB 4H ──────────────────────────────────────────────────────────────
     grp_def = [
