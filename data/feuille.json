@@ -9,12 +9,133 @@
    "penalite": null
   },
   "4": {
-   "bas": null,
+   "bas": {
+    "avance": -1.77356581,
+    "gagnants": 70.25316456,
+    "mae": -0.94902486,
+    "mfe": 2.4157407,
+    "moy": 0.31735661,
+    "n": 158
+   },
    "haut": null,
-   "par_liste": {},
-   "par_phase": {},
-   "par_score": {},
-   "penalite": null
+   "par_liste": {
+    "bb_marche": {
+     "avance": -1.82530516,
+     "gagnants": 75.78947368,
+     "mae": -0.12963292,
+     "mfe": 2.65555714,
+     "moy": 0.67071671,
+     "n": 95
+    },
+    "bb_probable": {
+     "avance": 0.21575388,
+     "gagnants": 33.33333333,
+     "mae": -0.36203536,
+     "mfe": 2.28088558,
+     "moy": 1.01403273,
+     "n": 3
+    },
+    "bb_sans": {
+     "avance": -1.79444582,
+     "gagnants": 69.3877551,
+     "mae": -0.7947542,
+     "mfe": 2.26802682,
+     "moy": 0.19817668,
+     "n": 49
+    },
+    "carnet": {
+     "avance": -0.31235711,
+     "gagnants": 64.0,
+     "mae": -3.79001241,
+     "mfe": 3.4056075,
+     "moy": 0.29295738,
+     "n": 25
+    }
+   },
+   "par_phase": {
+    "Essoufflement": {
+     "avance": -0.79498741,
+     "gagnants": 77.77777778,
+     "mae": 0.238636,
+     "mfe": 4.38010526,
+     "moy": 1.66278531,
+     "n": 9
+    },
+    "Impulsion": {
+     "avance": -0.36256014,
+     "gagnants": 40.0,
+     "mae": -7.38642342,
+     "mfe": 0.1612973,
+     "moy": -2.55481384,
+     "n": 5
+    },
+    "Pause": {
+     "avance": 11.7734353,
+     "gagnants": 100.0,
+     "mae": -3.36569579,
+     "mfe": 18.57605178,
+     "moy": 14.5631068,
+     "n": 1
+    },
+    "Retracement": {
+     "avance": -2.49817078,
+     "gagnants": 50.0,
+     "mae": -6.15512812,
+     "mfe": 1.30768166,
+     "moy": -2.35010767,
+     "n": 8
+    },
+    "Zone de rebond": {
+     "avance": 4.68534526,
+     "gagnants": 100.0,
+     "mae": -3.67959819,
+     "mfe": 7.93762425,
+     "moy": 4.68534526,
+     "n": 2
+    }
+   },
+   "par_score": {
+    "0": {
+     "avance": -2.80459231,
+     "gagnants": 41.66666667,
+     "mae": -5.66831534,
+     "mfe": 2.49226969,
+     "moy": -2.55566823,
+     "n": 12
+    },
+    "1": {
+     "avance": -1.72526311,
+     "gagnants": 70.0,
+     "mae": -0.23429262,
+     "mfe": 2.14595327,
+     "moy": 0.71076402,
+     "n": 40
+    },
+    "2": {
+     "avance": 0.26561514,
+     "gagnants": 84.61538462,
+     "mae": 0.49952408,
+     "mfe": 4.09783557,
+     "moy": 2.16655426,
+     "n": 13
+    },
+    "3": {
+     "avance": 8.2768995,
+     "gagnants": 100.0,
+     "mae": -3.64238411,
+     "mfe": 20.43519395,
+     "moy": 5.487228,
+     "n": 1
+    }
+   },
+   "penalite": {
+    "avance": -1.67507326,
+    "gagnants": 73.58490566,
+    "mae": -0.68447584,
+    "mfe": 2.50888361,
+    "moy": 0.49414907,
+    "n": 106
+   }
   },
   "72": {
    "bas": null,
@@ -26,13 +147,13 @@
   }
  },
  "jours": 14,
- "maj": 1794722844,
- "nb_signaux": 254,
+ "maj": 1794726442,
+ "nb_signaux": 256,
  "rates": [
   {
    "base": "KAVA",
    "mso4h": 1.60537731,
-   "pct24": -56.513,
+   "pct24": -57.574,
    "secteur": "L1",
    "sens": "short",
    "symbol": "KAVA/USDT:USDT"
@@ -40,7 +161,7 @@
   {
    "base": "BERA",
    "mso4h": 1.27647716,
-   "pct24": -24.661,
+   "pct24": -19.335,
    "secteur": "DeFi",
    "sens": "short",
    "symbol": "BERA/USDT:USDT"
@@ -48,7 +169,7 @@
   {
    "base": "PENGU",
    "mso4h": 1.20752601,
-   "pct24": -18.092,
+   "pct24": -17.331,
    "secteur": "Memes",
    "sens": "short",
    "symbol": "PENGU/USDT:USDT"
@@ -56,18 +177,18 @@
   {
    "base": "INJ",
    "mso4h": 2.65583704,
-   "pct24": -14.211,
+   "pct24": -13.655,
    "secteur": "RWA",
    "sens": "short",
    "symbol": "INJ/USDT:USDT"
   },
   {
-   "base": "FARTCOIN",
-   "mso4h": 0.42046751,
-   "pct24": -14.092,
-   "secteur": "Memes",
+   "base": "KAITO",
+   "mso4h": 0.0,
+   "pct24": -13.387,
+   "secteur": "IA",
    "sens": "short",
-   "symbol": "FARTCOIN/USDT:USDT"
+   "symbol": "KAITO/USDT:USDT"
   }
  ]
 }
