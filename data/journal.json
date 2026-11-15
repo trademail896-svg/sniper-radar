@@ -6206,7 +6206,15 @@
  {
   "base": "MSTU",
   "detail": "Essoufflement",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 3.29673907,
+    "mae": -2.22465132,
+    "marche": 0.44340115,
+    "mfe": 6.76504524,
+    "ret": 3.74014021
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 14.8203,
@@ -6224,7 +6232,15 @@
  {
   "base": "BARD",
   "detail": "Pause",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -4.74164676,
+    "mae": -4.56140351,
+    "marche": 0.44340115,
+    "mfe": -0.26315789,
+    "ret": -4.29824561
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.114,
@@ -6258,7 +6274,15 @@
  {
   "base": "SHELL",
   "detail": "Pause",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -4.7302118,
+    "mae": -4.87062405,
+    "marche": 0.81088151,
+    "mfe": 4.6042618,
+    "ret": -3.91933029
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.02628,
@@ -6273,7 +6297,15 @@
  {
   "base": "STRC",
   "detail": "bas",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -0.15928305,
+    "mae": 0.16289961,
+    "marche": 0.81088151,
+    "mfe": 0.65159845,
+    "ret": 0.65159845
+   }
+  },
   "liste": "bb_probable",
   "penalite": false,
   "prix": 98.22,
@@ -6684,5 +6716,22 @@
   "symbol": "GPS/USDT:USDT",
   "tradfi": false,
   "ts": 1794737240
+ },
+ {
+  "base": "KITE",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 0.13758,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "KITE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794740845
  }
 ]
