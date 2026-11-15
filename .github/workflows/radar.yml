@@ -1,9 +1,10 @@
 name: SNIPER RADAR — scan horaire
 
 on:
-  # 7 min après chaque heure (la bougie 1H est fermée). Heure UTC.
+  # GitHub saute souvent des passages programmés : on demande 4 essais par heure
+  # (7 min après l'heure = bougie 1H fermée, puis aux 15 min). Heure UTC.
   schedule:
-    - cron: '7 * * * *'
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
 
 permissions:

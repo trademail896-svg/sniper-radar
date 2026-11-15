@@ -184,7 +184,6 @@ def generer(r):
     """r = résultats du run (voir main.py)."""
     me = r["meteo"]
     maj = r["maintenant"]
-    prochain = maj + 3600
     regime, regime_txt = r["regime_btc"]
     reg_coul = {"Haussier": ("#B6FF3B", "#0B1400"), "Baissier": ("#FF3D6E", "#FFFFFF")}.get(regime, ("#FFC53D", "#241800"))
     verts = me.get("verts")
@@ -212,7 +211,7 @@ def generer(r):
 <span class="lbl">Perps USDT Bitget · {r['nb_crypto']} crypto · {r['nb_tradfi']} TradFi</span></div></div>
 <div style="display:flex;flex-wrap:wrap;gap:10px">
 <span class="pill" style="background:#0E1A12;border:1px solid #2E5A1A;color:#B6FF3B"><span style="width:8px;height:8px;border-radius:50%;background:#B6FF3B"></span>À jour · {heure(maj)} Toronto</span>
-<span class="pill" style="background:#0D1220;border:1px solid #263155;color:#DCE2FF">Prochain scan vers {heure(prochain)}</span>
+<span class="pill" style="background:#0D1220;border:1px solid #263155;color:#DCE2FF">Scan auto ≈ aux 15 min</span>
 </div></header>""")
 
     # ─── Filtres ────────────────────────────────────────────────────────────
