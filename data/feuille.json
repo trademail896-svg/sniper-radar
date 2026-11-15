@@ -10,12 +10,12 @@
   },
   "4": {
    "bas": {
-    "avance": -1.144858,
-    "gagnants": 58.36065574,
-    "mae": -1.64728392,
-    "mfe": 2.07360496,
-    "moy": -0.10686512,
-    "n": 305
+    "avance": -1.0414791,
+    "gagnants": 60.05747126,
+    "mae": -1.62471687,
+    "mfe": 1.91945879,
+    "moy": -0.06977301,
+    "n": 348
    },
    "haut": {
     "avance": -0.15928305,
@@ -27,12 +27,12 @@
    },
    "par_liste": {
     "bb_marche": {
-     "avance": -1.46787732,
-     "gagnants": 73.7704918,
-     "mae": -0.75582622,
-     "mfe": 2.66365256,
-     "moy": 0.52267437,
-     "n": 122
+     "avance": -1.48007591,
+     "gagnants": 73.38709677,
+     "mae": -0.90234291,
+     "mfe": 2.63817045,
+     "moy": 0.46945121,
+     "n": 124
     },
     "bb_probable": {
      "avance": 0.12199465,
@@ -43,12 +43,12 @@
      "n": 4
     },
     "bb_sans": {
-     "avance": -0.59604821,
-     "gagnants": 48.55491329,
-     "mae": -1.24005019,
-     "mfe": 1.47380552,
-     "moy": -0.18292012,
-     "n": 173
+     "avance": -0.55377774,
+     "gagnants": 53.42465753,
+     "mae": -1.2332947,
+     "mfe": 1.31548525,
+     "moy": -0.11127613,
+     "n": 219
     },
     "carnet": {
      "avance": -1.47105726,
@@ -85,7 +85,7 @@
      "n": 3
     },
     "Retracement": {
-     "avance": -1.420157,
+     "avance": -1.42015701,
      "gagnants": 37.5,
      "mae": -4.70366776,
      "mfe": 1.53685535,
@@ -103,28 +103,28 @@
    },
    "par_score": {
     "0": {
-     "avance": -2.45754664,
-     "gagnants": 43.33333333,
-     "mae": -5.16334436,
-     "mfe": 1.87341358,
-     "moy": -2.39285978,
-     "n": 30
+     "avance": -2.28429343,
+     "gagnants": 44.11764706,
+     "mae": -4.76851266,
+     "mfe": 1.64938969,
+     "moy": -2.16216131,
+     "n": 34
     },
     "1": {
-     "avance": -0.68399652,
-     "gagnants": 49.24242424,
-     "mae": -1.2030685,
-     "mfe": 1.57109595,
-     "moy": -0.08080807,
-     "n": 132
+     "avance": -0.56303326,
+     "gagnants": 55.0295858,
+     "mae": -1.15311298,
+     "mfe": 1.42522156,
+     "moy": 0.02916096,
+     "n": 169
     },
     "2": {
-     "avance": -0.47967768,
-     "gagnants": 50.0,
-     "mae": -2.22537423,
-     "mfe": 2.7785282,
-     "moy": -0.08599835,
-     "n": 48
+     "avance": -0.61095953,
+     "gagnants": 50.94339623,
+     "mae": -2.24680506,
+     "mfe": 2.51203109,
+     "moy": -0.20225263,
+     "n": 53
     },
     "3": {
      "avance": 8.2768995,
@@ -144,12 +144,12 @@
     }
    },
    "penalite": {
-    "avance": -1.29487937,
-    "gagnants": 69.93006993,
-    "mae": -1.31969387,
-    "mfe": 2.57945763,
-    "moy": 0.34866153,
-    "n": 143
+    "avance": -1.30769745,
+    "gagnants": 69.65517241,
+    "mae": -1.43721342,
+    "mfe": 2.55882734,
+    "moy": 0.30554673,
+    "n": 145
    }
   },
   "72": {
@@ -162,48 +162,48 @@
   }
  },
  "jours": 14,
- "maj": 1794773243,
- "nb_signaux": 436,
+ "maj": 1794776841,
+ "nb_signaux": 453,
  "rates": [
-  {
-   "base": "BANANAS31",
-   "mso4h": 34.2634612,
-   "pct24": 12.36,
-   "secteur": "Memes",
-   "sens": "long",
-   "symbol": "BANANAS31/USDT:USDT"
-  },
   {
    "base": "KITE",
    "mso4h": 100.0,
-   "pct24": 10.612,
+   "pct24": 13.164,
    "secteur": "IA",
    "sens": "long",
    "symbol": "KITE/USDT:USDT"
   },
   {
-   "base": "ZRO",
-   "mso4h": 0.0,
-   "pct24": -8.837,
-   "secteur": "Non classé",
-   "sens": "short",
-   "symbol": "ZRO/USDT:USDT"
-  },
-  {
    "base": "SKYAI",
    "mso4h": 91.98812037,
-   "pct24": 6.732,
+   "pct24": 10.211,
    "secteur": "Non classé",
    "sens": "long",
    "symbol": "SKYAI/USDT:USDT"
   },
   {
-   "base": "GPS",
-   "mso4h": 60.79903167,
-   "pct24": 6.022,
-   "secteur": "Non classé",
+   "base": "NIGHT",
+   "mso4h": 100.0,
+   "pct24": 8.481,
+   "secteur": "L1",
    "sens": "long",
-   "symbol": "GPS/USDT:USDT"
+   "symbol": "NIGHT/USDT:USDT"
+  },
+  {
+   "base": "NVDL",
+   "mso4h": 19.76794186,
+   "pct24": 7.761,
+   "secteur": "Actions",
+   "sens": "long",
+   "symbol": "NVDL/USDT:USDT"
+  },
+  {
+   "base": "MINIMAX",
+   "mso4h": 12.68958279,
+   "pct24": 7.503,
+   "secteur": "Actions",
+   "sens": "long",
+   "symbol": "MINIMAX/USDT:USDT"
   }
  ]
 }
