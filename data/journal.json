@@ -2950,5 +2950,182 @@
   "symbol": "UVXY/USDT:USDT",
   "tradfi": true,
   "ts": 1794709468
+ },
+ {
+  "base": "UAI",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.03109,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "IA",
+  "sens": "long",
+  "symbol": "UAI/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794711688
+ },
+ {
+  "base": "UNITAS",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.1507,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "UNITAS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794711688
+ },
+ {
+  "base": "USELESS",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.10098,
+  "raisons": [
+   "divergence"
+  ],
+  "score": 1,
+  "secteur": "Memes",
+  "sens": "short",
+  "symbol": "USELESS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794711688
+ },
+ {
+  "base": "CP",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.005468,
+  "raisons": [
+   "divergence"
+  ],
+  "score": 1,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "CP/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794711688
+ },
+ {
+  "base": "UNI",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 5.044,
+  "raisons": [],
+  "score": 0,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "UNI/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794711688
+ },
+ {
+  "base": "PUMP",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.002976,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Memes",
+  "sens": "short",
+  "symbol": "PUMP/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794711688
+ },
+ {
+  "base": "ASTER",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.5264,
+  "raisons": [],
+  "score": 0,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "ASTER/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794711688
+ },
+ {
+  "base": "PONS",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.12071,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "PONS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794711688
+ },
+ {
+  "base": "BIRB",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.06048,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Memes",
+  "sens": "short",
+  "symbol": "BIRB/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794711688
+ },
+ {
+  "base": "MU",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 760.49,
+  "raisons": [
+   "setup",
+   "divergence"
+  ],
+  "score": 2,
+  "secteur": "Actions US",
+  "sens": "long",
+  "symbol": "MU/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794711688
+ },
+ {
+  "base": "MUU",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 16.356,
+  "raisons": [
+   "setup",
+   "divergence"
+  ],
+  "score": 2,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "MUU/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794711688
  }
 ]
