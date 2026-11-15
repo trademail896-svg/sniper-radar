@@ -105,7 +105,7 @@
     "0": {
      "avance": -2.2833272,
      "gagnants": 33.33333333,
-     "mae": -4.76725664,
+     "mae": -4.76725663,
      "mfe": 2.28855488,
      "moy": -2.13141288,
      "n": 18
@@ -162,29 +162,21 @@
   }
  },
  "jours": 14,
- "maj": 1794762450,
- "nb_signaux": 426,
+ "maj": 1794766042,
+ "nb_signaux": 427,
  "rates": [
   {
    "base": "BANANAS31",
    "mso4h": 31.57520615,
-   "pct24": 14.341,
+   "pct24": 10.687,
    "secteur": "Memes",
    "sens": "long",
    "symbol": "BANANAS31/USDT:USDT"
   },
   {
-   "base": "SKYAI",
-   "mso4h": 98.51954398,
-   "pct24": 10.017,
-   "secteur": "Non classé",
-   "sens": "long",
-   "symbol": "SKYAI/USDT:USDT"
-  },
-  {
    "base": "ZRO",
    "mso4h": 2.66483315,
-   "pct24": -8.265,
+   "pct24": -9.524,
    "secteur": "Non classé",
    "sens": "short",
    "symbol": "ZRO/USDT:USDT"
@@ -192,18 +184,26 @@
   {
    "base": "KITE",
    "mso4h": 100.0,
-   "pct24": 8.092,
+   "pct24": 9.087,
    "secteur": "IA",
    "sens": "long",
    "symbol": "KITE/USDT:USDT"
   },
   {
-   "base": "BERA",
-   "mso4h": 1.52090895,
-   "pct24": -7.354,
-   "secteur": "DeFi",
+   "base": "SKYAI",
+   "mso4h": 98.51954398,
+   "pct24": 8.26,
+   "secteur": "Non classé",
+   "sens": "long",
+   "symbol": "SKYAI/USDT:USDT"
+  },
+  {
+   "base": "XPL",
+   "mso4h": 1.70913723,
+   "pct24": -6.028,
+   "secteur": "L1",
    "sens": "short",
-   "symbol": "BERA/USDT:USDT"
+   "symbol": "XPL/USDT:USDT"
   }
  ]
 }
