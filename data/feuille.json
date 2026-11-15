@@ -162,13 +162,13 @@
   }
  },
  "jours": 14,
- "maj": 1794780442,
+ "maj": 1794784043,
  "nb_signaux": 456,
  "rates": [
   {
    "base": "KITE",
    "mso4h": 100.0,
-   "pct24": 13.355,
+   "pct24": 12.304,
    "secteur": "IA",
    "sens": "long",
    "symbol": "KITE/USDT:USDT"
@@ -176,34 +176,34 @@
   {
    "base": "SKYAI",
    "mso4h": 91.98812037,
-   "pct24": 11.689,
+   "pct24": 9.845,
    "secteur": "Non classé",
    "sens": "long",
    "symbol": "SKYAI/USDT:USDT"
   },
   {
-   "base": "NIGHT",
-   "mso4h": 100.0,
-   "pct24": 8.304,
-   "secteur": "L1",
-   "sens": "long",
-   "symbol": "NIGHT/USDT:USDT"
-  },
-  {
    "base": "NVDL",
    "mso4h": 19.76794186,
-   "pct24": 7.435,
+   "pct24": 9.665,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "NVDL/USDT:USDT"
   },
   {
-   "base": "SOXL",
-   "mso4h": 8.86073687,
-   "pct24": 5.714,
-   "secteur": "Indices",
+   "base": "NIGHT",
+   "mso4h": 100.0,
+   "pct24": 8.752,
+   "secteur": "L1",
    "sens": "long",
-   "symbol": "SOXL/USDT:USDT"
+   "symbol": "NIGHT/USDT:USDT"
+  },
+  {
+   "base": "MVLL",
+   "mso4h": 25.06408186,
+   "pct24": 8.559,
+   "secteur": "Actions",
+   "sens": "long",
+   "symbol": "MVLL/USDT:USDT"
   }
  ]
 }
