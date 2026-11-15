@@ -26,13 +26,13 @@
   }
  },
  "jours": 14,
- "maj": 1794711688,
+ "maj": 1794712045,
  "nb_signaux": 183,
  "rates": [
   {
    "base": "KAVA",
    "mso4h": 0.0,
-   "pct24": -57.619,
+   "pct24": -57.467,
    "secteur": "L1",
    "sens": "short",
    "symbol": "KAVA/USDT:USDT"
@@ -40,7 +40,7 @@
   {
    "base": "BERA",
    "mso4h": 0.0,
-   "pct24": -25.653,
+   "pct24": -25.633,
    "secteur": "DeFi",
    "sens": "short",
    "symbol": "BERA/USDT:USDT"
@@ -48,26 +48,26 @@
   {
    "base": "PENGU",
    "mso4h": 0.0,
-   "pct24": -17.192,
+   "pct24": -16.888,
    "secteur": "Memes",
    "sens": "short",
    "symbol": "PENGU/USDT:USDT"
   },
   {
+   "base": "PIEVERSE",
+   "mso4h": 79.13212245,
+   "pct24": 14.267,
+   "secteur": "IA",
+   "sens": "long",
+   "symbol": "PIEVERSE/USDT:USDT"
+  },
+  {
    "base": "INJ",
    "mso4h": 4.20614968,
-   "pct24": -13.649,
+   "pct24": -12.641,
    "secteur": "RWA",
    "sens": "short",
    "symbol": "INJ/USDT:USDT"
-  },
-  {
-   "base": "APT",
-   "mso4h": 0.0,
-   "pct24": -12.569,
-   "secteur": "L1",
-   "sens": "short",
-   "symbol": "APT/USDT:USDT"
   }
  ]
 }
