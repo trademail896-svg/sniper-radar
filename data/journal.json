@@ -630,7 +630,15 @@
  {
   "base": "NFLX",
   "detail": "bas",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -2.63836005,
+    "mae": 0.09771987,
+    "marche": 2.76865321,
+    "mfe": 0.21172638,
+    "ret": 0.13029316
+   }
+  },
   "liste": "bb_sans",
   "penalite": false,
   "prix": 61.4,
@@ -1492,7 +1500,15 @@
  {
   "base": "MERL",
   "detail": "haut",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 2.54845818,
+    "mae": -1.22680088,
+    "marche": -2.76865321,
+    "mfe": 0.37747719,
+    "ret": -0.22019503
+   }
+  },
   "liste": "bb_sans",
   "penalite": false,
   "prix": 0.03179,
@@ -6586,5 +6602,20 @@
   "symbol": "MEGA/USDT:USDT",
   "tradfi": false,
   "ts": 1794730048
+ },
+ {
+  "base": "BLESS",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.009766,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "long",
+  "symbol": "BLESS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794733641
  }
 ]

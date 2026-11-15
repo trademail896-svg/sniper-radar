@@ -10,12 +10,12 @@
   },
   "4": {
    "bas": {
-    "avance": -1.44724223,
-    "gagnants": 56.31067961,
-    "mae": -1.24192135,
-    "mfe": 2.13423858,
-    "moy": 0.01652092,
-    "n": 206
+    "avance": -1.42793933,
+    "gagnants": 56.03864734,
+    "mae": -1.2418483,
+    "mfe": 2.12575181,
+    "moy": 0.01537736,
+    "n": 207
    },
    "haut": null,
    "par_liste": {
@@ -36,12 +36,12 @@
      "n": 3
     },
     "bb_sans": {
-     "avance": -1.11416774,
-     "gagnants": 35.18518519,
-     "mae": -1.3565024,
-     "mfe": 1.36312589,
-     "moy": -0.57239597,
-     "n": 108
+     "avance": -1.09472744,
+     "gagnants": 35.45454545,
+     "mae": -1.34210309,
+     "mfe": 1.34369818,
+     "moy": -0.56280606,
+     "n": 110
     },
     "carnet": {
      "avance": -0.27952286,
@@ -104,20 +104,20 @@
      "n": 14
     },
     "1": {
-     "avance": -1.08227503,
-     "gagnants": 37.80487805,
-     "mae": -0.98453158,
-     "mfe": 1.35273828,
-     "moy": -0.24556097,
-     "n": 82
+     "avance": -1.03853125,
+     "gagnants": 37.34939759,
+     "mae": -0.98745049,
+     "mfe": 1.34098814,
+     "moy": -0.24525536,
+     "n": 83
     },
     "2": {
-     "avance": -0.31484334,
-     "gagnants": 41.37931034,
-     "mae": -0.9752596,
-     "mfe": 2.17243121,
-     "moy": 0.20591635,
-     "n": 29
+     "avance": -0.3922939,
+     "gagnants": 43.33333333,
+     "mae": -0.93949362,
+     "mfe": 2.10707439,
+     "moy": 0.20339558,
+     "n": 30
     },
     "3": {
      "avance": 8.2768995,
@@ -147,13 +147,13 @@
   }
  },
  "jours": 14,
- "maj": 1794730048,
- "nb_signaux": 274,
+ "maj": 1794733641,
+ "nb_signaux": 275,
  "rates": [
   {
    "base": "KAVA",
    "mso4h": 3.36667255,
-   "pct24": -58.533,
+   "pct24": -50.059,
    "secteur": "L1",
    "sens": "short",
    "symbol": "KAVA/USDT:USDT"
@@ -161,34 +161,34 @@
   {
    "base": "PENGU",
    "mso4h": 1.620422,
-   "pct24": -17.525,
+   "pct24": -14.984,
    "secteur": "Memes",
    "sens": "short",
    "symbol": "PENGU/USDT:USDT"
   },
   {
+   "base": "BTW",
+   "mso4h": 0.99438837,
+   "pct24": -14.747,
+   "secteur": "DeFi",
+   "sens": "short",
+   "symbol": "BTW/USDT:USDT"
+  },
+  {
+   "base": "INJ",
+   "mso4h": 10.9066209,
+   "pct24": -11.821,
+   "secteur": "RWA",
+   "sens": "short",
+   "symbol": "INJ/USDT:USDT"
+  },
+  {
    "base": "BERA",
    "mso4h": 1.54806804,
-   "pct24": -16.682,
+   "pct24": -11.737,
    "secteur": "DeFi",
    "sens": "short",
    "symbol": "BERA/USDT:USDT"
-  },
-  {
-   "base": "MAGMA",
-   "mso4h": 36.90524454,
-   "pct24": -14.072,
-   "secteur": "DeFi",
-   "sens": "short",
-   "symbol": "MAGMA/USDT:USDT"
-  },
-  {
-   "base": "KAITO",
-   "mso4h": 0.0,
-   "pct24": -13.739,
-   "secteur": "IA",
-   "sens": "short",
-   "symbol": "KAITO/USDT:USDT"
   }
  ]
 }
