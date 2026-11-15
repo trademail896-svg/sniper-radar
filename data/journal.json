@@ -6797,7 +6797,15 @@
  {
   "base": "SOPH",
   "detail": "Zone de rebond",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -22.59257584,
+    "mae": -37.28813559,
+    "marche": -0.81339672,
+    "mfe": 0.968523,
+    "ret": -23.40597256
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.001239,
@@ -6814,7 +6822,15 @@
  {
   "base": "AKE",
   "detail": "Zone de rebond",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 3.96963867,
+    "mae": -4.70938732,
+    "marche": -0.19287658,
+    "mfe": 9.98408616,
+    "ret": 3.77676209
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.0108082,
@@ -6832,7 +6848,15 @@
  {
   "base": "IDOL",
   "detail": "Essoufflement",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 13.75568273,
+    "mae": -0.618663,
+    "marche": 0.19287658,
+    "mfe": 16.52059346,
+    "ret": 13.94855932
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.017457,
@@ -6849,7 +6873,15 @@
  {
   "base": "GPS",
   "detail": "haut",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -0.17740236,
+    "mae": -0.85164157,
+    "marche": -0.19287658,
+    "mfe": 0.17279684,
+    "ret": -0.37027894
+   }
+  },
   "liste": "bb_sans",
   "penalite": false,
   "prix": 0.008102,
@@ -7024,5 +7056,38 @@
   "symbol": "PENGU/USDT:USDT",
   "tradfi": false,
   "ts": 1794748042
+ },
+ {
+  "base": "JCT",
+  "detail": "Zone de rebond",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.002222,
+  "raisons": [
+   "setup",
+   "MSO"
+  ],
+  "score": 2,
+  "secteur": "Non classé",
+  "sens": "long",
+  "symbol": "JCT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794751651
+ },
+ {
+  "base": "BTW",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.58886,
+  "raisons": [],
+  "score": 0,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "BTW/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794751651
  }
 ]

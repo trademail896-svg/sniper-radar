@@ -10,12 +10,12 @@
   },
   "4": {
    "bas": {
-    "avance": -1.3640915,
-    "gagnants": 56.75675676,
-    "mae": -1.26733541,
-    "mfe": 2.14169283,
-    "moy": 0.0298332,
-    "n": 222
+    "avance": -1.38596715,
+    "gagnants": 56.44444444,
+    "mae": -1.42269734,
+    "mfe": 2.19163432,
+    "moy": -0.0142432,
+    "n": 225
    },
    "haut": {
     "avance": -0.15928305,
@@ -43,30 +43,30 @@
      "n": 4
     },
     "bb_sans": {
-     "avance": -0.88109655,
-     "gagnants": 40.32258065,
-     "mae": -1.25471497,
-     "mfe": 1.51433149,
-     "moy": -0.33975583,
-     "n": 124
+     "avance": -0.875467,
+     "gagnants": 40.0,
+     "mae": -1.25149038,
+     "mfe": 1.50359922,
+     "moy": -0.34000002,
+     "n": 125
     },
     "carnet": {
-     "avance": -1.00191721,
-     "gagnants": 56.25,
-     "mae": -4.52024902,
-     "mfe": 3.40278953,
-     "moy": -0.47192807,
-     "n": 32
+     "avance": -1.055103,
+     "gagnants": 57.14285714,
+     "mae": -5.35040441,
+     "mfe": 3.8960705,
+     "moy": -0.59378141,
+     "n": 35
     }
    },
    "par_phase": {
     "Essoufflement": {
-     "avance": -2.42532888,
-     "gagnants": 72.72727273,
-     "mae": -2.46015719,
-     "mfe": 4.16394365,
-     "moy": -0.4720113,
-     "n": 11
+     "avance": -1.07691125,
+     "gagnants": 75.0,
+     "mae": -2.30669934,
+     "mfe": 5.19366447,
+     "moy": 0.72970291,
+     "n": 12
     },
     "Impulsion": {
      "avance": -0.21191121,
@@ -93,38 +93,38 @@
      "n": 10
     },
     "Zone de rebond": {
-     "avance": 4.68534526,
-     "gagnants": 100.0,
-     "mae": -3.67959819,
-     "mfe": 7.93762425,
-     "moy": 4.68534526,
-     "n": 2
+     "avance": -2.31306166,
+     "gagnants": 75.0,
+     "mae": -12.33917983,
+     "mfe": 6.70696441,
+     "moy": -2.56462999,
+     "n": 4
     }
    },
    "par_score": {
     "0": {
-     "avance": -2.83609926,
-     "gagnants": 31.25,
-     "mae": -5.3183908,
-     "mfe": 2.1077689,
-     "moy": -2.63355955,
-     "n": 16
+     "avance": -2.67970533,
+     "gagnants": 29.41176471,
+     "mae": -5.05564084,
+     "mfe": 1.99394701,
+     "moy": -2.5004254,
+     "n": 17
     },
     "1": {
-     "avance": -0.83170857,
-     "gagnants": 43.15789474,
-     "mae": -0.91638235,
-     "mfe": 1.5450721,
-     "moy": -0.03195003,
-     "n": 95
+     "avance": -0.90566193,
+     "gagnants": 43.29896907,
+     "mae": -1.28827961,
+     "mfe": 1.69351512,
+     "moy": -0.12879037,
+     "n": 97
     },
     "2": {
-     "avance": -0.56675787,
-     "gagnants": 44.44444444,
-     "mae": -1.81351273,
-     "mfe": 2.46955406,
-     "moy": -0.08794612,
-     "n": 36
+     "avance": -0.44415256,
+     "gagnants": 45.94594595,
+     "mae": -1.89177961,
+     "mfe": 2.67264952,
+     "moy": 0.01650545,
+     "n": 37
     },
     "3": {
      "avance": 8.2768995,
@@ -162,48 +162,48 @@
   }
  },
  "jours": 14,
- "maj": 1794748042,
- "nb_signaux": 289,
+ "maj": 1794751651,
+ "nb_signaux": 291,
  "rates": [
   {
    "base": "KAVA",
    "mso4h": 8.97394364,
-   "pct24": -19.738,
+   "pct24": -19.118,
    "secteur": "L1",
    "sens": "short",
    "symbol": "KAVA/USDT:USDT"
   },
   {
-   "base": "MARSCOIN",
-   "mso4h": 2.64389475,
-   "pct24": -10.867,
-   "secteur": "Memes",
-   "sens": "short",
-   "symbol": "MARSCOIN/USDT:USDT"
-  },
-  {
    "base": "KAITO",
    "mso4h": 0.0,
-   "pct24": -10.067,
+   "pct24": -11.393,
    "secteur": "IA",
    "sens": "short",
    "symbol": "KAITO/USDT:USDT"
   },
   {
-   "base": "APT",
-   "mso4h": 1.28696371,
-   "pct24": -9.874,
-   "secteur": "L1",
+   "base": "BERA",
+   "mso4h": 1.35795442,
+   "pct24": -10.69,
+   "secteur": "DeFi",
    "sens": "short",
-   "symbol": "APT/USDT:USDT"
+   "symbol": "BERA/USDT:USDT"
   },
   {
-   "base": "INJ",
-   "mso4h": 11.40025754,
-   "pct24": -9.355,
-   "secteur": "RWA",
+   "base": "MARSCOIN",
+   "mso4h": 2.64389475,
+   "pct24": -10.632,
+   "secteur": "Memes",
    "sens": "short",
-   "symbol": "INJ/USDT:USDT"
+   "symbol": "MARSCOIN/USDT:USDT"
+  },
+  {
+   "base": "CRV",
+   "mso4h": 0.32798706,
+   "pct24": -9.86,
+   "secteur": "DeFi",
+   "sens": "short",
+   "symbol": "CRV/USDT:USDT"
   }
  ]
 }
