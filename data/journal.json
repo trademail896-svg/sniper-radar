@@ -6634,5 +6634,55 @@
   "symbol": "SOPH/USDT:USDT",
   "tradfi": false,
   "ts": 1794735442
+ },
+ {
+  "base": "AKE",
+  "detail": "Zone de rebond",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.0108082,
+  "raisons": [
+   "setup",
+   "divergence"
+  ],
+  "score": 2,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "AKE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794737240
+ },
+ {
+  "base": "IDOL",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.017457,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "Non classé",
+  "sens": "long",
+  "symbol": "IDOL/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794737240
+ },
+ {
+  "base": "GPS",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.008102,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "GPS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794737240
  }
 ]

@@ -147,13 +147,13 @@
   }
  },
  "jours": 14,
- "maj": 1794735442,
- "nb_signaux": 276,
+ "maj": 1794737240,
+ "nb_signaux": 279,
  "rates": [
   {
    "base": "KAVA",
    "mso4h": 3.36667255,
-   "pct24": -49.162,
+   "pct24": -49.66,
    "secteur": "L1",
    "sens": "short",
    "symbol": "KAVA/USDT:USDT"
@@ -161,7 +161,7 @@
   {
    "base": "PENGU",
    "mso4h": 1.620422,
-   "pct24": -15.415,
+   "pct24": -15.101,
    "secteur": "Memes",
    "sens": "short",
    "symbol": "PENGU/USDT:USDT"
@@ -169,26 +169,26 @@
   {
    "base": "BERA",
    "mso4h": 1.54806804,
-   "pct24": -12.768,
+   "pct24": -13.153,
    "secteur": "DeFi",
    "sens": "short",
    "symbol": "BERA/USDT:USDT"
   },
   {
-   "base": "ICNT",
-   "mso4h": 12.99864313,
-   "pct24": -12.008,
-   "secteur": "Non classé",
-   "sens": "short",
-   "symbol": "ICNT/USDT:USDT"
-  },
-  {
    "base": "KAITO",
    "mso4h": 0.0,
-   "pct24": -12.0,
+   "pct24": -12.071,
    "secteur": "IA",
    "sens": "short",
    "symbol": "KAITO/USDT:USDT"
+  },
+  {
+   "base": "MARSCOIN",
+   "mso4h": 3.11941538,
+   "pct24": -11.499,
+   "secteur": "Memes",
+   "sens": "short",
+   "symbol": "MARSCOIN/USDT:USDT"
   }
  ]
 }
