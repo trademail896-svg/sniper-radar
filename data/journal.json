@@ -12706,6 +12706,13 @@
   "base": "KAS",
   "detail": "bas",
   "eval": {
+   "24": {
+    "avance": -1.84933585,
+    "mae": -3.78619154,
+    "marche": -0.93462851,
+    "mfe": 2.59836674,
+    "ret": -2.78396437
+   },
    "4": {
     "avance": 0.63485322,
     "mae": -0.18559762,
@@ -13014,6 +13021,13 @@
   "base": "VVV",
   "detail": "Impulsion",
   "eval": {
+   "24": {
+    "avance": -0.18160709,
+    "mae": -2.59340223,
+    "marche": -0.5139414,
+    "mfe": 3.52742448,
+    "ret": -0.69554849
+   },
    "4": {
     "avance": 0.66243466,
     "mae": -1.31657393,
@@ -19480,7 +19494,15 @@
  {
   "base": "SKR",
   "detail": "Zone de rebond",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -0.28771207,
+    "mae": -0.99295005,
+    "marche": 1.08207211,
+    "mfe": 3.6242677,
+    "ret": 0.79436004
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.010071,
@@ -19499,7 +19521,15 @@
  {
   "base": "VVV",
   "detail": "Retracement",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -0.94179155,
+    "mae": -1.77354709,
+    "marche": 1.08207211,
+    "mfe": 4.3987976,
+    "ret": 0.14028056
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 19.96,
@@ -19514,7 +19544,15 @@
  {
   "base": "BWET",
   "detail": "haut",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 3.15447546,
+    "mae": 0.42463498,
+    "marche": -1.08207211,
+    "mfe": 3.06014124,
+    "ret": 2.07240334
+   }
+  },
   "liste": "bb_sans",
   "penalite": false,
   "prix": 649.97,
@@ -19529,7 +19567,15 @@
  {
   "base": "INIT",
   "detail": "haut",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -0.56622293,
+    "mae": -3.48202328,
+    "marche": -1.08207211,
+    "mfe": 0.32965901,
+    "ret": -1.64829504
+   }
+  },
   "liste": "bb_marche",
   "penalite": true,
   "prix": 0.09707,
@@ -21252,5 +21298,107 @@
   "symbol": "ICP/USDT:USDT",
   "tradfi": false,
   "ts": 1794848843
+ },
+ {
+  "base": "AXIS",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.09115,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "IA",
+  "sens": "long",
+  "symbol": "AXIS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794852446
+ },
+ {
+  "base": "PUMP",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.002835,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "Memes",
+  "sens": "long",
+  "symbol": "PUMP/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794852446
+ },
+ {
+  "base": "ARIA",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.21116,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Gaming",
+  "sens": "short",
+  "symbol": "ARIA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794852446
+ },
+ {
+  "base": "VVV",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 19.751,
+  "raisons": [
+   "setup",
+   "divergence"
+  ],
+  "score": 2,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "VVV/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794852446
+ },
+ {
+  "base": "CRML",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 4.152,
+  "raisons": [
+   "MSO",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "CRML/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794852446
+ },
+ {
+  "base": "USDESTOCK",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 4.441,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "USDESTOCK/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794852446
  }
 ]
