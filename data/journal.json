@@ -17813,7 +17813,15 @@
  {
   "base": "BIRB",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -2.41699691,
+    "mae": -3.64016736,
+    "marche": -0.90238943,
+    "mfe": -0.57182706,
+    "ret": -3.31938633
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.0717,
@@ -17830,7 +17838,15 @@
  {
   "base": "ZIL",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 3.73271906,
+    "mae": 1.57790927,
+    "marche": 0.90238943,
+    "mfe": 6.11439842,
+    "ret": 4.63510848
+   }
+  },
   "liste": "carnet",
   "penalite": true,
   "prix": 0.001014,
@@ -17847,7 +17863,15 @@
  {
   "base": "ZRO",
   "detail": "bas",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 0.83770172,
+    "mae": -0.46000144,
+    "marche": -0.90238943,
+    "mfe": 3.65126141,
+    "ret": -0.0646877
+   }
+  },
   "liste": "bb_sans",
   "penalite": false,
   "prix": 1.3913,
@@ -17864,7 +17888,15 @@
  {
   "base": "ZIL",
   "detail": "bas",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -3.73271906,
+    "mae": -6.11439842,
+    "marche": -0.90238943,
+    "mfe": -1.57790927,
+    "ret": -4.63510848
+   }
+  },
   "liste": "bb_marche",
   "penalite": true,
   "prix": 0.001014,
