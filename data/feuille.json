@@ -2,12 +2,12 @@
  "horizons": {
   "24": {
    "bas": {
-    "avance": -1.21120339,
-    "gagnants": 68.20809249,
-    "mae": -4.38333981,
-    "mfe": 6.05673785,
-    "moy": 0.17275495,
-    "n": 173
+    "avance": -1.21612986,
+    "gagnants": 68.3908046,
+    "mae": -4.35871257,
+    "mfe": 6.02973608,
+    "moy": 0.1734552,
+    "n": 174
    },
    "demo": null,
    "demo_haut": null,
@@ -30,12 +30,12 @@
      "n": 3
     },
     "bb_sans": {
-     "avance": -0.73600953,
-     "gagnants": 71.59090909,
-     "mae": -3.26227803,
-     "mfe": 4.48412747,
-     "moy": 0.20036357,
-     "n": 88
+     "avance": -0.75098032,
+     "gagnants": 71.91011236,
+     "mae": -3.22672659,
+     "mfe": 4.44900726,
+     "moy": 0.20142239,
+     "n": 89
     },
     "carnet": {
      "avance": -0.32378815,
@@ -64,7 +64,7 @@
      "n": 5
     },
     "Pause": {
-     "avance": -3.21578673,
+     "avance": -3.21578672,
      "gagnants": 50.0,
      "mae": -8.39337421,
      "mfe": 15.92020099,
@@ -98,12 +98,12 @@
      "n": 13
     },
     "1": {
-     "avance": 0.60282389,
-     "gagnants": 75.36231884,
-     "mae": -2.11590918,
-     "mfe": 5.46397357,
-     "moy": 1.78714559,
-     "n": 69
+     "avance": 0.5646634,
+     "gagnants": 75.71428571,
+     "mae": -2.08708476,
+     "mfe": 5.40532293,
+     "moy": 1.7658235,
+     "n": 70
     },
     "2": {
      "avance": -0.04028054,
@@ -140,7 +140,14 @@
     "moy": -0.24650054,
     "n": 378
    },
-   "demo": null,
+   "demo": {
+    "avance": -1.18591816,
+    "gagnants": 1.47058824,
+    "mae": -1.84398516,
+    "mfe": -0.06356816,
+    "moy": -1.54492599,
+    "n": 68
+   },
    "demo_haut": null,
    "haut": {
     "avance": -0.15928305,
@@ -289,29 +296,29 @@
   }
  },
  "jours": 14,
- "maj": 1794809255,
- "nb_signaux": 546,
+ "maj": 1794812841,
+ "nb_signaux": 547,
  "rates": [
-  {
-   "base": "MINIMAX",
-   "mso4h": 0.0,
-   "pct24": -13.46,
-   "secteur": "Actions",
-   "sens": "short",
-   "symbol": "MINIMAX/USDT:USDT"
-  },
   {
    "base": "MINIMAXHKD",
    "mso4h": 0.0,
-   "pct24": -13.284,
+   "pct24": -13.709,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "MINIMAXHKD/USDT:USDT"
   },
   {
+   "base": "MINIMAX",
+   "mso4h": 0.0,
+   "pct24": -13.639,
+   "secteur": "Actions",
+   "sens": "short",
+   "symbol": "MINIMAX/USDT:USDT"
+  },
+  {
    "base": "ZHIPUHKD",
    "mso4h": 0.0,
-   "pct24": -10.165,
+   "pct24": -9.292,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "ZHIPUHKD/USDT:USDT"
@@ -319,7 +326,7 @@
   {
    "base": "ZHIPU",
    "mso4h": 0.0,
-   "pct24": -9.685,
+   "pct24": -8.909,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "ZHIPU/USDT:USDT"
@@ -327,7 +334,7 @@
   {
    "base": "CSOPSK2LHKD",
    "mso4h": 14.32793112,
-   "pct24": -8.044,
+   "pct24": -6.828,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "CSOPSK2LHKD/USDT:USDT"
