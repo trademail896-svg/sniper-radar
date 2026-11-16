@@ -2253,6 +2253,13 @@
   "base": "LIT",
   "detail": "bas",
   "eval": {
+   "24": {
+    "avance": -7.93032518,
+    "mae": -6.439523,
+    "marche": 2.30851939,
+    "mfe": 4.46337308,
+    "ret": -5.62180579
+   },
    "4": {
     "avance": -1.12016553,
     "mae": 0.78364566,
@@ -5944,6 +5951,13 @@
   "base": "LIT",
   "detail": "bas",
   "eval": {
+   "24": {
+    "avance": -7.81700375,
+    "mae": -8.16053512,
+    "marche": 0.29192014,
+    "mfe": 2.54180602,
+    "ret": -7.52508361
+   },
    "4": {
     "avance": -0.08278952,
     "mae": -1.93979933,
@@ -16996,7 +17010,15 @@
  {
   "base": "BARD",
   "detail": "Pause",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -1.75180061,
+    "mae": -2.57425743,
+    "marche": -0.22839741,
+    "mfe": 1.28712871,
+    "ret": -1.98019802
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.101,
@@ -17668,5 +17690,41 @@
   "symbol": "BLESS/USDT:USDT",
   "tradfi": false,
   "ts": 1794823651
+ },
+ {
+  "base": "JP225",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 59933.0,
+  "raisons": [
+   "MSO",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "JP225/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794827240
+ },
+ {
+  "base": "LIT",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 2.687,
+  "raisons": [
+   "MSO",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "DeFi",
+  "sens": "long",
+  "symbol": "LIT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794827240
  }
 ]
