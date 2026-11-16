@@ -7618,6 +7618,13 @@
   "base": "MSTU",
   "detail": "Essoufflement",
   "eval": {
+   "24": {
+    "avance": 8.43818147,
+    "mae": -2.22465132,
+    "marche": -0.24671436,
+    "mfe": 12.9950136,
+    "ret": 8.19146711
+   },
    "4": {
     "avance": 3.29673907,
     "mae": -2.22465132,
@@ -7644,6 +7651,13 @@
   "base": "BARD",
   "detail": "Pause",
   "eval": {
+   "24": {
+    "avance": -11.7708295,
+    "mae": -13.42105263,
+    "marche": -0.24671436,
+    "mfe": -0.26315789,
+    "ret": -12.01754386
+   },
    "4": {
     "avance": -4.74164676,
     "mae": -4.56140351,
@@ -7669,6 +7683,13 @@
   "base": "BIRB",
   "detail": "Essoufflement",
   "eval": {
+   "24": {
+    "avance": 14.07999299,
+    "mae": -0.16409583,
+    "marche": -0.24671436,
+    "mfe": 17.41056777,
+    "ret": 13.83327863
+   },
    "4": null
   },
   "liste": "carnet",
@@ -13079,7 +13100,15 @@
  {
   "base": "BERA",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -1.85999624,
+    "mae": -3.93518519,
+    "marche": 0.35536661,
+    "mfe": -1.04166667,
+    "ret": -1.50462963
+   }
+  },
   "liste": "carnet",
   "penalite": true,
   "prix": 0.0864,
@@ -15573,5 +15602,40 @@
   "symbol": "STRC/USDT:USDT",
   "tradfi": true,
   "ts": 1794805644
+ },
+ {
+  "base": "BERA",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.0881,
+  "raisons": [
+   "MSO",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "DeFi",
+  "sens": "long",
+  "symbol": "BERA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794809255
+ },
+ {
+  "base": "BARD",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.101,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "DeFi",
+  "sens": "long",
+  "symbol": "BARD/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794809255
  }
 ]
