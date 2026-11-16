@@ -8351,6 +8351,13 @@
   "base": "BLESS",
   "detail": "Retracement",
   "eval": {
+   "24": {
+    "avance": 2.74588272,
+    "mae": -9.59451157,
+    "marche": -0.28837709,
+    "mfe": 2.46774524,
+    "ret": 2.45750563
+   },
    "4": {
     "avance": -7.45081266,
     "mae": -9.59451157,
@@ -8374,6 +8381,13 @@
   "base": "SOPH",
   "detail": "Zone de rebond",
   "eval": {
+   "24": {
+    "avance": 27.63736948,
+    "mae": -37.28813559,
+    "marche": 0.28837709,
+    "mfe": 32.92978208,
+    "ret": 27.92574657
+   },
    "4": {
     "avance": -22.59257584,
     "mae": -37.28813559,
@@ -8399,6 +8413,13 @@
   "base": "AKE",
   "detail": "Zone de rebond",
   "eval": {
+   "24": {
+    "avance": -3.43899194,
+    "mae": -17.16104439,
+    "marche": 1.23048358,
+    "mfe": 23.12410947,
+    "ret": -2.20850835
+   },
    "4": {
     "avance": 3.96963867,
     "mae": -4.70938732,
@@ -8425,6 +8446,13 @@
   "base": "IDOL",
   "detail": "Essoufflement",
   "eval": {
+   "24": {
+    "avance": 9.79438345,
+    "mae": -0.618663,
+    "marche": -1.23048358,
+    "mfe": 20.57054477,
+    "ret": 8.56389987
+   },
    "4": {
     "avance": 13.75568273,
     "mae": -0.618663,
@@ -12072,7 +12100,9 @@
  {
   "base": "H",
   "detail": "Essoufflement",
-  "eval": {},
+  "eval": {
+   "4": null
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.017,
@@ -17539,5 +17569,104 @@
   "symbol": "ZIL/USDT:USDT",
   "tradfi": false,
   "ts": 1794820682
+ },
+ {
+  "base": "SOPH",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.000888,
+  "raisons": [
+   "MSO",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "Gaming",
+  "sens": "long",
+  "symbol": "SOPH/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794823651
+ },
+ {
+  "base": "INIT",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.09809,
+  "raisons": [
+   "MSO",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "L1",
+  "sens": "long",
+  "symbol": "INIT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794823651
+ },
+ {
+  "base": "AKE",
+  "detail": "Zone de rebond",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.0109622,
+  "raisons": [
+   "setup",
+   "météo"
+  ],
+  "score": 2,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "AKE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794823651
+ },
+ {
+  "base": "MAGMA",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.25991,
+  "raisons": [],
+  "score": 0,
+  "secteur": "DeFi",
+  "sens": "long",
+  "symbol": "MAGMA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794823651
+ },
+ {
+  "base": "IDOL",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.018855,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "long",
+  "symbol": "IDOL/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794823651
+ },
+ {
+  "base": "BLESS",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.011239,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "long",
+  "symbol": "BLESS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794823651
  }
 ]
