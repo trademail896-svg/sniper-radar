@@ -9038,6 +9038,13 @@
   "base": "USELESS",
   "detail": "Essoufflement",
   "eval": {
+   "24": {
+    "avance": -0.70392077,
+    "mae": -3.37011033,
+    "marche": -0.26899798,
+    "mfe": 3.38014042,
+    "ret": -0.97291876
+   },
    "4": {
     "avance": 1.13137933,
     "mae": -0.81243731,
@@ -11070,6 +11077,13 @@
   "base": "USELESS",
   "detail": "bas",
   "eval": {
+   "24": {
+    "avance": -0.70392077,
+    "mae": -3.37011033,
+    "marche": -0.26899798,
+    "mfe": 3.38014042,
+    "ret": -0.97291876
+   },
    "4": {
     "avance": 1.13137933,
     "mae": -0.81243731,
@@ -11192,6 +11206,13 @@
   "base": "USELESS",
   "detail": "Retracement",
   "eval": {
+   "24": {
+    "avance": 1.23994111,
+    "mae": -3.42293366,
+    "marche": 0.93462851,
+    "mfe": 4.07731803,
+    "ret": 2.17456962
+   },
    "4": {
     "avance": -1.11173136,
     "mae": -2.91956106,
@@ -21400,5 +21421,40 @@
   "symbol": "USDESTOCK/USDT:USDT",
   "tradfi": true,
   "ts": 1794852446
+ },
+ {
+  "base": "USELESS",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.09651,
+  "raisons": [
+   "MSO",
+   "météo"
+  ],
+  "score": 2,
+  "secteur": "Memes",
+  "sens": "long",
+  "symbol": "USELESS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794853527
+ },
+ {
+  "base": "SHELL",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.02614,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "IA",
+  "sens": "long",
+  "symbol": "SHELL/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794853527
  }
 ]
