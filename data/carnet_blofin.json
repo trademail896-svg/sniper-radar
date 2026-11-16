@@ -1,1 +1,24 @@
-{}
+{
+ "ICP/USDT:USDT": {
+  "base": "ICP",
+  "capture_pct": 16.49769585,
+  "capture_ts": 1794848843,
+  "depart": 2.175,
+  "depart_ts": 1794758400000,
+  "extreme": 2.518,
+  "extreme_ts": 1794844800000,
+  "move_pct": 15.77011494,
+  "phase": "Impulsion",
+  "phase_depuis_h": 0.0,
+  "phases": [
+   {
+    "phase": "Impulsion",
+    "ts": 1794848843
+   }
+  ],
+  "prix": 2.507,
+  "retr": 0.03206997,
+  "sens": "pump",
+  "symbol": "ICP/USDT:USDT"
+ }
+}
