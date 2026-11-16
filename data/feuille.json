@@ -311,13 +311,29 @@
   }
  },
  "jours": 14,
- "maj": 1794863247,
- "nb_signaux": 779,
+ "maj": 1794866841,
+ "nb_signaux": 788,
  "rates": [
+  {
+   "base": "SOXL",
+   "mso4h": 1.97587578,
+   "pct24": -15.283,
+   "secteur": "Indices",
+   "sens": "short",
+   "symbol": "SOXL/USDT:USDT"
+  },
+  {
+   "base": "SOXS",
+   "mso4h": 85.4594867,
+   "pct24": 14.822,
+   "secteur": "Actions",
+   "sens": "long",
+   "symbol": "SOXS/USDT:USDT"
+  },
   {
    "base": "CSOPSK2LHKD",
    "mso4h": 0.33655749,
-   "pct24": -14.238,
+   "pct24": -14.076,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "CSOPSK2LHKD/USDT:USDT"
@@ -325,34 +341,18 @@
   {
    "base": "CRML",
    "mso4h": 0.0,
-   "pct24": -13.634,
+   "pct24": -13.592,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "CRML/USDT:USDT"
   },
   {
-   "base": "SOXL",
-   "mso4h": 1.97587578,
-   "pct24": -13.156,
-   "secteur": "Indices",
-   "sens": "short",
-   "symbol": "SOXL/USDT:USDT"
-  },
-  {
    "base": "SNXX",
    "mso4h": 0.0,
-   "pct24": -13.069,
+   "pct24": -13.287,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "SNXX/USDT:USDT"
-  },
-  {
-   "base": "ZHIPUHKD",
-   "mso4h": 0.0,
-   "pct24": -12.912,
-   "secteur": "Actions",
-   "sens": "short",
-   "symbol": "ZHIPUHKD/USDT:USDT"
   }
  ]
 }
