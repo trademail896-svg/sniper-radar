@@ -11172,7 +11172,15 @@
  {
   "base": "IDOL",
   "detail": "Retracement",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 1.35866118,
+    "mae": -1.28402398,
+    "marche": -1.00847282,
+    "mfe": 3.44882475,
+    "ret": 0.35018836
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.018847,
@@ -11189,7 +11197,15 @@
  {
   "base": "AKE",
   "detail": "Zone de rebond",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -2.18990081,
+    "mae": -6.73857967,
+    "marche": 1.00847282,
+    "mfe": 3.38583157,
+    "ret": -1.18142799
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.0114861,
@@ -11206,7 +11222,15 @@
  {
   "base": "SOPH",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 15.07364865,
+    "mae": -3.07955518,
+    "marche": 1.00847282,
+    "mfe": 17.79298546,
+    "ret": 16.08212147
+   }
+  },
   "liste": "carnet",
   "penalite": true,
   "prix": 0.001169,
@@ -11510,5 +11534,20 @@
   "symbol": "INIT/USDT:USDT",
   "tradfi": false,
   "ts": 1794791244
+ },
+ {
+  "base": "BERA",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.0864,
+  "raisons": [],
+  "score": 0,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "BERA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794794848
  }
 ]
