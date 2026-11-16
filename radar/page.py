@@ -64,8 +64,8 @@ def duree(h):
     return f"{int(h // 24)} j"
 
 
-def tv(base):
-    return f"https://www.tradingview.com/chart/?symbol={config.TV_PREFIXE}:{base}USDT.P"
+def tv(base, prefixe=None):
+    return f"https://www.tradingview.com/chart/?symbol={prefixe or config.TV_PREFIXE}:{base}USDT.P"
 
 
 def couleur_pct(p):
@@ -149,6 +149,8 @@ h2{margin:0;font-family:'Space Grotesk',sans-serif;font-size:20px;font-weight:70
 .filters button.on{background:#F5F7FF;color:#06070D;border-color:#F5F7FF}
 .scroll{overflow-x:auto}
 .mv{display:grid;grid-template-columns:96px 110px 80px minmax(140px,1fr) 140px 104px 110px;gap:12px;align-items:center;padding:12px 14px;border-radius:14px;background:#10152A;border:1px solid #1E2A4A;min-width:880px}
+.mvd{display:grid;grid-template-columns:96px 100px minmax(170px,1.4fr) 70px 90px 110px;gap:12px;align-items:center;padding:12px 14px;border-radius:14px;background:#10152A;border:1px solid #1E2A4A;min-width:640px}
+.mvd.hd{background:none;border:none;padding:0 14px;font-size:12px;color:#B9C2FF}
 .mv.hd{background:none;border:none;padding:0 14px;font-size:12px;color:#B9C2FF}
 .score{display:flex;flex-direction:column;gap:4px;font:700 16px 'JetBrains Mono',monospace}
 .bars{display:flex;gap:3px}.bars i{width:12px;height:6px;border-radius:3px;background:#1F2A4D}.bars i.on{background:#B6FF3B}
@@ -194,6 +196,58 @@ def _attr(t):
     return f'data-g="{"tradfi" if t["tradfi"] else "crypto"}" data-s="{e(t["secteur"])}"'
 
 
+def demo_html(d):
+    """Section BloFin démo : deux tableaux LONG / SHORT, seulement les setups actifs."""
+    if not d:
+        return ""
+    lignes = []                                     # (sens, cle_tri, html)
+    for mv in d["movers"]:
+        ph = mv["e"]["phase"]
+        bg, fg = PHASE_COUL.get(ph, ("#1A2340", "#FFFFFF"))
+        lignes.append((mv["score"], mv["e"]["phase_depuis_h"], mv["token"],
+                       f'<span class="phase" style="background:{bg};color:{fg}">Prospect · {e(ph)}</span>',
+                       f'{duree(mv["e"]["phase_depuis_h"])}'))
+    for cat, nom, bg, fg in (("probable", "BB 4H · retournement probable", "#B6FF3B", "#0B1400"),
+                             ("sans", "BB 4H · touche à confirmer", "#FFC53D", "#241800")):
+        for it in d["bb"].get(cat, []):
+            cote = "haut" if it["bb"]["cote"] == "haut" else "bas"
+            lignes.append((it["score"], it["bb"]["bougies_depuis"] * 4, it["token"],
+                           f'<span class="phase" style="background:{bg};color:{fg}">{nom} ({cote})</span>',
+                           f'il y a {it["bb"]["bougies_depuis"]} bougie(s) 4H'))
+    entete = ('<div class="mvd hd"><span>Score</span><span>Token</span><span>Signal</span><span>24 h</span>'
+              '<span>MSO 4H</span><span>Depuis</span></div>')
+
+    def tableau(sens, titre, coul, bord, fond):
+        sel = [l for l in lignes if l[0]["sens"] == sens]
+        sel.sort(key=lambda l: (l[0]["penalite"], -l[0]["points"], l[1]))
+        vus, rows = set(), []
+        for sc, _, t, signal, depuis in sel:
+            k = (t["symbol"], signal)
+            if k in vus:
+                continue
+            vus.add(k)
+            rows.append(f"""<div class="mvd" {_attr(t)}>{score_html(sc)}
+<div class="col"><a class="h" style="font-size:16px" href="{tv(t['base'], config.DEMO_TV_PREFIXE)}" target="_blank" rel="noopener">{e(t['base'])}</a><span class="sub">{e(t['secteur'])}</span></div>
+{signal}
+<span class="mono" style="font-size:15px;font-weight:700;color:{couleur_pct(t['pct24'])}">{num(t['pct24'], 1, True)}%</span>
+<div class="col">{mso_badge(t['m']['mso4h'])}</div>
+<span style="font-size:13px;color:#DCE2FF">{depuis}</span></div>""")
+        corps = "".join(rows) or f'<div class="empty">Aucun setup {titre.lower()} sur ta liste démo en ce moment.</div>'
+        return f"""<section class="card" aria-label="BloFin démo {titre}" style="border-color:{bord};display:flex;flex-direction:column;gap:12px;flex:1 1 100%;min-width:0">
+<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+<h2 style="display:flex;align-items:center;gap:10px"><span style="padding:4px 12px;border-radius:10px;background:{fond};color:{coul};border:1px solid {bord}">{"▲" if sens == "long" else "▼"} {titre}</span>BloFin démo<span class="cnt" data-cnt="compte"></span></h2>
+<span class="lbl">{len(rows)} setup(s)</span></div>
+<div class="scroll"><div style="display:flex;flex-direction:column;gap:8px">{entete}{corps}</div></div></section>"""
+
+    m = d["manquants"]
+    absents = (f' · absents chez BloFin : {e(", ".join(m[:8]))}{" …" if len(m) > 8 else ""}' if m else "")
+    return f"""<div style="display:flex;flex-direction:column;gap:10px">
+<div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px">
+<span class="h" style="font-size:22px">Ma liste BloFin démo</span>
+<span class="lbl">{len(d['ok'])}/{d['nb_liste']} tokens analysés sur BloFin · setups actifs seulement (prospects et touches BB 4H){absents}</span></div>
+<div class="row2">{tableau("long", "LONG", "#B6FF3B", "#4C8A1C", "#12260A")}{tableau("short", "SHORT", "#FF6B8E", "#8A1C3A", "#2A0A14")}</div></div>"""
+
+
 LISTES_NOM = {"carnet": "Carnet des prospects", "bb_probable": "BB 4H · retournement probable",
               "bb_sans": "BB 4H · sans confirmation", "bb_marche": "BB 4H · marche sur la bande (contre)"}
 
@@ -220,6 +274,8 @@ def feuille_html(f):
     for sc in ("5", "4", "3", "2", "1", "0"):
         lignes.append(_ligne_stats(f"Score {sc}/5", h.get("par_score", {}).get(sc)))
     lignes.append(_ligne_stats("Avec pénalité", h.get("penalite")))
+    lignes.append(_ligne_stats("BloFin démo · tous les setups", h.get("demo")))
+    lignes.append(_ligne_stats("BloFin démo · score 3 et plus", h.get("demo_haut")))
     for li, st in h.get("par_liste", {}).items():
         lignes.append(_ligne_stats(LISTES_NOM.get(li, li), st))
     for ph, st in h.get("par_phase", {}).items():
@@ -382,6 +438,7 @@ def generer(r):
 <h2 style="margin-top:6px;font-size:17px">Nouveaux contrats</h2><span class="sub" style="font-size:13px">Lancés depuis moins de {config.JOURS_NOUVEAU} jours</span>
 <div class="chips">{nouv or '<span class="sub">Aucun</span>'}</div></section></div>"""
     p.append(f'<div class="row2">{carnet_html}{cote}</div>')
+    p.append(demo_html(r.get("demo")))
 
     p.append(feuille_html(r.get("feuille")))
 

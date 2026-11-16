@@ -67,12 +67,12 @@ def _phase(e, b1, mso4h):
     return "Impulsion"
 
 
-def mettre_a_jour(tokens_par_sym, maintenant):
+def mettre_a_jour(tokens_par_sym, maintenant, fichier=_FICHIER):
     """
     tokens_par_sym : symbol → token (pct24, b (bougies), m (mesures), ...).
     Retourne la liste des entrées actives du carnet.
     """
-    carnet = etat.lire(_FICHIER, {})
+    carnet = etat.lire(fichier, {})
 
     # 1. Captures
     cands = [t for t in tokens_par_sym.values() if not np.isnan(t["pct24"])
@@ -117,5 +117,5 @@ def mettre_a_jour(tokens_par_sym, maintenant):
         e["phase_depuis_h"] = (maintenant - e["phases"][-1]["ts"]) / 3600.0
         e["move_pct"] = (e["extreme"] - e["depart"]) / e["depart"] * 100.0 if e["depart"] else 0.0
         actifs.append(e)
-    etat.ecrire(_FICHIER, carnet)
+    etat.ecrire(fichier, carnet)
     return actifs

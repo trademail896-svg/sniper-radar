@@ -19,6 +19,7 @@ from . import config
 _OPTIONS = {"defaultType": "swap", "defaultSubType": "linear"}
 _local = threading.local()
 _MARCHES = None
+_MARCHES_PAR_PF = {}
 
 
 def _nouvel_exchange(nom=None):
@@ -27,13 +28,19 @@ def _nouvel_exchange(nom=None):
                   "options": dict(_OPTIONS)})
 
 
-def _exchange():
-    ex = getattr(_local, "ex", None)
+def _exchange(nom=None):
+    """Une connexion par fil d'exécution et par plateforme (marchés chargés une fois)."""
+    nom = nom or config.PLATEFORME
+    cache = getattr(_local, "ex", None)
+    if not isinstance(cache, dict):
+        cache = _local.ex = {}
+    ex = cache.get(nom)
     if ex is None:
-        ex = _nouvel_exchange()
-        if _MARCHES is not None:
-            ex.set_markets(list(_MARCHES.values()))
-        _local.ex = ex
+        ex = _nouvel_exchange(nom)
+        marches = _MARCHES_PAR_PF.get(nom)
+        if marches is not None:
+            ex.set_markets(list(marches.values()))
+        cache[nom] = ex
     return ex
 
 
@@ -47,10 +54,10 @@ def _f(x, defaut=np.nan):
 def charger_marches():
     """Retourne la liste des perps USDT linéaires actifs : dicts symbol/base/launch_ms."""
     global _MARCHES
-    ex = _nouvel_exchange()
+    ex = _exchange()
     ex.load_markets()
     _MARCHES = ex.markets
-    _local.ex = ex
+    _MARCHES_PAR_PF[config.PLATEFORME] = ex.markets
     res = []
     for m in ex.markets.values():
         if not (m.get("swap") and m.get("linear") and m.get("quote") == "USDT"
@@ -100,8 +107,8 @@ def charger_tickers():
 _TF_MS = {"1h": 3_600_000, "4h": 14_400_000}
 
 
-def _bougies(symbol, tf, limite):
-    ex = _exchange()
+def _bougies(symbol, tf, limite, nom=None):
+    ex = _exchange(nom)
     for essai in range(3):
         try:
             raw = ex.fetch_ohlcv(symbol, timeframe=tf, limit=limite)
@@ -122,14 +129,14 @@ def _bougies(symbol, tf, limite):
             "v": a[:, 5]}
 
 
-def charger_bougies(symboles):
+def charger_bougies(symboles, nom=None):
     """symbol → {'1h': bougies, '4h': bougies} (tokens en échec retirés)."""
     res = {}
     echecs = []
 
     def job(sym):
-        b1 = _bougies(sym, "1h", config.NB_BOUGIES_1H)
-        b4 = _bougies(sym, "4h", config.NB_BOUGIES_4H)
+        b1 = _bougies(sym, "1h", config.NB_BOUGIES_1H, nom)
+        b4 = _bougies(sym, "4h", config.NB_BOUGIES_4H, nom)
         return sym, b1, b4
 
     with ThreadPoolExecutor(max_workers=config.WORKERS) as pool:
@@ -148,6 +155,26 @@ def charger_bougies(symboles):
     if echecs:
         print(f"[données] {len(echecs)} échecs : {echecs[:20]}")
     return res
+
+
+def charger_plateforme(nom, bases):
+    """Marchés + tickers d'une 2e plateforme (ex. BloFin pour la liste démo)."""
+    ex = _exchange(nom)
+    ex.load_markets()
+    _MARCHES_PAR_PF[nom] = ex.markets
+    voulu = {b.upper() for b in bases}
+    marches = [m for m in ex.markets.values() if m.get("swap") and m.get("quote") == "USDT"
+               and m.get("settle") == "USDT" and m["base"].upper() in voulu]
+    t = ex.fetch_tickers([m["symbol"] for m in marches]) if marches else {}
+    out = []
+    for m in marches:
+        d = t.get(m["symbol"]) or {}
+        info = d.get("info") or {}
+        last = _f(d.get("last"))
+        out.append({"symbol": m["symbol"], "id": m["id"], "base": m["base"], "launch_ms": 0, "rwa": False,
+                    "last": last, "pct24": _f(d.get("percentage")), "qv24": _f(d.get("quoteVolume"), 0.0),
+                    "funding": _f(info.get("fundingRate")), "oi_valeur": 0.0})
+    return out
 
 
 def variation_oi_24h(symboles):

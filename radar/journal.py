@@ -26,7 +26,7 @@ def _cle(e):
     return f'{e["symbol"]}|{e["liste"]}|{e["sens"]}'
 
 
-def enregistrer(journal, maintenant, movers, bb):
+def enregistrer(journal, maintenant, movers, bb, prefixe=""):
     recents = {}
     for e in journal:
         if maintenant - e["ts"] < DEDOUBLON_H * 3600:
@@ -43,10 +43,10 @@ def enregistrer(journal, maintenant, movers, bb):
             nouveaux.append(e)
 
     for mv in movers:
-        ajout(mv["token"], "carnet", mv["e"]["phase"], mv["score"])
+        ajout(mv["token"], prefixe + "carnet", mv["e"]["phase"], mv["score"])
     for cat, items in bb.items():
         for it in items:
-            ajout(it["token"], f"bb_{cat}", it["bb"]["cote"], it["score"])
+            ajout(it["token"], f"{prefixe}bb_{cat}", it["bb"]["cote"], it["score"])
     journal.extend(nouveaux)
     return len(nouveaux)
 
@@ -118,7 +118,7 @@ def _stats(entrees, h="24"):
 
 
 def feuille(journal, maintenant, ok):
-    fen = [e for e in journal if maintenant - e["ts"] <= FEUILLE_JOURS * 86400]
+    fen = [e for e in journal if maintenant - e["ts"] <= FEUILLE_JOURS * 86400 and not e["liste"].startswith("demo_")]
     res = {"jours": FEUILLE_JOURS, "nb_signaux": len(fen), "horizons": {}}
     for h in ("4", "24", "72"):
         par_score = {}
@@ -139,8 +139,11 @@ def feuille(journal, maintenant, ok):
                 par_phase[ph] = st
         haut = _stats([e for e in fen if e["score"] >= 4 and not e["penalite"]], h)
         bas = _stats([e for e in fen if e["score"] <= 1 or e["penalite"]], h)
+        dm = [e for e in journal if maintenant - e["ts"] <= FEUILLE_JOURS * 86400 and e["liste"].startswith("demo_")]
         res["horizons"][h] = {"par_score": par_score, "penalite": pen, "par_liste": par_liste,
-                              "par_phase": par_phase, "haut": haut, "bas": bas}
+                              "par_phase": par_phase, "haut": haut, "bas": bas,
+                              "demo": _stats([e for e in dm if not e["liste"].endswith("bb_marche")], h),
+                              "demo_haut": _stats([e for e in dm if e["score"] >= 3 and not e["penalite"]], h)}
     # Coups ratés : plus gros mouvements 24 h absents des mises en avant des dernières 24 h
     vus = {}
     for e in journal:
@@ -160,11 +163,17 @@ def feuille(journal, maintenant, ok):
     return res
 
 
-def mettre_a_jour(maintenant, movers, bb, par_sym, ok):
+def mettre_a_jour(maintenant, movers, bb, par_sym, ok, demo=None):
     journal = etat.lire(_FICHIER, [])
     journal = [e for e in journal if maintenant - e["ts"] <= GARDER_JOURS * 86400]
-    nb_ev = evaluer(journal, par_sym, maintenant)
+    par_eval = dict(par_sym)
+    if demo:
+        for k, v in demo["par_sym"].items():
+            par_eval.setdefault(k, v)
+    nb_ev = evaluer(journal, par_eval, maintenant)
     nb_new = enregistrer(journal, maintenant, movers, bb)
+    if demo:
+        nb_new += enregistrer(journal, maintenant, demo["movers"], demo["bb"], prefixe="demo_")
     etat.ecrire(_FICHIER, journal)
     f = feuille(journal, maintenant, ok)
     f["maj"] = maintenant

@@ -6,7 +6,7 @@ Changer une valeur ici suffit : aucun autre fichier n'a de chiffre en dur.
 """
 import os
 
-VERSION = "1.03"
+VERSION = "1.04"
 NOM = "SNIPER RADAR"
 
 # ─── Dossiers ────────────────────────────────────────────────────────────────
@@ -19,7 +19,11 @@ FUSEAU = "America/Toronto"
 # OKX seulement pour l'historique d'open interest des candidats.
 PLATEFORME = "bitget"
 PLATEFORME_OI = "okx"
-RATE_LIMIT_MS = 250                  # pause min entre 2 requêtes, par connexion
+RATE_LIMIT_MS = 250
+# Liste BloFin démo : analysée directement sur BloFin (liens BLOFIN:)
+DEMO_PLATEFORME = "blofin"
+DEMO_FICHIER = "blofin_demo.txt"
+DEMO_TV_PREFIXE = "BLOFIN"                  # pause min entre 2 requêtes, par connexion
 
 # ─── Univers ─────────────────────────────────────────────────────────────────
 VOLUME_MIN_CRYPTO_USD = 1_000_000       # volume 24 h minimum crypto (Bitget : ~55 cryptos ≥ 3 M$, il faut descendre)

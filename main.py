@@ -7,6 +7,7 @@ SNIPER RADAR — point d'entrée (lancé chaque heure par GitHub Actions)
 4. Météo, carnet des movers, touches BB, score
 5. Page site/index.html + petits JSON d'état dans data/
 """
+import os
 import sys
 import time
 import traceback
@@ -15,6 +16,74 @@ import numpy as np
 
 from radar import analyse, carnet, config, donnees, etat, journal, meteo, page, score
 from radar.secteurs import SECTEURS_TRADFI, Secteurs
+
+
+def noter_listes(entrees, touches, par_sym, me, oi24):
+    movers = []
+    for e in entrees:
+        t = par_sym.get(e["symbol"])
+        if not t:
+            continue
+        sens = score.sens_mover(e)
+        s = score.noter(sens, e["phase"] in ("Retournement", "Zone de rebond"), t, me, oi24.get(e["symbol"]))
+        movers.append({"e": e, "token": t, "score": s})
+    movers.sort(key=lambda x: score.cle_tri(x["score"], x["e"]["phase_depuis_h"], x["token"]["qv24"]))
+    bb = {"probable": [], "sans": [], "marche": []}
+    for t in touches:
+        tb = t["m"]["bb"]
+        s = score.noter(tb["sens"], tb["cat"] == "probable", t, me, oi24.get(t["symbol"]), tb["cat"] == "marche")
+        bb[tb["cat"]].append({"token": t, "bb": tb, "score": s})
+    for k in bb:
+        bb[k].sort(key=lambda x: score.cle_tri(x["score"], x["bb"]["bougies_depuis"] * 4, x["token"]["qv24"]))
+    return movers, bb
+
+
+def lire_liste_demo():
+    chemin = os.path.join(config.DOSSIER_DATA, config.DEMO_FICHIER)
+    try:
+        with open(chemin, encoding="utf-8") as f:
+            txt = " ".join(l.split("#")[0] for l in f)
+    except FileNotFoundError:
+        return []
+    return [b.strip().upper() for b in txt.split() if b.strip()]
+
+
+def pipeline_demo(me, maintenant, sect, oi24_principal):
+    """Liste BloFin démo : données BloFin, carnet séparé, mêmes règles de score."""
+    bases = lire_liste_demo()
+    if not bases:
+        return None
+    toks = donnees.charger_plateforme(config.DEMO_PLATEFORME, bases)
+    for t in toks:
+        t["secteur"] = sect.secteur(t["base"])
+        t["tradfi"] = sect.est_tradfi(t["base"])
+        t["nouveau"], t["jours"] = False, 9999
+    bougies = donnees.charger_bougies([t["symbol"] for t in toks], nom=config.DEMO_PLATEFORME)
+    ok = []
+    for t in toks:
+        b = bougies.get(t["symbol"])
+        if not b:
+            continue
+        try:
+            t["b"] = b
+            t["m"] = analyse.analyser(b)
+            if np.isnan(t["last"]):
+                t["last"] = float(b["1h"]["c"][-1])
+            ok.append(t)
+        except Exception as ex:
+            print(f"[démo] {t['symbol']} : {ex}")
+    par_sym = {t["symbol"]: t for t in ok}
+    entrees = carnet.mettre_a_jour(par_sym, maintenant, "carnet_blofin.json")
+    touches = [t for t in ok if t["m"]["bb"]]
+    cand = ({e["symbol"] for e in entrees} | {t["symbol"] for t in touches}) - set(oi24_principal)
+    oi24 = dict(oi24_principal)
+    if cand:
+        oi24.update(donnees.variation_oi_24h(sorted(cand)))
+    movers, bb = noter_listes(entrees, touches, par_sym, me, oi24)
+    manquants = sorted(set(bases) - {t["base"].upper() for t in ok})
+    print(f"[démo] {len(ok)}/{len(bases)} tokens BloFin · {len(movers)} prospects · "
+          f"BB {sum(len(v) for v in bb.values())} · absents : {manquants}")
+    return {"ok": ok, "par_sym": par_sym, "movers": movers, "bb": bb, "manquants": manquants, "nb_liste": len(bases)}
 
 
 def main():
@@ -89,23 +158,14 @@ def main():
     cand = {e["symbol"] for e in entrees} | {t["symbol"] for t in touches}
     oi24 = donnees.variation_oi_24h(sorted(cand)) if cand else {}
 
-    movers = []
-    for e in entrees:
-        t = par_sym.get(e["symbol"])
-        if not t:
-            continue
-        sens = score.sens_mover(e)
-        s = score.noter(sens, e["phase"] in ("Retournement", "Zone de rebond"), t, me, oi24.get(e["symbol"]))
-        movers.append({"e": e, "token": t, "score": s})
-    movers.sort(key=lambda x: score.cle_tri(x["score"], x["e"]["phase_depuis_h"], x["token"]["qv24"]))
+    movers, bb = noter_listes(entrees, touches, par_sym, me, oi24)
 
-    bb = {"probable": [], "sans": [], "marche": []}
-    for t in touches:
-        tb = t["m"]["bb"]
-        s = score.noter(tb["sens"], tb["cat"] == "probable", t, me, oi24.get(t["symbol"]), tb["cat"] == "marche")
-        bb[tb["cat"]].append({"token": t, "bb": tb, "score": s})
-    for k in bb:
-        bb[k].sort(key=lambda x: score.cle_tri(x["score"], x["bb"]["bougies_depuis"] * 4, x["token"]["qv24"]))
+    # 5b. Liste BloFin démo ──────────────────────────────────────────────────
+    try:
+        demo = pipeline_demo(me, maintenant, sect, oi24)
+    except Exception:
+        traceback.print_exc()
+        demo = None
 
     # 6. Compression, nouveaux, rotation ─────────────────────────────────────
     comp = [{"token": t, "ratio": t["m"]["compression_ratio"]} for t in ok
@@ -133,14 +193,14 @@ def main():
     tradfi = sorted([t for t in ok if t["tradfi"]], key=lambda t: (t["secteur"], t["base"]))
 
     # 7. Journal + feuille de match ──────────────────────────────────────────
-    fm = journal.mettre_a_jour(maintenant, movers, bb, par_sym, ok)
+    fm = journal.mettre_a_jour(maintenant, movers, bb, par_sym, ok, demo)
 
     # 8. Page ────────────────────────────────────────────────────────────────
     chemin = page.generer({
         "maintenant": maintenant, "meteo": me, "regime_btc": regime, "movers": movers, "bb": bb,
         "compression": comp, "nouveaux": nouveaux, "rotation": rotation, "secteurs_filtres": secteurs_filtres,
         "tradfi": tradfi, "nb_crypto": len(crypto), "nb_tradfi": len(tradfi), "nb_ok": len(ok),
-        "duree": time.time() - t0, "feuille": fm,
+        "duree": time.time() - t0, "feuille": fm, "demo": demo,
     })
     sante = etat.lire("sante.json", [])
     sante = [x for x in sante if x["ts"] >= maintenant - 7 * 86400]
