@@ -1,15 +1,17 @@
-"""Diagnostic : contrats Bitget marqués isRwa, avec leur volume 24 h."""
-import ccxt
-ex = ccxt.bitget({"options": {"defaultType": "swap"}, "enableRateLimit": True})
-ex.load_markets()
-t = ex.fetch_tickers()
-rwa = []
-for m in ex.markets.values():
-    if m.get("swap") and m.get("quote") == "USDT" and str(m["info"].get("isRwa")).upper() == "YES":
-        rwa.append((t.get(m["symbol"], {}).get("quoteVolume") or 0, m["base"]))
-rwa.sort(reverse=True)
-print("NB_RWA", len(rwa), "≥1M$:", sum(v >= 1e6 for v, _ in rwa), "≥3M$:", sum(v >= 3e6 for v, _ in rwa))
-print("TOP", " ".join(f"{b}:{v/1e6:.1f}" for v, b in rwa[:120]))
-cr = sorted(((t.get(m["symbol"], {}).get("quoteVolume") or 0, m["base"]) for m in ex.markets.values()
-             if m.get("swap") and m.get("quote") == "USDT" and str(m["info"].get("isRwa")).upper() != "YES"), reverse=True)
-print("CRYPTO ≥3M$:", sum(v >= 3e6 for v, _ in cr), " ".join(b for v, b in cr[:60]))
+"""Diagnostic : contrats disponibles sur BloFin DEMO vs watchlist TradingView « blofindemo »."""
+import requests
+WATCH = "1000BONK 1000FLOKI AAVE ADA AERO ALGO APE APT ARB AR ASTER ATOM AVAX AXL BCH BNB BRETT BTC CAKE CC CRV DASH DOGE DOT ENA ETC ETHFI ETH FARTCOIN FET FIL HBAR HYPE ICP INJ JASMY JUP KAS LDO LINK LTC LUNA2 MNT MON M NEAR NOT ONDO OP PENDLE PENGU PEOPLE PEPE PIPPIN POL POPCAT PUMP QNT RENDER SEI SHIB SOL SPX STRK STX SUI TAO TIA TRUMP TRX TURBO UNI VIRTUAL WIF WLD WLFI XAUT XLM XMR XPL XRP ZEC ZEN ZK".split()
+for nom, url in (("DEMO", "https://demo-trading-openapi.blofin.com/api/v1/market/instruments"),
+                 ("LIVE", "https://openapi.blofin.com/api/v1/market/instruments")):
+    try:
+        d = requests.get(url, timeout=30).json().get("data", [])
+    except Exception as e:
+        print(nom, "ERREUR", e); continue
+    usdt = sorted(x["instId"].replace("-USDT", "") for x in d if x.get("instId", "").endswith("-USDT")
+                  and str(x.get("state", "live")).lower() == "live")
+    print(f"{nom}_NB {len(usdt)}")
+    if nom == "DEMO":
+        demo = set(usdt)
+        print("DEMO_LISTE", " ".join(usdt))
+        print("A_RETIRER (dans la watchlist, absents de la démo):", " ".join(sorted(set(WATCH) - demo)) or "aucun")
+        print("A_AJOUTER (dans la démo, absents de la watchlist):", " ".join(sorted(demo - set(WATCH))) or "aucun")
