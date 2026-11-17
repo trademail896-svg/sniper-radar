@@ -311,48 +311,48 @@
   }
  },
  "jours": 14,
- "maj": 1794870447,
- "nb_signaux": 795,
+ "maj": 1794874040,
+ "nb_signaux": 815,
  "rates": [
   {
    "base": "SOPH",
-   "mso4h": 5.28479154,
-   "pct24": -18.955,
+   "mso4h": 4.50185946,
+   "pct24": -18.03,
    "secteur": "Gaming",
    "sens": "short",
    "symbol": "SOPH/USDT:USDT"
   },
   {
-   "base": "SNXX",
-   "mso4h": 0.0,
-   "pct24": -14.964,
+   "base": "RAM",
+   "mso4h": 0.44124124,
+   "pct24": -15.404,
    "secteur": "Actions",
    "sens": "short",
-   "symbol": "SNXX/USDT:USDT"
+   "symbol": "RAM/USDT:USDT"
   },
   {
    "base": "SKUU",
-   "mso4h": 2.53941666,
-   "pct24": -14.333,
+   "mso4h": 0.0,
+   "pct24": -14.553,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "SKUU/USDT:USDT"
   },
   {
+   "base": "ZHIPU",
+   "mso4h": 0.0,
+   "pct24": -14.439,
+   "secteur": "Actions",
+   "sens": "short",
+   "symbol": "ZHIPU/USDT:USDT"
+  },
+  {
    "base": "SKDD",
-   "mso4h": 90.9192951,
-   "pct24": 14.228,
+   "mso4h": 94.10090188,
+   "pct24": 14.422,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "SKDD/USDT:USDT"
-  },
-  {
-   "base": "MVLL",
-   "mso4h": 1.88740704,
-   "pct24": -14.176,
-   "secteur": "Actions",
-   "sens": "short",
-   "symbol": "MVLL/USDT:USDT"
   }
  ]
 }
