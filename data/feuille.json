@@ -333,48 +333,48 @@
   }
  },
  "jours": 14,
- "maj": 1794943386,
- "nb_signaux": 1176,
+ "maj": 1794946044,
+ "nb_signaux": 1210,
  "rates": [
   {
-   "base": "LUNC",
-   "mso4h": 97.46170678,
-   "pct24": 13.596,
-   "secteur": "DeFi",
+   "base": "SHAZ",
+   "mso4h": 38.70352036,
+   "pct24": 14.848,
+   "secteur": "Actions",
    "sens": "long",
-   "symbol": "LUNC/USDT:USDT"
+   "symbol": "SHAZ/USDT:USDT"
   },
   {
    "base": "SOPH",
-   "mso4h": 0.0195733,
-   "pct24": -10.608,
+   "mso4h": 0.0,
+   "pct24": -11.89,
    "secteur": "Gaming",
    "sens": "short",
    "symbol": "SOPH/USDT:USDT"
   },
   {
-   "base": "Q",
-   "mso4h": 11.94303635,
-   "pct24": 8.944,
-   "secteur": "IA",
+   "base": "LUNC",
+   "mso4h": 100.0,
+   "pct24": 11.404,
+   "secteur": "DeFi",
    "sens": "long",
-   "symbol": "Q/USDT:USDT"
-  },
-  {
-   "base": "CRML",
-   "mso4h": 0.0,
-   "pct24": -8.655,
-   "secteur": "Actions",
-   "sens": "short",
-   "symbol": "CRML/USDT:USDT"
+   "symbol": "LUNC/USDT:USDT"
   },
   {
    "base": "UVXY",
-   "mso4h": 70.80408228,
-   "pct24": 8.452,
+   "mso4h": 88.41290844,
+   "pct24": 11.378,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "UVXY/USDT:USDT"
+  },
+  {
+   "base": "USAR",
+   "mso4h": 0.0,
+   "pct24": -9.713,
+   "secteur": "Actions",
+   "sens": "short",
+   "symbol": "USAR/USDT:USDT"
   }
  ]
 }
