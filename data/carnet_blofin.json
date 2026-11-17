@@ -9,7 +9,7 @@
   "extreme_ts": 1794866400000,
   "move_pct": 17.74712644,
   "phase": "Retracement",
-  "phase_depuis_h": 4.0025,
+  "phase_depuis_h": 5.00055556,
   "phases": [
    {
     "phase": "Impulsion",
@@ -28,9 +28,31 @@
     "ts": 1794892042
    }
   ],
-  "prix": 2.444,
-  "retr": 0.30310881,
+  "prix": 2.424,
+  "retr": 0.35492228,
   "sens": "pump",
   "symbol": "ICP/USDT:USDT"
+ },
+ "M/USDT:USDT": {
+  "base": "M",
+  "capture_pct": 15.09410902,
+  "capture_ts": 1794910044,
+  "depart": 0.8166,
+  "depart_ts": 1794819600000,
+  "extreme": 0.9269,
+  "extreme_ts": 1794906000000,
+  "move_pct": 13.50722508,
+  "phase": "Impulsion",
+  "phase_depuis_h": 0.0,
+  "phases": [
+   {
+    "phase": "Impulsion",
+    "ts": 1794910044
+   }
+  ],
+  "prix": 0.9043,
+  "retr": 0.20489574,
+  "sens": "pump",
+  "symbol": "M/USDT:USDT"
  }
 }
