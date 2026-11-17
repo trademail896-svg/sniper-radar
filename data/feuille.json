@@ -2,12 +2,12 @@
  "horizons": {
   "24": {
    "bas": {
-    "avance": -0.78036506,
-    "gagnants": 51.88284519,
-    "mae": -5.91923082,
-    "mfe": 5.73305706,
-    "moy": -0.5208477,
-    "n": 478
+    "avance": -0.81115544,
+    "gagnants": 51.66666667,
+    "mae": -5.93762738,
+    "mfe": 5.71031048,
+    "moy": -0.55614554,
+    "n": 480
    },
    "demo": {
     "avance": -0.23182331,
@@ -28,12 +28,12 @@
    },
    "par_liste": {
     "bb_marche": {
-     "avance": -1.45566725,
-     "gagnants": 59.50920245,
-     "mae": -6.25135183,
-     "mfe": 5.99005253,
-     "moy": -0.64481735,
-     "n": 163
+     "avance": -1.49954457,
+     "gagnants": 59.14634146,
+     "mae": -6.28346319,
+     "mfe": 5.95848519,
+     "moy": -0.70202639,
+     "n": 164
     },
     "bb_probable": {
      "avance": -0.58987478,
@@ -44,12 +44,12 @@
      "n": 7
     },
     "bb_sans": {
-     "avance": -0.98350922,
-     "gagnants": 43.53312303,
-     "mae": -4.70585082,
-     "mfe": 3.54271902,
-     "moy": -1.23491159,
-     "n": 317
+     "avance": -1.00459429,
+     "gagnants": 43.39622642,
+     "mae": -4.71982989,
+     "mfe": 3.53074427,
+     "moy": -1.256052,
+     "n": 318
     },
     "carnet": {
      "avance": 0.39001404,
@@ -81,7 +81,7 @@
      "avance": 1.82823151,
      "gagnants": 75.0,
      "mae": -8.5684425,
-     "mfe": 13.99805331,
+     "mfe": 13.9980533,
      "moy": 2.31562228,
      "n": 8
     },
@@ -104,12 +104,12 @@
    },
    "par_score": {
     "0": {
-     "avance": -1.55599061,
-     "gagnants": 38.57142857,
-     "mae": -7.80092579,
-     "mfe": 5.51818713,
-     "moy": -1.8603987,
-     "n": 70
+     "avance": -1.64236485,
+     "gagnants": 38.02816901,
+     "mae": -7.81994365,
+     "mfe": 5.43673024,
+     "moy": -1.94627421,
+     "n": 71
     },
     "1": {
      "avance": -0.34322784,
@@ -130,7 +130,7 @@
     "3": {
      "avance": 1.06401431,
      "gagnants": 31.25,
-     "mae": -8.29534609,
+     "mae": -8.29534608,
      "mfe": 7.77144134,
      "moy": -0.2212572,
      "n": 16
@@ -145,12 +145,12 @@
     }
    },
    "penalite": {
-    "avance": -0.96663588,
-    "gagnants": 58.29145729,
-    "mae": -6.92160121,
-    "mfe": 6.92482512,
-    "moy": -0.25160454,
-    "n": 199
+    "avance": -1.00506044,
+    "gagnants": 58.0,
+    "mae": -6.94458128,
+    "mfe": 6.89426604,
+    "moy": -0.30048202,
+    "n": 200
    }
   },
   "4": {
@@ -333,13 +333,21 @@
   }
  },
  "jours": 14,
- "maj": 1794935249,
- "nb_signaux": 1163,
+ "maj": 1794938845,
+ "nb_signaux": 1169,
  "rates": [
+  {
+   "base": "LUNC",
+   "mso4h": 97.46170678,
+   "pct24": 14.29,
+   "secteur": "DeFi",
+   "sens": "long",
+   "symbol": "LUNC/USDT:USDT"
+  },
   {
    "base": "UVXY",
    "mso4h": 70.80408228,
-   "pct24": 14.947,
+   "pct24": 11.214,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "UVXY/USDT:USDT"
@@ -347,34 +355,26 @@
   {
    "base": "SOPH",
    "mso4h": 0.0195733,
-   "pct24": -14.735,
+   "pct24": -10.964,
    "secteur": "Gaming",
    "sens": "short",
    "symbol": "SOPH/USDT:USDT"
   },
   {
-   "base": "KORU",
+   "base": "USAR",
    "mso4h": 0.0,
-   "pct24": -9.813,
+   "pct24": -8.63,
    "secteur": "Actions",
    "sens": "short",
-   "symbol": "KORU/USDT:USDT"
+   "symbol": "USAR/USDT:USDT"
   },
   {
-   "base": "LUNC",
-   "mso4h": 97.46170678,
-   "pct24": 9.646,
-   "secteur": "DeFi",
-   "sens": "long",
-   "symbol": "LUNC/USDT:USDT"
-  },
-  {
-   "base": "RAM",
+   "base": "CXMT",
    "mso4h": 0.0,
-   "pct24": -8.658,
+   "pct24": -7.535,
    "secteur": "Actions",
    "sens": "short",
-   "symbol": "RAM/USDT:USDT"
+   "symbol": "CXMT/USDT:USDT"
   }
  ]
 }

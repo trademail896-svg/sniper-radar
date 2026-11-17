@@ -21389,6 +21389,13 @@
   "base": "USAR",
   "detail": "bas",
   "eval": {
+   "24": {
+    "avance": -7.6885617,
+    "mae": -9.15119363,
+    "marche": -0.26899798,
+    "mfe": -0.26525199,
+    "ret": -7.95755968
+   },
    "4": {
     "avance": -2.3557638,
     "mae": -3.58090186,
@@ -23566,6 +23573,13 @@
   "base": "USAR",
   "detail": "bas",
   "eval": {
+   "24": {
+    "avance": -8.65154875,
+    "mae": -11.51761518,
+    "marche": -1.37555152,
+    "mfe": 0.81300813,
+    "ret": -10.02710027
+   },
    "4": {
     "avance": -1.1722861,
     "mae": -1.49051491,
@@ -27718,7 +27732,9 @@
  {
   "base": "BWET",
   "detail": "haut",
-  "eval": {},
+  "eval": {
+   "4": null
+  },
   "liste": "bb_sans",
   "penalite": false,
   "prix": 633.01,
@@ -35834,5 +35850,107 @@
   "symbol": "JUP/USDT:USDT",
   "tradfi": false,
   "ts": 1794935249
+ },
+ {
+  "base": "PROS",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.5006,
+  "raisons": [],
+  "score": 0,
+  "secteur": "RWA",
+  "sens": "long",
+  "symbol": "PROS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794938845
+ },
+ {
+  "base": "PIEVERSE",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 2.05607,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "long",
+  "symbol": "PIEVERSE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794938845
+ },
+ {
+  "base": "STXSTOCK",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 496.49,
+  "raisons": [
+   "MSO",
+   "divergence"
+  ],
+  "score": 2,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "STXSTOCK/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794938845
+ },
+ {
+  "base": "EVAA",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 3.3327,
+  "raisons": [
+   "MSO",
+   "météo"
+  ],
+  "score": 2,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "EVAA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794938845
+ },
+ {
+  "base": "PROS",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 0.5006,
+  "raisons": [
+   "météo",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "RWA",
+  "sens": "short",
+  "symbol": "PROS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794938845
+ },
+ {
+  "base": "USAR",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 6.67,
+  "raisons": [
+   "MSO",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "USAR/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794938845
  }
 ]
