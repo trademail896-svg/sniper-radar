@@ -9,7 +9,7 @@
   "extreme_ts": 1794913200000,
   "move_pct": -92.81196305,
   "phase": "Essoufflement",
-  "phase_depuis_h": 2.99972222,
+  "phase_depuis_h": 3.26138889,
   "phases": [
    {
     "phase": "Impulsion",
@@ -35,7 +35,7 @@
   "extreme_ts": 1794938400000,
   "move_pct": 30.2154998,
   "phase": "Retracement",
-  "phase_depuis_h": 0.0,
+  "phase_depuis_h": 0.26166667,
   "phases": [
    {
     "phase": "Retracement",
@@ -57,7 +57,7 @@
   "extreme_ts": 1794906000000,
   "move_pct": 36.0592482,
   "phase": "Zone de rebond",
-  "phase_depuis_h": 4.99916667,
+  "phase_depuis_h": 5.26083333,
   "phases": [
    {
     "phase": "Pause",
@@ -229,7 +229,7 @@
   "extreme_ts": 1794927600000,
   "move_pct": -25.65142768,
   "phase": "Retracement",
-  "phase_depuis_h": 0.99972222,
+  "phase_depuis_h": 1.26138889,
   "phases": [
    {
     "phase": "Pause",
@@ -263,7 +263,7 @@
   "extreme_ts": 1794927600000,
   "move_pct": 104.38519558,
   "phase": "Retracement",
-  "phase_depuis_h": 2.99972222,
+  "phase_depuis_h": 3.26138889,
   "phases": [
    {
     "phase": "Impulsion",
@@ -319,7 +319,7 @@
   "extreme_ts": 1794924000000,
   "move_pct": 51.05598082,
   "phase": "Essoufflement",
-  "phase_depuis_h": 0.0,
+  "phase_depuis_h": 0.26166667,
   "phases": [
    {
     "phase": "Impulsion",
@@ -369,7 +369,7 @@
   "extreme_ts": 1794927600000,
   "move_pct": -21.79878049,
   "phase": "Retracement",
-  "phase_depuis_h": 0.99972222,
+  "phase_depuis_h": 1.26138889,
   "phases": [
    {
     "phase": "Impulsion",
@@ -415,7 +415,7 @@
   "extreme_ts": 1794906000000,
   "move_pct": 302.20883534,
   "phase": "Retracement",
-  "phase_depuis_h": 4.99916667,
+  "phase_depuis_h": 5.26083333,
   "phases": [
    {
     "phase": "Retracement",
@@ -551,6 +551,28 @@
   "sens": "dump",
   "symbol": "H/USDT:USDT"
  },
+ "HUMA/USDT:USDT": {
+  "base": "HUMA",
+  "capture_pct": -15.035,
+  "capture_ts": 1794943386,
+  "depart": 0.0081,
+  "depart_ts": 1794852000000,
+  "extreme": 0.00727,
+  "extreme_ts": 1794938400000,
+  "move_pct": -10.24691358,
+  "phase": "Impulsion",
+  "phase_depuis_h": 0.0,
+  "phases": [
+   {
+    "phase": "Impulsion",
+    "ts": 1794943386
+   }
+  ],
+  "prix": 0.00729,
+  "retr": 0.02409639,
+  "sens": "dump",
+  "symbol": "HUMA/USDT:USDT"
+ },
  "IDOL/USDT:USDT": {
   "base": "IDOL",
   "capture_pct": 15.955,
@@ -615,7 +637,7 @@
   "extreme_ts": 1794909600000,
   "move_pct": -20.92711683,
   "phase": "Retracement",
-  "phase_depuis_h": 7.0,
+  "phase_depuis_h": 7.26166667,
   "phases": [
    {
     "phase": "Impulsion",
@@ -669,7 +691,7 @@
   "extreme_ts": 1794927600000,
   "move_pct": -19.62403373,
   "phase": "Retracement",
-  "phase_depuis_h": 0.0,
+  "phase_depuis_h": 0.26166667,
   "phases": [
    {
     "phase": "Impulsion",
@@ -711,7 +733,7 @@
   "extreme_ts": 1794927600000,
   "move_pct": -20.15347334,
   "phase": "Retracement",
-  "phase_depuis_h": 0.99972222,
+  "phase_depuis_h": 1.26138889,
   "phases": [
    {
     "phase": "Impulsion",
@@ -737,7 +759,7 @@
   "extreme_ts": 1794690000000,
   "move_pct": -63.1725963,
   "phase": "Essoufflement",
-  "phase_depuis_h": 64.95027778,
+  "phase_depuis_h": 65.21194444,
   "phases": [
    {
     "phase": "Impulsion",
@@ -763,7 +785,7 @@
   "extreme_ts": 1794888000000,
   "move_pct": 12.42258652,
   "phase": "Zone de rebond",
-  "phase_depuis_h": 1.99861111,
+  "phase_depuis_h": 2.26027778,
   "phases": [
    {
     "phase": "Pause",
@@ -801,7 +823,7 @@
   "extreme_ts": 1794938400000,
   "move_pct": -29.24987033,
   "phase": "Impulsion",
-  "phase_depuis_h": 7.0,
+  "phase_depuis_h": 7.26166667,
   "phases": [
    {
     "phase": "Impulsion",
@@ -875,7 +897,7 @@
   "extreme_ts": 1794927600000,
   "move_pct": -24.07594533,
   "phase": "Impulsion",
-  "phase_depuis_h": 2.99972222,
+  "phase_depuis_h": 3.26138889,
   "phases": [
    {
     "phase": "Impulsion",
@@ -921,7 +943,7 @@
   "extreme_ts": 1794927600000,
   "move_pct": -23.80693775,
   "phase": "Impulsion",
-  "phase_depuis_h": 2.99972222,
+  "phase_depuis_h": 3.26138889,
   "phases": [
    {
     "phase": "Impulsion",
@@ -967,7 +989,7 @@
   "extreme_ts": 1794938400000,
   "move_pct": 49.01960784,
   "phase": "Impulsion",
-  "phase_depuis_h": 0.99972222,
+  "phase_depuis_h": 1.26138889,
   "phases": [
    {
     "phase": "Impulsion",
@@ -1001,7 +1023,7 @@
   "extreme_ts": 1794697200000,
   "move_pct": -28.34781884,
   "phase": "Essoufflement",
-  "phase_depuis_h": 2.99972222,
+  "phase_depuis_h": 3.26138889,
   "phases": [
    {
     "phase": "Impulsion",
@@ -1079,7 +1101,7 @@
   "extreme_ts": 1794927600000,
   "move_pct": -27.62668526,
   "phase": "Retracement",
-  "phase_depuis_h": 0.99972222,
+  "phase_depuis_h": 1.26138889,
   "phases": [
    {
     "phase": "Impulsion",
@@ -1137,7 +1159,7 @@
   "extreme_ts": 1794927600000,
   "move_pct": -27.61424622,
   "phase": "Impulsion",
-  "phase_depuis_h": 2.99972222,
+  "phase_depuis_h": 3.26138889,
   "phases": [
    {
     "phase": "Impulsion",
@@ -1175,7 +1197,7 @@
   "extreme_ts": 1794852000000,
   "move_pct": 22.12021231,
   "phase": "Essoufflement",
-  "phase_depuis_h": 0.0,
+  "phase_depuis_h": 0.26166667,
   "phases": [
    {
     "phase": "Impulsion",
@@ -1251,7 +1273,7 @@
   "extreme_ts": 1794916800000,
   "move_pct": 22.22222222,
   "phase": "Retracement",
-  "phase_depuis_h": 0.99972222,
+  "phase_depuis_h": 1.26138889,
   "phases": [
    {
     "phase": "Retracement",
@@ -1273,7 +1295,7 @@
   "extreme_ts": 1794927600000,
   "move_pct": -24.27712568,
   "phase": "Impulsion",
-  "phase_depuis_h": 2.99972222,
+  "phase_depuis_h": 3.26138889,
   "phases": [
    {
     "phase": "Impulsion",
@@ -1343,7 +1365,7 @@
   "extreme_ts": 1794927600000,
   "move_pct": -21.65605096,
   "phase": "Impulsion",
-  "phase_depuis_h": 2.99972222,
+  "phase_depuis_h": 3.26138889,
   "phases": [
    {
     "phase": "Pause",
@@ -1369,7 +1391,7 @@
   "extreme_ts": 1794762000000,
   "move_pct": -20.34493772,
   "phase": "Retracement",
-  "phase_depuis_h": 0.99972222,
+  "phase_depuis_h": 1.26138889,
   "phases": [
    {
     "phase": "Pause",
@@ -1419,7 +1441,7 @@
   "extreme_ts": 1794877200000,
   "move_pct": -16.44235877,
   "phase": "Retracement",
-  "phase_depuis_h": 1.99861111,
+  "phase_depuis_h": 2.26027778,
   "phases": [
    {
     "phase": "Impulsion",
@@ -1477,7 +1499,7 @@
   "extreme_ts": 1794927600000,
   "move_pct": -28.24730573,
   "phase": "Retracement",
-  "phase_depuis_h": 0.99972222,
+  "phase_depuis_h": 1.26138889,
   "phases": [
    {
     "phase": "Impulsion",
@@ -1523,7 +1545,7 @@
   "extreme_ts": 1794805200000,
   "move_pct": -60.76487252,
   "phase": "Essoufflement",
-  "phase_depuis_h": 32.99805556,
+  "phase_depuis_h": 33.25972222,
   "phases": [
    {
     "phase": "Retracement",
@@ -1557,7 +1579,7 @@
   "extreme_ts": 1794927600000,
   "move_pct": -23.32043616,
   "phase": "Retracement",
-  "phase_depuis_h": 0.99972222,
+  "phase_depuis_h": 1.26138889,
   "phases": [
    {
     "phase": "Essoufflement",
@@ -1603,7 +1625,7 @@
   "extreme_ts": 1794927600000,
   "move_pct": 25.75286164,
   "phase": "Retracement",
-  "phase_depuis_h": 4.00138889,
+  "phase_depuis_h": 4.26305556,
   "phases": [
    {
     "phase": "Impulsion",
@@ -1657,7 +1679,7 @@
   "extreme_ts": 1794916800000,
   "move_pct": -23.21515299,
   "phase": "Pause",
-  "phase_depuis_h": 0.0,
+  "phase_depuis_h": 0.26166667,
   "phases": [
    {
     "phase": "Pause",
@@ -1679,7 +1701,7 @@
   "extreme_ts": 1794938400000,
   "move_pct": 17.11229947,
   "phase": "Retracement",
-  "phase_depuis_h": 0.0,
+  "phase_depuis_h": 0.26166667,
   "phases": [
    {
     "phase": "Retracement",
@@ -1763,7 +1785,7 @@
   "extreme_ts": 1794690000000,
   "move_pct": -20.66712517,
   "phase": "Zone de rebond",
-  "phase_depuis_h": 7.0,
+  "phase_depuis_h": 7.26166667,
   "phases": [
    {
     "phase": "Impulsion",
@@ -1805,7 +1827,7 @@
   "extreme_ts": 1794859200000,
   "move_pct": -19.00760304,
   "phase": "Zone de rebond",
-  "phase_depuis_h": 0.0,
+  "phase_depuis_h": 0.26166667,
   "phases": [
    {
     "phase": "Impulsion",
@@ -1859,7 +1881,7 @@
   "extreme_ts": 1794927600000,
   "move_pct": -30.76374019,
   "phase": "Impulsion",
-  "phase_depuis_h": 2.99972222,
+  "phase_depuis_h": 3.26138889,
   "phases": [
    {
     "phase": "Impulsion",
@@ -1913,7 +1935,7 @@
   "extreme_ts": 1794913200000,
   "move_pct": 25.04009164,
   "phase": "Retracement",
-  "phase_depuis_h": 1.99861111,
+  "phase_depuis_h": 2.26027778,
   "phases": [
    {
     "phase": "Impulsion",

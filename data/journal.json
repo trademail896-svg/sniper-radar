@@ -23271,6 +23271,13 @@
   "base": "QLD",
   "detail": "bas",
   "eval": {
+   "24": {
+    "avance": -3.12108471,
+    "mae": -6.40239927,
+    "marche": -1.36450663,
+    "mfe": -0.03911853,
+    "ret": -4.48559134
+   },
    "4": {
     "avance": -1.57988563,
     "mae": -2.32103273,
@@ -36335,5 +36342,40 @@
   "symbol": "CRML/USDT:USDT",
   "tradfi": true,
   "ts": 1794942444
+ },
+ {
+  "base": "HUMA",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.00729,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "HUMA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794943386
+ },
+ {
+  "base": "QLD",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 73.65,
+  "raisons": [
+   "MSO",
+   "divergence"
+  ],
+  "score": 2,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "QLD/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794943386
  }
 ]
