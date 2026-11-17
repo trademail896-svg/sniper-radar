@@ -14574,6 +14574,7 @@
   "base": "BERA",
   "detail": "Impulsion",
   "eval": {
+   "24": null,
    "4": {
     "avance": -1.85999624,
     "mae": -3.93518519,
@@ -31169,7 +31170,15 @@
  {
   "base": "LIT",
   "detail": "Pause",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 0.40723243,
+    "mae": -3.34346505,
+    "marche": -1.25154178,
+    "mfe": 0.54035799,
+    "ret": -0.84430935
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 2.961,
@@ -32104,5 +32113,477 @@
   "symbol": "USDBRL/USDT:USDT",
   "tradfi": true,
   "ts": 1794924447
+ },
+ {
+  "base": "MINIMAX",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 14.657,
+  "raisons": [
+   "MSO",
+   "météo"
+  ],
+  "score": 2,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "MINIMAX/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794928039
+ },
+ {
+  "base": "ARIA",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.19703,
+  "raisons": [
+   "divergence",
+   "météo"
+  ],
+  "score": 2,
+  "secteur": "Gaming",
+  "sens": "long",
+  "symbol": "ARIA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794928039
+ },
+ {
+  "base": "MINIMAXHKD",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 115.29,
+  "raisons": [
+   "MSO",
+   "météo"
+  ],
+  "score": 2,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "MINIMAXHKD/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794928039
+ },
+ {
+  "base": "BLESS",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.010463,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "BLESS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794928039
+ },
+ {
+  "base": "SKR",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.009926,
+  "raisons": [],
+  "score": 0,
+  "secteur": "L2",
+  "sens": "short",
+  "symbol": "SKR/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794928039
+ },
+ {
+  "base": "SHELL",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.02662,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "SHELL/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794928039
+ },
+ {
+  "base": "CROSS",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.15762,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "Non classé",
+  "sens": "long",
+  "symbol": "CROSS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794928039
+ },
+ {
+  "base": "NVDA",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 154.5,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence",
+   "météo",
+   "foule"
+  ],
+  "score": 5,
+  "secteur": "Actions US",
+  "sens": "long",
+  "symbol": "NVDA/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794928039
+ },
+ {
+  "base": "MU",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 701.35,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence",
+   "météo",
+   "foule"
+  ],
+  "score": 5,
+  "secteur": "Actions US",
+  "sens": "long",
+  "symbol": "MU/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794928039
+ },
+ {
+  "base": "SKHY",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 121.74,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence",
+   "météo"
+  ],
+  "score": 4,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "SKHY/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794928039
+ },
+ {
+  "base": "QQQ",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 660.93,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence",
+   "météo"
+  ],
+  "score": 4,
+  "secteur": "Indices",
+  "sens": "long",
+  "symbol": "QQQ/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794928039
+ },
+ {
+  "base": "TQQQ",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 52.59,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence",
+   "météo"
+  ],
+  "score": 4,
+  "secteur": "Indices",
+  "sens": "long",
+  "symbol": "TQQQ/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794928039
+ },
+ {
+  "base": "DRAM",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 38.61,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence",
+   "météo"
+  ],
+  "score": 4,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "DRAM/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794928039
+ },
+ {
+  "base": "GOOGL",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 283.07,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence",
+   "météo"
+  ],
+  "score": 4,
+  "secteur": "Actions US",
+  "sens": "long",
+  "symbol": "GOOGL/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794928039
+ },
+ {
+  "base": "SQQQ",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 46.35,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence",
+   "foule"
+  ],
+  "score": 4,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "SQQQ/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794928039
+ },
+ {
+  "base": "IREN",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 16.277,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence",
+   "météo"
+  ],
+  "score": 4,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "IREN/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794928039
+ },
+ {
+  "base": "SOXX",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 141.15,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence",
+   "météo"
+  ],
+  "score": 4,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "SOXX/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794928039
+ },
+ {
+  "base": "PLTR",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 159.66,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence",
+   "météo"
+  ],
+  "score": 4,
+  "secteur": "Actions US",
+  "sens": "long",
+  "symbol": "PLTR/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794928039
+ },
+ {
+  "base": "WDC",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 283.12,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence",
+   "météo"
+  ],
+  "score": 4,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "WDC/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794928039
+ },
+ {
+  "base": "DELL",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 317.96,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence",
+   "météo"
+  ],
+  "score": 4,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "DELL/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794928039
+ },
+ {
+  "base": "TSLA",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 382.15,
+  "raisons": [
+   "setup",
+   "divergence",
+   "météo"
+  ],
+  "score": 3,
+  "secteur": "Actions US",
+  "sens": "long",
+  "symbol": "TSLA/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794928039
+ },
+ {
+  "base": "AMZN",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 258.98,
+  "raisons": [
+   "setup",
+   "divergence",
+   "météo"
+  ],
+  "score": 3,
+  "secteur": "Actions US",
+  "sens": "long",
+  "symbol": "AMZN/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794928039
+ },
+ {
+  "base": "QCOM",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 166.4,
+  "raisons": [
+   "setup",
+   "divergence",
+   "météo"
+  ],
+  "score": 3,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "QCOM/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794928039
+ },
+ {
+  "base": "AMD",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 502.9,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "Actions US",
+  "sens": "long",
+  "symbol": "AMD/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794928039
+ },
+ {
+  "base": "MON",
+  "detail": "bas",
+  "eval": {},
+  "liste": "demo_bb_probable",
+  "penalite": false,
+  "prix": 0.01523,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence",
+   "météo"
+  ],
+  "score": 4,
+  "secteur": "Gaming",
+  "sens": "long",
+  "symbol": "MON/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794928039
  }
 ]
