@@ -9,7 +9,14 @@
     "moy": -0.2805202,
     "n": 330
    },
-   "demo": null,
+   "demo": {
+    "avance": -0.31789271,
+    "gagnants": 18.46153846,
+    "mae": -3.61583274,
+    "mfe": 0.9621052,
+    "moy": -1.29269774,
+    "n": 65
+   },
    "demo_haut": null,
    "haut": {
     "avance": 0.95568011,
@@ -319,13 +326,13 @@
   }
  },
  "jours": 14,
- "maj": 1794881308,
+ "maj": 1794884844,
  "nb_signaux": 833,
  "rates": [
   {
    "base": "CRML",
    "mso4h": 0.0,
-   "pct24": -13.298,
+   "pct24": -13.636,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "CRML/USDT:USDT"
@@ -333,7 +340,7 @@
   {
    "base": "UVXY",
    "mso4h": 68.11176045,
-   "pct24": 11.866,
+   "pct24": 11.667,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "UVXY/USDT:USDT"
@@ -341,26 +348,26 @@
   {
    "base": "USAR",
    "mso4h": 0.0,
-   "pct24": -11.262,
+   "pct24": -10.794,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "USAR/USDT:USDT"
   },
   {
-   "base": "RAM",
-   "mso4h": 0.44124124,
-   "pct24": -9.057,
+   "base": "KIOXIA",
+   "mso4h": 0.0,
+   "pct24": -7.724,
    "secteur": "Actions",
    "sens": "short",
-   "symbol": "RAM/USDT:USDT"
+   "symbol": "KIOXIA/USDT:USDT"
   },
   {
-   "base": "KORU",
-   "mso4h": 2.61651189,
-   "pct24": -8.38,
-   "secteur": "Actions",
+   "base": "PI",
+   "mso4h": 0.56774153,
+   "pct24": -7.628,
+   "secteur": "L1",
    "sens": "short",
-   "symbol": "KORU/USDT:USDT"
+   "symbol": "PI/USDT:USDT"
   }
  ]
 }
