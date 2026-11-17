@@ -1,26 +1,4 @@
 {
- "ASTER/USDT:USDT": {
-  "base": "ASTER",
-  "capture_pct": -18.82671995,
-  "capture_ts": 1794863247,
-  "depart": 0.6251,
-  "depart_ts": 1794772800000,
-  "extreme": 0.4816,
-  "extreme_ts": 1794776400000,
-  "move_pct": -22.95632699,
-  "phase": "Zone de rebond",
-  "phase_depuis_h": 9.99833333,
-  "phases": [
-   {
-    "phase": "Zone de rebond",
-    "ts": 1794863247
-   }
-  ],
-  "prix": 0.5812,
-  "retr": 0.69407666,
-  "sens": "dump",
-  "symbol": "ASTER/USDT:USDT"
- },
  "ICP/USDT:USDT": {
   "base": "ICP",
   "capture_pct": 16.49769585,
@@ -31,7 +9,7 @@
   "extreme_ts": 1794866400000,
   "move_pct": 17.74712644,
   "phase": "Retracement",
-  "phase_depuis_h": 1.99972222,
+  "phase_depuis_h": 3.00166667,
   "phases": [
    {
     "phase": "Impulsion",
@@ -50,8 +28,8 @@
     "ts": 1794892042
    }
   ],
-  "prix": 2.456,
-  "retr": 0.27202073,
+  "prix": 2.439,
+  "retr": 0.31606218,
   "sens": "pump",
   "symbol": "ICP/USDT:USDT"
  }
