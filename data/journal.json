@@ -19301,6 +19301,13 @@
   "base": "BIRB",
   "detail": "Pause",
   "eval": {
+   "24": {
+    "avance": 2.00936144,
+    "mae": -3.27355537,
+    "marche": 1.03646833,
+    "mfe": 6.17705665,
+    "ret": 3.04582978
+   },
    "4": {
     "avance": -0.34463203,
     "mae": -3.27355537,
@@ -26692,7 +26699,15 @@
  {
   "base": "SKR",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -2.25543863,
+    "mae": -2.87165665,
+    "marche": -0.19117136,
+    "mfe": 1.21293801,
+    "ret": -2.44660999
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.009646,
@@ -28468,5 +28483,130 @@
   "symbol": "ICP/USDT:USDT",
   "tradfi": false,
   "ts": 1794895644
+ },
+ {
+  "base": "PUMP",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.002788,
+  "raisons": [
+   "MSO",
+   "divergence",
+   "météo"
+  ],
+  "score": 3,
+  "secteur": "Memes",
+  "sens": "long",
+  "symbol": "PUMP/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794899241
+ },
+ {
+  "base": "SKR",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.009704,
+  "raisons": [
+   "météo",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "L2",
+  "sens": "long",
+  "symbol": "SKR/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794899241
+ },
+ {
+  "base": "AXIS",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.10408,
+  "raisons": [
+   "météo",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "IA",
+  "sens": "long",
+  "symbol": "AXIS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794899241
+ },
+ {
+  "base": "USELESS",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.09495,
+  "raisons": [
+   "MSO",
+   "météo"
+  ],
+  "score": 2,
+  "secteur": "Memes",
+  "sens": "long",
+  "symbol": "USELESS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794899241
+ },
+ {
+  "base": "ARIA",
+  "detail": "Zone de rebond",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.22369,
+  "raisons": [
+   "setup"
+  ],
+  "score": 1,
+  "secteur": "Gaming",
+  "sens": "short",
+  "symbol": "ARIA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794899241
+ },
+ {
+  "base": "EVAA",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 3.905,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "DeFi",
+  "sens": "long",
+  "symbol": "EVAA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794899241
+ },
+ {
+  "base": "CRML",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 4.212,
+  "raisons": [
+   "MSO",
+   "météo"
+  ],
+  "score": 2,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "CRML/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794899241
  }
 ]
