@@ -24404,7 +24404,15 @@
  {
   "base": "SOXL",
   "detail": "Essoufflement",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 3.76874503,
+    "mae": -2.69262635,
+    "marche": -0.28904329,
+    "mfe": 5.05385253,
+    "ret": 3.47970174
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 48.28,
@@ -24422,7 +24430,15 @@
  {
   "base": "BLESS",
   "detail": "Essoufflement",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 2.47998701,
+    "mae": -5.31545227,
+    "marche": 0.28904329,
+    "mfe": 4.16983386,
+    "ret": 2.7690303
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.018418,
@@ -24440,7 +24456,15 @@
  {
   "base": "BIRB",
   "detail": "Retracement",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -2.74871166,
+    "mae": -4.12266744,
+    "marche": -0.28904329,
+    "mfe": -0.1591205,
+    "ret": -3.03775495
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.06913,
@@ -24457,7 +24481,15 @@
  {
   "base": "INTW",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -3.03077623,
+    "mae": -3.72540812,
+    "marche": 0.28904329,
+    "mfe": 3.34868146,
+    "ret": -2.74173294
+   }
+  },
   "liste": "carnet",
   "penalite": true,
   "prix": 4.778,
@@ -24474,7 +24506,15 @@
  {
   "base": "INIT",
   "detail": "Retracement",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -0.62860187,
+    "mae": -1.29831219,
+    "marche": 0.28904329,
+    "mfe": 0.92879257,
+    "ret": -0.33955857
+   }
+  },
   "liste": "carnet",
   "penalite": true,
   "prix": 0.10013,
@@ -24489,7 +24529,15 @@
  {
   "base": "ZIL",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 1.60769011,
+    "mae": 0.31612223,
+    "marche": 0.28904329,
+    "mfe": 3.58271865,
+    "ret": 1.8967334
+   }
+  },
   "liste": "carnet",
   "penalite": true,
   "prix": 0.000949,
@@ -24504,7 +24552,15 @@
  {
   "base": "ZRO",
   "detail": "bas",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 3.31893087,
+    "mae": -0.78831917,
+    "marche": -0.28904329,
+    "mfe": 3.02988758,
+    "ret": 3.02988758
+   }
+  },
   "liste": "bb_sans",
   "penalite": false,
   "prix": 1.4588,
@@ -24521,7 +24577,15 @@
  {
   "base": "SAMSUNGEM",
   "detail": "bas",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 0.09873187,
+    "mae": -2.64705882,
+    "marche": -0.28904329,
+    "mfe": 1.66089965,
+    "ret": -0.19031142
+   }
+  },
   "liste": "bb_marche",
   "penalite": true,
   "prix": 578.0,
@@ -25294,5 +25358,20 @@
   "symbol": "BWET/USDT:USDT",
   "tradfi": true,
   "ts": 1794880961
+ },
+ {
+  "base": "SKR",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.009646,
+  "raisons": [],
+  "score": 0,
+  "secteur": "L2",
+  "sens": "short",
+  "symbol": "SKR/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794881308
  }
 ]
