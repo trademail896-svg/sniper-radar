@@ -20315,6 +20315,13 @@
   "base": "SOPH",
   "detail": "Essoufflement",
   "eval": {
+   "24": {
+    "avance": 9.97389435,
+    "mae": 1.91441441,
+    "marche": -0.85227273,
+    "mfe": 22.18468468,
+    "ret": 9.12162162
+   },
    "4": {
     "avance": 6.28578138,
     "mae": 1.91441441,
@@ -20341,6 +20348,13 @@
   "base": "INIT",
   "detail": "Essoufflement",
   "eval": {
+   "24": {
+    "avance": -6.02916269,
+    "mae": -8.06402284,
+    "marche": -0.85227273,
+    "mfe": 6.56539912,
+    "ret": -6.88143542
+   },
    "4": {
     "avance": 0.66440406,
     "mae": -2.38556428,
@@ -20367,6 +20381,13 @@
   "base": "AKE",
   "detail": "Zone de rebond",
   "eval": {
+   "24": {
+    "avance": 2.92616591,
+    "mae": -13.78099287,
+    "marche": 0.85227273,
+    "mfe": 15.50692379,
+    "ret": 3.77843863
+   },
    "4": {
     "avance": 0.34820295,
     "mae": -13.78099287,
@@ -20439,6 +20460,13 @@
   "base": "BLESS",
   "detail": "Retracement",
   "eval": {
+   "24": {
+    "avance": -2.99148561,
+    "mae": -12.55449773,
+    "marche": -0.85227273,
+    "mfe": 75.51383575,
+    "ret": -3.84375834
+   },
    "4": {
     "avance": 32.58581128,
     "mae": -0.26692766,
@@ -30485,5 +30513,40 @@
   "symbol": "M/USDT:USDT",
   "tradfi": false,
   "ts": 1794910044
+ },
+ {
+  "base": "LIT",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 2.961,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "LIT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794911765
+ },
+ {
+  "base": "SP500",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 7428.9,
+  "raisons": [
+   "MSO",
+   "divergence"
+  ],
+  "score": 2,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "SP500/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794911765
  }
 ]
