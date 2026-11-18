@@ -28489,6 +28489,13 @@
   "base": "HUMA",
   "detail": "Pause",
   "eval": {
+   "24": {
+    "avance": 20.04333694,
+    "mae": -3.35861322,
+    "marche": 0.0,
+    "mfe": 21.23510293,
+    "ret": 20.04333694
+   },
    "4": {
     "avance": -0.24988321,
     "mae": -1.19176598,
@@ -28514,6 +28521,13 @@
   "base": "SHELL",
   "detail": "Retracement",
   "eval": {
+   "24": {
+    "avance": 0.18608113,
+    "mae": -9.22962412,
+    "marche": 0.0,
+    "mfe": 4.01935244,
+    "ret": 0.18608113
+   },
    "4": {
     "avance": -5.88275864,
     "mae": -6.06624488,
@@ -28537,6 +28551,13 @@
   "base": "MINIMAX",
   "detail": "Impulsion",
   "eval": {
+   "24": {
+    "avance": 0.07196127,
+    "mae": -3.60460552,
+    "marche": 0.0,
+    "mfe": 6.60735313,
+    "ret": 0.07196127
+   },
    "4": {
     "avance": 1.11244084,
     "mae": -3.60460552,
@@ -28560,6 +28581,13 @@
   "base": "MINIMAXHKD",
   "detail": "Impulsion",
   "eval": {
+   "24": {
+    "avance": 0.05858231,
+    "mae": -3.86643234,
+    "marche": 0.0,
+    "mfe": 6.06745334,
+    "ret": 0.05858231
+   },
    "4": {
     "avance": 0.84462943,
     "mae": -3.86643234,
@@ -40159,7 +40187,15 @@
  {
   "base": "BTW",
   "detail": "Zone de rebond",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 10.87807156,
+    "mae": 0.06709801,
+    "marche": -0.096859,
+    "mfe": 19.32901989,
+    "ret": 10.78121256
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.4173,
@@ -40177,7 +40213,15 @@
  {
   "base": "CROSS",
   "detail": "Essoufflement",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 8.96767137,
+    "mae": -2.13208856,
+    "marche": 0.096859,
+    "mfe": 10.01703148,
+    "ret": 9.06453037
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.15853,
@@ -40195,7 +40239,15 @@
  {
   "base": "USDESTOCK",
   "detail": "Zone de rebond",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -1.1567768,
+    "mae": -4.08825438,
+    "marche": 0.096859,
+    "mfe": -0.62729829,
+    "ret": -1.0599178
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 4.623,
@@ -40213,7 +40265,15 @@
  {
   "base": "PROS",
   "detail": "Pause",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 0.17535566,
+    "mae": -7.68034221,
+    "marche": 0.096859,
+    "mfe": 2.48881976,
+    "ret": 0.27221466
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.5143,
@@ -40230,7 +40290,15 @@
  {
   "base": "RARE",
   "detail": "Pause",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 0.42074564,
+    "mae": -1.78137652,
+    "marche": -0.096859,
+    "mfe": 1.37651822,
+    "ret": 0.32388664
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.01235,
@@ -40247,7 +40315,15 @@
  {
   "base": "ICNT",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 0.096859,
+    "mae": -2.85609667,
+    "marche": -0.096859,
+    "mfe": 1.6843647,
+    "ret": 0.0
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.2731,
@@ -40262,7 +40338,15 @@
  {
   "base": "INIT",
   "detail": "Zone de rebond",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 1.77524663,
+    "mae": -0.16750419,
+    "marche": 0.096859,
+    "mfe": 2.84757119,
+    "ret": 1.87210563
+   }
+  },
   "liste": "carnet",
   "penalite": true,
   "prix": 0.10149,
@@ -40279,7 +40363,15 @@
  {
   "base": "ANT",
   "detail": "bas",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 0.65511394,
+    "mae": 0.2274372,
+    "marche": -0.096859,
+    "mfe": 2.20200558,
+    "ret": 0.55825494
+   }
+  },
   "liste": "bb_marche",
   "penalite": true,
   "prix": 96.73,
@@ -40296,7 +40388,15 @@
  {
   "base": "M",
   "detail": "Retracement",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -1.13496877,
+    "mae": -2.19731439,
+    "marche": -0.096859,
+    "mfe": -0.24414604,
+    "ret": -1.23182777
+   }
+  },
   "liste": "demo_carnet",
   "penalite": false,
   "prix": 0.9011,
@@ -42538,5 +42638,55 @@
   "symbol": "SHAZ/USDT:USDT",
   "tradfi": true,
   "ts": 1794966672
+ },
+ {
+  "base": "BREV",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.10535,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "Non classé",
+  "sens": "long",
+  "symbol": "BREV/USDT:USDT",
+  "tradfi": false,
+  "ts": 1794967650
+ },
+ {
+  "base": "USDBRL",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 5.7668,
+  "raisons": [
+   "MSO",
+   "divergence"
+  ],
+  "score": 2,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "USDBRL/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794967650
+ },
+ {
+  "base": "SPCH",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 8.133,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "SPCH/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794967650
  }
 ]
