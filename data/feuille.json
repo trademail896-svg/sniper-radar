@@ -2,12 +2,12 @@
  "horizons": {
   "24": {
    "bas": {
-    "avance": -0.84128861,
-    "gagnants": 50.1312336,
-    "mae": -6.27450911,
-    "mfe": 5.94477087,
-    "moy": -0.72332887,
-    "n": 762
+    "avance": -0.86873958,
+    "gagnants": 50.0,
+    "mae": -6.29169548,
+    "mfe": 5.9362465,
+    "moy": -0.7500504,
+    "n": 764
    },
    "demo": {
     "avance": -0.21890563,
@@ -35,12 +35,12 @@
    },
    "par_liste": {
     "bb_marche": {
-     "avance": -1.0676834,
-     "gagnants": 54.54545455,
-     "mae": -6.15746329,
-     "mfe": 5.86443135,
-     "moy": -0.74520139,
-     "n": 319
+     "avance": -1.08915575,
+     "gagnants": 54.375,
+     "mae": -6.16991249,
+     "mfe": 5.85666876,
+     "moy": -0.76466874,
+     "n": 320
     },
     "bb_probable": {
      "avance": 0.74591991,
@@ -51,12 +51,12 @@
      "n": 39
     },
     "bb_sans": {
-     "avance": -0.9334612,
-     "gagnants": 45.37815126,
-     "mae": -5.37549343,
-     "mfe": 4.07038643,
-     "moy": -1.17190087,
-     "n": 476
+     "avance": -0.96235602,
+     "gagnants": 45.28301887,
+     "mae": -5.39679888,
+     "mfe": 4.06603872,
+     "moy": -1.20065402,
+     "n": 477
     },
     "carnet": {
      "avance": 0.23844262,
@@ -111,12 +111,12 @@
    },
    "par_score": {
     "0": {
-     "avance": -2.29581661,
-     "gagnants": 41.0,
-     "mae": -8.51517744,
-     "mfe": 5.46465926,
-     "moy": -2.4448776,
-     "n": 100
+     "avance": -2.41879156,
+     "gagnants": 40.59405941,
+     "mae": -8.58471226,
+     "mfe": 5.43032132,
+     "moy": -2.56806844,
+     "n": 101
     },
     "1": {
      "avance": -0.28969401,
@@ -160,12 +160,12 @@
     }
    },
    "penalite": {
-    "avance": -0.85016039,
-    "gagnants": 53.06122449,
-    "mae": -6.77287572,
-    "mfe": 6.67921946,
-    "moy": -0.56882556,
-    "n": 392
+    "avance": -0.86819773,
+    "gagnants": 52.92620865,
+    "mae": -6.78144654,
+    "mfe": 6.67082553,
+    "moy": -0.58512564,
+    "n": 393
    }
   },
   "4": {
@@ -492,48 +492,48 @@
   }
  },
  "jours": 14,
- "maj": 1795026142,
- "nb_signaux": 1693,
+ "maj": 1795028841,
+ "nb_signaux": 1701,
  "rates": [
   {
    "base": "MOCA",
    "mso4h": 29.09140543,
-   "pct24": 12.171,
+   "pct24": 12.341,
    "secteur": "Gaming",
    "sens": "long",
    "symbol": "MOCA/USDT:USDT"
   },
   {
-   "base": "CT",
-   "mso4h": 100.0,
-   "pct24": 7.016,
-   "secteur": "DeFi",
-   "sens": "long",
-   "symbol": "CT/USDT:USDT"
-  },
-  {
    "base": "CONL",
    "mso4h": 0.0,
-   "pct24": -6.962,
+   "pct24": -7.523,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "CONL/USDT:USDT"
   },
   {
-   "base": "ZRO",
+   "base": "ASTS",
    "mso4h": 0.0,
-   "pct24": -6.956,
-   "secteur": "Non classé",
+   "pct24": -7.035,
+   "secteur": "Actions",
    "sens": "short",
-   "symbol": "ZRO/USDT:USDT"
+   "symbol": "ASTS/USDT:USDT"
   },
   {
-   "base": "MEGA",
+   "base": "MSTR",
+   "mso4h": 0.0,
+   "pct24": -5.689,
+   "secteur": "Actions US",
+   "sens": "short",
+   "symbol": "MSTR/USDT:USDT"
+  },
+  {
+   "base": "CT",
    "mso4h": 100.0,
-   "pct24": 6.761,
-   "secteur": "L2",
+   "pct24": 5.666,
+   "secteur": "DeFi",
    "sens": "long",
-   "symbol": "MEGA/USDT:USDT"
+   "symbol": "CT/USDT:USDT"
   }
  ]
 }
