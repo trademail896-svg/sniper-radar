@@ -89,7 +89,7 @@
      "gagnants": 66.66666667,
      "mae": -11.54053435,
      "mfe": 12.15857205,
-     "moy": -2.29705878,
+     "moy": -2.29705879,
      "n": 18
     },
     "Retracement": {
@@ -178,12 +178,12 @@
     "n": 1129
    },
    "demo": {
-    "avance": -0.37363026,
-    "gagnants": 37.43315508,
-    "mae": -1.28432233,
-    "mfe": 0.83110922,
-    "moy": -0.32994992,
-    "n": 187
+    "avance": -0.37040647,
+    "gagnants": 37.76595745,
+    "mae": -1.27982549,
+    "mfe": 0.84166921,
+    "moy": -0.31691065,
+    "n": 188
    },
    "demo_haut": {
     "avance": 0.64018207,
@@ -392,7 +392,7 @@
      "avance": 0.03258384,
      "gagnants": 54.54545455,
      "mae": -16.54931367,
-     "mfe": 19.94811027,
+     "mfe": 19.94811028,
      "moy": 0.23853329,
      "n": 44
     }
@@ -492,13 +492,13 @@
   }
  },
  "jours": 14,
- "maj": 1795025246,
- "nb_signaux": 1689,
+ "maj": 1795026142,
+ "nb_signaux": 1693,
  "rates": [
   {
    "base": "MOCA",
    "mso4h": 29.09140543,
-   "pct24": 10.727,
+   "pct24": 12.171,
    "secteur": "Gaming",
    "sens": "long",
    "symbol": "MOCA/USDT:USDT"
@@ -506,7 +506,7 @@
   {
    "base": "CT",
    "mso4h": 100.0,
-   "pct24": 7.133,
+   "pct24": 7.016,
    "secteur": "DeFi",
    "sens": "long",
    "symbol": "CT/USDT:USDT"
@@ -514,7 +514,7 @@
   {
    "base": "CONL",
    "mso4h": 0.0,
-   "pct24": -6.965,
+   "pct24": -6.962,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "CONL/USDT:USDT"
@@ -522,18 +522,18 @@
   {
    "base": "ZRO",
    "mso4h": 0.0,
-   "pct24": -6.631,
+   "pct24": -6.956,
    "secteur": "Non classé",
    "sens": "short",
    "symbol": "ZRO/USDT:USDT"
   },
   {
-   "base": "ASTS",
-   "mso4h": 0.0,
-   "pct24": -6.578,
-   "secteur": "Actions",
-   "sens": "short",
-   "symbol": "ASTS/USDT:USDT"
+   "base": "MEGA",
+   "mso4h": 100.0,
+   "pct24": 6.761,
+   "secteur": "L2",
+   "sens": "long",
+   "symbol": "MEGA/USDT:USDT"
   }
  ]
 }

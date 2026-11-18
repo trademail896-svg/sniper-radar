@@ -55918,7 +55918,15 @@
  {
   "base": "KAS",
   "detail": "haut",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 0.23244269,
+    "mae": -0.43891734,
+    "marche": 1.88899111,
+    "mfe": 2.81638625,
+    "ret": 2.1214338
+   }
+  },
   "liste": "demo_bb_sans",
   "penalite": true,
   "prix": 0.02734,
@@ -58664,5 +58672,82 @@
   "symbol": "XPL/USDT:USDT",
   "tradfi": false,
   "ts": 1795025246
+ },
+ {
+  "base": "RARE",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.01165,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "RARE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795026142
+ },
+ {
+  "base": "PIEVERSE",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 3.31156,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "long",
+  "symbol": "PIEVERSE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795026142
+ },
+ {
+  "base": "TAO",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 192.72,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "TAO/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795026142
+ },
+ {
+  "base": "PROS",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 0.6354,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "RWA",
+  "sens": "short",
+  "symbol": "PROS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795026142
+ },
+ {
+  "base": "TAO",
+  "detail": "haut",
+  "eval": {},
+  "liste": "demo_bb_sans",
+  "penalite": false,
+  "prix": 192.38,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "TAO/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795026142
  }
 ]
