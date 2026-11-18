@@ -8,8 +8,8 @@
   "extreme": 0.952,
   "extreme_ts": 1794909600000,
   "move_pct": 16.58094538,
-  "phase": "Zone de rebond",
-  "phase_depuis_h": 0.285,
+  "phase": "Retracement",
+  "phase_depuis_h": 0.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -26,10 +26,14 @@
    {
     "phase": "Zone de rebond",
     "ts": 1794992842
+   },
+   {
+    "phase": "Retracement",
+    "ts": 1794996444
    }
   ],
-  "prix": 0.8824,
-  "retr": 0.5140325,
+  "prix": 0.8853,
+  "retr": 0.49261448,
   "sens": "pump",
   "symbol": "M/USDT:USDT"
  }
