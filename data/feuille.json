@@ -492,48 +492,48 @@
   }
  },
  "jours": 14,
- "maj": 1795000057,
- "nb_signaux": 1509,
+ "maj": 1795003642,
+ "nb_signaux": 1519,
  "rates": [
   {
    "base": "AAOI",
-   "mso4h": 0.0,
-   "pct24": -12.069,
+   "mso4h": 0.92356666,
+   "pct24": -17.533,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "AAOI/USDT:USDT"
   },
   {
    "base": "ZIL",
-   "mso4h": 19.59191084,
-   "pct24": 9.724,
+   "mso4h": 19.1628909,
+   "pct24": 11.087,
    "secteur": "Non classé",
    "sens": "long",
    "symbol": "ZIL/USDT:USDT"
   },
   {
+   "base": "UVXY",
+   "mso4h": 76.26040942,
+   "pct24": 8.836,
+   "secteur": "Actions",
+   "sens": "long",
+   "symbol": "UVXY/USDT:USDT"
+  },
+  {
+   "base": "CRML",
+   "mso4h": 0.84552623,
+   "pct24": -8.55,
+   "secteur": "Actions",
+   "sens": "short",
+   "symbol": "CRML/USDT:USDT"
+  },
+  {
    "base": "ZRO",
    "mso4h": 0.0,
-   "pct24": -9.107,
+   "pct24": -8.379,
    "secteur": "Non classé",
    "sens": "short",
    "symbol": "ZRO/USDT:USDT"
-  },
-  {
-   "base": "TRUST",
-   "mso4h": 33.26831666,
-   "pct24": 8.435,
-   "secteur": "Non classé",
-   "sens": "long",
-   "symbol": "TRUST/USDT:USDT"
-  },
-  {
-   "base": "SSPC",
-   "mso4h": 28.53937371,
-   "pct24": -6.962,
-   "secteur": "Actions",
-   "sens": "short",
-   "symbol": "SSPC/USDT:USDT"
   }
  ]
 }
