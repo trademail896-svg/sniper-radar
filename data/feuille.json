@@ -212,12 +212,12 @@
      "n": 49
     },
     "bb_sans": {
-     "avance": -0.42600309,
-     "gagnants": 43.72759857,
-     "mae": -1.887107,
-     "mfe": 1.29651439,
-     "moy": -0.27361027,
-     "n": 558
+     "avance": -0.42999998,
+     "gagnants": 43.64937388,
+     "mae": -1.896318,
+     "mfe": 1.2955324,
+     "moy": -0.28263963,
+     "n": 559
     },
     "carnet": {
      "avance": -0.02986953,
@@ -296,12 +296,12 @@
      "n": 315
     },
     "2": {
-     "avance": 0.01888625,
-     "gagnants": 40.65420561,
-     "mae": -2.559124,
-     "mfe": 2.26096904,
-     "moy": 0.02468166,
-     "n": 214
+     "avance": 0.00642507,
+     "gagnants": 40.46511628,
+     "mae": -2.57994696,
+     "mfe": 2.25393003,
+     "moy": -0.00018207,
+     "n": 215
     },
     "3": {
      "avance": 0.88509583,
@@ -349,13 +349,29 @@
   }
  },
  "jours": 14,
- "maj": 1794964045,
- "nb_signaux": 1345,
+ "maj": 1794966672,
+ "nb_signaux": 1351,
  "rates": [
+  {
+   "base": "UVXY",
+   "mso4h": 89.56763578,
+   "pct24": 10.473,
+   "secteur": "Actions",
+   "sens": "long",
+   "symbol": "UVXY/USDT:USDT"
+  },
+  {
+   "base": "AAOI",
+   "mso4h": 0.0,
+   "pct24": -10.018,
+   "secteur": "Actions",
+   "sens": "short",
+   "symbol": "AAOI/USDT:USDT"
+  },
   {
    "base": "LUNC",
    "mso4h": 100.0,
-   "pct24": 10.693,
+   "pct24": 9.89,
    "secteur": "DeFi",
    "sens": "long",
    "symbol": "LUNC/USDT:USDT"
@@ -363,34 +379,18 @@
   {
    "base": "UNITREE",
    "mso4h": 22.30344086,
-   "pct24": -9.576,
+   "pct24": -8.888,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "UNITREE/USDT:USDT"
   },
   {
-   "base": "AAOI",
-   "mso4h": 0.0,
-   "pct24": -8.075,
+   "base": "JD",
+   "mso4h": 4.61445052,
+   "pct24": -8.321,
    "secteur": "Actions",
    "sens": "short",
-   "symbol": "AAOI/USDT:USDT"
-  },
-  {
-   "base": "CRML",
-   "mso4h": 0.59738266,
-   "pct24": -8.048,
-   "secteur": "Actions",
-   "sens": "short",
-   "symbol": "CRML/USDT:USDT"
-  },
-  {
-   "base": "NEAR",
-   "mso4h": 17.31012504,
-   "pct24": 8.005,
-   "secteur": "IA",
-   "sens": "long",
-   "symbol": "NEAR/USDT:USDT"
+   "symbol": "JD/USDT:USDT"
   }
  ]
 }

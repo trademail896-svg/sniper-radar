@@ -21289,6 +21289,7 @@
   "base": "BWET",
   "detail": "haut",
   "eval": {
+   "24": null,
    "4": {
     "avance": 3.15447546,
     "mae": 0.42463498,
@@ -38730,7 +38731,15 @@
  {
   "base": "SHAZ",
   "detail": "haut",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -2.66026635,
+    "mae": -7.03605981,
+    "marche": -2.66075388,
+    "mfe": 0.74758135,
+    "ret": -5.32102023
+   }
+  },
   "liste": "bb_sans",
   "penalite": false,
   "prix": 22.74,
@@ -42422,5 +42431,112 @@
   "symbol": "ASTS/USDT:USDT",
   "tradfi": true,
   "ts": 1794964045
+ },
+ {
+  "base": "SHAZ",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 23.16,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "SHAZ/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794966672
+ },
+ {
+  "base": "XPT",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 1426.8,
+  "raisons": [
+   "MSO",
+   "météo",
+   "foule"
+  ],
+  "score": 3,
+  "secteur": "Métaux",
+  "sens": "long",
+  "symbol": "XPT/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794966672
+ },
+ {
+  "base": "NATGAS",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 3.562,
+  "raisons": [
+   "divergence",
+   "météo"
+  ],
+  "score": 2,
+  "secteur": "Énergie",
+  "sens": "long",
+  "symbol": "NATGAS/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794966672
+ },
+ {
+  "base": "HANMI",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 122.99,
+  "raisons": [
+   "météo",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "HANMI/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794966672
+ },
+ {
+  "base": "JD",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 24.79,
+  "raisons": [
+   "MSO",
+   "météo"
+  ],
+  "score": 2,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "JD/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794966672
+ },
+ {
+  "base": "SHAZ",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 23.16,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "SHAZ/USDT:USDT",
+  "tradfi": true,
+  "ts": 1794966672
  }
 ]
