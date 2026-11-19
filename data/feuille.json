@@ -354,14 +354,21 @@
   },
   "72": {
    "bas": {
-    "avance": -0.86445514,
-    "gagnants": 47.28434505,
-    "mae": -9.75742629,
-    "mfe": 8.06888176,
-    "moy": -0.98131104,
-    "n": 313
+    "avance": -0.86236005,
+    "gagnants": 47.13375796,
+    "mae": -9.73532167,
+    "mfe": 8.04804034,
+    "moy": -0.9843388,
+    "n": 314
    },
-   "demo": null,
+   "demo": {
+    "avance": -0.18825681,
+    "gagnants": 25.0,
+    "mae": -5.24484053,
+    "mfe": 2.58357284,
+    "moy": -2.07354086,
+    "n": 68
+   },
    "demo_haut": null,
    "haut": {
     "avance": 1.20496596,
@@ -389,12 +396,12 @@
      "n": 4
     },
     "bb_sans": {
-     "avance": -0.65416461,
-     "gagnants": 36.31840796,
-     "mae": -7.72069134,
-     "mfe": 5.32531928,
-     "moy": -1.66339281,
-     "n": 201
+     "avance": -0.65194892,
+     "gagnants": 36.13861386,
+     "mae": -7.69641353,
+     "mfe": 5.30650421,
+     "moy": -1.6647227,
+     "n": 202
     },
     "carnet": {
      "avance": -0.76815133,
@@ -457,12 +464,12 @@
      "n": 32
     },
     "1": {
-     "avance": 0.4442142,
-     "gagnants": 41.17647059,
-     "mae": -6.96884764,
-     "mfe": 6.91498554,
-     "moy": -0.33576387,
-     "n": 153
+     "avance": 0.43998815,
+     "gagnants": 40.90909091,
+     "mae": -6.94188482,
+     "mfe": 6.87998352,
+     "moy": -0.34612923,
+     "n": 154
     },
     "2": {
      "avance": -3.86264305,
@@ -500,48 +507,48 @@
   }
  },
  "jours": 14,
- "maj": 1795054054,
- "nb_signaux": 1835,
+ "maj": 1795057644,
+ "nb_signaux": 1840,
  "rates": [
   {
-   "base": "SENT",
-   "mso4h": 84.59217645,
-   "pct24": 17.454,
+   "base": "DOS",
+   "mso4h": 35.92711677,
+   "pct24": 13.758,
    "secteur": "IA",
    "sens": "long",
-   "symbol": "SENT/USDT:USDT"
-  },
-  {
-   "base": "MEGA",
-   "mso4h": 100.0,
-   "pct24": 12.109,
-   "secteur": "L2",
-   "sens": "long",
-   "symbol": "MEGA/USDT:USDT"
-  },
-  {
-   "base": "RAVE",
-   "mso4h": 100.0,
-   "pct24": 11.639,
-   "secteur": "Non classé",
-   "sens": "long",
-   "symbol": "RAVE/USDT:USDT"
+   "symbol": "DOS/USDT:USDT"
   },
   {
    "base": "BLESS",
    "mso4h": 40.38131971,
-   "pct24": 10.935,
+   "pct24": 12.169,
    "secteur": "Non classé",
    "sens": "long",
    "symbol": "BLESS/USDT:USDT"
   },
   {
-   "base": "DOS",
-   "mso4h": 35.92711677,
-   "pct24": 10.667,
-   "secteur": "IA",
+   "base": "RAVE",
+   "mso4h": 100.0,
+   "pct24": 11.725,
+   "secteur": "Non classé",
    "sens": "long",
-   "symbol": "DOS/USDT:USDT"
+   "symbol": "RAVE/USDT:USDT"
+  },
+  {
+   "base": "MEGA",
+   "mso4h": 100.0,
+   "pct24": 10.578,
+   "secteur": "L2",
+   "sens": "long",
+   "symbol": "MEGA/USDT:USDT"
+  },
+  {
+   "base": "CONL",
+   "mso4h": 0.0,
+   "pct24": -9.197,
+   "secteur": "Actions",
+   "sens": "short",
+   "symbol": "CONL/USDT:USDT"
   }
  ]
 }
