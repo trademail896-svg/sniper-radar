@@ -64235,6 +64235,13 @@
   "base": "AXL",
   "detail": "haut",
   "eval": {
+   "24": {
+    "avance": 0.84534004,
+    "mae": -1.72622653,
+    "marche": -0.14879249,
+    "mfe": 2.08964264,
+    "ret": 0.69654755
+   },
    "4": {
     "avance": 0.57959715,
     "mae": -0.78740157,
@@ -78453,7 +78460,15 @@
  {
   "base": "AXL",
   "detail": "bas",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -0.00866231,
+    "mae": -2.88548242,
+    "marche": -2.66642035,
+    "mfe": 0.15028554,
+    "ret": -2.67508266
+   }
+  },
   "liste": "demo_bb_sans",
   "penalite": false,
   "prix": 0.03327,
@@ -81114,5 +81129,72 @@
   "symbol": "PENGU/USDT:USDT",
   "tradfi": false,
   "ts": 1795108059
+ },
+ {
+  "base": "UVXY",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 24.72,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "UVXY/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795108746
+ },
+ {
+  "base": "SP500",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 7241.9,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "SP500/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795108746
+ },
+ {
+  "base": "PDD",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 86.36,
+  "raisons": [
+   "MSO",
+   "divergence",
+   "météo",
+   "foule"
+  ],
+  "score": 4,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "PDD/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795108746
+ },
+ {
+  "base": "TAO",
+  "detail": "haut",
+  "eval": {},
+  "liste": "demo_bb_sans",
+  "penalite": false,
+  "prix": 192.0,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "TAO/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795108746
  }
 ]

@@ -10,12 +10,12 @@
     "n": 1086
    },
    "demo": {
-    "avance": -0.26066878,
-    "gagnants": 35.12195122,
-    "mae": -2.98615118,
-    "mfe": 2.40842361,
-    "moy": -0.51500775,
-    "n": 205
+    "avance": -0.25529981,
+    "gagnants": 35.4368932,
+    "mae": -2.98003504,
+    "mfe": 2.40687613,
+    "moy": -0.50912641,
+    "n": 206
    },
    "demo_haut": {
     "avance": 1.28881545,
@@ -123,7 +123,7 @@
      "gagnants": 48.02631579,
      "mae": -7.45788577,
      "mfe": 5.71964343,
-     "moy": -1.26201244,
+     "moy": -1.26201245,
      "n": 152
     },
     "1": {
@@ -186,12 +186,12 @@
     "n": 1458
    },
    "demo": {
-    "avance": -0.26579736,
-    "gagnants": 45.87155963,
-    "mae": -1.30504961,
-    "mfe": 0.88929493,
-    "moy": -0.22729825,
-    "n": 327
+    "avance": -0.26501341,
+    "gagnants": 45.73170732,
+    "mae": -1.309868,
+    "mfe": 0.88704185,
+    "moy": -0.234761,
+    "n": 328
    },
    "demo_haut": {
     "avance": 0.22567193,
@@ -507,29 +507,29 @@
   }
  },
  "jours": 14,
- "maj": 1795108059,
- "nb_signaux": 2164,
+ "maj": 1795108746,
+ "nb_signaux": 2167,
  "rates": [
-  {
-   "base": "UVXY",
-   "mso4h": 80.18330242,
-   "pct24": 14.479,
-   "secteur": "Actions",
-   "sens": "long",
-   "symbol": "UVXY/USDT:USDT"
-  },
   {
    "base": "RAVE",
    "mso4h": 100.0,
-   "pct24": 12.985,
+   "pct24": 13.478,
    "secteur": "Non classé",
    "sens": "long",
    "symbol": "RAVE/USDT:USDT"
   },
   {
+   "base": "PDD",
+   "mso4h": 97.52936412,
+   "pct24": 10.903,
+   "secteur": "Actions",
+   "sens": "long",
+   "symbol": "PDD/USDT:USDT"
+  },
+  {
    "base": "ARIA",
    "mso4h": 92.59033205,
-   "pct24": 11.948,
+   "pct24": 9.78,
    "secteur": "Gaming",
    "sens": "long",
    "symbol": "ARIA/USDT:USDT"
@@ -537,18 +537,18 @@
   {
    "base": "DOS",
    "mso4h": 44.37097371,
-   "pct24": 8.961,
+   "pct24": 9.024,
    "secteur": "IA",
    "sens": "long",
    "symbol": "DOS/USDT:USDT"
   },
   {
-   "base": "MEGA",
-   "mso4h": 100.0,
-   "pct24": 7.032,
-   "secteur": "L2",
-   "sens": "long",
-   "symbol": "MEGA/USDT:USDT"
+   "base": "IREN",
+   "mso4h": 6.31431771,
+   "pct24": -7.463,
+   "secteur": "Actions",
+   "sens": "short",
+   "symbol": "IREN/USDT:USDT"
   }
  ]
 }
