@@ -16443,7 +16443,8 @@
     "marche": -0.29960861,
     "mfe": 1.94225722,
     "ret": 0.28871391
-   }
+   },
+   "72": null
   },
   "liste": "bb_sans",
   "penalite": false,
@@ -49085,6 +49086,13 @@
   "base": "TWASX",
   "detail": "bas",
   "eval": {
+   "24": {
+    "avance": 1.25166253,
+    "mae": -5.44030609,
+    "marche": -2.47722599,
+    "mfe": 1.7935075,
+    "ret": -1.22556346
+   },
    "4": {
     "avance": -0.21942197,
     "mae": -5.44030609,
@@ -56738,6 +56746,13 @@
   "base": "TENCENTHKD",
   "detail": "bas",
   "eval": {
+   "24": {
+    "avance": -5.76734542,
+    "mae": -6.571801,
+    "marche": 0.09984597,
+    "mfe": 1.34423202,
+    "ret": -5.66749946
+   },
    "4": {
     "avance": -0.69798571,
     "mae": -1.67010645,
@@ -72428,5 +72443,143 @@
   "symbol": "MON/USDT:USDT",
   "tradfi": false,
   "ts": 1795075662
+ },
+ {
+  "base": "NAORIS",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.0337,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "long",
+  "symbol": "NAORIS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795079242
+ },
+ {
+  "base": "JCT",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.002096,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "JCT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795079242
+ },
+ {
+  "base": "QNT",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 151.8,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence",
+   "foule"
+  ],
+  "score": 4,
+  "secteur": "RWA",
+  "sens": "long",
+  "symbol": "QNT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795079242
+ },
+ {
+  "base": "PAXG",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 3731.45,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence"
+  ],
+  "score": 3,
+  "secteur": "Métaux",
+  "sens": "long",
+  "symbol": "PAXG/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795079242
+ },
+ {
+  "base": "TWASX",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 15.728,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "TWASX/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795079242
+ },
+ {
+  "base": "TLT",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 80.5,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "TLT/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795079242
+ },
+ {
+  "base": "NAORIS",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.0337,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "NAORIS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795079242
+ },
+ {
+  "base": "QNT",
+  "detail": "bas",
+  "eval": {},
+  "liste": "demo_bb_probable",
+  "penalite": false,
+  "prix": 151.85,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence",
+   "foule"
+  ],
+  "score": 4,
+  "secteur": "RWA",
+  "sens": "long",
+  "symbol": "QNT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795079242
  }
 ]

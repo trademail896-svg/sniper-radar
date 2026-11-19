@@ -2,12 +2,12 @@
  "horizons": {
   "24": {
    "bas": {
-    "avance": -0.95705048,
-    "gagnants": 50.0,
-    "mae": -6.43386067,
-    "mfe": 6.03059454,
-    "moy": -0.76916032,
-    "n": 926
+    "avance": -0.95466783,
+    "gagnants": 49.94606257,
+    "mae": -6.43278887,
+    "mfe": 6.02602379,
+    "moy": -0.76965267,
+    "n": 927
    },
    "demo": {
     "avance": -0.33646977,
@@ -26,12 +26,12 @@
     "n": 8
    },
    "haut": {
-    "avance": 0.81002655,
-    "gagnants": 55.55555556,
-    "mae": -3.93128799,
-    "mfe": 4.51398817,
-    "moy": -0.23885018,
-    "n": 36
+    "avance": 0.63225974,
+    "gagnants": 54.05405405,
+    "mae": -4.00265321,
+    "mfe": 4.42831908,
+    "moy": -0.38557043,
+    "n": 37
    },
    "par_liste": {
     "bb_marche": {
@@ -51,12 +51,12 @@
      "n": 57
     },
     "bb_sans": {
-     "avance": -0.99756536,
-     "gagnants": 43.90243902,
-     "mae": -5.45092307,
-     "mfe": 3.99722243,
-     "moy": -1.25417943,
-     "n": 615
+     "avance": -1.00165054,
+     "gagnants": 43.76012966,
+     "mae": -5.45272252,
+     "mfe": 3.98935095,
+     "moy": -1.26128591,
+     "n": 617
     },
     "carnet": {
      "avance": 0.27462579,
@@ -127,12 +127,12 @@
      "n": 128
     },
     "1": {
-     "avance": -0.61938903,
-     "gagnants": 45.53846154,
-     "mae": -5.10096175,
-     "mfe": 4.97831139,
-     "moy": -0.67979843,
-     "n": 325
+     "avance": -0.61364961,
+     "gagnants": 45.39877301,
+     "mae": -5.10200268,
+     "mfe": 4.96854205,
+     "moy": -0.68147255,
+     "n": 326
     },
     "2": {
      "avance": -0.85568936,
@@ -151,12 +151,12 @@
      "n": 90
     },
     "4": {
-     "avance": 0.40968594,
-     "gagnants": 51.61290323,
-     "mae": -4.28030864,
-     "mfe": 4.15489701,
-     "moy": -0.65875914,
-     "n": 31
+     "avance": 0.21665371,
+     "gagnants": 50.0,
+     "mae": -4.35191777,
+     "mfe": 4.06706373,
+     "moy": -0.81528228,
+     "n": 32
     },
     "5": {
      "avance": 3.29213834,
@@ -406,7 +406,7 @@
     "carnet": {
      "avance": 0.02624791,
      "gagnants": 54.05405405,
-     "mae": -15.48841894,
+     "mae": -15.48841893,
      "mfe": 19.0496485,
      "moy": -0.05299506,
      "n": 74
@@ -446,7 +446,7 @@
      "n": 22
     },
     "Zone de rebond": {
-     "avance": 17.13692961,
+     "avance": 17.13692962,
      "gagnants": 80.0,
      "mae": -14.03371702,
      "mfe": 47.17697172,
@@ -507,48 +507,48 @@
   }
  },
  "jours": 14,
- "maj": 1795075662,
- "nb_signaux": 1974,
+ "maj": 1795079242,
+ "nb_signaux": 1981,
  "rates": [
   {
    "base": "CFG",
    "mso4h": 3.92451416,
-   "pct24": -15.165,
+   "pct24": -15.093,
    "secteur": "RWA",
    "sens": "short",
    "symbol": "CFG/USDT:USDT"
   },
   {
+   "base": "DOS",
+   "mso4h": 34.83170474,
+   "pct24": 10.325,
+   "secteur": "IA",
+   "sens": "long",
+   "symbol": "DOS/USDT:USDT"
+  },
+  {
+   "base": "NVDL",
+   "mso4h": 2.82711567,
+   "pct24": -8.705,
+   "secteur": "Actions",
+   "sens": "short",
+   "symbol": "NVDL/USDT:USDT"
+  },
+  {
    "base": "BWET",
    "mso4h": 84.35685431,
-   "pct24": 13.812,
+   "pct24": 7.933,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "BWET/USDT:USDT"
   },
   {
-   "base": "US",
-   "mso4h": 67.15280259,
-   "pct24": 10.049,
-   "secteur": "IA",
+   "base": "ARIA",
+   "mso4h": 90.93675004,
+   "pct24": 7.779,
+   "secteur": "Gaming",
    "sens": "long",
-   "symbol": "US/USDT:USDT"
-  },
-  {
-   "base": "CRWV",
-   "mso4h": 12.95335427,
-   "pct24": -7.871,
-   "secteur": "Actions US",
-   "sens": "short",
-   "symbol": "CRWV/USDT:USDT"
-  },
-  {
-   "base": "NVDL",
-   "mso4h": 2.82711567,
-   "pct24": -7.809,
-   "secteur": "Actions",
-   "sens": "short",
-   "symbol": "NVDL/USDT:USDT"
+   "symbol": "ARIA/USDT:USDT"
   }
  ]
 }
