@@ -247,7 +247,7 @@
     "Essoufflement": {
      "avance": 0.6620764,
      "gagnants": 60.41666667,
-     "mae": -2.76992087,
+     "mae": -2.76992088,
      "mfe": 4.25397013,
      "moy": 0.81652828,
      "n": 96
@@ -354,12 +354,12 @@
   },
   "72": {
    "bas": {
-    "avance": -1.40532728,
-    "gagnants": 43.75,
-    "mae": -10.25328066,
-    "mfe": 7.65822468,
-    "moy": -1.68059776,
-    "n": 368
+    "avance": -1.38397943,
+    "gagnants": 43.90243902,
+    "mae": -10.24821295,
+    "mfe": 7.66673213,
+    "moy": -1.66715702,
+    "n": 369
    },
    "demo": {
     "avance": -0.18825682,
@@ -404,12 +404,12 @@
      "n": 231
     },
     "carnet": {
-     "avance": -0.32522592,
-     "gagnants": 52.17391304,
-     "mae": -16.14492263,
-     "mfe": 19.36516441,
-     "moy": -0.37424652,
-     "n": 69
+     "avance": -0.22812225,
+     "gagnants": 52.85714286,
+     "mae": -16.03404227,
+     "mfe": 19.24276883,
+     "moy": -0.32205676,
+     "n": 70
     }
    },
    "par_phase": {
@@ -438,12 +438,12 @@
      "n": 4
     },
     "Retracement": {
-     "avance": -2.41937712,
-     "gagnants": 61.9047619,
-     "mae": -13.64080291,
-     "mfe": 14.66499338,
-     "moy": -0.96147349,
-     "n": 21
+     "avance": -2.0152222,
+     "gagnants": 63.63636364,
+     "mae": -13.40182537,
+     "mfe": 14.48919707,
+     "moy": -0.76872304,
+     "n": 22
     },
     "Zone de rebond": {
      "avance": 16.85299794,
@@ -464,12 +464,12 @@
      "n": 48
     },
     "1": {
-     "avance": 0.04653312,
-     "gagnants": 40.11976048,
-     "mae": -7.27721499,
-     "mfe": 6.71930213,
-     "moy": -0.77270364,
-     "n": 167
+     "avance": 0.08478013,
+     "gagnants": 40.47619048,
+     "mae": -7.28379882,
+     "mfe": 6.74357697,
+     "moy": -0.74858614,
+     "n": 168
     },
     "2": {
      "avance": -3.39368514,
@@ -507,48 +507,48 @@
   }
  },
  "jours": 14,
- "maj": 1795072045,
- "nb_signaux": 1915,
+ "maj": 1795075218,
+ "nb_signaux": 1947,
  "rates": [
   {
-   "base": "BWET",
-   "mso4h": 83.03545135,
-   "pct24": 14.157,
-   "secteur": "Actions",
-   "sens": "long",
-   "symbol": "BWET/USDT:USDT"
-  },
-  {
    "base": "CFG",
-   "mso4h": 0.0,
-   "pct24": -13.763,
+   "mso4h": 3.92451416,
+   "pct24": -14.654,
    "secteur": "RWA",
    "sens": "short",
    "symbol": "CFG/USDT:USDT"
   },
   {
-   "base": "CT",
-   "mso4h": 91.47218553,
-   "pct24": 8.003,
-   "secteur": "DeFi",
+   "base": "BWET",
+   "mso4h": 84.35685431,
+   "pct24": 13.932,
+   "secteur": "Actions",
    "sens": "long",
-   "symbol": "CT/USDT:USDT"
+   "symbol": "BWET/USDT:USDT"
   },
   {
-   "base": "ARIA",
-   "mso4h": 84.89493878,
-   "pct24": 7.674,
-   "secteur": "Gaming",
+   "base": "US",
+   "mso4h": 67.15280259,
+   "pct24": 8.365,
+   "secteur": "IA",
    "sens": "long",
-   "symbol": "ARIA/USDT:USDT"
+   "symbol": "US/USDT:USDT"
   },
   {
    "base": "NVDL",
-   "mso4h": 1.01269815,
-   "pct24": -7.012,
+   "mso4h": 2.82711567,
+   "pct24": -7.849,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "NVDL/USDT:USDT"
+  },
+  {
+   "base": "CRWV",
+   "mso4h": 12.95335427,
+   "pct24": -7.72,
+   "secteur": "Actions US",
+   "sens": "short",
+   "symbol": "CRWV/USDT:USDT"
   }
  ]
 }
