@@ -473,10 +473,10 @@
      "n": 52
     },
     "3": {
-     "avance": 13.9376159,
+     "avance": 13.93761591,
      "gagnants": 50.0,
      "mae": -12.20952963,
-     "mfe": 16.34419551,
+     "mfe": 16.3441955,
      "moy": 10.8989761,
      "n": 4
     },
@@ -500,48 +500,48 @@
   }
  },
  "jours": 14,
- "maj": 1795046857,
+ "maj": 1795048664,
  "nb_signaux": 1808,
  "rates": [
   {
-   "base": "NVDL",
-   "mso4h": 0.0,
-   "pct24": -11.204,
-   "secteur": "Actions",
-   "sens": "short",
-   "symbol": "NVDL/USDT:USDT"
-  },
-  {
-   "base": "CONL",
-   "mso4h": 0.0,
-   "pct24": -10.811,
-   "secteur": "Actions",
-   "sens": "short",
-   "symbol": "CONL/USDT:USDT"
+   "base": "SENT",
+   "mso4h": 84.59217645,
+   "pct24": 11.934,
+   "secteur": "IA",
+   "sens": "long",
+   "symbol": "SENT/USDT:USDT"
   },
   {
    "base": "MOCA",
    "mso4h": 30.90413327,
-   "pct24": 10.671,
+   "pct24": 11.829,
    "secteur": "Gaming",
    "sens": "long",
    "symbol": "MOCA/USDT:USDT"
   },
   {
+   "base": "NVDL",
+   "mso4h": 0.0,
+   "pct24": -11.456,
+   "secteur": "Actions",
+   "sens": "short",
+   "symbol": "NVDL/USDT:USDT"
+  },
+  {
    "base": "BLESS",
    "mso4h": 40.38131971,
-   "pct24": 10.293,
+   "pct24": 11.343,
    "secteur": "Non classé",
    "sens": "long",
    "symbol": "BLESS/USDT:USDT"
   },
   {
-   "base": "SKDD",
-   "mso4h": 85.57011142,
-   "pct24": 10.043,
+   "base": "CONL",
+   "mso4h": 0.0,
+   "pct24": -9.905,
    "secteur": "Actions",
-   "sens": "long",
-   "symbol": "SKDD/USDT:USDT"
+   "sens": "short",
+   "symbol": "CONL/USDT:USDT"
   }
  ]
 }
