@@ -48878,6 +48878,13 @@
   "base": "LUNC",
   "detail": "haut",
   "eval": {
+   "24": {
+    "avance": -9.17863401,
+    "mae": -7.4009901,
+    "marche": 2.52021817,
+    "mfe": 5.59405941,
+    "ret": -6.65841584
+   },
    "4": {
     "avance": 1.35782422,
     "mae": -0.64356436,
@@ -69763,5 +69770,52 @@
   "symbol": "ZEC/USDT:USDT",
   "tradfi": false,
   "ts": 1795064855
+ },
+ {
+  "base": "ZKP",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.03118,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "ZKP/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795068442
+ },
+ {
+  "base": "LUNC",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 4.885e-05,
+  "raisons": [],
+  "score": 0,
+  "secteur": "DeFi",
+  "sens": "long",
+  "symbol": "LUNC/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795068442
+ },
+ {
+  "base": "LUNC",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 4.885e-05,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "LUNC/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795068442
  }
 ]

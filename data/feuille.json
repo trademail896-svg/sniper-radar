@@ -2,12 +2,12 @@
  "horizons": {
   "24": {
    "bas": {
-    "avance": -0.96374741,
-    "gagnants": 50.0,
-    "mae": -6.28027294,
-    "mfe": 5.86681431,
-    "moy": -0.7774602,
-    "n": 894
+    "avance": -0.97292606,
+    "gagnants": 49.94413408,
+    "mae": -6.28152514,
+    "mfe": 5.86650956,
+    "moy": -0.7840311,
+    "n": 895
    },
    "demo": {
     "avance": -0.30730452,
@@ -51,12 +51,12 @@
      "n": 56
     },
     "bb_sans": {
-     "avance": -0.94058834,
-     "gagnants": 44.12751678,
-     "mae": -5.29328585,
-     "mfe": 4.00359409,
-     "moy": -1.2125518,
-     "n": 596
+     "avance": -0.95438741,
+     "gagnants": 44.05360134,
+     "mae": -5.29681635,
+     "mfe": 4.00625819,
+     "moy": -1.22167385,
+     "n": 597
     },
     "carnet": {
      "avance": 0.29885608,
@@ -127,12 +127,12 @@
      "n": 121
     },
     "1": {
-     "avance": -0.57196992,
-     "gagnants": 45.56962025,
-     "mae": -4.94595226,
-     "mfe": 4.82670061,
-     "moy": -0.64199611,
-     "n": 316
+     "avance": -0.59912028,
+     "gagnants": 45.42586751,
+     "mae": -4.95369686,
+     "mfe": 4.8291213,
+     "moy": -0.66097535,
+     "n": 317
     },
     "2": {
      "avance": -0.74748262,
@@ -424,7 +424,7 @@
     "Impulsion": {
      "avance": 4.08220312,
      "gagnants": 57.14285714,
-     "mae": -14.91435468,
+     "mae": -14.91435467,
      "mfe": 21.36429138,
      "moy": 3.25153121,
      "n": 14
@@ -507,48 +507,48 @@
   }
  },
  "jours": 14,
- "maj": 1795064855,
- "nb_signaux": 1897,
+ "maj": 1795068442,
+ "nb_signaux": 1900,
  "rates": [
   {
    "base": "BLESS",
    "mso4h": 38.86318898,
-   "pct24": 24.703,
+   "pct24": 20.022,
    "secteur": "Non classé",
    "sens": "long",
    "symbol": "BLESS/USDT:USDT"
   },
   {
-   "base": "RAVE",
-   "mso4h": 100.0,
-   "pct24": 10.266,
-   "secteur": "Non classé",
+   "base": "CFG",
+   "mso4h": 0.0,
+   "pct24": -13.313,
+   "secteur": "RWA",
+   "sens": "short",
+   "symbol": "CFG/USDT:USDT"
+  },
+  {
+   "base": "ARIA",
+   "mso4h": 84.89493878,
+   "pct24": 8.768,
+   "secteur": "Gaming",
    "sens": "long",
-   "symbol": "RAVE/USDT:USDT"
+   "symbol": "ARIA/USDT:USDT"
   },
   {
    "base": "DOS",
    "mso4h": 40.51092483,
-   "pct24": 9.681,
+   "pct24": 8.069,
    "secteur": "IA",
    "sens": "long",
    "symbol": "DOS/USDT:USDT"
   },
   {
-   "base": "MEGA",
+   "base": "RAVE",
    "mso4h": 100.0,
-   "pct24": 9.338,
-   "secteur": "L2",
+   "pct24": 6.941,
+   "secteur": "Non classé",
    "sens": "long",
-   "symbol": "MEGA/USDT:USDT"
-  },
-  {
-   "base": "CFG",
-   "mso4h": 0.0,
-   "pct24": -8.122,
-   "secteur": "RWA",
-   "sens": "short",
-   "symbol": "CFG/USDT:USDT"
+   "symbol": "RAVE/USDT:USDT"
   }
  ]
 }
