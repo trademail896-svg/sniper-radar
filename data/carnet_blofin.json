@@ -9,7 +9,7 @@
   "extreme_ts": 1795186800000,
   "move_pct": -18.0156658,
   "phase": "Impulsion",
-  "phase_depuis_h": 0.0,
+  "phase_depuis_h": 1.00222222,
   "phases": [
    {
     "phase": "Impulsion",
@@ -24,8 +24,8 @@
     "ts": 1795190842
    }
   ],
-  "prix": 0.2218,
-  "retr": 0.04140787,
+  "prix": 0.2227,
+  "retr": 0.06004141,
   "sens": "dump",
   "symbol": "JUP/USDT:USDT"
  },
@@ -39,16 +39,38 @@
   "extreme_ts": 1795186800000,
   "move_pct": -19.11392405,
   "phase": "Impulsion",
-  "phase_depuis_h": 2.99722222,
+  "phase_depuis_h": 3.99944444,
   "phases": [
    {
     "phase": "Impulsion",
     "ts": 1795180052
    }
   ],
-  "prix": 0.2585,
-  "retr": 0.04801325,
+  "prix": 0.2654,
+  "retr": 0.16225166,
   "sens": "dump",
   "symbol": "SPX/USDT:USDT"
+ },
+ "ZEC/USDT:USDT": {
+  "base": "ZEC",
+  "capture_pct": -16.63773021,
+  "capture_ts": 1795194450,
+  "depart": 909.18,
+  "depart_ts": 1795104000000,
+  "extreme": 752.8,
+  "extreme_ts": 1795190400000,
+  "move_pct": -17.20011439,
+  "phase": "Impulsion",
+  "phase_depuis_h": 0.0,
+  "phases": [
+   {
+    "phase": "Impulsion",
+    "ts": 1795194450
+   }
+  ],
+  "prix": 756.93,
+  "retr": 0.02641003,
+  "sens": "dump",
+  "symbol": "ZEC/USDT:USDT"
  }
 }
