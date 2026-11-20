@@ -9,16 +9,38 @@
   "extreme_ts": 1795168800000,
   "move_pct": -16.2998881,
   "phase": "Impulsion",
-  "phase_depuis_h": 4.99972222,
+  "phase_depuis_h": 6.00305556,
   "phases": [
    {
     "phase": "Impulsion",
     "ts": 1795158441
    }
   ],
-  "prix": 0.2292,
-  "retr": 0.10983982,
+  "prix": 0.23,
+  "retr": 0.12814645,
   "sens": "dump",
   "symbol": "JUP/USDT:USDT"
+ },
+ "SPX/USDT:USDT": {
+  "base": "SPX",
+  "capture_pct": -15.17546633,
+  "capture_ts": 1795180052,
+  "depart": 0.316,
+  "depart_ts": 1795089600000,
+  "extreme": 0.2687,
+  "extreme_ts": 1795176000000,
+  "move_pct": -14.96835443,
+  "phase": "Impulsion",
+  "phase_depuis_h": 0.0,
+  "phases": [
+   {
+    "phase": "Impulsion",
+    "ts": 1795180052
+   }
+  ],
+  "prix": 0.2692,
+  "retr": 0.01057082,
+  "sens": "dump",
+  "symbol": "SPX/USDT:USDT"
  }
 }
