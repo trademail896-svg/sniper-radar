@@ -2,12 +2,12 @@
  "horizons": {
   "24": {
    "bas": {
-    "avance": -0.60430082,
-    "gagnants": 48.25986079,
-    "mae": -6.45359331,
-    "mfe": 6.22047014,
-    "moy": -0.48241552,
-    "n": 1293
+    "avance": -0.61991906,
+    "gagnants": 48.22256569,
+    "mae": -6.46388274,
+    "mfe": 6.22493655,
+    "moy": -0.49382507,
+    "n": 1294
    },
    "demo": {
     "avance": -0.09811153,
@@ -59,12 +59,12 @@
      "n": 850
     },
     "carnet": {
-     "avance": 0.77051589,
-     "gagnants": 46.84931507,
-     "mae": -9.94048941,
-     "mfe": 12.35190278,
-     "moy": 0.61884584,
-     "n": 365
+     "avance": 0.72048358,
+     "gagnants": 46.59400545,
+     "mae": -9.9817341,
+     "mfe": 12.35638827,
+     "moy": 0.56964008,
+     "n": 367
     }
    },
    "par_phase": {
@@ -101,12 +101,12 @@
      "n": 1
     },
     "Retracement": {
-     "avance": 1.8822367,
-     "gagnants": 51.57894737,
-     "mae": -8.6829724,
-     "mfe": 14.15717696,
-     "moy": 2.26762531,
-     "n": 95
+     "avance": 1.67001712,
+     "gagnants": 50.51546392,
+     "mae": -8.86495007,
+     "mfe": 14.13692565,
+     "moy": 2.04745957,
+     "n": 97
     },
     "Zone de rebond": {
      "avance": 7.02918986,
@@ -127,20 +127,20 @@
      "n": 176
     },
     "1": {
-     "avance": -0.15248036,
-     "gagnants": 44.98977505,
-     "mae": -5.22579658,
-     "mfe": 5.37460743,
-     "moy": -0.53178525,
-     "n": 489
+     "avance": -0.19464735,
+     "gagnants": 44.89795918,
+     "mae": -5.25547479,
+     "mfe": 5.38812864,
+     "moy": -0.56181503,
+     "n": 490
     },
     "2": {
-     "avance": -0.85908213,
-     "gagnants": 38.18181818,
-     "mae": -7.9022398,
-     "mfe": 6.55404314,
-     "moy": -1.5494622,
-     "n": 330
+     "avance": -0.84442182,
+     "gagnants": 38.06646526,
+     "mae": -7.92443745,
+     "mfe": 6.57759581,
+     "moy": -1.54953769,
+     "n": 331
     },
     "3": {
      "avance": 0.82392983,
@@ -522,13 +522,13 @@
   }
  },
  "jours": 14,
- "maj": 1795172848,
- "nb_signaux": 2641,
+ "maj": 1795176440,
+ "nb_signaux": 2678,
  "rates": [
   {
    "base": "SPCH",
-   "mso4h": 5.35473731,
-   "pct24": -17.47,
+   "mso4h": 4.30075338,
+   "pct24": -19.766,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "SPCH/USDT:USDT"
@@ -536,34 +536,34 @@
   {
    "base": "CSOPSS2LHKD",
    "mso4h": 0.0,
-   "pct24": -16.831,
+   "pct24": -18.433,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "CSOPSS2LHKD/USDT:USDT"
   },
   {
    "base": "CRWV",
-   "mso4h": 0.60931748,
-   "pct24": -14.489,
+   "mso4h": 0.35684565,
+   "pct24": -15.955,
    "secteur": "Actions US",
    "sens": "short",
    "symbol": "CRWV/USDT:USDT"
   },
   {
-   "base": "NVDL",
+   "base": "CONL",
    "mso4h": 0.0,
-   "pct24": -13.727,
+   "pct24": -15.396,
    "secteur": "Actions",
    "sens": "short",
-   "symbol": "NVDL/USDT:USDT"
+   "symbol": "CONL/USDT:USDT"
   },
   {
-   "base": "CBRS",
+   "base": "AXTI",
    "mso4h": 0.0,
-   "pct24": -13.664,
+   "pct24": -15.377,
    "secteur": "Actions",
    "sens": "short",
-   "symbol": "CBRS/USDT:USDT"
+   "symbol": "AXTI/USDT:USDT"
   }
  ]
 }
