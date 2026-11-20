@@ -354,12 +354,12 @@
   },
   "72": {
    "bas": {
-    "avance": -1.84272781,
-    "gagnants": 36.9593709,
-    "mae": -11.47376321,
-    "mfe": 8.81520645,
-    "moy": -2.96130057,
-    "n": 763
+    "avance": -1.85396248,
+    "gagnants": 36.91099476,
+    "mae": -11.46321643,
+    "mfe": 8.80395844,
+    "moy": -2.96189575,
+    "n": 764
    },
    "demo": {
     "avance": -0.22486592,
@@ -387,12 +387,12 @@
    },
    "par_liste": {
     "bb_marche": {
-     "avance": -3.38249471,
-     "gagnants": 28.34890966,
-     "mae": -12.22697201,
-     "mfe": 7.58525882,
-     "moy": -5.3629243,
-     "n": 321
+     "avance": -3.40436901,
+     "gagnants": 28.26086957,
+     "mae": -12.19960881,
+     "mfe": 7.56239072,
+     "moy": -5.35687801,
+     "n": 322
     },
     "bb_probable": {
      "avance": -2.30452804,
@@ -520,23 +520,23 @@
     }
    },
    "penalite": {
-    "avance": -1.54594723,
-    "gagnants": 37.40458015,
-    "mae": -12.4498033,
-    "mfe": 9.94742476,
-    "moy": -2.78753706,
-    "n": 393
+    "avance": -1.56848548,
+    "gagnants": 37.30964467,
+    "mae": -12.42687492,
+    "mfe": 9.92274026,
+    "moy": -2.78913219,
+    "n": 394
    }
   }
  },
  "jours": 14,
- "maj": 1795210218,
- "nb_signaux": 2963,
+ "maj": 1795212444,
+ "nb_signaux": 2968,
  "rates": [
   {
    "base": "CSOPSS2LHKD",
    "mso4h": 0.0,
-   "pct24": -19.28,
+   "pct24": -19.215,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "CSOPSS2LHKD/USDT:USDT"
@@ -544,31 +544,31 @@
   {
    "base": "SKYAI",
    "mso4h": 3.93779343,
-   "pct24": -17.216,
+   "pct24": -16.657,
    "secteur": "Non classé",
    "sens": "short",
    "symbol": "SKYAI/USDT:USDT"
   },
   {
-   "base": "LIT",
-   "mso4h": 0.0,
-   "pct24": -16.637,
-   "secteur": "DeFi",
-   "sens": "short",
-   "symbol": "LIT/USDT:USDT"
-  },
-  {
    "base": "IREN",
    "mso4h": 0.0,
-   "pct24": -15.652,
+   "pct24": -16.458,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "IREN/USDT:USDT"
   },
   {
+   "base": "LIT",
+   "mso4h": 0.0,
+   "pct24": -15.833,
+   "secteur": "DeFi",
+   "sens": "short",
+   "symbol": "LIT/USDT:USDT"
+  },
+  {
    "base": "KIOXIA",
    "mso4h": 0.0,
-   "pct24": -14.996,
+   "pct24": -15.313,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "KIOXIA/USDT:USDT"
