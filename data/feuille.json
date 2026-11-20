@@ -263,7 +263,7 @@
     "Pause": {
      "avance": 1.33547065,
      "gagnants": 48.0,
-     "mae": -2.71042588,
+     "mae": -2.71042589,
      "mfe": 4.10800556,
      "moy": 1.12104193,
      "n": 50
@@ -382,7 +382,7 @@
     "gagnants": 20.0,
     "mae": -7.78170067,
     "mfe": 3.82786731,
-    "moy": -6.17473179,
+    "moy": -6.1747318,
     "n": 10
    },
    "par_liste": {
@@ -506,7 +506,7 @@
      "avance": -2.34420523,
      "gagnants": 0.0,
      "mae": -6.50766839,
-     "mfe": 6.08198924,
+     "mfe": 6.08198923,
      "moy": -5.97596245,
      "n": 2
     }
@@ -522,13 +522,13 @@
   }
  },
  "jours": 14,
- "maj": 1795147649,
- "nb_signaux": 2459,
+ "maj": 1795148673,
+ "nb_signaux": 2493,
  "rates": [
   {
    "base": "QNTSTOCK",
    "mso4h": 0.0,
-   "pct24": -14.226,
+   "pct24": -14.386,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "QNTSTOCK/USDT:USDT"
@@ -536,7 +536,7 @@
   {
    "base": "NBIS",
    "mso4h": 0.0,
-   "pct24": -13.261,
+   "pct24": -13.439,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "NBIS/USDT:USDT"
@@ -544,26 +544,26 @@
   {
    "base": "ZRO",
    "mso4h": 0.0,
-   "pct24": -12.385,
+   "pct24": -12.123,
    "secteur": "Non classé",
    "sens": "short",
    "symbol": "ZRO/USDT:USDT"
   },
   {
-   "base": "CBRS",
-   "mso4h": 0.0,
-   "pct24": -10.732,
-   "secteur": "Actions",
-   "sens": "short",
-   "symbol": "CBRS/USDT:USDT"
-  },
-  {
    "base": "CSOPSS2LHKD",
    "mso4h": 0.0,
-   "pct24": -10.724,
+   "pct24": -11.435,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "CSOPSS2LHKD/USDT:USDT"
+  },
+  {
+   "base": "NVDL",
+   "mso4h": 0.0,
+   "pct24": -11.021,
+   "secteur": "Actions",
+   "sens": "short",
+   "symbol": "NVDL/USDT:USDT"
   }
  ]
 }
