@@ -10,12 +10,12 @@
     "n": 1320
    },
    "demo": {
-    "avance": 0.07741223,
-    "gagnants": 29.66360856,
-    "mae": -3.45608948,
-    "mfe": 2.45067712,
-    "moy": -1.02885787,
-    "n": 327
+    "avance": 0.08026232,
+    "gagnants": 29.57317073,
+    "mae": -3.46727072,
+    "mfe": 2.44366373,
+    "moy": -1.04487335,
+    "n": 328
    },
    "demo_haut": {
     "avance": 1.5378046,
@@ -448,7 +448,7 @@
      "avance": 3.58338473,
      "gagnants": 67.39130435,
      "mae": -12.56864834,
-     "mfe": 19.24500006,
+     "mfe": 19.24500005,
      "moy": 4.69571207,
      "n": 46
     },
@@ -522,13 +522,13 @@
   }
  },
  "jours": 14,
- "maj": 1795180052,
- "nb_signaux": 2716,
+ "maj": 1795181544,
+ "nb_signaux": 2717,
  "rates": [
   {
    "base": "CSOPSS2LHKD",
    "mso4h": 0.0,
-   "pct24": -18.827,
+   "pct24": -19.181,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "CSOPSS2LHKD/USDT:USDT"
@@ -536,7 +536,7 @@
   {
    "base": "SKYAI",
    "mso4h": 10.657277,
-   "pct24": -16.553,
+   "pct24": -16.307,
    "secteur": "Non classé",
    "sens": "short",
    "symbol": "SKYAI/USDT:USDT"
@@ -544,7 +544,7 @@
   {
    "base": "AXTI",
    "mso4h": 0.0,
-   "pct24": -16.478,
+   "pct24": -16.246,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "AXTI/USDT:USDT"
@@ -552,18 +552,18 @@
   {
    "base": "CRWV",
    "mso4h": 0.35684565,
-   "pct24": -16.076,
+   "pct24": -16.057,
    "secteur": "Actions US",
    "sens": "short",
    "symbol": "CRWV/USDT:USDT"
   },
   {
-   "base": "BE",
+   "base": "METU",
    "mso4h": 0.0,
-   "pct24": -15.632,
+   "pct24": -16.054,
    "secteur": "Actions",
    "sens": "short",
-   "symbol": "BE/USDT:USDT"
+   "symbol": "METU/USDT:USDT"
   }
  ]
 }

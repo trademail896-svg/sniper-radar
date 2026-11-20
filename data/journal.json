@@ -83883,6 +83883,13 @@
   "base": "AXL",
   "detail": "bas",
   "eval": {
+   "24": {
+    "avance": 1.01224236,
+    "mae": -7.12353472,
+    "marche": -7.29417804,
+    "mfe": 0.15028554,
+    "ret": -6.28193568
+   },
    "4": {
     "avance": -0.00866231,
     "mae": -2.88548242,
@@ -105566,5 +105573,57 @@
   "symbol": "STRK/USDT:USDT",
   "tradfi": false,
   "ts": 1795180052
+ },
+ {
+  "base": "ELSA",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.06363,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "IA",
+  "sens": "long",
+  "symbol": "ELSA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795181544
+ },
+ {
+  "base": "ONDO",
+  "detail": "bas",
+  "eval": {},
+  "liste": "demo_bb_sans",
+  "penalite": false,
+  "prix": 0.2889,
+  "raisons": [
+   "MSO",
+   "divergence"
+  ],
+  "score": 2,
+  "secteur": "RWA",
+  "sens": "long",
+  "symbol": "ONDO/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795181544
+ },
+ {
+  "base": "AXL",
+  "detail": "bas",
+  "eval": {},
+  "liste": "demo_bb_marche",
+  "penalite": true,
+  "prix": 0.03092,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "Non classé",
+  "sens": "long",
+  "symbol": "AXL/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795181544
  }
 ]
