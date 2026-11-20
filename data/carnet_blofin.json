@@ -1,1 +1,24 @@
-{}
+{
+ "JUP/USDT:USDT": {
+  "base": "JUP",
+  "capture_pct": -15.06696429,
+  "capture_ts": 1795158441,
+  "depart": 0.2681,
+  "depart_ts": 1795068000000,
+  "extreme": 0.2282,
+  "extreme_ts": 1795150800000,
+  "move_pct": -14.88250653,
+  "phase": "Impulsion",
+  "phase_depuis_h": 0.0,
+  "phases": [
+   {
+    "phase": "Impulsion",
+    "ts": 1795158441
+   }
+  ],
+  "prix": 0.2301,
+  "retr": 0.04761905,
+  "sens": "dump",
+  "symbol": "JUP/USDT:USDT"
+ }
+}

@@ -29542,7 +29542,8 @@
     "marche": 0.0456135,
     "mfe": 1.07115532,
     "ret": 0.34429992
-   }
+   },
+   "72": null
   },
   "liste": "carnet",
   "penalite": false,
@@ -38139,6 +38140,13 @@
     "marche": -1.10039946,
     "mfe": -0.17934003,
     "ret": -2.4748924
+   },
+   "72": {
+    "avance": -3.86107518,
+    "mae": -10.43758967,
+    "marche": -4.24509411,
+    "mfe": 2.36728838,
+    "ret": -8.1061693
    }
   },
   "liste": "carnet",
@@ -38239,6 +38247,13 @@
     "marche": -1.10039946,
     "mfe": 0.0,
     "ret": -2.72775145
+   },
+   "72": {
+    "avance": 3.83435162,
+    "mae": -8.05687204,
+    "marche": -4.24509411,
+    "mfe": 12.46972091,
+    "ret": -0.4107425
    }
   },
   "liste": "carnet",
@@ -38272,6 +38287,13 @@
     "marche": 1.10039946,
     "mfe": 2.7985158,
     "ret": 0.08940945
+   },
+   "72": {
+    "avance": -17.18711208,
+    "mae": -27.79292771,
+    "marche": 4.24509411,
+    "mfe": 14.88220305,
+    "ret": -12.94201797
    }
   },
   "liste": "carnet",
@@ -38304,6 +38326,13 @@
     "marche": -1.10039946,
     "mfe": 12.84507042,
     "ret": 1.72855314
+   },
+   "72": {
+    "avance": 41.02102241,
+    "mae": -21.82330346,
+    "marche": -4.24509411,
+    "mfe": 44.82970551,
+    "ret": 36.7759283
    }
   },
   "liste": "carnet",
@@ -38336,6 +38365,13 @@
     "marche": -1.10039946,
     "mfe": 0.56980057,
     "ret": -0.26115859
+   },
+   "72": {
+    "avance": -15.10438357,
+    "mae": -19.44444444,
+    "marche": -4.24509411,
+    "mfe": 3.51377018,
+    "ret": -19.34947768
    }
   },
   "liste": "bb_marche",
@@ -96541,5 +96577,188 @@
   "symbol": "MNT/USDT:USDT",
   "tradfi": false,
   "ts": 1795154854
+ },
+ {
+  "base": "PUMP",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.002547,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "Memes",
+  "sens": "long",
+  "symbol": "PUMP/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795158441
+ },
+ {
+  "base": "MINIMAXHKD",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 100.26,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "MINIMAXHKD/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795158441
+ },
+ {
+  "base": "NETEASE",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 19.392,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "NETEASE/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795158441
+ },
+ {
+  "base": "NBIS",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 93.46,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "NBIS/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795158441
+ },
+ {
+  "base": "ZIL",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.000915,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "ZIL/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795158441
+ },
+ {
+  "base": "LUNC",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 4.586e-05,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "DeFi",
+  "sens": "long",
+  "symbol": "LUNC/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795158441
+ },
+ {
+  "base": "ANT",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 91.37,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "ANT/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795158441
+ },
+ {
+  "base": "EVAA",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 5.3266,
+  "raisons": [],
+  "score": 0,
+  "secteur": "DeFi",
+  "sens": "long",
+  "symbol": "EVAA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795158441
+ },
+ {
+  "base": "PIPPIN",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.01972,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Memes",
+  "sens": "long",
+  "symbol": "PIPPIN/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795158441
+ },
+ {
+  "base": "NETEASE",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 19.392,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "NETEASE/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795158441
+ },
+ {
+  "base": "JUP",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "demo_carnet",
+  "penalite": true,
+  "prix": 0.2283,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "JUP/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795158441
  }
 ]
