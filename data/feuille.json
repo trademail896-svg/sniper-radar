@@ -21,7 +21,7 @@
     "avance": 0.42234553,
     "gagnants": 11.42857143,
     "mae": -8.03371021,
-    "mfe": 1.17719276,
+    "mfe": 1.17719277,
     "moy": -5.47333118,
     "n": 70
    },
@@ -530,21 +530,13 @@
   }
  },
  "jours": 14,
- "maj": 1795262847,
- "nb_signaux": 3433,
+ "maj": 1795266446,
+ "nb_signaux": 3548,
  "rates": [
-  {
-   "base": "AEON",
-   "mso4h": 1.03521518,
-   "pct24": -15.438,
-   "secteur": "IA",
-   "sens": "short",
-   "symbol": "AEON/USDT:USDT"
-  },
   {
    "base": "GWEI",
    "mso4h": 0.0,
-   "pct24": -15.175,
+   "pct24": -14.749,
    "secteur": "DeFi",
    "sens": "short",
    "symbol": "GWEI/USDT:USDT"
@@ -552,26 +544,34 @@
   {
    "base": "CSOPSK2LHKD",
    "mso4h": 1.48852927,
-   "pct24": -14.391,
+   "pct24": -13.715,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "CSOPSK2LHKD/USDT:USDT"
   },
   {
-   "base": "INIT",
-   "mso4h": 0.0,
-   "pct24": -13.044,
-   "secteur": "L1",
-   "sens": "short",
-   "symbol": "INIT/USDT:USDT"
-  },
-  {
    "base": "ZHIPUHKD",
    "mso4h": 1.86767244,
-   "pct24": -12.487,
+   "pct24": -11.921,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "ZHIPUHKD/USDT:USDT"
+  },
+  {
+   "base": "ZHIPU",
+   "mso4h": 1.85429888,
+   "pct24": -11.654,
+   "secteur": "Actions",
+   "sens": "short",
+   "symbol": "ZHIPU/USDT:USDT"
+  },
+  {
+   "base": "IREN",
+   "mso4h": 1.16266345,
+   "pct24": -10.382,
+   "secteur": "Actions",
+   "sens": "short",
+   "symbol": "IREN/USDT:USDT"
   }
  ]
 }
