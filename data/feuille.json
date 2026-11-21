@@ -295,7 +295,7 @@
    },
    "par_score": {
     "0": {
-     "avance": 0.06710736,
+     "avance": 0.06710737,
      "gagnants": 54.22535211,
      "mae": -2.46147487,
      "mfe": 2.51991558,
@@ -354,12 +354,12 @@
   },
   "72": {
    "bas": {
-    "avance": -1.76784512,
-    "gagnants": 39.58837772,
-    "mae": -11.44882683,
-    "mfe": 9.33189625,
-    "moy": -2.31843229,
-    "n": 826
+    "avance": -1.79312642,
+    "gagnants": 39.56574186,
+    "mae": -11.46432277,
+    "mfe": 9.34236623,
+    "moy": -2.33003495,
+    "n": 829
    },
    "demo": {
     "avance": -0.30854591,
@@ -387,12 +387,12 @@
    },
    "par_liste": {
     "bb_marche": {
-     "avance": -3.36561102,
-     "gagnants": 31.97674419,
-     "mae": -12.17082024,
-     "mfe": 8.14949115,
-     "moy": -4.62261782,
-     "n": 344
+     "avance": -3.36306383,
+     "gagnants": 32.08092486,
+     "mae": -12.13447976,
+     "mfe": 8.15963201,
+     "moy": -4.55680568,
+     "n": 346
     },
     "bb_probable": {
      "avance": -3.70640927,
@@ -411,12 +411,12 @@
      "n": 551
     },
     "carnet": {
-     "avance": 2.81917817,
-     "gagnants": 55.45023697,
-     "mae": -15.4564062,
-     "mfe": 20.48615339,
-     "moy": 2.8361901,
-     "n": 211
+     "avance": 2.7095979,
+     "gagnants": 55.18867925,
+     "mae": -15.55059662,
+     "mfe": 20.46908467,
+     "moy": 2.68083228,
+     "n": 212
     }
    },
    "par_phase": {
@@ -453,12 +453,12 @@
      "n": 1
     },
     "Retracement": {
-     "avance": 7.28409996,
-     "gagnants": 67.85714286,
-     "mae": -11.80249455,
-     "mfe": 23.71438224,
-     "moy": 8.11061576,
-     "n": 56
+     "avance": 6.79820629,
+     "gagnants": 66.66666667,
+     "mae": -12.21692052,
+     "mfe": 23.59426298,
+     "moy": 7.44025991,
+     "n": 57
     },
     "Zone de rebond": {
      "avance": 13.88615203,
@@ -520,23 +520,23 @@
     }
    },
    "penalite": {
-    "avance": -1.43078327,
-    "gagnants": 41.72494172,
-    "mae": -12.10668579,
-    "mfe": 10.54375171,
-    "moy": -1.76749583,
-    "n": 429
+    "avance": -1.48163833,
+    "gagnants": 41.66666667,
+    "mae": -12.13185373,
+    "mfe": 10.55542775,
+    "moy": -1.79358707,
+    "n": 432
    }
   }
  },
  "jours": 14,
- "maj": 1795226849,
- "nb_signaux": 3153,
+ "maj": 1795229225,
+ "nb_signaux": 3159,
  "rates": [
   {
    "base": "SKYAI",
    "mso4h": 7.77337764,
-   "pct24": -16.203,
+   "pct24": -18.019,
    "secteur": "Non classé",
    "sens": "short",
    "symbol": "SKYAI/USDT:USDT"
@@ -544,7 +544,7 @@
   {
    "base": "BEAT",
    "mso4h": 0.0,
-   "pct24": -16.188,
+   "pct24": -16.736,
    "secteur": "Gaming",
    "sens": "short",
    "symbol": "BEAT/USDT:USDT"
@@ -552,26 +552,26 @@
   {
    "base": "CSOPSS2LHKD",
    "mso4h": 0.0,
-   "pct24": -15.361,
+   "pct24": -15.267,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "CSOPSS2LHKD/USDT:USDT"
   },
   {
-   "base": "LIT",
-   "mso4h": 0.0,
-   "pct24": -14.264,
-   "secteur": "DeFi",
-   "sens": "short",
-   "symbol": "LIT/USDT:USDT"
-  },
-  {
    "base": "FOLKS",
    "mso4h": 82.27445897,
-   "pct24": 12.46,
+   "pct24": 15.144,
    "secteur": "DeFi",
    "sens": "long",
    "symbol": "FOLKS/USDT:USDT"
+  },
+  {
+   "base": "LIT",
+   "mso4h": 0.0,
+   "pct24": -13.767,
+   "secteur": "DeFi",
+   "sens": "short",
+   "symbol": "LIT/USDT:USDT"
   }
  ]
 }

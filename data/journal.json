@@ -57124,6 +57124,13 @@
     "marche": 0.50782903,
     "mfe": 16.86758424,
     "ret": 1.87944945
+   },
+   "72": {
+    "avance": -20.41183886,
+    "mae": -35.42477456,
+    "marche": -9.68782892,
+    "mfe": 16.86758424,
+    "ret": -30.09966777
    }
   },
   "liste": "carnet",
@@ -57156,6 +57163,13 @@
     "marche": -0.50782903,
     "mfe": 0.00693626,
     "ret": -0.0190747
+   },
+   "72": {
+    "avance": -13.80623081,
+    "mae": -4.1322744,
+    "marche": 9.68782892,
+    "mfe": 0.03641534,
+    "ret": -4.11840189
    }
   },
   "liste": "bb_marche",
@@ -57189,6 +57203,13 @@
     "marche": -0.50782903,
     "mfe": 0.30738965,
     "ret": -0.28279848
+   },
+   "72": {
+    "avance": 7.95633683,
+    "mae": -7.63555883,
+    "marche": 9.68782892,
+    "mfe": 19.7713021,
+    "ret": 17.64416574
    }
   },
   "liste": "bb_marche",
@@ -124923,5 +124944,119 @@
   "symbol": "ALGO/USDT:USDT",
   "tradfi": false,
   "ts": 1795226849
+ },
+ {
+  "base": "UNI",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 4.459,
+  "raisons": [
+   "MSO",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "DeFi",
+  "sens": "long",
+  "symbol": "UNI/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795229225
+ },
+ {
+  "base": "FOLKS",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 2.5265,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "FOLKS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795229225
+ },
+ {
+  "base": "PROS",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.53,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "RWA",
+  "sens": "long",
+  "symbol": "PROS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795229225
+ },
+ {
+  "base": "CROSS",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.14538,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "long",
+  "symbol": "CROSS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795229225
+ },
+ {
+  "base": "PONS",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.094,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "PONS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795229225
+ },
+ {
+  "base": "SKY",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.04447,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "SKY/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795229225
+ },
+ {
+  "base": "KAS",
+  "detail": "bas",
+  "eval": {},
+  "liste": "demo_bb_sans",
+  "penalite": false,
+  "prix": 0.02596,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "L1",
+  "sens": "long",
+  "symbol": "KAS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795229225
  }
 ]
