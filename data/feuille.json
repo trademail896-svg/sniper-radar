@@ -354,20 +354,20 @@
   },
   "72": {
    "bas": {
-    "avance": -1.98868929,
-    "gagnants": 37.79453346,
-    "mae": -12.45137539,
-    "mfe": 9.53947941,
-    "moy": -2.8832278,
-    "n": 1061
+    "avance": -2.0069217,
+    "gagnants": 37.87593985,
+    "mae": -12.48314355,
+    "mfe": 9.54145021,
+    "moy": -2.89154186,
+    "n": 1064
    },
    "demo": {
-    "avance": -0.37426755,
-    "gagnants": 44.44444444,
-    "mae": -6.82615068,
-    "mfe": 6.61799563,
-    "moy": -0.53376617,
-    "n": 207
+    "avance": -0.39410844,
+    "gagnants": 44.71153846,
+    "mae": -6.81374997,
+    "mfe": 6.65377792,
+    "moy": -0.51500608,
+    "n": 208
    },
    "demo_haut": {
     "avance": -0.37081804,
@@ -403,20 +403,20 @@
      "n": 65
     },
     "bb_sans": {
-     "avance": -2.79812064,
-     "gagnants": 30.32904149,
-     "mae": -11.7206238,
-     "mfe": 6.77289301,
-     "moy": -5.18363132,
-     "n": 699
+     "avance": -2.80031003,
+     "gagnants": 30.42857143,
+     "mae": -11.70968418,
+     "mfe": 6.78352077,
+     "moy": -5.17117068,
+     "n": 700
     },
     "carnet": {
-     "avance": 2.02653114,
-     "gagnants": 53.64963504,
-     "mae": -16.4937634,
-     "mfe": 20.27572988,
-     "moy": 1.95837247,
-     "n": 274
+     "avance": 1.93563358,
+     "gagnants": 53.62318841,
+     "mae": -16.61733237,
+     "mfe": 20.18859793,
+     "moy": 1.86796881,
+     "n": 276
     }
    },
    "par_phase": {
@@ -429,12 +429,12 @@
      "n": 73
     },
     "Impulsion": {
-     "avance": 6.34503504,
-     "gagnants": 61.97183099,
-     "mae": -15.02109842,
-     "mfe": 23.60060884,
-     "moy": 6.38219823,
-     "n": 71
+     "avance": 5.88305239,
+     "gagnants": 61.64383562,
+     "mae": -15.52863768,
+     "mfe": 23.18008591,
+     "moy": 5.9191974,
+     "n": 73
     },
     "Pause": {
      "avance": -6.7093506,
@@ -471,12 +471,12 @@
    },
    "par_score": {
     "0": {
-     "avance": -3.28806,
-     "gagnants": 42.38410596,
-     "mae": -13.73658321,
-     "mfe": 10.44406879,
-     "moy": -3.07050746,
-     "n": 151
+     "avance": -3.46956328,
+     "gagnants": 42.48366013,
+     "mae": -13.83098713,
+     "mfe": 10.44419605,
+     "moy": -3.15198521,
+     "n": 153
     },
     "1": {
      "avance": -2.37519153,
@@ -520,58 +520,58 @@
     }
    },
    "penalite": {
-    "avance": -1.35485257,
-    "gagnants": 40.03724395,
-    "mae": -12.60479508,
-    "mfe": 10.50875707,
-    "moy": -1.84877666,
-    "n": 537
+    "avance": -1.33564139,
+    "gagnants": 40.14869888,
+    "mae": -12.63571272,
+    "mfe": 10.50745411,
+    "moy": -1.84327473,
+    "n": 538
    }
   }
  },
  "jours": 14,
- "maj": 1795284451,
- "nb_signaux": 3627,
+ "maj": 1795288039,
+ "nb_signaux": 3630,
  "rates": [
-  {
-   "base": "CAP",
-   "mso4h": 8.8211047,
-   "pct24": -14.096,
-   "secteur": "IA",
-   "sens": "short",
-   "symbol": "CAP/USDT:USDT"
-  },
-  {
-   "base": "MMT",
-   "mso4h": 55.37598204,
-   "pct24": -13.505,
-   "secteur": "DeFi",
-   "sens": "short",
-   "symbol": "MMT/USDT:USDT"
-  },
-  {
-   "base": "BARD",
-   "mso4h": 16.3118067,
-   "pct24": 12.135,
-   "secteur": "DeFi",
-   "sens": "long",
-   "symbol": "BARD/USDT:USDT"
-  },
   {
    "base": "SIREN",
    "mso4h": 52.22990425,
-   "pct24": 10.739,
+   "pct24": 11.767,
    "secteur": "Memes",
    "sens": "long",
    "symbol": "SIREN/USDT:USDT"
   },
   {
-   "base": "RAVE",
-   "mso4h": 41.03531949,
-   "pct24": 4.511,
-   "secteur": "Non classé",
+   "base": "BARD",
+   "mso4h": 16.3118067,
+   "pct24": 9.908,
+   "secteur": "DeFi",
    "sens": "long",
-   "symbol": "RAVE/USDT:USDT"
+   "symbol": "BARD/USDT:USDT"
+  },
+  {
+   "base": "CAP",
+   "mso4h": 8.8211047,
+   "pct24": -7.847,
+   "secteur": "IA",
+   "sens": "short",
+   "symbol": "CAP/USDT:USDT"
+  },
+  {
+   "base": "BANK",
+   "mso4h": 0.30283601,
+   "pct24": -6.895,
+   "secteur": "Non classé",
+   "sens": "short",
+   "symbol": "BANK/USDT:USDT"
+  },
+  {
+   "base": "OPENAI",
+   "mso4h": 0.36014782,
+   "pct24": -5.308,
+   "secteur": "Actions",
+   "sens": "short",
+   "symbol": "OPENAI/USDT:USDT"
   }
  ]
 }

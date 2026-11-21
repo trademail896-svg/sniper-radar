@@ -74097,7 +74097,14 @@
     "mfe": 6.69527897,
     "ret": 2.74678112
    },
-   "4": null
+   "4": null,
+   "72": {
+    "avance": -30.01542854,
+    "mae": -37.85407725,
+    "marche": 7.8695058,
+    "mfe": 6.69527897,
+    "ret": -22.14592275
+   }
   },
   "liste": "carnet",
   "penalite": false,
@@ -74127,6 +74134,13 @@
     "marche": -0.43789147,
     "mfe": 6.48787882,
     "ret": 5.71090362
+   },
+   "72": {
+    "avance": 8.98076454,
+    "mae": -29.23848579,
+    "marche": -7.8695058,
+    "mfe": 9.80776432,
+    "ret": 1.11125874
    }
   },
   "liste": "carnet",
@@ -74157,6 +74171,13 @@
     "marche": 0.43789147,
     "mfe": 1.36986301,
     "ret": 1.32835201
+   },
+   "72": {
+    "avance": -4.33069301,
+    "mae": -4.06288917,
+    "marche": 7.8695058,
+    "mfe": 14.21232877,
+    "ret": 3.53881279
    }
   },
   "liste": "bb_sans",
@@ -74219,6 +74240,13 @@
     "marche": 0.43789147,
     "mfe": 1.19555047,
     "ret": 1.15396611
+   },
+   "72": {
+    "avance": -4.50117229,
+    "mae": -4.2468032,
+    "marche": 7.8695058,
+    "mfe": 14.06071317,
+    "ret": 3.36833351
    }
   },
   "liste": "demo_bb_sans",
@@ -109235,6 +109263,7 @@
   "base": "ZIL",
   "detail": "Essoufflement",
   "eval": {
+   "24": null,
    "4": {
     "avance": 3.52269412,
     "mae": 1.46231721,
@@ -149735,5 +149764,55 @@
   "symbol": "OP/USDT:USDT",
   "tradfi": false,
   "ts": 1795284451
+ },
+ {
+  "base": "ICNT",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.3559,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "Non classé",
+  "sens": "long",
+  "symbol": "ICNT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795288039
+ },
+ {
+  "base": "MMT",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.214,
+  "raisons": [],
+  "score": 0,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "MMT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795288039
+ },
+ {
+  "base": "SOXS",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 77.783,
+  "raisons": [
+   "météo",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "SOXS/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795288039
  }
 ]
