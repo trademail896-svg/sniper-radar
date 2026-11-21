@@ -42713,7 +42713,8 @@
     "marche": 2.11854128,
     "mfe": 2.10368144,
     "ret": 0.1878287
-   }
+   },
+   "72": null
   },
   "liste": "carnet",
   "penalite": false,
@@ -57240,6 +57241,13 @@
     "marche": 0.41904762,
     "mfe": 4.90872211,
     "ret": 2.88032454
+   },
+   "72": {
+    "avance": -16.10238956,
+    "mae": -27.27518594,
+    "marche": -10.07070036,
+    "mfe": 5.07775524,
+    "ret": -26.17308993
    }
   },
   "liste": "carnet",
@@ -57273,6 +57281,13 @@
     "marche": 0.41904762,
     "mfe": 4.37505362,
     "ret": 1.93017071
+   },
+   "72": {
+    "avance": -16.41982035,
+    "mae": -27.59715193,
+    "marche": -10.07070036,
+    "mfe": 4.37505362,
+    "ret": -26.49052072
    }
   },
   "liste": "carnet",
@@ -57306,6 +57321,13 @@
     "marche": -0.41904762,
     "mfe": 7.02625976,
     "ret": -6.77785664
+   },
+   "72": {
+    "avance": -45.6988054,
+    "mae": -68.23988644,
+    "marche": 10.07070036,
+    "mfe": 7.02625976,
+    "ret": -35.62810504
    }
   },
   "liste": "carnet",
@@ -57366,6 +57388,13 @@
     "marche": 0.41904762,
     "mfe": 0.92114445,
     "ret": 0.54431263
+   },
+   "72": {
+    "avance": -1.38777835,
+    "mae": -14.55687369,
+    "marche": -10.07070036,
+    "mfe": 3.69853454,
+    "ret": -11.45847872
    }
   },
   "liste": "bb_probable",
@@ -57400,6 +57429,13 @@
     "marche": 0.41904762,
     "mfe": 0.33447438,
     "ret": 0.08623168
+   },
+   "72": {
+    "avance": 2.20010014,
+    "mae": -9.84870261,
+    "marche": -10.07070036,
+    "mfe": 3.15660195,
+    "ret": -7.87060022
    }
   },
   "liste": "bb_probable",
@@ -57433,6 +57469,13 @@
     "marche": 0.41904762,
     "mfe": 1.24992653,
     "ret": 0.85810003
+   },
+   "72": {
+    "avance": -4.16239722,
+    "mae": -17.80655526,
+    "marche": -10.07070036,
+    "mfe": 8.92972592,
+    "ret": -14.23309758
    }
   },
   "liste": "bb_sans",
@@ -87475,6 +87518,7 @@
   "base": "XOM",
   "detail": "bas",
   "eval": {
+   "24": null,
    "4": {
     "avance": 1.47806061,
     "mae": -0.92355694,
@@ -101028,6 +101072,13 @@
   "base": "BARD",
   "detail": "Retournement",
   "eval": {
+   "24": {
+    "avance": 2.96061326,
+    "mae": -8.09935205,
+    "marche": -6.20035408,
+    "mfe": 14.03887689,
+    "ret": -3.23974082
+   },
    "4": {
     "avance": 9.05477491,
     "mae": 3.23974082,
@@ -101055,6 +101106,13 @@
   "base": "PUMP",
   "detail": "Impulsion",
   "eval": {
+   "24": {
+    "avance": -0.85381943,
+    "mae": -2.57425743,
+    "marche": 6.20035408,
+    "mfe": 7.84158416,
+    "ret": 5.34653465
+   },
    "4": {
     "avance": -1.88081259,
     "mae": -2.57425743,
@@ -101080,6 +101138,13 @@
   "base": "MOONSHOT",
   "detail": "haut",
   "eval": {
+   "24": {
+    "avance": -5.08194471,
+    "mae": -2.37883898,
+    "marche": 6.20035408,
+    "mfe": 2.00603586,
+    "ret": 1.11840937
+   },
    "4": {
     "avance": -2.01319374,
     "mae": -1.88176815,
@@ -125058,5 +125123,82 @@
   "symbol": "KAS/USDT:USDT",
   "tradfi": false,
   "ts": 1795229225
+ },
+ {
+  "base": "SPCH",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 6.676,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence",
+   "foule"
+  ],
+  "score": 4,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "SPCH/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795230450
+ },
+ {
+  "base": "XLM",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 0.12501,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence"
+  ],
+  "score": 3,
+  "secteur": "RWA",
+  "sens": "long",
+  "symbol": "XLM/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795230450
+ },
+ {
+  "base": "QNT",
+  "detail": "bas",
+  "eval": {},
+  "liste": "demo_bb_probable",
+  "penalite": false,
+  "prix": 135.11,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence"
+  ],
+  "score": 3,
+  "secteur": "RWA",
+  "sens": "long",
+  "symbol": "QNT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795230450
+ },
+ {
+  "base": "XLM",
+  "detail": "bas",
+  "eval": {},
+  "liste": "demo_bb_probable",
+  "penalite": false,
+  "prix": 0.12483,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence"
+  ],
+  "score": 3,
+  "secteur": "RWA",
+  "sens": "long",
+  "symbol": "XLM/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795230450
  }
 ]
