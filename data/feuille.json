@@ -10,20 +10,20 @@
     "n": 1545
    },
    "demo": {
-    "avance": 0.04262819,
-    "gagnants": 27.4559194,
-    "mae": -4.32759269,
-    "mfe": 2.41830229,
-    "moy": -1.79342243,
-    "n": 397
+    "avance": 0.03976576,
+    "gagnants": 27.38693467,
+    "mae": -4.34353645,
+    "mfe": 2.41286364,
+    "moy": -1.80829606,
+    "n": 398
    },
    "demo_haut": {
-    "avance": 1.07933592,
-    "gagnants": 17.0212766,
-    "mae": -6.20900804,
-    "mfe": 1.62074221,
-    "moy": -4.05664384,
-    "n": 47
+    "avance": 1.03400347,
+    "gagnants": 16.66666667,
+    "mae": -6.30201218,
+    "mfe": 1.59226261,
+    "moy": -4.13282055,
+    "n": 48
    },
    "haut": {
     "avance": 0.33577785,
@@ -530,13 +530,13 @@
   }
  },
  "jours": 14,
- "maj": 1795219660,
- "nb_signaux": 3103,
+ "maj": 1795223244,
+ "nb_signaux": 3126,
  "rates": [
   {
    "base": "CSOPSS2LHKD",
    "mso4h": 0.0,
-   "pct24": -18.691,
+   "pct24": -17.911,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "CSOPSS2LHKD/USDT:USDT"
@@ -544,34 +544,34 @@
   {
    "base": "SKYAI",
    "mso4h": 7.77337764,
-   "pct24": -16.339,
+   "pct24": -17.544,
    "secteur": "Non classé",
    "sens": "short",
    "symbol": "SKYAI/USDT:USDT"
   },
   {
+   "base": "BEAT",
+   "mso4h": 0.0,
+   "pct24": -17.118,
+   "secteur": "Gaming",
+   "sens": "short",
+   "symbol": "BEAT/USDT:USDT"
+  },
+  {
    "base": "LIT",
    "mso4h": 0.0,
-   "pct24": -15.493,
+   "pct24": -15.224,
    "secteur": "DeFi",
    "sens": "short",
    "symbol": "LIT/USDT:USDT"
   },
   {
-   "base": "KIOXIA",
+   "base": "BANK",
    "mso4h": 0.0,
-   "pct24": -14.431,
-   "secteur": "Actions",
+   "pct24": -13.696,
+   "secteur": "Non classé",
    "sens": "short",
-   "symbol": "KIOXIA/USDT:USDT"
-  },
-  {
-   "base": "IREN",
-   "mso4h": 0.0,
-   "pct24": -14.222,
-   "secteur": "Actions",
-   "sens": "short",
-   "symbol": "IREN/USDT:USDT"
+   "symbol": "BANK/USDT:USDT"
   }
  ]
 }
