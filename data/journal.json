@@ -151684,7 +151684,15 @@
  {
   "base": "ICNT",
   "detail": "Pause",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -1.49436177,
+    "mae": -3.42792919,
+    "marche": -0.07911392,
+    "mfe": 1.40488901,
+    "ret": -1.5734757
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.3559,
@@ -151701,7 +151709,15 @@
  {
   "base": "MMT",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 1.55640009,
+    "mae": -1.21495327,
+    "marche": 0.07911392,
+    "mfe": 2.57009346,
+    "ret": 1.63551402
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.214,
@@ -151716,7 +151732,15 @@
  {
   "base": "SOXS",
   "detail": "Retracement",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -0.18315418,
+    "mae": -1.51832663,
+    "marche": -0.07911392,
+    "mfe": 1.53118291,
+    "ret": -0.2622681
+   }
+  },
   "liste": "carnet",
   "penalite": true,
   "prix": 77.783,
@@ -153100,5 +153124,77 @@
   "symbol": "RENDER/USDT:USDT",
   "tradfi": false,
   "ts": 1795300093
+ },
+ {
+  "base": "FOLKS",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 2.4792,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "FOLKS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795302445
+ },
+ {
+  "base": "TRX",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 0.30512,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence"
+  ],
+  "score": 3,
+  "secteur": "L1",
+  "sens": "long",
+  "symbol": "TRX/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795302445
+ },
+ {
+  "base": "SIREN",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.02665,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "Memes",
+  "sens": "short",
+  "symbol": "SIREN/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795302445
+ },
+ {
+  "base": "TRX",
+  "detail": "bas",
+  "eval": {},
+  "liste": "demo_bb_probable",
+  "penalite": false,
+  "prix": 0.30524,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence"
+  ],
+  "score": 3,
+  "secteur": "L1",
+  "sens": "long",
+  "symbol": "TRX/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795302445
  }
 ]
