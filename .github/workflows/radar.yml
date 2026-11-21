@@ -22,7 +22,7 @@ jobs:
     timeout-minutes: 25
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url || steps.deploy2.outputs.page_url }}
     steps:
       - name: Récupérer le dépôt
         uses: actions/checkout@v4
@@ -58,6 +58,18 @@ jobs:
         with:
           path: site
 
+      # GitHub Pages échoue parfois de son côté (« artifact not found »,
+      # « Deployment failed ») : on attend 60 s et on réessaie une fois.
       - name: Publier
         id: deploy
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Attendre avant le 2e essai
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 60
+
+      - name: Publier (2e essai)
+        id: deploy2
+        if: steps.deploy.outcome == 'failure'
         uses: actions/deploy-pages@v4

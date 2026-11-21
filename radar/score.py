@@ -1,16 +1,22 @@
 """
 SNIPER RADAR — Score de confirmations (tri des listes)
 =====================================================
-Un point par confirmation, 5 au maximum :
+Score V2 (21-11-2026) — un point par confirmation, 4 au maximum :
  1. Setup actif (BB 4H « Retournement probable », ou mover en Retournement /
     Zone de rebond)
- 2. MSO 4H du bon côté (survente pour un long, surachat pour un short)
+ 2. Momentum : mover en tendance (Impulsion, Retracement, Zone de rebond) avec
+    MSO 4H extrême DANS le sens du trade (≥ 85 long / ≤ 15 short)
  3. Divergence RSI 1H confirmée dans le sens du setup
  4. Dans le sens de la météo (long : % verts ≥ 50 et qui monte sur 4 h ;
     short : l'inverse)
- 5. Foule du mauvais bord (funding ≥ +0,03 % pour un short / ≤ −0,03 % pour un
-    long, OU OI +5 % sur 24 h pendant que le prix va contre le setup)
-Pénalité : MSO 4H extrême dans le sens du trade, ou « marche sur la bande ».
+Pénalité : « marche sur la bande » seulement.
+Retirés (feuille de match 14 j, 2589 signaux, 24 h net de frais) :
+ - MSO à contre-sens (survente pour un long) : −2,76 % avec / +1,18 % sans
+ - Foule (funding / OI) : −2,41 % avec / −0,94 % sans → affichée en info, 0 point
+ - Pénalité MSO extrême dans le sens du trade : faisait MIEUX que sans → devenue
+   le point momentum pour les movers en tendance
+L'ancien score (V1, /5) est encore calculé et suivi dans la feuille de match
+pour comparer les deux pendant quelques semaines.
 Égalité : setup le plus récent, puis le plus liquide.
 """
 import numpy as np
@@ -25,7 +31,27 @@ def sens_mover(e):
     return "long" if pump else "short"          # Impulsion, Retracement, Zone de rebond
 
 
-def noter(sens, setup_actif, token, meteo, oi24, marche_bande=False):
+PHASES_TENDANCE = ("Impulsion", "Retracement", "Zone de rebond")
+
+
+def noter(sens, setup_actif, token, meteo, oi24, marche_bande=False, tendance=False):
+    """Score V2 (voir l'en-tête). Garde l'ancien score dans « v1 »."""
+    v1 = noter_v1(sens, setup_actif, token, meteo, oi24, marche_bande)
+    m = token["m"]
+    mso = m["mso4h"]
+    r1 = v1["raisons"]
+    raisons = [x for x in r1 if x in ("setup", "divergence", "météo")]
+    momentum = tendance and not np.isnan(mso) and ((sens == "long" and mso >= config.MSO_SURACHAT)
+                                                  or (sens == "short" and mso <= config.MSO_SURVENTE))
+    if momentum:
+        raisons.insert(1 if "setup" in raisons else 0, "momentum")
+    infos = ["foule"] if "foule" in r1 else []
+    return {"points": len(raisons), "raisons": raisons, "infos": infos, "penalite": bool(marche_bande),
+            "sens": sens, "v1": {"points": v1["points"], "penalite": v1["penalite"]}}
+
+
+def noter_v1(sens, setup_actif, token, meteo, oi24, marche_bande=False):
+    """Ancien score /5 (MSO à contre-sens, foule), gardé pour la comparaison."""
     m = token["m"]
     mso = m["mso4h"]
     raisons = []

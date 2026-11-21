@@ -10,10 +10,15 @@ SNIPER RADAR — Journal et feuille de match
 4. Feuille de match (14 derniers jours) par score, par liste, par phase,
    + les plus gros mouvements des dernières 24 h que le radar n'a pas mis en avant.
 Résultats bruts, sans frais (≈ 0,12 % aller-retour à retrancher).
+
+Score V2 (21-11-2026) : les entrées d'avant (sans « v ») sont recalculées en V2
+à partir de leurs raisons — c'est exact, car V2 n'utilise que setup, divergence,
+météo, et le momentum = l'ancienne pénalité MSO d'un mover en tendance. L'ancien
+score reste dans la section « comparaison » de la feuille.
 """
 import numpy as np
 
-from . import etat
+from . import config, etat
 
 _FICHIER = "journal.json"
 HORIZONS = (4, 24, 72)
@@ -36,6 +41,7 @@ def enregistrer(journal, maintenant, movers, bb, prefixe=""):
     def ajout(t, liste, detail, s):
         e = {"ts": maintenant, "symbol": t["symbol"], "base": t["base"], "liste": liste, "detail": detail,
              "score": s["points"], "penalite": s["penalite"], "raisons": s["raisons"], "sens": s["sens"],
+             "v": 2, "score_v1": s["v1"]["points"], "penalite_v1": s["v1"]["penalite"], "infos": s.get("infos", []),
              "prix": float(t["last"]) if not np.isnan(t["last"]) else float(t["b"]["1h"]["c"][-1]),
              "tradfi": t["tradfi"], "secteur": t["secteur"], "eval": {}}
         if _cle(e) not in recents:
@@ -106,6 +112,37 @@ def evaluer(journal, par_sym, maintenant):
     return nb
 
 
+_TENDANCE = ("Impulsion", "Retracement", "Zone de rebond")
+
+
+def _v2(e):
+    """(points, pénalité) en score V2, recalculé pour les entrées d'avant la V2."""
+    if e.get("v") == 2:
+        return e["score"], e["penalite"]
+    r = e["raisons"]
+    pts = sum(x in r for x in ("setup", "divergence", "météo"))
+    liste = e["liste"].replace("demo_", "")
+    if liste == "carnet" and e["detail"] in _TENDANCE and e["penalite"]:
+        pts += 1                                    # ancienne pénalité MSO = momentum
+    return pts, liste == "bb_marche"
+
+
+def _v1(e):
+    if e.get("v") == 2:
+        return e["score_v1"], e["penalite_v1"]
+    return e["score"], e["penalite"]
+
+
+def _haut(e, ver=_v2, seuil=None):
+    pts, pen = ver(e)
+    return pts >= (config.SCORE_HAUT if seuil is None else seuil) and not pen
+
+
+def _bas(e, ver=_v2):
+    pts, pen = ver(e)
+    return pts <= 1 or pen
+
+
 def _stats(entrees, h="24"):
     ev = [e["eval"][h] for e in entrees if e["eval"].get(h)]
     if not ev:
@@ -119,14 +156,14 @@ def _stats(entrees, h="24"):
 
 def feuille(journal, maintenant, ok):
     fen = [e for e in journal if maintenant - e["ts"] <= FEUILLE_JOURS * 86400 and not e["liste"].startswith("demo_")]
-    res = {"jours": FEUILLE_JOURS, "nb_signaux": len(fen), "horizons": {}}
+    res = {"jours": FEUILLE_JOURS, "nb_signaux": len(fen), "score_version": 2, "horizons": {}}
     for h in ("4", "24", "72"):
         par_score = {}
-        for s in range(6):
-            st = _stats([e for e in fen if e["score"] == s and not e["penalite"]], h)
+        for s in range(config.SCORE_MAX + 1):
+            st = _stats([e for e in fen if _v2(e) == (s, False)], h)
             if st:
                 par_score[str(s)] = st
-        pen = _stats([e for e in fen if e["penalite"]], h)
+        pen = _stats([e for e in fen if _v2(e)[1]], h)
         par_liste = {}
         for li in sorted({e["liste"] for e in fen}):
             st = _stats([e for e in fen if e["liste"] == li], h)
@@ -137,13 +174,16 @@ def feuille(journal, maintenant, ok):
             st = _stats([e for e in fen if e["liste"] == "carnet" and e["detail"] == ph], h)
             if st:
                 par_phase[ph] = st
-        haut = _stats([e for e in fen if e["score"] >= 4 and not e["penalite"]], h)
-        bas = _stats([e for e in fen if e["score"] <= 1 or e["penalite"]], h)
+        haut = _stats([e for e in fen if _haut(e)], h)
+        bas = _stats([e for e in fen if _bas(e)], h)
+        comparaison = {"v2_haut": haut, "v2_bas": bas,
+                       "v1_haut": _stats([e for e in fen if _haut(e, _v1, 4)], h),
+                       "v1_bas": _stats([e for e in fen if _bas(e, _v1)], h)}
         dm = [e for e in journal if maintenant - e["ts"] <= FEUILLE_JOURS * 86400 and e["liste"].startswith("demo_")]
         res["horizons"][h] = {"par_score": par_score, "penalite": pen, "par_liste": par_liste,
-                              "par_phase": par_phase, "haut": haut, "bas": bas,
+                              "par_phase": par_phase, "haut": haut, "bas": bas, "comparaison": comparaison,
                               "demo": _stats([e for e in dm if not e["liste"].endswith("bb_marche")], h),
-                              "demo_haut": _stats([e for e in dm if e["score"] >= 3 and not e["penalite"]], h)}
+                              "demo_haut": _stats([e for e in dm if _haut(e, seuil=2)], h)}
     # Coups ratés : plus gros mouvements 24 h absents des mises en avant des dernières 24 h
     vus = {}
     for e in journal:

@@ -6,7 +6,7 @@ Changer une valeur ici suffit : aucun autre fichier n'a de chiffre en dur.
 """
 import os
 
-VERSION = "1.04"
+VERSION = "1.05"
 NOM = "SNIPER RADAR"
 
 # ─── Dossiers ────────────────────────────────────────────────────────────────
@@ -103,6 +103,8 @@ COMPRESSION_TOLERANCE = 1.05         # largeur ≤ 105 % du minimum des 90 jours
 COMPRESSION_MAX_AFFICHES = 15
 
 # ─── Score ───────────────────────────────────────────────────────────────────
+SCORE_MAX = 4                        # score V2 (21-11-2026) : setup, momentum, divergence, météo
+SCORE_HAUT = 3                       # « haut de liste » dans la feuille de match
 FUNDING_FOULE = 0.0003               # 0,03 %
 OI_FOULE_PCT = 5.0
 

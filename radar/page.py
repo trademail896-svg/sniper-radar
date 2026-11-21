@@ -86,11 +86,13 @@ def mso_badge(v):
 
 def score_html(s):
     pts = s["points"]
-    coul = "#B6FF3B" if pts >= 4 else ("#FFC53D" if pts >= 3 else "#F5F7FF")
-    barres = "".join(f'<i class="{"on" if k < pts else ""}"></i>' for k in range(5))
-    pen = '<span class="pen" title="Pénalité">!</span>' if s["penalite"] else ""
+    coul = "#B6FF3B" if pts >= config.SCORE_HAUT else ("#FFC53D" if pts >= 2 else "#F5F7FF")
+    barres = "".join(f'<i class="{"on" if k < pts else ""}"></i>' for k in range(config.SCORE_MAX))
+    pen = '<span class="pen" title="Pénalité : marche sur la bande">!</span>' if s["penalite"] else ""
     titre = ", ".join(s["raisons"]) or "aucune confirmation"
-    return (f'<div class="score" title="{e(titre)}"><div style="display:flex;align-items:center"><span style="color:{coul}">{pts}/5</span>{pen}</div>'
+    if s.get("infos"):
+        titre += " · info : " + ", ".join(s["infos"])
+    return (f'<div class="score" title="{e(titre)}"><div style="display:flex;align-items:center"><span style="color:{coul}">{pts}/{config.SCORE_MAX}</span>{pen}</div>'
             f'<div class="bars">{barres}</div></div>')
 
 
@@ -270,12 +272,16 @@ def feuille_html(f):
     h = f["horizons"].get("24", {})
     entete = ('<thead><tr><th></th><th>Signaux</th><th>Résultat moyen</th><th>Gagnants</th>'
               '<th>Avance vs marché</th><th>Meilleur moment</th><th>Pire moment</th></tr></thead>')
-    lignes = [_ligne_stats("Score 4–5 (haut de liste)", h.get("haut")), _ligne_stats("Score 0–1 ou pénalité", h.get("bas"))]
-    for sc in ("5", "4", "3", "2", "1", "0"):
-        lignes.append(_ligne_stats(f"Score {sc}/5", h.get("par_score", {}).get(sc)))
-    lignes.append(_ligne_stats("Avec pénalité", h.get("penalite")))
+    cp = h.get("comparaison", {})
+    lignes = [_ligne_stats(f"Score {config.SCORE_HAUT}–{config.SCORE_MAX} (haut de liste)", h.get("haut")),
+              _ligne_stats("Score 0–1 ou marche sur la bande", h.get("bas")),
+              _ligne_stats("Ancien score /5 · 4–5 (comparaison)", cp.get("v1_haut")),
+              _ligne_stats("Ancien score /5 · 0–1 ou pénalité", cp.get("v1_bas"))]
+    for sc in [str(k) for k in range(config.SCORE_MAX, -1, -1)]:
+        lignes.append(_ligne_stats(f"Score {sc}/{config.SCORE_MAX}", h.get("par_score", {}).get(sc)))
+    lignes.append(_ligne_stats("Marche sur la bande (pénalité)", h.get("penalite")))
     lignes.append(_ligne_stats("BloFin démo · tous les setups", h.get("demo")))
-    lignes.append(_ligne_stats("BloFin démo · score 3 et plus", h.get("demo_haut")))
+    lignes.append(_ligne_stats("BloFin démo · score 2 et plus", h.get("demo_haut")))
     for li, st in h.get("par_liste", {}).items():
         lignes.append(_ligne_stats(LISTES_NOM.get(li, li), st))
     for ph, st in h.get("par_phase", {}).items():
@@ -418,9 +424,9 @@ def generer(r):
                 fl = "▲" if it["bb"]["cote"] == "haut" else "▼"
             else:                                   # retournement attendu : flèche du trade
                 fl = "▲" if it["bb"]["sens"] == "long" else "▼"
-            tip = f"{it['score']['points']}/5 · {', '.join(it['score']['raisons']) or 'aucune confirmation'} · touche il y a {it['bb']['bougies_depuis']} bougie(s) 4H · mèche {num(it['bb']['meche'], 2)} %"
+            tip = f"{it['score']['points']}/{config.SCORE_MAX} · {', '.join(it['score']['raisons']) or 'aucune confirmation'} · touche il y a {it['bb']['bougies_depuis']} bougie(s) 4H · mèche {num(it['bb']['meche'], 2)} %"
             chips.append(f'<a class="chip" {_attr(t)} href="{tv(t["base"])}" target="_blank" rel="noopener" title="{e(tip)}" '
-                         f'style="background:{cbg};border:1px solid {bd};color:{cfg}">{fl} {e(t["base"])} <span class="mono">{it["score"]["points"]}/5</span></a>')
+                         f'style="background:{cbg};border:1px solid {bd};color:{cfg}">{fl} {e(t["base"])} <span class="mono">{it["score"]["points"]}/{config.SCORE_MAX}</span></a>')
         bb_html.append(f"""<div class="grp" style="background:{bg};border:1px solid {bd}">
 <div style="display:flex;justify-content:space-between;align-items:center"><span style="font-weight:700;font-size:15px;color:{fg}">{titre}</span><span class="mono" style="font-size:13px">{len(items)}</span></div>
 <span class="sub">{regle}</span><div class="chips">{"".join(chips) or '<span class="sub">Aucun</span>'}</div></div>""")

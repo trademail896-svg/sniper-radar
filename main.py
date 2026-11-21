@@ -25,7 +25,8 @@ def noter_listes(entrees, touches, par_sym, me, oi24):
         if not t:
             continue
         sens = score.sens_mover(e)
-        s = score.noter(sens, e["phase"] in ("Retournement", "Zone de rebond"), t, me, oi24.get(e["symbol"]))
+        s = score.noter(sens, e["phase"] in ("Retournement", "Zone de rebond"), t, me, oi24.get(e["symbol"]),
+                        tendance=e["phase"] in score.PHASES_TENDANCE)
         movers.append({"e": e, "token": t, "score": s})
     movers.sort(key=lambda x: score.cle_tri(x["score"], x["e"]["phase_depuis_h"], x["token"]["qv24"]))
     bb = {"probable": [], "sans": [], "marche": []}
