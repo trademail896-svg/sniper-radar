@@ -178,12 +178,12 @@
   },
   "4": {
    "bas": {
-    "avance": -0.14310938,
-    "gagnants": 49.02597403,
-    "mae": -2.41635431,
-    "mfe": 2.17506993,
-    "moy": -0.18943557,
-    "n": 2464
+    "avance": -0.13968778,
+    "gagnants": 49.04896803,
+    "mae": -2.41394803,
+    "mfe": 2.17521571,
+    "moy": -0.18607327,
+    "n": 2471
    },
    "demo": {
     "avance": -0.33209215,
@@ -211,12 +211,12 @@
    },
    "par_liste": {
     "bb_marche": {
-     "avance": -0.35891848,
-     "gagnants": 49.85221675,
-     "mae": -2.29503781,
-     "mfe": 2.07201157,
-     "moy": -0.33437117,
-     "n": 1015
+     "avance": -0.36013274,
+     "gagnants": 49.75417896,
+     "mae": -2.29560686,
+     "mfe": 2.06601943,
+     "moy": -0.33655961,
+     "n": 1017
     },
     "bb_probable": {
      "avance": 0.33860126,
@@ -227,20 +227,20 @@
      "n": 144
     },
     "bb_sans": {
-     "avance": -0.23716776,
-     "gagnants": 41.21813031,
-     "mae": -2.13180886,
-     "mfe": 1.3823282,
-     "moy": -0.5142882,
-     "n": 1412
+     "avance": -0.23626738,
+     "gagnants": 41.25973107,
+     "mae": -2.13152489,
+     "mfe": 1.38177838,
+     "moy": -0.51352491,
+     "n": 1413
     },
     "carnet": {
-     "avance": 0.56506886,
-     "gagnants": 53.08270677,
-     "mae": -3.58442459,
-     "mfe": 4.09575396,
-     "moy": 0.5110542,
-     "n": 665
+     "avance": 0.57420251,
+     "gagnants": 53.21375187,
+     "mae": -3.56907557,
+     "mfe": 4.09657196,
+     "moy": 0.52191836,
+     "n": 669
     }
    },
    "par_phase": {
@@ -253,12 +253,12 @@
      "n": 170
     },
     "Impulsion": {
-     "avance": 0.18867328,
-     "gagnants": 52.57731959,
-     "mae": -3.9026332,
-     "mfe": 3.8802778,
-     "moy": 0.28821456,
-     "n": 194
+     "avance": 0.22713788,
+     "gagnants": 53.03030303,
+     "mae": -3.84434367,
+     "mfe": 3.88739469,
+     "moy": 0.32942406,
+     "n": 198
     },
     "Pause": {
      "avance": 1.23607106,
@@ -295,20 +295,20 @@
    },
    "par_score": {
     "0": {
-     "avance": 0.06067641,
-     "gagnants": 53.87205387,
-     "mae": -2.48044658,
-     "mfe": 2.53120009,
-     "moy": 0.1599847,
-     "n": 297
+     "avance": 0.07820163,
+     "gagnants": 54.02684564,
+     "mae": -2.47288154,
+     "mfe": 2.55128196,
+     "moy": 0.17559671,
+     "n": 298
     },
     "1": {
-     "avance": -0.21486385,
-     "gagnants": 42.97142857,
-     "mae": -2.40210271,
-     "mfe": 1.58007384,
-     "moy": -0.52104116,
-     "n": 875
+     "avance": -0.20919602,
+     "gagnants": 43.11717861,
+     "mae": -2.3975126,
+     "mfe": 1.58314526,
+     "moy": -0.51290876,
+     "n": 879
     },
     "2": {
      "avance": -0.04840413,
@@ -344,12 +344,12 @@
     }
    },
    "penalite": {
-    "avance": -0.14135956,
-    "gagnants": 52.0123839,
-    "mae": -2.41127284,
-    "mfe": 2.49616199,
-    "moy": -0.04518088,
-    "n": 1292
+    "avance": -0.14265014,
+    "gagnants": 51.93199382,
+    "mae": -2.41154042,
+    "mfe": 2.49079699,
+    "moy": -0.04734782,
+    "n": 1294
    }
   },
   "72": {
@@ -530,48 +530,48 @@
   }
  },
  "jours": 14,
- "maj": 1795256240,
- "nb_signaux": 3404,
+ "maj": 1795259243,
+ "nb_signaux": 3411,
  "rates": [
   {
    "base": "AEON",
    "mso4h": 0.0,
-   "pct24": -17.597,
+   "pct24": -17.856,
    "secteur": "IA",
    "sens": "short",
    "symbol": "AEON/USDT:USDT"
   },
   {
-   "base": "GWEI",
-   "mso4h": 0.0,
-   "pct24": -17.424,
-   "secteur": "DeFi",
-   "sens": "short",
-   "symbol": "GWEI/USDT:USDT"
-  },
-  {
    "base": "CSOPSK2LHKD",
    "mso4h": 0.0,
-   "pct24": -16.278,
+   "pct24": -16.927,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "CSOPSK2LHKD/USDT:USDT"
   },
   {
+   "base": "GWEI",
+   "mso4h": 0.0,
+   "pct24": -16.07,
+   "secteur": "DeFi",
+   "sens": "short",
+   "symbol": "GWEI/USDT:USDT"
+  },
+  {
+   "base": "PIPPIN",
+   "mso4h": 80.09599097,
+   "pct24": -13.79,
+   "secteur": "Memes",
+   "sens": "short",
+   "symbol": "PIPPIN/USDT:USDT"
+  },
+  {
    "base": "ZHIPUHKD",
    "mso4h": 0.0,
-   "pct24": -14.048,
+   "pct24": -13.687,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "ZHIPUHKD/USDT:USDT"
-  },
-  {
-   "base": "ZHIPU",
-   "mso4h": 0.0,
-   "pct24": -13.878,
-   "secteur": "Actions",
-   "sens": "short",
-   "symbol": "ZHIPU/USDT:USDT"
   }
  ]
 }

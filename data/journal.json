@@ -136060,7 +136060,15 @@
  {
   "base": "ICNT",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -2.46520989,
+    "mae": -4.29775281,
+    "marche": 0.47082787,
+    "mfe": 1.09550562,
+    "ret": -1.99438202
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.356,
@@ -136077,7 +136085,15 @@
  {
   "base": "DOS",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 2.4625232,
+    "mae": -0.17294133,
+    "marche": 0.47082787,
+    "mfe": 3.7581482,
+    "ret": 2.93335107
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.15034,
@@ -136094,7 +136110,15 @@
  {
   "base": "BREV",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 3.09017622,
+    "mae": 0.627554,
+    "marche": 0.47082787,
+    "mfe": 3.56100409,
+    "ret": 3.56100409
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.06852,
@@ -136111,7 +136135,15 @@
  {
   "base": "BTW",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 5.28319364,
+    "mae": -0.22606533,
+    "marche": -0.47082787,
+    "mfe": 8.51559851,
+    "ret": 4.81236577
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.70776,
@@ -136126,7 +136158,15 @@
  {
   "base": "XPD",
   "detail": "bas",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 1.03507026,
+    "mae": -1.73056591,
+    "marche": -0.47082787,
+    "mfe": 0.60541984,
+    "ret": 0.56424239
+   }
+  },
   "liste": "bb_sans",
   "penalite": false,
   "prix": 898.55,
@@ -136143,7 +136183,15 @@
  {
   "base": "IBIT",
   "detail": "bas",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 0.01908,
+    "mae": -1.33705242,
+    "marche": -0.47082787,
+    "mfe": -0.13946579,
+    "ret": -0.45174787
+   }
+  },
   "liste": "bb_marche",
   "penalite": true,
   "prix": 32.983,
@@ -136161,7 +136209,15 @@
  {
   "base": "RAY",
   "detail": "bas",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -1.97181299,
+    "mae": -3.83174653,
+    "marche": -0.47082787,
+    "mfe": -1.81051974,
+    "ret": -2.44264086
+   }
+  },
   "liste": "bb_marche",
   "penalite": true,
   "prix": 1.2814,
@@ -138104,5 +138160,143 @@
   "symbol": "MAGMA/USDT:USDT",
   "tradfi": false,
   "ts": 1795256240
+ },
+ {
+  "base": "PUMP",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.002304,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "Memes",
+  "sens": "long",
+  "symbol": "PUMP/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795259243
+ },
+ {
+  "base": "PENGU",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.004175,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "Memes",
+  "sens": "long",
+  "symbol": "PENGU/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795259243
+ },
+ {
+  "base": "BEAT",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.06801,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "Gaming",
+  "sens": "long",
+  "symbol": "BEAT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795259243
+ },
+ {
+  "base": "SNDK",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 78.95,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "SNDK/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795259243
+ },
+ {
+  "base": "SNXX",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 1.728,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "SNXX/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795259243
+ },
+ {
+  "base": "TRX",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 0.30326,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence",
+   "foule"
+  ],
+  "score": 4,
+  "secteur": "L1",
+  "sens": "long",
+  "symbol": "TRX/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795259243
+ },
+ {
+  "base": "PARTI",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 0.03842,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "PARTI/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795259243
+ },
+ {
+  "base": "TRX",
+  "detail": "bas",
+  "eval": {},
+  "liste": "demo_bb_probable",
+  "penalite": false,
+  "prix": 0.30328,
+  "raisons": [
+   "setup",
+   "MSO",
+   "divergence",
+   "foule"
+  ],
+  "score": 4,
+  "secteur": "L1",
+  "sens": "long",
+  "symbol": "TRX/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795259243
  }
 ]
