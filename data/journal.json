@@ -147695,6 +147695,13 @@
   "base": "PROM",
   "detail": "bas",
   "eval": {
+   "24": {
+    "avance": 0.02709252,
+    "mae": -1.18892242,
+    "marche": 1.64310897,
+    "mfe": 4.40288767,
+    "ret": 1.67020148
+   },
    "4": {
     "avance": 1.27629198,
     "mae": -1.18892242,
@@ -149045,6 +149052,13 @@
   "base": "COST",
   "detail": "haut",
   "eval": {
+   "24": {
+    "avance": 2.88342123,
+    "mae": -0.77074938,
+    "marche": -3.46666667,
+    "mfe": 0.25962085,
+    "ret": -0.58324544
+   },
    "4": {
     "avance": 1.03125637,
     "mae": -0.03695991,
@@ -165077,7 +165091,15 @@
  {
   "base": "BR",
   "detail": "Retracement",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 1.02977685,
+    "mae": -0.50037908,
+    "marche": -0.10230655,
+    "mfe": 4.07126611,
+    "ret": 0.92747031
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.3957,
@@ -165845,7 +165867,15 @@
  {
   "base": "BR",
   "detail": "bas",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 1.0031931,
+    "mae": 0.07855659,
+    "marche": 0.95565339,
+    "mfe": 4.3560894,
+    "ret": 1.95884649
+   }
+  },
   "liste": "bb_marche",
   "penalite": true,
   "prix": 0.39462,
@@ -167512,5 +167542,135 @@
   "symbol": "SKYAI/USDT:USDT",
   "tradfi": false,
   "ts": 1795360052
+ },
+ {
+  "base": "VELVET",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.07079,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "long",
+  "symbol": "VELVET/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795363642
+ },
+ {
+  "base": "COST",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 1125.81,
+  "raisons": [
+   "MSO",
+   "divergence",
+   "foule"
+  ],
+  "score": 3,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "COST/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795363642
+ },
+ {
+  "base": "CP",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.006716,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "CP/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795363642
+ },
+ {
+  "base": "PROM",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 4.7106,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "L2",
+  "sens": "long",
+  "symbol": "PROM/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795363642
+ },
+ {
+  "base": "BR",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.47484,
+  "raisons": [],
+  "score": 0,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "BR/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795363642
+ },
+ {
+  "base": "NIGHT",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 0.04843,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "L1",
+  "sens": "short",
+  "symbol": "NIGHT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795363642
+ },
+ {
+  "base": "BLESS",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 0.017481,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "BLESS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795363642
+ },
+ {
+  "base": "JUP",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "demo_carnet",
+  "penalite": false,
+  "prix": 0.2216,
+  "raisons": [],
+  "score": 0,
+  "secteur": "DeFi",
+  "sens": "long",
+  "symbol": "JUP/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795363642
  }
 ]
