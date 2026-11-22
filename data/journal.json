@@ -137741,6 +137741,13 @@
   "base": "UNI",
   "detail": "Essoufflement",
   "eval": {
+   "24": {
+    "avance": 5.37071337,
+    "mae": -6.16730209,
+    "marche": 0.66202939,
+    "mfe": 7.33348284,
+    "ret": 6.03274277
+   },
    "4": {
     "avance": -1.04556271,
     "mae": -5.49450549,
@@ -137840,6 +137847,13 @@
   "base": "PONS",
   "detail": "Impulsion",
   "eval": {
+   "24": {
+    "avance": 6.84288046,
+    "mae": -0.62765957,
+    "marche": -0.66202939,
+    "mfe": 8.63829787,
+    "ret": 6.18085106
+   },
    "4": {
     "avance": 3.75548002,
     "mae": -0.62765957,
@@ -137886,6 +137900,13 @@
   "base": "KAS",
   "detail": "bas",
   "eval": {
+   "24": {
+    "avance": -3.16588147,
+    "mae": -8.20493066,
+    "marche": 0.66202939,
+    "mfe": 0.46224961,
+    "ret": -2.50385208
+   },
    "4": {
     "avance": -1.51043855,
     "mae": -5.23882897,
@@ -158481,5 +158502,70 @@
   "symbol": "BNC/USDT:USDT",
   "tradfi": true,
   "ts": 1795313246
+ },
+ {
+  "base": "SKYAI",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.03894,
+  "raisons": [
+   "divergence",
+   "météo"
+  ],
+  "score": 2,
+  "secteur": "Non classé",
+  "sens": "long",
+  "symbol": "SKYAI/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795316843
+ },
+ {
+  "base": "ICNT",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.3412,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "ICNT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795316843
+ },
+ {
+  "base": "AKE",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.0033301,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "AKE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795316843
+ },
+ {
+  "base": "GOOGL",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 273.38,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "Actions US",
+  "sens": "long",
+  "symbol": "GOOGL/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795316843
  }
 ]

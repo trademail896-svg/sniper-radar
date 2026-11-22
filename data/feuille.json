@@ -2,20 +2,20 @@
  "horizons": {
   "24": {
    "bas": {
-    "avance": -0.43295747,
-    "gagnants": 46.80451128,
-    "mae": -7.20711671,
-    "mfe": 6.04864765,
-    "moy": -0.82287316,
-    "n": 2128
+    "avance": -0.42953998,
+    "gagnants": 46.82949742,
+    "mae": -7.20402632,
+    "mfe": 6.04986402,
+    "moy": -0.81958348,
+    "n": 2129
    },
    "demo": {
-    "avance": -0.155885,
-    "gagnants": 28.1535649,
-    "mae": -5.52425711,
-    "mfe": 2.28253933,
-    "moy": -2.20702049,
-    "n": 547
+    "avance": -0.16137769,
+    "gagnants": 28.10218978,
+    "mae": -5.52914885,
+    "mfe": 2.27921764,
+    "moy": -2.20756215,
+    "n": 548
    },
    "demo_haut": {
     "avance": 0.57429598,
@@ -59,30 +59,30 @@
      "n": 1270
     },
     "carnet": {
-     "avance": 1.03369239,
-     "gagnants": 49.14089347,
-     "mae": -9.50666244,
-     "mfe": 11.82907908,
-     "moy": 0.91056163,
-     "n": 582
+     "avance": 1.05106603,
+     "gagnants": 49.31506849,
+     "mae": -9.48574059,
+     "mfe": 11.81591747,
+     "moy": 0.92835696,
+     "n": 584
     }
    },
    "par_phase": {
     "Essoufflement": {
-     "avance": -2.04514858,
-     "gagnants": 46.4516129,
-     "mae": -10.15115118,
-     "mfe": 7.69921846,
-     "moy": -2.437726,
-     "n": 155
+     "avance": -1.997611,
+     "gagnants": 46.79487179,
+     "mae": -10.12561368,
+     "mfe": 7.696874,
+     "moy": -2.38342813,
+     "n": 156
     },
     "Impulsion": {
-     "avance": 2.91660956,
-     "gagnants": 51.4619883,
-     "mae": -8.14963664,
-     "mfe": 13.14685827,
-     "moy": 3.32874765,
-     "n": 171
+     "avance": 2.93943671,
+     "gagnants": 51.74418605,
+     "mae": -8.10590422,
+     "mfe": 13.12064571,
+     "moy": 3.34532965,
+     "n": 172
     },
     "Pause": {
      "avance": -4.50666405,
@@ -135,12 +135,12 @@
      "n": 789
     },
     "2": {
-     "avance": -1.10181191,
-     "gagnants": 36.21052632,
-     "mae": -8.39463141,
-     "mfe": 5.87865938,
-     "moy": -2.1436526,
-     "n": 475
+     "avance": -1.08821416,
+     "gagnants": 36.34453782,
+     "mae": -8.38995214,
+     "mfe": 5.88171573,
+     "moy": -2.1264753,
+     "n": 476
     },
     "3": {
      "avance": 0.79540962,
@@ -168,12 +168,12 @@
     }
    },
    "penalite": {
-    "avance": -0.4574136,
-    "gagnants": 47.1402214,
-    "mae": -7.56034744,
-    "mfe": 6.38875591,
-    "moy": -0.74729006,
-    "n": 1084
+    "avance": -0.45068522,
+    "gagnants": 47.18894009,
+    "mae": -7.55395787,
+    "mfe": 6.39082922,
+    "moy": -0.74090467,
+    "n": 1085
    }
   },
   "4": {
@@ -530,21 +530,21 @@
   }
  },
  "jours": 14,
- "maj": 1795315064,
- "nb_signaux": 3785,
+ "maj": 1795316843,
+ "nb_signaux": 3789,
  "rates": [
   {
-   "base": "AKE",
-   "mso4h": 5.03764657,
-   "pct24": -38.315,
-   "secteur": "IA",
+   "base": "PONS",
+   "mso4h": 0.0,
+   "pct24": -6.558,
+   "secteur": "Non classé",
    "sens": "short",
-   "symbol": "AKE/USDT:USDT"
+   "symbol": "PONS/USDT:USDT"
   },
   {
    "base": "INJ",
    "mso4h": 0.0,
-   "pct24": -5.947,
+   "pct24": -5.365,
    "secteur": "RWA",
    "sens": "short",
    "symbol": "INJ/USDT:USDT"
@@ -552,26 +552,26 @@
   {
    "base": "ICP",
    "mso4h": 0.44271975,
-   "pct24": -5.539,
+   "pct24": -5.175,
    "secteur": "IA",
    "sens": "short",
    "symbol": "ICP/USDT:USDT"
   },
   {
-   "base": "BARD",
-   "mso4h": 23.53638569,
-   "pct24": 5.163,
-   "secteur": "DeFi",
-   "sens": "long",
-   "symbol": "BARD/USDT:USDT"
+   "base": "CAP",
+   "mso4h": 12.99332698,
+   "pct24": -4.91,
+   "secteur": "IA",
+   "sens": "short",
+   "symbol": "CAP/USDT:USDT"
   },
   {
-   "base": "ATOM",
-   "mso4h": 4.19622039,
-   "pct24": -4.749,
-   "secteur": "Non classé",
+   "base": "FET",
+   "mso4h": 4.44086127,
+   "pct24": -3.943,
+   "secteur": "IA",
    "sens": "short",
-   "symbol": "ATOM/USDT:USDT"
+   "symbol": "FET/USDT:USDT"
   }
  ]
 }
