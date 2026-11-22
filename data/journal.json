@@ -89240,6 +89240,13 @@
     "marche": -0.06747374,
     "mfe": 4.90328385,
     "ret": -0.85470085
+   },
+   "72": {
+    "avance": -0.13030021,
+    "mae": -18.21862348,
+    "marche": -9.22642494,
+    "mfe": 14.34997751,
+    "ret": -9.35672515
    }
   },
   "liste": "carnet",
@@ -89299,6 +89306,13 @@
     "marche": -0.06747374,
     "mfe": 16.62311101,
     "ret": 8.47630951
+   },
+   "72": {
+    "avance": 11.24892238,
+    "mae": -7.9195546,
+    "marche": -9.22642494,
+    "mfe": 16.62311101,
+    "ret": 2.02249744
    }
   },
   "liste": "bb_marche",
@@ -131114,6 +131128,7 @@
   "base": "PROS",
   "detail": "Retracement",
   "eval": {
+   "24": null,
    "4": {
     "avance": 5.19558333,
     "mae": -5.98335989,
@@ -131389,6 +131404,7 @@
   "base": "BILL",
   "detail": "haut",
   "eval": {
+   "24": null,
    "4": {
     "avance": 2.23987991,
     "mae": 0.86334484,
@@ -140908,6 +140924,13 @@
   "base": "NIGHT",
   "detail": "bas",
   "eval": {
+   "24": {
+    "avance": 6.4824938,
+    "mae": -3.86985457,
+    "marche": 2.58824812,
+    "mfe": 13.53216663,
+    "ret": 9.07074193
+   },
    "4": {
     "avance": -3.17658292,
     "mae": -3.86985457,
@@ -159521,7 +159544,15 @@
  {
   "base": "NIGHT",
   "detail": "bas",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 0.78065842,
+    "mae": -1.08499096,
+    "marche": -0.75805444,
+    "mfe": 1.24321881,
+    "ret": 0.02260398
+   }
+  },
   "liste": "bb_sans",
   "penalite": false,
   "prix": 0.04424,
@@ -164255,7 +164286,15 @@
  {
   "base": "AKE",
   "detail": "Essoufflement",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -4.93553367,
+    "mae": -3.26704545,
+    "marche": 2.06976663,
+    "mfe": 1.98863636,
+    "ret": -2.86576705
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.002816,
@@ -164273,7 +164312,15 @@
  {
   "base": "MRNA",
   "detail": "haut",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 0.29473573,
+    "mae": -1.79975278,
+    "marche": -2.06976663,
+    "mfe": -0.59826947,
+    "ret": -1.7750309
+   }
+  },
   "liste": "bb_sans",
   "penalite": true,
   "prix": 202.25,
@@ -164288,7 +164335,15 @@
  {
   "base": "PIEVERSE",
   "detail": "haut",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -8.01860106,
+    "mae": -37.26481455,
+    "marche": -2.06976663,
+    "mfe": -7.74525799,
+    "ret": -10.08836769
+   }
+  },
   "liste": "bb_marche",
   "penalite": true,
   "prix": 3.91659,
@@ -164306,7 +164361,15 @@
  {
   "base": "SKYAI",
   "detail": "haut",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 20.98002304,
+    "mae": 9.50091575,
+    "marche": -2.06976663,
+    "mfe": 23.83241758,
+    "ret": 18.91025641
+   }
+  },
   "liste": "bb_marche",
   "penalite": true,
   "prix": 0.04368,
@@ -164323,7 +164386,15 @@
  {
   "base": "EVAA",
   "detail": "bas",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 9.88327499,
+    "mae": -11.06266199,
+    "marche": 2.06976663,
+    "mfe": 21.5276719,
+    "ret": 11.95304162
+   }
+  },
   "liste": "bb_marche",
   "penalite": true,
   "prix": 3.2795,
@@ -164767,5 +164838,119 @@
   "symbol": "JUP/USDT:USDT",
   "tradfi": false,
   "ts": 1795345647
+ },
+ {
+  "base": "BLESS",
+  "detail": "Zone de rebond",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.013656,
+  "raisons": [
+   "setup",
+   "météo"
+  ],
+  "score": 2,
+  "secteur": "Non classé",
+  "sens": "long",
+  "symbol": "BLESS/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795349243
+ },
+ {
+  "base": "NIGHT",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.04705,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "L1",
+  "sens": "long",
+  "symbol": "NIGHT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795349243
+ },
+ {
+  "base": "NIGHT",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.04705,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "L1",
+  "sens": "short",
+  "symbol": "NIGHT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795349243
+ },
+ {
+  "base": "ERA",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.0765,
+  "raisons": [],
+  "score": 0,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "ERA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795349243
+ },
+ {
+  "base": "CP",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 0.006624,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "CP/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795349243
+ },
+ {
+  "base": "ELSA",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 0.07797,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "ELSA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795349243
+ },
+ {
+  "base": "MRNA",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 205.96,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "MRNA/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795349243
  }
 ]
