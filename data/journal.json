@@ -102337,7 +102337,8 @@
     "marche": -0.59471133,
     "mfe": 1.01289134,
     "ret": -0.44198895
-   }
+   },
+   "72": null
   },
   "liste": "carnet",
   "penalite": false,
@@ -102485,7 +102486,8 @@
     "marche": 0.59471133,
     "mfe": 1.72475403,
     "ret": -0.16675799
-   }
+   },
+   "72": null
   },
   "liste": "bb_probable",
   "penalite": false,
@@ -102928,7 +102930,8 @@
     "marche": 0.59471133,
     "mfe": 0.06206554,
     "ret": -0.17378352
-   }
+   },
+   "72": null
   },
   "liste": "bb_sans",
   "penalite": false,
@@ -103001,7 +103004,8 @@
     "marche": -0.59471133,
     "mfe": 0.14477494,
     "ret": -3.75756778
-   }
+   },
+   "72": null
   },
   "liste": "bb_sans",
   "penalite": false,
@@ -103347,7 +103351,8 @@
     "marche": -0.59471133,
     "mfe": 1.2193085,
     "ret": 0.15032571
-   }
+   },
+   "72": null
   },
   "liste": "bb_marche",
   "penalite": true,
@@ -106197,6 +106202,13 @@
     "marche": -1.0679377,
     "mfe": -0.81179235,
     "ret": -4.12305063
+   },
+   "72": {
+    "avance": -6.20194497,
+    "mae": -11.7709891,
+    "marche": -4.90679248,
+    "mfe": -0.81179235,
+    "ret": -11.10873745
    }
   },
   "liste": "bb_marche",
@@ -109101,6 +109113,13 @@
     "marche": 0.08892182,
     "mfe": 4.23544744,
     "ret": 2.58470895
+   },
+   "72": {
+    "avance": 6.58668202,
+    "mae": 0.56472632,
+    "marche": 3.99107645,
+    "mfe": 11.03388358,
+    "ret": 10.57775847
    }
   },
   "liste": "carnet",
@@ -172934,6 +172953,13 @@
   "base": "DGAI",
   "detail": "Pause",
   "eval": {
+   "24": {
+    "avance": -17.31923219,
+    "mae": -26.12359551,
+    "marche": -2.73450499,
+    "mfe": -1.8075232,
+    "ret": -20.05373718
+   },
    "4": {
     "avance": -7.57284414,
     "mae": -16.37762579,
@@ -172959,6 +172985,13 @@
   "base": "SOXS",
   "detail": "Retracement",
   "eval": {
+   "24": {
+    "avance": -12.16595458,
+    "mae": -10.00501042,
+    "marche": 2.73450499,
+    "mfe": 2.17953113,
+    "ret": -9.43144959
+   },
    "4": {
     "avance": -1.88701054,
     "mae": -2.20590174,
@@ -172984,6 +173017,13 @@
   "base": "UVXY",
   "detail": "Retracement",
   "eval": {
+   "24": {
+    "avance": -7.51139079,
+    "mae": -4.9649237,
+    "marche": 2.73450499,
+    "mfe": 1.65617994,
+    "ret": -4.7768858
+   },
    "4": {
     "avance": -1.29672153,
     "mae": -0.9438056,
@@ -173009,6 +173049,13 @@
   "base": "MSTU",
   "detail": "Pause",
   "eval": {
+   "24": {
+    "avance": -7.27466722,
+    "mae": -10.61057722,
+    "marche": -2.73450499,
+    "mfe": -1.76773467,
+    "ret": -10.00917221
+   },
    "4": {
     "avance": -2.94353006,
     "mae": -7.43991161,
@@ -173032,6 +173079,13 @@
   "base": "VVV",
   "detail": "Impulsion",
   "eval": {
+   "24": {
+    "avance": -0.47466247,
+    "mae": -2.48818898,
+    "marche": 2.73450499,
+    "mfe": 6.55511811,
+    "ret": 2.25984252
+   },
    "4": {
     "avance": -0.95222808,
     "mae": -2.48818898,
@@ -173055,6 +173109,13 @@
   "base": "BNB",
   "detail": "bas",
   "eval": {
+   "24": {
+    "avance": -0.30924122,
+    "mae": 0.82612837,
+    "marche": 2.73450499,
+    "mfe": 3.20742966,
+    "ret": 2.42526377
+   },
    "4": {
     "avance": 0.61128329,
     "mae": 1.03128664,
@@ -173081,6 +173142,13 @@
   "base": "CT",
   "detail": "haut",
   "eval": {
+   "24": {
+    "avance": 10.51807637,
+    "mae": -4.85150759,
+    "marche": -2.73450499,
+    "mfe": 7.87425376,
+    "ret": 7.78357137
+   },
    "4": {
     "avance": 1.36455297,
     "mae": -4.85150759,
@@ -173129,6 +173197,13 @@
   "base": "RARE",
   "detail": "haut",
   "eval": {
+   "24": {
+    "avance": 3.03014431,
+    "mae": -10.56910569,
+    "marche": -2.73450499,
+    "mfe": 5.46932742,
+    "ret": 0.29563932
+   },
    "4": {
     "avance": -5.02265713,
     "mae": -10.56910569,
@@ -173152,6 +173227,13 @@
   "base": "MAGMA",
   "detail": "haut",
   "eval": {
+   "24": {
+    "avance": -5.22430785,
+    "mae": -10.76519281,
+    "marche": -2.73450499,
+    "mfe": 1.07005855,
+    "ret": -7.95881284
+   },
    "4": {
     "avance": -5.20999684,
     "mae": -10.76519281,
@@ -173175,6 +173257,13 @@
   "base": "BTW",
   "detail": "haut",
   "eval": {
+   "24": {
+    "avance": 12.00770187,
+    "mae": -4.48107312,
+    "marche": -2.73450499,
+    "mfe": 9.41205877,
+    "ret": 9.27319688
+   },
    "4": {
     "avance": -1.98122154,
     "mae": -4.41025356,
@@ -173223,6 +173312,13 @@
   "base": "IDOL",
   "detail": "haut",
   "eval": {
+   "24": {
+    "avance": 8.55429006,
+    "mae": -2.2099752,
+    "marche": -2.73450499,
+    "mfe": 26.05125379,
+    "ret": 5.81978506
+   },
    "4": {
     "avance": 6.778313,
     "mae": -2.2099752,
@@ -173246,6 +173342,13 @@
   "base": "BNB",
   "detail": "bas",
   "eval": {
+   "24": {
+    "avance": -0.35425012,
+    "mae": 0.78182218,
+    "marche": 2.73450499,
+    "mfe": 3.16207705,
+    "ret": 2.38025487
+   },
    "4": {
     "avance": 0.56664788,
     "mae": 0.98689029,
@@ -178045,5 +178148,71 @@
   "symbol": "ALGO/USDT:USDT",
   "tradfi": false,
   "ts": 1795421257
+ },
+ {
+  "base": "PIEVERSE",
+  "detail": "Zone de rebond",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 3.55723,
+  "raisons": [
+   "setup"
+  ],
+  "score": 1,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "PIEVERSE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795424845
+ },
+ {
+  "base": "SKY",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.03911,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "IA",
+  "sens": "long",
+  "symbol": "SKY/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795424845
+ },
+ {
+  "base": "ZHIPUHKD",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 340.02,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "ZHIPUHKD/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795424845
+ },
+ {
+  "base": "SKY",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.03911,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "IA",
+  "sens": "long",
+  "symbol": "SKY/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795424845
  }
 ]
