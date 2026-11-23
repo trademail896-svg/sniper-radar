@@ -97640,7 +97640,8 @@
     "marche": 0.97879282,
     "mfe": 0.62327577,
     "ret": -0.61305814
-   }
+   },
+   "72": null
   },
   "liste": "carnet",
   "penalite": false,
@@ -97750,7 +97751,8 @@
     "marche": 0.97879282,
     "mfe": 2.82988357,
     "ret": 2.1992238
-   }
+   },
+   "72": null
   },
   "liste": "carnet",
   "penalite": true,
@@ -97935,7 +97937,8 @@
     "marche": 0.97879282,
     "mfe": 0.62327577,
     "ret": -0.61305814
-   }
+   },
+   "72": null
   },
   "liste": "bb_sans",
   "penalite": false,
@@ -98199,7 +98202,8 @@
     "marche": -0.97879282,
     "mfe": 0.72080531,
     "ret": -0.48606029
-   }
+   },
+   "72": null
   },
   "liste": "bb_sans",
   "penalite": false,
@@ -98223,7 +98227,8 @@
     "marche": 0.97879282,
     "mfe": 0.91477536,
     "ret": 0.38212135
-   }
+   },
+   "72": null
   },
   "liste": "bb_marche",
   "penalite": true,
@@ -112678,6 +112683,13 @@
     "marche": -0.41985151,
     "mfe": 1.07601527,
     "ret": 0.86775425
+   },
+   "72": {
+    "avance": -0.77900714,
+    "mae": -12.44359597,
+    "marche": -3.42092344,
+    "mfe": 1.77021867,
+    "ret": -4.19993058
    }
   },
   "liste": "demo_bb_marche",
@@ -113225,6 +113237,13 @@
     "marche": -0.41985151,
     "mfe": 1.30118638,
     "ret": 0.99502488
+   },
+   "72": {
+    "avance": 2.57897931,
+    "mae": -8.76387294,
+    "marche": -3.42092344,
+    "mfe": 1.33945656,
+    "ret": -0.84194413
    }
   },
   "liste": "demo_bb_marche",
@@ -115719,6 +115738,13 @@
     "marche": -0.38287304,
     "mfe": 1.85896501,
     "ret": -1.96593248
+   },
+   "72": {
+    "avance": -16.7667455,
+    "mae": -25.0482164,
+    "marche": 2.27589446,
+    "mfe": 5.1879224,
+    "ret": -14.49085104
    }
   },
   "liste": "carnet",
@@ -176362,5 +176388,72 @@
   "symbol": "MAGMA/USDT:USDT",
   "tradfi": false,
   "ts": 1795410446
+ },
+ {
+  "base": "SKUU",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 9.117,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "SKUU/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795414043
+ },
+ {
+  "base": "UNITREE",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 106.06,
+  "raisons": [
+   "météo",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "UNITREE/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795414043
+ },
+ {
+  "base": "EVAA",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 2.9934,
+  "raisons": [],
+  "score": 0,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "EVAA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795414043
+ },
+ {
+  "base": "PI",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 0.0558,
+  "raisons": [
+   "setup",
+   "divergence",
+   "foule"
+  ],
+  "score": 3,
+  "secteur": "L1",
+  "sens": "short",
+  "symbol": "PI/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795414043
  }
 ]

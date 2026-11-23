@@ -354,12 +354,12 @@
   },
   "72": {
    "bas": {
-    "avance": -1.22728188,
-    "gagnants": 38.31041257,
-    "mae": -12.96385002,
-    "mfe": 9.96111206,
-    "moy": -2.19703604,
-    "n": 1527
+    "avance": -1.23745169,
+    "gagnants": 38.28534031,
+    "mae": -12.97175864,
+    "mfe": 9.95798824,
+    "moy": -2.20508173,
+    "n": 1528
    },
    "demo": {
     "avance": -0.31211016,
@@ -411,12 +411,12 @@
      "n": 1018
     },
     "carnet": {
-     "avance": 2.39052294,
-     "gagnants": 55.17241379,
-     "mae": -16.95154185,
-     "mfe": 21.06269909,
-     "moy": 2.34401539,
-     "n": 377
+     "avance": 2.33984234,
+     "gagnants": 55.02645503,
+     "mae": -16.97296162,
+     "mfe": 21.02070233,
+     "moy": 2.29947871,
+     "n": 378
     }
    },
    "par_phase": {
@@ -437,12 +437,12 @@
      "n": 103
     },
     "Pause": {
-     "avance": -5.01334765,
-     "gagnants": 55.55555556,
-     "mae": -28.85336652,
-     "mfe": 15.9471975,
-     "moy": -3.16611055,
-     "n": 36
+     "avance": -5.33100705,
+     "gagnants": 54.05405405,
+     "mae": -28.75052462,
+     "mfe": 15.65640628,
+     "moy": -3.47218462,
+     "n": 37
     },
     "Retournement": {
      "avance": 0.05598966,
@@ -479,12 +479,12 @@
      "n": 213
     },
     "1": {
-     "avance": -1.48191996,
-     "gagnants": 30.51146384,
-     "mae": -12.59783792,
-     "mfe": 7.70836289,
-     "moy": -4.13645321,
-     "n": 567
+     "avance": -1.50882986,
+     "gagnants": 30.45774648,
+     "mae": -12.6197576,
+     "mfe": 7.70392549,
+     "moy": -4.15468278,
+     "n": 568
     },
     "2": {
      "avance": -2.96594943,
@@ -530,48 +530,48 @@
   }
  },
  "jours": 14,
- "maj": 1795410446,
- "nb_signaux": 4009,
+ "maj": 1795414043,
+ "nb_signaux": 4013,
  "rates": [
-  {
-   "base": "ZHIPU",
-   "mso4h": 28.9106893,
-   "pct24": 13.067,
-   "secteur": "Actions",
-   "sens": "long",
-   "symbol": "ZHIPU/USDT:USDT"
-  },
   {
    "base": "ZHIPUHKD",
    "mso4h": 29.07535117,
-   "pct24": 12.984,
+   "pct24": 14.322,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "ZHIPUHKD/USDT:USDT"
   },
   {
-   "base": "IRYS",
-   "mso4h": 34.69106506,
-   "pct24": -12.977,
-   "secteur": "L1",
-   "sens": "short",
-   "symbol": "IRYS/USDT:USDT"
-  },
-  {
-   "base": "GIGADEVICE",
-   "mso4h": 27.68682261,
-   "pct24": 10.753,
+   "base": "ZHIPU",
+   "mso4h": 28.9106893,
+   "pct24": 14.184,
    "secteur": "Actions",
    "sens": "long",
-   "symbol": "GIGADEVICE/USDT:USDT"
+   "symbol": "ZHIPU/USDT:USDT"
+  },
+  {
+   "base": "CSOPSK2LHKD",
+   "mso4h": 22.89770092,
+   "pct24": 13.942,
+   "secteur": "Actions",
+   "sens": "long",
+   "symbol": "CSOPSK2LHKD/USDT:USDT"
   },
   {
    "base": "PUMP",
    "mso4h": 25.14977726,
-   "pct24": 10.419,
+   "pct24": 13.137,
    "secteur": "Memes",
    "sens": "long",
    "symbol": "PUMP/USDT:USDT"
+  },
+  {
+   "base": "GIGADEVICE",
+   "mso4h": 27.68682261,
+   "pct24": 12.413,
+   "secteur": "Actions",
+   "sens": "long",
+   "symbol": "GIGADEVICE/USDT:USDT"
   }
  ]
 }
