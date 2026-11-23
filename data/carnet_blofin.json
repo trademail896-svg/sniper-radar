@@ -1,50 +1,4 @@
 {
- "APT/USDT:USDT": {
-  "base": "APT",
-  "capture_pct": -15.80629302,
-  "capture_ts": 1795241245,
-  "depart": 0.4055,
-  "depart_ts": 1795150800000,
-  "extreme": 0.3357,
-  "extreme_ts": 1795240800000,
-  "move_pct": -17.21331689,
-  "phase": "Zone de rebond",
-  "phase_depuis_h": 28.00111111,
-  "phases": [
-   {
-    "phase": "Impulsion",
-    "ts": 1795241245
-   },
-   {
-    "phase": "Retracement",
-    "ts": 1795244843
-   },
-   {
-    "phase": "Impulsion",
-    "ts": 1795248441
-   },
-   {
-    "phase": "Retracement",
-    "ts": 1795255655
-   },
-   {
-    "phase": "Zone de rebond",
-    "ts": 1795270041
-   },
-   {
-    "phase": "Retracement",
-    "ts": 1795298845
-   },
-   {
-    "phase": "Zone de rebond",
-    "ts": 1795338443
-   }
-  ],
-  "prix": 0.3798,
-  "retr": 0.63180516,
-  "sens": "dump",
-  "symbol": "APT/USDT:USDT"
- },
  "JUP/USDT:USDT": {
   "base": "JUP",
   "capture_pct": -15.06696429,
@@ -55,7 +9,7 @@
   "extreme_ts": 1795248000000,
   "move_pct": -22.97650131,
   "phase": "Zone de rebond",
-  "phase_depuis_h": 7.00111111,
+  "phase_depuis_h": 8.00027778,
   "phases": [
    {
     "phase": "Impulsion",
@@ -114,8 +68,8 @@
     "ts": 1795414043
    }
   ],
-  "prix": 0.2406,
-  "retr": 0.55357143,
+  "prix": 0.2506,
+  "retr": 0.71590909,
   "sens": "dump",
   "symbol": "JUP/USDT:USDT"
  },
@@ -129,7 +83,7 @@
   "extreme_ts": 1795240800000,
   "move_pct": -21.29746835,
   "phase": "Zone de rebond",
-  "phase_depuis_h": 9.13833333,
+  "phase_depuis_h": 10.1375,
   "phases": [
    {
     "phase": "Impulsion",
@@ -200,8 +154,8 @@
     "ts": 1795406349
    }
   ],
-  "prix": 0.283,
-  "retr": 0.50965825,
+  "prix": 0.2929,
+  "retr": 0.65676077,
   "sens": "dump",
   "symbol": "SPX/USDT:USDT"
  },
@@ -214,13 +168,9 @@
   "extreme": 679.41,
   "extreme_ts": 1795230000000,
   "move_pct": -25.27222332,
-  "phase": "Retracement",
+  "phase": "Zone de rebond",
   "phase_depuis_h": 0.0,
   "phases": [
-   {
-    "phase": "Essoufflement",
-    "ts": 1795248441
-   },
    {
     "phase": "Retracement",
     "ts": 1795255655
@@ -296,10 +246,14 @@
    {
     "phase": "Retracement",
     "ts": 1795439247
+   },
+   {
+    "phase": "Zone de rebond",
+    "ts": 1795442844
    }
   ],
-  "prix": 786.6,
-  "retr": 0.46650999,
+  "prix": 846.0,
+  "retr": 0.72502938,
   "sens": "dump",
   "symbol": "ZEC/USDT:USDT"
  }
