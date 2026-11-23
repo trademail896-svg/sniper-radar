@@ -93331,7 +93331,8 @@
     "marche": -2.18944906,
     "mfe": 0.36821475,
     "ret": -1.42534743
-   }
+   },
+   "72": null
   },
   "liste": "carnet",
   "penalite": false,
@@ -93404,7 +93405,8 @@
     "marche": 2.1742079,
     "mfe": 3.27004219,
     "ret": 1.89873418
-   }
+   },
+   "72": null
   },
   "liste": "carnet",
   "penalite": true,
@@ -93428,7 +93430,8 @@
     "marche": -2.18944906,
     "mfe": 0.23088924,
     "ret": -0.71138846
-   }
+   },
+   "72": null
   },
   "liste": "bb_marche",
   "penalite": true,
@@ -168367,6 +168370,13 @@
   "base": "TURBO",
   "detail": "bas",
   "eval": {
+   "24": {
+    "avance": 1.6831708,
+    "mae": -2.07508017,
+    "marche": 1.69355058,
+    "mfe": 4.09356725,
+    "ret": 3.37672137
+   },
    "4": {
     "avance": 0.11555445,
     "mae": -2.07508017,
@@ -169327,6 +169337,13 @@
   "base": "SKYAI",
   "detail": "Impulsion",
   "eval": {
+   "24": {
+    "avance": -5.73138288,
+    "mae": -14.56086287,
+    "marche": 0.98048406,
+    "mfe": 14.99743195,
+    "ret": -4.75089882
+   },
    "4": {
     "avance": 4.63534671,
     "mae": -1.72059579,
@@ -169353,6 +169370,13 @@
   "base": "ICNT",
   "detail": "Impulsion",
   "eval": {
+   "24": {
+    "avance": -6.99137995,
+    "mae": -8.2063306,
+    "marche": -0.98048406,
+    "mfe": 1.992966,
+    "ret": -7.97186401
+   },
    "4": {
     "avance": -1.41630831,
     "mae": -3.16529894,
@@ -169376,6 +169400,13 @@
   "base": "AKE",
   "detail": "Impulsion",
   "eval": {
+   "24": {
+    "avance": 18.35233475,
+    "mae": -4.20107504,
+    "marche": -0.98048406,
+    "mfe": 26.12834449,
+    "ret": 17.3718507
+   },
    "4": {
     "avance": 15.45224997,
     "mae": 11.70235128,
@@ -169399,6 +169430,13 @@
   "base": "GOOGL",
   "detail": "bas",
   "eval": {
+   "24": {
+    "avance": -0.94756285,
+    "mae": -0.58892384,
+    "marche": 0.98048406,
+    "mfe": 1.77408735,
+    "ret": 0.03292121
+   },
    "4": {
     "avance": 0.18910669,
     "mae": -0.36213329,
@@ -174139,5 +174177,121 @@
   "symbol": "DGAI/USDT:USDT",
   "tradfi": false,
   "ts": 1795399652
+ },
+ {
+  "base": "KORU",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 4.965,
+  "raisons": [
+   "météo",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "KORU/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795403244
+ },
+ {
+  "base": "RAM",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 3.893,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "RAM/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795403244
+ },
+ {
+  "base": "SKUU",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 8.535,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "SKUU/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795403244
+ },
+ {
+  "base": "MINIMAX",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 12.85,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "MINIMAX/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795403244
+ },
+ {
+  "base": "MINIMAXHKD",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 100.18,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "MINIMAXHKD/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795403244
+ },
+ {
+  "base": "ICNT",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.3633,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "ICNT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795403244
+ },
+ {
+  "base": "AKE",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.0027556,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "AKE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795403244
  }
 ]
