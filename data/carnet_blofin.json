@@ -9,7 +9,7 @@
   "extreme_ts": 1795438800000,
   "move_pct": 16.48014921,
   "phase": "Zone de rebond",
-  "phase_depuis_h": 1.00111111,
+  "phase_depuis_h": 2.00138889,
   "phases": [
    {
     "phase": "Impulsion",
@@ -36,8 +36,8 @@
     "ts": 1795486042
    }
   ],
-  "prix": 0.08038,
-  "retr": 0.56992724,
+  "prix": 0.08084,
+  "retr": 0.5327405,
   "sens": "pump",
   "symbol": "ALGO/USDT:USDT"
  },
@@ -50,8 +50,8 @@
   "extreme": 0.2065,
   "extreme_ts": 1795248000000,
   "move_pct": -22.97650131,
-  "phase": "Retracement",
-  "phase_depuis_h": 3.99972222,
+  "phase": "Zone de rebond",
+  "phase_depuis_h": 0.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -112,10 +112,14 @@
    {
     "phase": "Retracement",
     "ts": 1795475247
+   },
+   {
+    "phase": "Zone de rebond",
+    "ts": 1795493247
    }
   ],
-  "prix": 0.2345,
-  "retr": 0.45454545,
+  "prix": 0.2374,
+  "retr": 0.50162338,
   "sens": "dump",
   "symbol": "JUP/USDT:USDT"
  },
@@ -129,7 +133,7 @@
   "extreme_ts": 1795442400000,
   "move_pct": 21.15195735,
   "phase": "Zone de rebond",
-  "phase_depuis_h": 6.00055556,
+  "phase_depuis_h": 7.00083333,
   "phases": [
    {
     "phase": "Impulsion",
@@ -144,8 +148,8 @@
     "ts": 1795468044
    }
   ],
-  "prix": 153.67,
-  "retr": 0.63084577,
+  "prix": 154.04,
+  "retr": 0.6185738,
   "sens": "pump",
   "symbol": "QNT/USDT:USDT"
  },
@@ -159,7 +163,7 @@
   "extreme_ts": 1795240800000,
   "move_pct": -21.29746835,
   "phase": "Retracement",
-  "phase_depuis_h": 0.0,
+  "phase_depuis_h": 1.00027778,
   "phases": [
    {
     "phase": "Impulsion",
@@ -242,8 +246,8 @@
     "ts": 1795489646
    }
   ],
-  "prix": 0.2796,
-  "retr": 0.45913819,
+  "prix": 0.2804,
+  "retr": 0.47102526,
   "sens": "dump",
   "symbol": "SPX/USDT:USDT"
  }
