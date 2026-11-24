@@ -530,21 +530,13 @@
   }
  },
  "jours": 14,
- "maj": 1795554448,
+ "maj": 1795556157,
  "nb_signaux": 5085,
  "rates": [
   {
-   "base": "JCT",
-   "mso4h": 0.0,
-   "pct24": -7.648,
-   "secteur": "Non classé",
-   "sens": "short",
-   "symbol": "JCT/USDT:USDT"
-  },
-  {
    "base": "MRNA",
    "mso4h": 79.13888889,
-   "pct24": 7.03,
+   "pct24": 6.983,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "MRNA/USDT:USDT"
@@ -552,15 +544,23 @@
   {
    "base": "ANT",
    "mso4h": 0.0,
-   "pct24": -6.538,
+   "pct24": -6.917,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "ANT/USDT:USDT"
   },
   {
+   "base": "JCT",
+   "mso4h": 0.0,
+   "pct24": -6.744,
+   "secteur": "Non classé",
+   "sens": "short",
+   "symbol": "JCT/USDT:USDT"
+  },
+  {
    "base": "GRAM",
    "mso4h": 9.05738902,
-   "pct24": -5.453,
+   "pct24": -6.336,
    "secteur": "L1",
    "sens": "short",
    "symbol": "GRAM/USDT:USDT"
@@ -568,7 +568,7 @@
   {
    "base": "LUNC",
    "mso4h": 89.55068907,
-   "pct24": 5.367,
+   "pct24": 5.804,
    "secteur": "DeFi",
    "sens": "long",
    "symbol": "LUNC/USDT:USDT"
