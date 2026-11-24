@@ -198353,5 +198353,60 @@
   "symbol": "XIAOMIHKD/USDT:USDT",
   "tradfi": true,
   "ts": 1795485137
+ },
+ {
+  "base": "SKY",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.03968,
+  "raisons": [
+   "MSO",
+   "divergence",
+   "météo",
+   "foule"
+  ],
+  "score": 4,
+  "secteur": "IA",
+  "sens": "long",
+  "symbol": "SKY/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795486042
+ },
+ {
+  "base": "ZHIPUHKD",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 343.71,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "ZHIPUHKD/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795486042
+ },
+ {
+  "base": "ANT",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 86.04,
+  "raisons": [
+   "MSO",
+   "météo"
+  ],
+  "score": 2,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "ANT/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795486042
  }
 ]

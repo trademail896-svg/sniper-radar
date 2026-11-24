@@ -530,13 +530,13 @@
   }
  },
  "jours": 14,
- "maj": 1795485137,
- "nb_signaux": 4521,
+ "maj": 1795486042,
+ "nb_signaux": 4524,
  "rates": [
   {
    "base": "MURATA",
    "mso4h": 100.0,
-   "pct24": 19.054,
+   "pct24": 18.319,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "MURATA/USDT:USDT"
@@ -544,15 +544,23 @@
   {
    "base": "AXTI",
    "mso4h": 40.8367995,
-   "pct24": 18.88,
+   "pct24": 18.185,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "AXTI/USDT:USDT"
   },
   {
+   "base": "IREN",
+   "mso4h": 35.49575058,
+   "pct24": 17.299,
+   "secteur": "Actions",
+   "sens": "long",
+   "symbol": "IREN/USDT:USDT"
+  },
+  {
    "base": "INTW",
    "mso4h": 67.85546204,
-   "pct24": 18.338,
+   "pct24": 16.783,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "INTW/USDT:USDT"
@@ -560,18 +568,10 @@
   {
    "base": "TAIYOYUDEN",
    "mso4h": 70.69112628,
-   "pct24": 18.112,
+   "pct24": 16.185,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "TAIYOYUDEN/USDT:USDT"
-  },
-  {
-   "base": "IREN",
-   "mso4h": 35.49575058,
-   "pct24": 18.015,
-   "secteur": "Actions",
-   "sens": "long",
-   "symbol": "IREN/USDT:USDT"
   }
  ]
 }
