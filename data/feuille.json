@@ -178,12 +178,12 @@
   },
   "4": {
    "bas": {
-    "avance": -0.13000109,
-    "gagnants": 51.62945081,
-    "mae": -2.4057911,
-    "mfe": 2.29955936,
-    "moy": -0.09381328,
-    "n": 3314
+    "avance": -0.12981493,
+    "gagnants": 51.64404223,
+    "mae": -2.40526468,
+    "mfe": 2.29909965,
+    "moy": -0.09377632,
+    "n": 3315
    },
    "demo": {
     "avance": -0.16836259,
@@ -211,12 +211,12 @@
    },
    "par_liste": {
     "bb_marche": {
-     "avance": -0.15165666,
-     "gagnants": 54.12130638,
-     "mae": -2.16431843,
-     "mfe": 2.28972781,
-     "moy": 0.0072041,
-     "n": 1286
+     "avance": -0.15116032,
+     "gagnants": 54.15695416,
+     "mae": -2.16315014,
+     "mfe": 2.28855136,
+     "moy": 0.00722083,
+     "n": 1287
     },
     "bb_probable": {
      "avance": 0.18224835,
@@ -344,12 +344,12 @@
     }
    },
    "penalite": {
-    "avance": -0.06595928,
-    "gagnants": 54.48992059,
-    "mae": -2.36920142,
-    "mfe": 2.62407091,
-    "moy": 0.11395279,
-    "n": 1637
+    "avance": -0.06562161,
+    "gagnants": 54.51770452,
+    "mae": -2.3681584,
+    "mfe": 2.62294245,
+    "moy": 0.11390076,
+    "n": 1638
    }
   },
   "72": {
@@ -530,48 +530,48 @@
   }
  },
  "jours": 14,
- "maj": 1795482445,
- "nb_signaux": 4513,
+ "maj": 1795485137,
+ "nb_signaux": 4521,
  "rates": [
   {
-   "base": "ZHIPU",
-   "mso4h": 40.0734027,
-   "pct24": 24.479,
+   "base": "MURATA",
+   "mso4h": 100.0,
+   "pct24": 19.054,
    "secteur": "Actions",
    "sens": "long",
-   "symbol": "ZHIPU/USDT:USDT"
-  },
-  {
-   "base": "AGPU",
-   "mso4h": 51.17589601,
-   "pct24": 21.822,
-   "secteur": "Actions",
-   "sens": "long",
-   "symbol": "AGPU/USDT:USDT"
+   "symbol": "MURATA/USDT:USDT"
   },
   {
    "base": "AXTI",
    "mso4h": 40.8367995,
-   "pct24": 21.413,
+   "pct24": 18.88,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "AXTI/USDT:USDT"
   },
   {
-   "base": "IREN",
-   "mso4h": 35.49575058,
-   "pct24": 20.458,
-   "secteur": "Actions",
-   "sens": "long",
-   "symbol": "IREN/USDT:USDT"
-  },
-  {
    "base": "INTW",
    "mso4h": 67.85546204,
-   "pct24": 19.82,
+   "pct24": 18.338,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "INTW/USDT:USDT"
+  },
+  {
+   "base": "TAIYOYUDEN",
+   "mso4h": 70.69112628,
+   "pct24": 18.112,
+   "secteur": "Actions",
+   "sens": "long",
+   "symbol": "TAIYOYUDEN/USDT:USDT"
+  },
+  {
+   "base": "IREN",
+   "mso4h": 35.49575058,
+   "pct24": 18.015,
+   "secteur": "Actions",
+   "sens": "long",
+   "symbol": "IREN/USDT:USDT"
   }
  ]
 }

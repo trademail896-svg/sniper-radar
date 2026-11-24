@@ -124832,7 +124832,8 @@
     "marche": 3.88678028,
     "mfe": 4.87106017,
     "ret": 2.82439623
-   }
+   },
+   "72": null
   },
   "liste": "carnet",
   "penalite": false,
@@ -124856,7 +124857,8 @@
     "marche": 3.88678028,
     "mfe": 2.88983424,
     "ret": 1.4229133
-   }
+   },
+   "72": null
   },
   "liste": "carnet",
   "penalite": true,
@@ -125198,7 +125200,8 @@
     "marche": 3.88678028,
     "mfe": 4.5923149,
     "ret": -0.31240237
-   }
+   },
+   "72": null
   },
   "liste": "bb_sans",
   "penalite": false,
@@ -125308,7 +125311,8 @@
     "marche": 3.88678028,
     "mfe": 4.58155162,
     "ret": 0.75341071
-   }
+   },
+   "72": null
   },
   "liste": "bb_sans",
   "penalite": false,
@@ -125457,7 +125461,8 @@
     "marche": -3.88678028,
     "mfe": 4.12583806,
     "ret": -2.08011002
-   }
+   },
+   "72": null
   },
   "liste": "bb_sans",
   "penalite": false,
@@ -126038,7 +126043,8 @@
     "marche": -3.88678028,
     "mfe": 4.24457339,
     "ret": -0.20954223
-   }
+   },
+   "72": null
   },
   "liste": "bb_marche",
   "penalite": true,
@@ -197105,7 +197111,15 @@
  {
   "base": "AMKR",
   "detail": "haut",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 0.48713741,
+    "mae": -0.66072968,
+    "marche": -0.45841003,
+    "mfe": 0.77563918,
+    "ret": 0.02872738
+   }
+  },
   "liste": "bb_marche",
   "penalite": true,
   "prix": 34.81,
@@ -198213,5 +198227,131 @@
   "symbol": "LGELECTRONICS/USDT:USDT",
   "tradfi": true,
   "ts": 1795482445
+ },
+ {
+  "base": "MUBARAK",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.02646,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "Memes",
+  "sens": "long",
+  "symbol": "MUBARAK/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795485137
+ },
+ {
+  "base": "CYBER",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.216,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "CYBER/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795485137
+ },
+ {
+  "base": "MVLL",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 8.46,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "MVLL/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795485137
+ },
+ {
+  "base": "RAM",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 4.791,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "RAM/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795485137
+ },
+ {
+  "base": "ERA",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.0731,
+  "raisons": [],
+  "score": 0,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "ERA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795485137
+ },
+ {
+  "base": "MUBARAK",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 0.02646,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "Memes",
+  "sens": "short",
+  "symbol": "MUBARAK/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795485137
+ },
+ {
+  "base": "ARIA",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 0.30826,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "Gaming",
+  "sens": "short",
+  "symbol": "ARIA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795485137
+ },
+ {
+  "base": "XIAOMIHKD",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 27.342,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "XIAOMIHKD/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795485137
  }
 ]
