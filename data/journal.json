@@ -172434,7 +172434,8 @@
     "mfe": 4.48616884,
     "ret": -7.61072094
    },
-   "4": null
+   "4": null,
+   "72": null
   },
   "liste": "carnet",
   "penalite": true,
@@ -172500,7 +172501,8 @@
     "marche": 0.24114422,
     "mfe": 0.03017502,
     "ret": -0.72420036
-   }
+   },
+   "72": null
   },
   "liste": "bb_sans",
   "penalite": false,
@@ -172520,7 +172522,8 @@
   "detail": "bas",
   "eval": {
    "24": null,
-   "4": null
+   "4": null,
+   "72": null
   },
   "liste": "bb_marche",
   "penalite": true,
@@ -175007,6 +175010,13 @@
     "marche": 0.00090982,
     "mfe": 0.38834951,
     "ret": -2.42718447
+   },
+   "72": {
+    "avance": 1.41044009,
+    "mae": -11.69902913,
+    "marche": -1.02209058,
+    "mfe": 6.11650485,
+    "ret": 0.38834951
    }
   },
   "liste": "bb_sans",
@@ -175184,6 +175194,13 @@
     "marche": -0.00090982,
     "mfe": 1.9138756,
     "ret": 0.9569378
+   },
+   "72": {
+    "avance": -2.8402724,
+    "mae": -7.46411483,
+    "marche": 1.02209058,
+    "mfe": 10.09569378,
+    "ret": -1.81818182
    }
   },
   "liste": "carnet",
@@ -183108,6 +183125,13 @@
     "marche": -2.26249196,
     "mfe": 0.10752688,
     "ret": -1.68458781
+   },
+   "72": {
+    "avance": 3.51924721,
+    "mae": -7.6702509,
+    "marche": -0.32928305,
+    "mfe": 4.58781362,
+    "ret": 3.18996416
    }
   },
   "liste": "demo_carnet",
@@ -202589,6 +202613,7 @@
   "base": "GALA",
   "detail": "haut",
   "eval": {
+   "24": null,
    "4": {
     "avance": 0.34022809,
     "mae": 0.0,
@@ -206469,6 +206494,13 @@
   "base": "CYBER",
   "detail": "Pause",
   "eval": {
+   "24": {
+    "avance": -0.85348677,
+    "mae": -5.21172638,
+    "marche": -3.75330709,
+    "mfe": 2.04746394,
+    "ret": -4.60679386
+   },
    "4": {
     "avance": 0.39480205,
     "mae": -0.41879944,
@@ -208963,6 +208995,13 @@
   "base": "CYBER",
   "detail": "Retracement",
   "eval": {
+   "24": {
+    "avance": -0.06515208,
+    "mae": -0.97222222,
+    "marche": 4.27811504,
+    "mfe": 5.69444444,
+    "ret": 4.21296296
+   },
    "4": {
     "avance": 1.06124802,
     "mae": -0.55555556,
@@ -210524,6 +210563,13 @@
   "base": "EWT",
   "detail": "haut",
   "eval": {
+   "24": {
+    "avance": 2.04878612,
+    "mae": -1.18674429,
+    "marche": 4.07526225,
+    "mfe": 9.61710703,
+    "ret": 6.12404837
+   },
    "4": {
     "avance": -0.69521203,
     "mae": -1.18674429,
@@ -230607,5 +230653,124 @@
   "symbol": "AXL/USDT:USDT",
   "tradfi": false,
   "ts": 1795586845
+ },
+ {
+  "base": "SOXS",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 66.377,
+  "raisons": [
+   "météo",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "SOXS/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795590442
+ },
+ {
+  "base": "ICNT",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.2973,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "ICNT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795590442
+ },
+ {
+  "base": "CYBER",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.2077,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "IA",
+  "sens": "long",
+  "symbol": "CYBER/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795590442
+ },
+ {
+  "base": "EVAA",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 2.2666,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "EVAA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795590442
+ },
+ {
+  "base": "SKYAI",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.03969,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "long",
+  "symbol": "SKYAI/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795590442
+ },
+ {
+  "base": "KITE",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.13997,
+  "raisons": [
+   "MSO",
+   "météo"
+  ],
+  "score": 2,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "KITE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795590442
+ },
+ {
+  "base": "MANTRA",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.002028,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "RWA",
+  "sens": "long",
+  "symbol": "MANTRA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795590442
  }
 ]
