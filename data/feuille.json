@@ -530,13 +530,13 @@
   }
  },
  "jours": 14,
- "maj": 1795581283,
- "nb_signaux": 5200,
+ "maj": 1795583240,
+ "nb_signaux": 5202,
  "rates": [
   {
    "base": "JCT",
    "mso4h": 0.04209227,
-   "pct24": -8.36,
+   "pct24": -7.697,
    "secteur": "Non classé",
    "sens": "short",
    "symbol": "JCT/USDT:USDT"
@@ -544,34 +544,34 @@
   {
    "base": "ANT",
    "mso4h": 6.93352252,
-   "pct24": -7.281,
+   "pct24": -7.633,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "ANT/USDT:USDT"
   },
   {
-   "base": "ACE",
-   "mso4h": 11.12897605,
-   "pct24": -6.598,
-   "secteur": "IA",
-   "sens": "short",
-   "symbol": "ACE/USDT:USDT"
-  },
-  {
    "base": "GRAM",
    "mso4h": 4.3151285,
-   "pct24": -6.106,
+   "pct24": -6.497,
    "secteur": "L1",
    "sens": "short",
    "symbol": "GRAM/USDT:USDT"
   },
   {
-   "base": "MRNA",
-   "mso4h": 78.05882968,
-   "pct24": 4.449,
-   "secteur": "Actions",
+   "base": "AVGO",
+   "mso4h": 0.0,
+   "pct24": -4.566,
+   "secteur": "Actions US",
+   "sens": "short",
+   "symbol": "AVGO/USDT:USDT"
+  },
+  {
+   "base": "XMR",
+   "mso4h": 46.40315982,
+   "pct24": 4.335,
+   "secteur": "Confidentialité",
    "sens": "long",
-   "symbol": "MRNA/USDT:USDT"
+   "symbol": "XMR/USDT:USDT"
   }
  ]
 }

@@ -229285,5 +229285,40 @@
   "symbol": "AMDL/USDT:USDT",
   "tradfi": true,
   "ts": 1795581283
+ },
+ {
+  "base": "SKYAI",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.04268,
+  "raisons": [
+   "MSO",
+   "météo"
+  ],
+  "score": 2,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "SKYAI/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795583240
+ },
+ {
+  "base": "SLX",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.03332,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "Gaming",
+  "sens": "long",
+  "symbol": "SLX/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795583240
  }
 ]
