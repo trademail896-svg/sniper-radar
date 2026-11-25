@@ -530,48 +530,48 @@
   }
  },
  "jours": 14,
- "maj": 1795618484,
- "nb_signaux": 5344,
+ "maj": 1795619244,
+ "nb_signaux": 5347,
  "rates": [
-  {
-   "base": "BMNR",
-   "mso4h": 0.0,
-   "pct24": -12.122,
-   "secteur": "Actions",
-   "sens": "short",
-   "symbol": "BMNR/USDT:USDT"
-  },
   {
    "base": "AMZU",
    "mso4h": 0.0,
-   "pct24": -11.594,
+   "pct24": -9.714,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "AMZU/USDT:USDT"
   },
   {
-   "base": "MSTR",
+   "base": "BMNR",
    "mso4h": 0.0,
-   "pct24": -11.341,
-   "secteur": "Actions US",
+   "pct24": -9.199,
+   "secteur": "Actions",
    "sens": "short",
-   "symbol": "MSTR/USDT:USDT"
+   "symbol": "BMNR/USDT:USDT"
+  },
+  {
+   "base": "JCT",
+   "mso4h": 0.0,
+   "pct24": -8.796,
+   "secteur": "Non classé",
+   "sens": "short",
+   "symbol": "JCT/USDT:USDT"
   },
   {
    "base": "SPCX",
    "mso4h": 0.0,
-   "pct24": -10.282,
+   "pct24": -8.337,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "SPCX/USDT:USDT"
   },
   {
-   "base": "CRCL",
+   "base": "MSTR",
    "mso4h": 0.0,
-   "pct24": -10.266,
+   "pct24": -8.33,
    "secteur": "Actions US",
    "sens": "short",
-   "symbol": "CRCL/USDT:USDT"
+   "symbol": "MSTR/USDT:USDT"
   }
  ]
 }
