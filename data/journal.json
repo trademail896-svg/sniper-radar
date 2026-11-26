@@ -187638,7 +187638,8 @@
     "marche": 0.74460728,
     "mfe": 2.38814994,
     "ret": 1.01773478
-   }
+   },
+   "72": null
   },
   "liste": "carnet",
   "penalite": false,
@@ -187665,7 +187666,8 @@
     "marche": -0.74460728,
     "mfe": 1.14942529,
     "ret": -1.68582375
-   }
+   },
+   "72": null
   },
   "liste": "carnet",
   "penalite": false,
@@ -187810,7 +187812,8 @@
     "marche": 0.74460728,
     "mfe": 2.16243111,
     "ret": 0.75015309
-   }
+   },
+   "72": null
   },
   "liste": "carnet",
   "penalite": false,
@@ -232178,6 +232181,7 @@
   "base": "DGAI",
   "detail": "Essoufflement",
   "eval": {
+   "24": null,
    "4": {
     "avance": 1.84285709,
     "mae": -0.29971962,
@@ -239810,6 +239814,13 @@
   "base": "XPT",
   "detail": "bas",
   "eval": {
+   "24": {
+    "avance": -1.28925133,
+    "mae": -2.87859427,
+    "marche": 4.34641845,
+    "mfe": 4.76829181,
+    "ret": 3.05716712
+   },
    "4": {
     "avance": -0.28398742,
     "mae": -2.41668585,
@@ -256942,5 +256953,376 @@
   "symbol": "M/USDT:USDT",
   "tradfi": false,
   "ts": 1795691245
+ },
+ {
+  "base": "BTW",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.95359,
+  "raisons": [
+   "MSO",
+   "divergence"
+  ],
+  "score": 2,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "BTW/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "SEI",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.0374,
+  "raisons": [
+   "divergence"
+  ],
+  "score": 1,
+  "secteur": "DeFi",
+  "sens": "long",
+  "symbol": "SEI/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "LISTA",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.0883,
+  "raisons": [],
+  "score": 0,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "LISTA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "MOVE",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.005661,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "L1",
+  "sens": "long",
+  "symbol": "MOVE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "AKE",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.0014362,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "AKE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "WIF",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.133,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "Memes",
+  "sens": "short",
+  "symbol": "WIF/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "NIGHT",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.04832,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "L1",
+  "sens": "short",
+  "symbol": "NIGHT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "XPL",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.048,
+  "raisons": [],
+  "score": 0,
+  "secteur": "L1",
+  "sens": "short",
+  "symbol": "XPL/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "HOOD",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 67.57,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Actions US",
+  "sens": "long",
+  "symbol": "HOOD/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795694843
+ },
+ {
+  "base": "SKYAI",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.03586,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "long",
+  "symbol": "SKYAI/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "AAVE",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 96.5,
+  "raisons": [],
+  "score": 0,
+  "secteur": "DeFi",
+  "sens": "long",
+  "symbol": "AAVE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "FARTCOIN",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.08202,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Memes",
+  "sens": "long",
+  "symbol": "FARTCOIN/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "MOVE",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 0.005661,
+  "raisons": [
+   "MSO",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "L1",
+  "sens": "short",
+  "symbol": "MOVE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "INIT",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 0.11427,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "L1",
+  "sens": "short",
+  "symbol": "INIT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "SEI",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 0.0374,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "SEI/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "FET",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 0.116,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "FET/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "SEI",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "demo_carnet",
+  "penalite": false,
+  "prix": 0.03741,
+  "raisons": [
+   "divergence"
+  ],
+  "score": 1,
+  "secteur": "DeFi",
+  "sens": "long",
+  "symbol": "SEI/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "AXL",
+  "detail": "haut",
+  "eval": {},
+  "liste": "demo_bb_sans",
+  "penalite": false,
+  "prix": 0.03289,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "AXL/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "XPL",
+  "detail": "haut",
+  "eval": {},
+  "liste": "demo_bb_sans",
+  "penalite": false,
+  "prix": 0.04796,
+  "raisons": [],
+  "score": 0,
+  "secteur": "L1",
+  "sens": "short",
+  "symbol": "XPL/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "M",
+  "detail": "haut",
+  "eval": {},
+  "liste": "demo_bb_marche",
+  "penalite": true,
+  "prix": 0.8716,
+  "raisons": [
+   "divergence"
+  ],
+  "score": 1,
+  "secteur": "Memes",
+  "sens": "short",
+  "symbol": "M/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "POPCAT",
+  "detail": "haut",
+  "eval": {},
+  "liste": "demo_bb_marche",
+  "penalite": true,
+  "prix": 0.02739,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "Memes",
+  "sens": "short",
+  "symbol": "POPCAT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "SEI",
+  "detail": "haut",
+  "eval": {},
+  "liste": "demo_bb_marche",
+  "penalite": true,
+  "prix": 0.03741,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "SEI/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
+ },
+ {
+  "base": "FET",
+  "detail": "haut",
+  "eval": {},
+  "liste": "demo_bb_marche",
+  "penalite": true,
+  "prix": 0.1159,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "FET/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795694843
  }
 ]

@@ -2,12 +2,12 @@
  "horizons": {
   "24": {
    "bas": {
-    "avance": 0.20023969,
-    "gagnants": 56.75141243,
-    "mae": -6.66103275,
-    "mfe": 7.10194009,
-    "moy": 0.63995259,
-    "n": 3540
+    "avance": 0.19981905,
+    "gagnants": 56.76362609,
+    "mae": -6.65996456,
+    "mfe": 7.10128105,
+    "moy": 0.64063522,
+    "n": 3541
    },
    "demo": {
     "avance": -0.11116507,
@@ -51,12 +51,12 @@
      "n": 189
     },
     "bb_sans": {
-     "avance": 0.06519803,
-     "gagnants": 57.64934434,
-     "mae": -5.23809467,
-     "mfe": 5.13951198,
-     "moy": 0.3994514,
-     "n": 2059
+     "avance": 0.06454053,
+     "gagnants": 57.66990291,
+     "mae": -5.23694928,
+     "mfe": 5.13933178,
+     "moy": 0.40074156,
+     "n": 2060
     },
     "carnet": {
      "avance": 0.06262666,
@@ -127,12 +127,12 @@
      "n": 565
     },
     "1": {
-     "avance": 0.30821984,
-     "gagnants": 55.83203733,
-     "mae": -6.0642347,
-     "mfe": 6.29584126,
-     "moy": 0.30268512,
-     "n": 1286
+     "avance": 0.3069786,
+     "gagnants": 55.86635587,
+     "mae": -6.06175945,
+     "mfe": 6.29465435,
+     "moy": 0.30482536,
+     "n": 1287
     },
     "2": {
      "avance": -0.82454011,
@@ -530,48 +530,48 @@
   }
  },
  "jours": 14,
- "maj": 1795691245,
- "nb_signaux": 5817,
+ "maj": 1795694843,
+ "nb_signaux": 5833,
  "rates": [
   {
    "base": "FLNC",
-   "mso4h": 75.86504872,
-   "pct24": 21.55,
+   "mso4h": 74.65193581,
+   "pct24": 23.496,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "FLNC/USDT:USDT"
   },
   {
+   "base": "MVLL",
+   "mso4h": 17.08953593,
+   "pct24": 17.715,
+   "secteur": "Actions",
+   "sens": "long",
+   "symbol": "MVLL/USDT:USDT"
+  },
+  {
    "base": "ME",
-   "mso4h": 69.51767898,
-   "pct24": 15.665,
+   "mso4h": 71.99302628,
+   "pct24": 16.968,
    "secteur": "Non classé",
    "sens": "long",
    "symbol": "ME/USDT:USDT"
   },
   {
    "base": "KIOXIA",
-   "mso4h": 38.63466687,
-   "pct24": 14.82,
+   "mso4h": 39.65425039,
+   "pct24": 16.171,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "KIOXIA/USDT:USDT"
   },
   {
-   "base": "QNTSTOCK",
-   "mso4h": 99.88403058,
-   "pct24": 12.705,
+   "base": "SOXS",
+   "mso4h": 44.45126476,
+   "pct24": -15.948,
    "secteur": "Actions",
-   "sens": "long",
-   "symbol": "QNTSTOCK/USDT:USDT"
-  },
-  {
-   "base": "MVLL",
-   "mso4h": 17.7224817,
-   "pct24": 12.039,
-   "secteur": "Actions",
-   "sens": "long",
-   "symbol": "MVLL/USDT:USDT"
+   "sens": "short",
+   "symbol": "SOXS/USDT:USDT"
   }
  ]
 }
