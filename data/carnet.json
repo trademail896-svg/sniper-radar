@@ -9,7 +9,7 @@
   "extreme_ts": 1795662000000,
   "move_pct": -21.31367292,
   "phase": "Essoufflement",
-  "phase_depuis_h": 6.00027778,
+  "phase_depuis_h": 7.00027778,
   "phases": [
    {
     "phase": "Impulsion",
@@ -40,8 +40,8 @@
     "ts": 1795709245
    }
   ],
-  "prix": 0.0602,
-  "retr": 0.09433962,
+  "prix": 0.0596,
+  "retr": 0.05660377,
   "sens": "dump",
   "symbol": "ACE/USDT:USDT"
  },
@@ -131,7 +131,7 @@
   "extreme_ts": 1795705200000,
   "move_pct": -87.46477662,
   "phase": "Essoufflement",
-  "phase_depuis_h": 0.0,
+  "phase_depuis_h": 1.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -214,8 +214,8 @@
     "ts": 1795730846
    }
   ],
-  "prix": 0.0014877,
-  "retr": 0.01915558,
+  "prix": 0.0014864,
+  "retr": 0.01901361,
   "sens": "dump",
   "symbol": "AKE/USDT:USDT"
  },
@@ -229,7 +229,7 @@
   "extreme_ts": 1795622400000,
   "move_pct": -35.42568341,
   "phase": "Retracement",
-  "phase_depuis_h": 21.0,
+  "phase_depuis_h": 22.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -252,8 +252,8 @@
     "ts": 1795655246
    }
   ],
-  "prix": 28.662,
-  "retr": 0.43635217,
+  "prix": 28.367,
+  "retr": 0.41310002,
   "sens": "dump",
   "symbol": "AMDL/USDT:USDT"
  },
@@ -313,7 +313,7 @@
   "extreme_ts": 1795690800000,
   "move_pct": 42.74715874,
   "phase": "Retournement",
-  "phase_depuis_h": 2.00027778,
+  "phase_depuis_h": 3.00027778,
   "phases": [
    {
     "phase": "Retracement",
@@ -356,8 +356,8 @@
     "ts": 1795723645
    }
   ],
-  "prix": 0.33543,
-  "retr": 0.14293882,
+  "prix": 0.33105,
+  "retr": 0.18467696,
   "sens": "pump",
   "symbol": "ARIA/USDT:USDT"
  },
@@ -393,7 +393,7 @@
   "extreme_ts": 1795622400000,
   "move_pct": -28.13717849,
   "phase": "Retracement",
-  "phase_depuis_h": 16.0,
+  "phase_depuis_h": 17.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -412,8 +412,8 @@
     "ts": 1795673246
    }
   ],
-  "prix": 32.85,
-  "retr": 0.47922438,
+  "prix": 32.54,
+  "retr": 0.45060018,
   "sens": "dump",
   "symbol": "AXTI/USDT:USDT"
  },
@@ -509,7 +509,7 @@
   "extreme_ts": 1795680000000,
   "move_pct": -15.70363467,
   "phase": "Retracement",
-  "phase_depuis_h": 0.0,
+  "phase_depuis_h": 1.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -536,8 +536,8 @@
     "ts": 1795730846
    }
   ],
-  "prix": 0.00569,
-  "retr": 0.26013848,
+  "prix": 0.005688,
+  "retr": 0.25816024,
   "sens": "dump",
   "symbol": "BIGTIME/USDT:USDT"
  },
@@ -643,11 +643,11 @@
   "capture_ts": 1795568849,
   "depart": 0.71896,
   "depart_ts": 1795478400000,
-  "extreme": 1.00266,
-  "extreme_ts": 1795669200000,
-  "move_pct": 39.45977523,
-  "phase": "Essoufflement",
-  "phase_depuis_h": 6.99972222,
+  "extreme": 1.0032,
+  "extreme_ts": 1795730400000,
+  "move_pct": 39.53488372,
+  "phase": "Impulsion",
+  "phase_depuis_h": 0.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -712,10 +712,14 @@
    {
     "phase": "Essoufflement",
     "ts": 1795705647
+   },
+   {
+    "phase": "Impulsion",
+    "ts": 1795734446
    }
   ],
-  "prix": 0.99769,
-  "retr": 0.01751851,
+  "prix": 0.99617,
+  "retr": 0.02473262,
   "sens": "pump",
   "symbol": "BTW/USDT:USDT"
  },
@@ -728,8 +732,8 @@
   "extreme": 0.0578,
   "extreme_ts": 1795636800000,
   "move_pct": 29.07548013,
-  "phase": "Zone de rebond",
-  "phase_depuis_h": 15.00055556,
+  "phase": "Retracement",
+  "phase_depuis_h": 0.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -750,10 +754,14 @@
    {
     "phase": "Zone de rebond",
     "ts": 1795676844
+   },
+   {
+    "phase": "Retracement",
+    "ts": 1795734446
    }
   ],
-  "prix": 0.05127,
-  "retr": 0.5015361,
+  "prix": 0.05147,
+  "retr": 0.48617512,
   "sens": "pump",
   "symbol": "CFG/USDT:USDT"
  },
@@ -855,7 +863,7 @@
   "extreme_ts": 1795622400000,
   "move_pct": -34.26797653,
   "phase": "Retracement",
-  "phase_depuis_h": 26.99944444,
+  "phase_depuis_h": 27.99944444,
   "phases": [
    {
     "phase": "Impulsion",
@@ -866,8 +874,8 @@
     "ts": 1795633648
    }
   ],
-  "prix": 11.515,
-  "retr": 0.37427832,
+  "prix": 11.307,
+  "retr": 0.3328688,
   "sens": "dump",
   "symbol": "CSOPSK2LHKD/USDT:USDT"
  },
@@ -881,7 +889,7 @@
   "extreme_ts": 1795622400000,
   "move_pct": -30.54187192,
   "phase": "Retracement",
-  "phase_depuis_h": 26.99944444,
+  "phase_depuis_h": 27.99944444,
   "phases": [
    {
     "phase": "Impulsion",
@@ -892,8 +900,8 @@
     "ts": 1795633648
    }
   ],
-  "prix": 27.75,
-  "retr": 0.35863378,
+  "prix": 27.5,
+  "retr": 0.33491461,
   "sens": "dump",
   "symbol": "CSOPSS2LHKD/USDT:USDT"
  },
@@ -1109,7 +1117,7 @@
   "extreme_ts": 1795708800000,
   "move_pct": -61.72340536,
   "phase": "Essoufflement",
-  "phase_depuis_h": 1.00111111,
+  "phase_depuis_h": 2.00111111,
   "phases": [
    {
     "phase": "Impulsion",
@@ -1192,8 +1200,8 @@
     "ts": 1795727242
    }
   ],
-  "prix": 0.07645,
-  "retr": 0.02165883,
+  "prix": 0.07652,
+  "retr": 0.02224647,
   "sens": "dump",
   "symbol": "DOS/USDT:USDT"
  },
@@ -1207,7 +1215,7 @@
   "extreme_ts": 1795665600000,
   "move_pct": 64.03484513,
   "phase": "Retracement",
-  "phase_depuis_h": 11.00027778,
+  "phase_depuis_h": 12.00027778,
   "phases": [
    {
     "phase": "Impulsion",
@@ -1226,8 +1234,8 @@
     "ts": 1795691245
    }
   ],
-  "prix": 0.10301,
-  "retr": 0.33729216,
+  "prix": 0.10267,
+  "retr": 0.34463399,
   "sens": "pump",
   "symbol": "ELSA/USDT:USDT"
  },
@@ -1278,7 +1286,7 @@
   "extreme": 2.3015,
   "extreme_ts": 1795719600000,
   "move_pct": -17.15560995,
-  "phase": "Impulsion",
+  "phase": "Retracement",
   "phase_depuis_h": 0.0,
   "phases": [
    {
@@ -1292,10 +1300,14 @@
    {
     "phase": "Impulsion",
     "ts": 1795730846
+   },
+   {
+    "phase": "Retracement",
+    "ts": 1795734446
    }
   ],
-  "prix": 2.3956,
-  "retr": 0.1974402,
+  "prix": 2.5065,
+  "retr": 0.43013009,
   "sens": "dump",
   "symbol": "EVAA/USDT:USDT"
  },
@@ -1529,7 +1541,7 @@
   "extreme_ts": 1795377600000,
   "move_pct": -44.06136657,
   "phase": "Retracement",
-  "phase_depuis_h": 69.00027778,
+  "phase_depuis_h": 70.00027778,
   "phases": [
    {
     "phase": "Impulsion",
@@ -1572,8 +1584,8 @@
     "ts": 1795482445
    }
   ],
-  "prix": 0.0172,
-  "retr": 0.35783896,
+  "prix": 0.018098,
+  "retr": 0.44280443,
   "sens": "dump",
   "symbol": "IDOL/USDT:USDT"
  },
@@ -1587,7 +1599,7 @@
   "extreme_ts": 1795726800000,
   "move_pct": 87.76025237,
   "phase": "Impulsion",
-  "phase_depuis_h": 0.0,
+  "phase_depuis_h": 1.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -1658,8 +1670,8 @@
     "ts": 1795730846
    }
   ],
-  "prix": 0.14307,
-  "retr": 0.08238677,
+  "prix": 0.14145,
+  "retr": 0.10567937,
   "sens": "pump",
   "symbol": "INIT/USDT:USDT"
  },
@@ -1673,15 +1685,15 @@
   "extreme_ts": 1795669200000,
   "move_pct": 14.50523865,
   "phase": "Pause",
-  "phase_depuis_h": 6.40083333,
+  "phase_depuis_h": 7.40083333,
   "phases": [
    {
     "phase": "Pause",
     "ts": 1795707803
    }
   ],
-  "prix": 4.897,
-  "retr": 0.03370787,
+  "prix": 4.814,
+  "retr": 0.16693419,
   "sens": "pump",
   "symbol": "INTW/USDT:USDT"
  },
@@ -1765,7 +1777,7 @@
   "extreme_ts": 1795687200000,
   "move_pct": 22.08271787,
   "phase": "Zone de rebond",
-  "phase_depuis_h": 2.00027778,
+  "phase_depuis_h": 3.00027778,
   "phases": [
    {
     "phase": "Impulsion",
@@ -1796,8 +1808,8 @@
     "ts": 1795723645
    }
   ],
-  "prix": 0.001497,
-  "retr": 0.52173913,
+  "prix": 0.001478,
+  "retr": 0.58528428,
   "sens": "pump",
   "symbol": "JCT/USDT:USDT"
  },
@@ -1853,19 +1865,19 @@
   "capture_ts": 1795705647,
   "depart": 42.48,
   "depart_ts": 1795615200000,
-  "extreme": 50.68,
-  "extreme_ts": 1795726800000,
-  "move_pct": 19.30320151,
+  "extreme": 50.75,
+  "extreme_ts": 1795730400000,
+  "move_pct": 19.46798493,
   "phase": "Impulsion",
-  "phase_depuis_h": 6.99972222,
+  "phase_depuis_h": 7.99972222,
   "phases": [
    {
     "phase": "Impulsion",
     "ts": 1795705647
    }
   ],
-  "prix": 50.61,
-  "retr": 0.00853659,
+  "prix": 50.19,
+  "retr": 0.06771463,
   "sens": "pump",
   "symbol": "KIOXIA/USDT:USDT"
  },
@@ -1879,15 +1891,15 @@
   "extreme_ts": 1795723200000,
   "move_pct": -25.89596463,
   "phase": "Impulsion",
-  "phase_depuis_h": 10.00083333,
+  "phase_depuis_h": 11.00083333,
   "phases": [
    {
     "phase": "Impulsion",
     "ts": 1795694843
    }
   ],
-  "prix": 0.07975,
-  "retr": 0.03523429,
+  "prix": 0.07921,
+  "retr": 0.01561932,
   "sens": "dump",
   "symbol": "LISTA/USDT:USDT"
  },
@@ -1963,15 +1975,15 @@
   "extreme_ts": 1795701600000,
   "move_pct": -29.27562369,
   "phase": "Pause",
-  "phase_depuis_h": 3.00138889,
+  "phase_depuis_h": 4.00138889,
   "phases": [
    {
     "phase": "Pause",
     "ts": 1795720041
    }
   ],
-  "prix": 0.002545,
-  "retr": 0.19712526,
+  "prix": 0.002544,
+  "retr": 0.19609856,
   "sens": "dump",
   "symbol": "MANTRA/USDT:USDT"
  },
@@ -1984,8 +1996,8 @@
   "extreme": 0.1825,
   "extreme_ts": 1795708800000,
   "move_pct": -33.36984301,
-  "phase": "Pause",
-  "phase_depuis_h": 1.00111111,
+  "phase": "Retracement",
+  "phase_depuis_h": 0.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -1998,10 +2010,14 @@
    {
     "phase": "Pause",
     "ts": 1795727242
+   },
+   {
+    "phase": "Retracement",
+    "ts": 1795734446
    }
   ],
-  "prix": 0.2013,
-  "retr": 0.20568928,
+  "prix": 0.2047,
+  "retr": 0.2428884,
   "sens": "dump",
   "symbol": "MMT/USDT:USDT"
  },
@@ -2015,7 +2031,7 @@
   "extreme_ts": 1795626000000,
   "move_pct": 24.66039707,
   "phase": "Zone de rebond",
-  "phase_depuis_h": 9.0,
+  "phase_depuis_h": 10.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -2038,8 +2054,8 @@
     "ts": 1795698446
    }
   ],
-  "prix": 0.01036,
-  "retr": 0.66525424,
+  "prix": 0.01029,
+  "retr": 0.69491525,
   "sens": "pump",
   "symbol": "MON/USDT:USDT"
  },
@@ -2053,7 +2069,7 @@
   "extreme_ts": 1795600800000,
   "move_pct": 28.13781788,
   "phase": "Retracement",
-  "phase_depuis_h": 13.00166667,
+  "phase_depuis_h": 14.00166667,
   "phases": [
    {
     "phase": "Retracement",
@@ -2068,8 +2084,8 @@
     "ts": 1795684040
    }
   ],
-  "prix": 0.02903,
-  "retr": 0.32215743,
+  "prix": 0.02875,
+  "retr": 0.36297376,
   "sens": "pump",
   "symbol": "MOODENG/USDT:USDT"
  },
@@ -2083,7 +2099,7 @@
   "extreme_ts": 1795651200000,
   "move_pct": 50.01106439,
   "phase": "Retracement",
-  "phase_depuis_h": 0.0,
+  "phase_depuis_h": 1.0,
   "phases": [
    {
     "phase": "Retracement",
@@ -2114,8 +2130,8 @@
     "ts": 1795730846
    }
   ],
-  "prix": 0.005687,
-  "retr": 0.48318584,
+  "prix": 0.005709,
+  "retr": 0.47345133,
   "sens": "pump",
   "symbol": "MOVE/USDT:USDT"
  },
@@ -2129,7 +2145,7 @@
   "extreme_ts": 1795651200000,
   "move_pct": 21.46778422,
   "phase": "Retracement",
-  "phase_depuis_h": 6.99972222,
+  "phase_depuis_h": 7.99972222,
   "phases": [
    {
     "phase": "Pause",
@@ -2148,8 +2164,8 @@
     "ts": 1795705647
    }
   ],
-  "prix": 9.8889,
-  "retr": 0.24312781,
+  "prix": 9.72,
+  "retr": 0.33561494,
   "sens": "pump",
   "symbol": "MSTU/USDT:USDT"
  },
@@ -2192,8 +2208,8 @@
   "extreme": 10.149,
   "extreme_ts": 1795654800000,
   "move_pct": 25.59089222,
-  "phase": "Pause",
-  "phase_depuis_h": 3.00138889,
+  "phase": "Retracement",
+  "phase_depuis_h": 0.0,
   "phases": [
    {
     "phase": "Pause",
@@ -2206,10 +2222,14 @@
    {
     "phase": "Pause",
     "ts": 1795720041
+   },
+   {
+    "phase": "Retracement",
+    "ts": 1795734446
    }
   ],
-  "prix": 9.813,
-  "retr": 0.16247582,
+  "prix": 9.619,
+  "retr": 0.25628627,
   "sens": "pump",
   "symbol": "MUU/USDT:USDT"
  },
@@ -2223,15 +2243,15 @@
   "extreme_ts": 1795658400000,
   "move_pct": 18.68852459,
   "phase": "Pause",
-  "phase_depuis_h": 6.99972222,
+  "phase_depuis_h": 7.99972222,
   "phases": [
    {
     "phase": "Pause",
     "ts": 1795705647
    }
   ],
-  "prix": 7.14,
-  "retr": 0.0877193,
+  "prix": 7.0,
+  "retr": 0.21052632,
   "sens": "pump",
   "symbol": "MVLL/USDT:USDT"
  },
@@ -2325,7 +2345,7 @@
   "extreme_ts": 1795446000000,
   "move_pct": 29.13688013,
   "phase": "Zone de rebond",
-  "phase_depuis_h": 16.0,
+  "phase_depuis_h": 17.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -2376,8 +2396,8 @@
     "ts": 1795673246
    }
   ],
-  "prix": 152.1,
-  "retr": 0.50387397,
+  "prix": 150.63,
+  "retr": 0.54183884,
   "sens": "pump",
   "symbol": "NVDA/USDT:USDT"
  },
@@ -2391,7 +2411,7 @@
   "extreme_ts": 1795586400000,
   "move_pct": 32.92240754,
   "phase": "Essoufflement",
-  "phase_depuis_h": 2.00027778,
+  "phase_depuis_h": 3.00027778,
   "phases": [
    {
     "phase": "Impulsion",
@@ -2462,8 +2482,8 @@
     "ts": 1795723645
    }
   ],
-  "prix": 0.1796,
-  "retr": 0.0814978,
+  "prix": 0.1784,
+  "retr": 0.10792952,
   "sens": "pump",
   "symbol": "OPG/USDT:USDT"
  },
@@ -2527,7 +2547,7 @@
   "extreme_ts": 1795676400000,
   "move_pct": 37.62365402,
   "phase": "Retracement",
-  "phase_depuis_h": 0.0,
+  "phase_depuis_h": 1.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -2570,8 +2590,8 @@
     "ts": 1795730846
    }
   ],
-  "prix": 3.82792,
-  "retr": 0.28388848,
+  "prix": 3.81801,
+  "retr": 0.29262338,
   "sens": "pump",
   "symbol": "PIEVERSE/USDT:USDT"
  },
@@ -2651,7 +2671,7 @@
   "extreme_ts": 1795622400000,
   "move_pct": -37.29851051,
   "phase": "Retracement",
-  "phase_depuis_h": 26.99944444,
+  "phase_depuis_h": 27.99944444,
   "phases": [
    {
     "phase": "Impulsion",
@@ -2670,8 +2690,8 @@
     "ts": 1795633648
    }
   ],
-  "prix": 3.824,
-  "retr": 0.41083151,
+  "prix": 3.754,
+  "retr": 0.37253829,
   "sens": "dump",
   "symbol": "RAM/USDT:USDT"
  },
@@ -2684,16 +2704,20 @@
   "extreme": 0.04127,
   "extreme_ts": 1795719600000,
   "move_pct": 30.23035658,
-  "phase": "Impulsion",
-  "phase_depuis_h": 10.00083333,
+  "phase": "Retracement",
+  "phase_depuis_h": 0.0,
   "phases": [
    {
     "phase": "Impulsion",
     "ts": 1795694843
+   },
+   {
+    "phase": "Retracement",
+    "ts": 1795734446
    }
   ],
-  "prix": 0.03958,
-  "retr": 0.17640919,
+  "prix": 0.0389,
+  "retr": 0.2473904,
   "sens": "pump",
   "symbol": "SEI/USDT:USDT"
  },
@@ -2706,8 +2730,8 @@
   "extreme": 13.148,
   "extreme_ts": 1795615200000,
   "move_pct": 38.95582329,
-  "phase": "Zone de rebond",
-  "phase_depuis_h": 3.00138889,
+  "phase": "Retracement",
+  "phase_depuis_h": 0.0,
   "phases": [
    {
     "phase": "Zone de rebond",
@@ -2744,10 +2768,14 @@
    {
     "phase": "Zone de rebond",
     "ts": 1795720041
+   },
+   {
+    "phase": "Retracement",
+    "ts": 1795734446
    }
   ],
-  "prix": 11.094,
-  "retr": 0.55724362,
+  "prix": 11.317,
+  "retr": 0.49674444,
   "sens": "pump",
   "symbol": "SKDD/USDT:USDT"
  },
@@ -2761,7 +2789,7 @@
   "extreme_ts": 1795622400000,
   "move_pct": -35.02020573,
   "phase": "Retracement",
-  "phase_depuis_h": 26.99944444,
+  "phase_depuis_h": 27.99944444,
   "phases": [
    {
     "phase": "Impulsion",
@@ -2780,8 +2808,8 @@
     "ts": 1795633648
    }
   ],
-  "prix": 8.614,
-  "retr": 0.4036192,
+  "prix": 8.457,
+  "retr": 0.36244427,
   "sens": "dump",
   "symbol": "SKUU/USDT:USDT"
  },
@@ -2795,7 +2823,7 @@
   "extreme_ts": 1795694400000,
   "move_pct": 19.31619666,
   "phase": "Pause",
-  "phase_depuis_h": 0.0,
+  "phase_depuis_h": 1.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -2810,8 +2838,8 @@
     "ts": 1795730846
    }
   ],
-  "prix": 0.04646,
-  "retr": 0.1744186,
+  "prix": 0.04655,
+  "retr": 0.1627907,
   "sens": "pump",
   "symbol": "SKY/USDT:USDT"
  },
@@ -2825,7 +2853,7 @@
   "extreme_ts": 1795698000000,
   "move_pct": -19.73581974,
   "phase": "Retracement",
-  "phase_depuis_h": 2.00027778,
+  "phase_depuis_h": 3.00027778,
   "phases": [
    {
     "phase": "Retracement",
@@ -2875,7 +2903,7 @@
   "extreme_ts": 1795662000000,
   "move_pct": 32.55567338,
   "phase": "Zone de rebond",
-  "phase_depuis_h": 15.00055556,
+  "phase_depuis_h": 16.00055556,
   "phases": [
    {
     "phase": "Zone de rebond",
@@ -2906,8 +2934,8 @@
     "ts": 1795676844
    }
   ],
-  "prix": 0.03214,
-  "retr": 0.58197611,
+  "prix": 0.03218,
+  "retr": 0.57763301,
   "sens": "pump",
   "symbol": "SLX/USDT:USDT"
  },
@@ -2921,7 +2949,7 @@
   "extreme_ts": 1795622400000,
   "move_pct": -91.69666605,
   "phase": "Essoufflement",
-  "phase_depuis_h": 24.99944444,
+  "phase_depuis_h": 25.99944444,
   "phases": [
    {
     "phase": "Impulsion",
@@ -2980,8 +3008,8 @@
     "ts": 1795640848
    }
   ],
-  "prix": 75.91,
-  "retr": 0.01185867,
+  "prix": 74.81,
+  "retr": 0.01037465,
   "sens": "dump",
   "symbol": "SNDK/USDT:USDT"
  },
@@ -2994,16 +3022,20 @@
   "extreme": 1.587,
   "extreme_ts": 1795651200000,
   "move_pct": 12.87339972,
-  "phase": "Retracement",
-  "phase_depuis_h": 6.40083333,
+  "phase": "Zone de rebond",
+  "phase_depuis_h": 0.0,
   "phases": [
    {
     "phase": "Retracement",
     "ts": 1795707803
+   },
+   {
+    "phase": "Zone de rebond",
+    "ts": 1795734446
    }
   ],
-  "prix": 1.538,
-  "retr": 0.27071823,
+  "prix": 1.494,
+  "retr": 0.51381215,
   "sens": "pump",
   "symbol": "SNXX/USDT:USDT"
  },
@@ -3016,7 +3048,7 @@
   "extreme": 34.62,
   "extreme_ts": 1795726800000,
   "move_pct": 22.89669862,
-  "phase": "Impulsion",
+  "phase": "Retracement",
   "phase_depuis_h": 0.0,
   "phases": [
    {
@@ -3026,10 +3058,14 @@
    {
     "phase": "Impulsion",
     "ts": 1795730846
+   },
+   {
+    "phase": "Retracement",
+    "ts": 1795734446
    }
   ],
-  "prix": 34.25,
-  "retr": 0.05736434,
+  "prix": 33.01,
+  "retr": 0.2496124,
   "sens": "pump",
   "symbol": "SOXL/USDT:USDT"
  },
@@ -3042,7 +3078,7 @@
   "extreme": 57.372,
   "extreme_ts": 1795726800000,
   "move_pct": -17.44442046,
-  "phase": "Impulsion",
+  "phase": "Retracement",
   "phase_depuis_h": 0.0,
   "phases": [
    {
@@ -3052,10 +3088,14 @@
    {
     "phase": "Impulsion",
     "ts": 1795730846
+   },
+   {
+    "phase": "Retracement",
+    "ts": 1795734446
    }
   ],
-  "prix": 57.932,
-  "retr": 0.04619319,
+  "prix": 60.346,
+  "retr": 0.24531882,
   "sens": "dump",
   "symbol": "SOXS/USDT:USDT"
  },
@@ -3091,7 +3131,7 @@
   "extreme_ts": 1795701600000,
   "move_pct": -17.60837588,
   "phase": "Pause",
-  "phase_depuis_h": 3.00138889,
+  "phase_depuis_h": 4.00138889,
   "phases": [
    {
     "phase": "Impulsion",
@@ -3102,8 +3142,8 @@
     "ts": 1795720041
    }
   ],
-  "prix": 9.587,
-  "retr": 0.03194103,
+  "prix": 9.608,
+  "retr": 0.04226044,
   "sens": "dump",
   "symbol": "SSPC/USDT:USDT"
  },
@@ -3113,11 +3153,11 @@
   "capture_ts": 1795626446,
   "depart": 1.543,
   "depart_ts": 1795536000000,
-  "extreme": 2.945,
-  "extreme_ts": 1795723200000,
-  "move_pct": 90.86195723,
+  "extreme": 2.96,
+  "extreme_ts": 1795730400000,
+  "move_pct": 91.83408944,
   "phase": "Impulsion",
-  "phase_depuis_h": 1.00111111,
+  "phase_depuis_h": 2.00111111,
   "phases": [
    {
     "phase": "Impulsion",
@@ -3140,8 +3180,8 @@
     "ts": 1795727242
    }
   ],
-  "prix": 2.89,
-  "retr": 0.03922967,
+  "prix": 2.914,
+  "retr": 0.03246295,
   "sens": "pump",
   "symbol": "SSV/USDT:USDT"
  },
@@ -3155,7 +3195,7 @@
   "extreme_ts": 1795590000000,
   "move_pct": -32.09459459,
   "phase": "Zone de rebond",
-  "phase_depuis_h": 0.0,
+  "phase_depuis_h": 1.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -3182,8 +3222,8 @@
     "ts": 1795730846
    }
   ],
-  "prix": 0.1989,
-  "retr": 0.50131579,
+  "prix": 0.1993,
+  "retr": 0.50657895,
   "sens": "dump",
   "symbol": "UNITAS/USDT:USDT"
  },
@@ -3197,7 +3237,7 @@
   "extreme_ts": 1795482000000,
   "move_pct": 25.89654787,
   "phase": "Retracement",
-  "phase_depuis_h": 5.00083333,
+  "phase_depuis_h": 6.00083333,
   "phases": [
    {
     "phase": "Impulsion",
@@ -3232,8 +3272,8 @@
     "ts": 1795712843
    }
   ],
-  "prix": 101.79,
-  "retr": 0.47023296,
+  "prix": 101.37,
+  "retr": 0.48835203,
   "sens": "pump",
   "symbol": "UNITREE/USDT:USDT"
  },
@@ -3305,15 +3345,15 @@
   "extreme_ts": 1795726800000,
   "move_pct": -11.60768381,
   "phase": "Impulsion",
-  "phase_depuis_h": 6.40083333,
+  "phase_depuis_h": 7.40083333,
   "phases": [
    {
     "phase": "Impulsion",
     "ts": 1795707803
    }
   ],
-  "prix": 24.825,
-  "retr": 0.00706171,
+  "prix": 24.885,
+  "retr": 0.02548357,
   "sens": "dump",
   "symbol": "UVXY/USDT:USDT"
  },
@@ -3417,7 +3457,7 @@
   "extreme_ts": 1795654800000,
   "move_pct": 26.17099149,
   "phase": "Zone de rebond",
-  "phase_depuis_h": 6.99972222,
+  "phase_depuis_h": 7.99972222,
   "phases": [
    {
     "phase": "Impulsion",
@@ -3444,8 +3484,8 @@
     "ts": 1795705647
    }
   ],
-  "prix": 26.918,
-  "retr": 0.59129478,
+  "prix": 26.524,
+  "retr": 0.65320553,
   "sens": "pump",
   "symbol": "VVV/USDT:USDT"
  },
@@ -3459,7 +3499,7 @@
   "extreme_ts": 1795716000000,
   "move_pct": 16.44844517,
   "phase": "Retracement",
-  "phase_depuis_h": 0.0,
+  "phase_depuis_h": 1.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -3470,8 +3510,8 @@
     "ts": 1795730846
    }
   ],
-  "prix": 0.1374,
-  "retr": 0.24378109,
+  "prix": 0.1364,
+  "retr": 0.29353234,
   "sens": "pump",
   "symbol": "WIF/USDT:USDT"
  },
@@ -3485,7 +3525,7 @@
   "extreme_ts": 1795719600000,
   "move_pct": -16.84931241,
   "phase": "Retracement",
-  "phase_depuis_h": 0.0,
+  "phase_depuis_h": 1.0,
   "phases": [
    {
     "phase": "Pause",
@@ -3500,8 +3540,8 @@
     "ts": 1795730846
    }
   ],
-  "prix": 452.72,
-  "retr": 0.27650512,
+  "prix": 453.34,
+  "retr": 0.28364222,
   "sens": "dump",
   "symbol": "XMR/USDT:USDT"
  },
@@ -3549,7 +3589,7 @@
   "extreme_ts": 1795615200000,
   "move_pct": -30.7212056,
   "phase": "Retracement",
-  "phase_depuis_h": 23.00083333,
+  "phase_depuis_h": 24.00083333,
   "phases": [
    {
     "phase": "Impulsion",
@@ -3580,8 +3620,8 @@
     "ts": 1795648043
    }
   ],
-  "prix": 38.5,
-  "retr": 0.44288718,
+  "prix": 38.3,
+  "retr": 0.42887176,
   "sens": "dump",
   "symbol": "ZHIPU/USDT:USDT"
  },
@@ -3595,7 +3635,7 @@
   "extreme_ts": 1795615200000,
   "move_pct": -30.35709362,
   "phase": "Retracement",
-  "phase_depuis_h": 16.0,
+  "phase_depuis_h": 17.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -3642,8 +3682,8 @@
     "ts": 1795673246
    }
   ],
-  "prix": 301.33,
-  "retr": 0.44300118,
+  "prix": 300.15,
+  "retr": 0.43228268,
   "sens": "dump",
   "symbol": "ZHIPUHKD/USDT:USDT"
  },
@@ -3711,7 +3751,7 @@
   "extreme_ts": 1795618800000,
   "move_pct": -23.58706305,
   "phase": "Zone de rebond",
-  "phase_depuis_h": 3.00138889,
+  "phase_depuis_h": 4.00138889,
   "phases": [
    {
     "phase": "Impulsion",
@@ -3758,8 +3798,8 @@
     "ts": 1795720041
    }
   ],
-  "prix": 1.1383,
-  "retr": 0.70186981,
+  "prix": 1.1222,
+  "retr": 0.64612188,
   "sens": "dump",
   "symbol": "ZRO/USDT:USDT"
  }
