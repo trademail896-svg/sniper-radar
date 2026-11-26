@@ -196019,6 +196019,13 @@
     "marche": -1.59993006,
     "mfe": 2.88816371,
     "ret": -8.86882796
+   },
+   "72": {
+    "avance": -5.13020156,
+    "mae": -43.06017262,
+    "marche": -5.2238806,
+    "mfe": 2.88816371,
+    "ret": -10.35408216
    }
   },
   "liste": "carnet",
@@ -196052,6 +196059,13 @@
     "marche": -1.59993006,
     "mfe": 0.11565708,
     "ret": 0.06505711
+   },
+   "72": {
+    "avance": -5.46717044,
+    "mae": -23.46392945,
+    "marche": -5.2238806,
+    "mfe": 9.31762325,
+    "ret": -10.69105103
    }
   },
   "liste": "carnet",
@@ -196084,6 +196098,13 @@
     "marche": -1.59993006,
     "mfe": 0.08314856,
     "ret": 0.07390983
+   },
+   "72": {
+    "avance": -5.39141874,
+    "mae": -23.06910569,
+    "marche": -5.2238806,
+    "mfe": 9.14634146,
+    "ret": -10.61529933
    }
   },
   "liste": "carnet",
@@ -196116,6 +196137,13 @@
     "marche": -1.59993006,
     "mfe": 2.59994409,
     "ret": -0.92256081
+   },
+   "72": {
+    "avance": -15.808642,
+    "mae": -34.06951822,
+    "marche": -5.2238806,
+    "mfe": 4.53825366,
+    "ret": -21.0325226
    }
   },
   "liste": "carnet",
@@ -196148,6 +196176,13 @@
     "marche": -1.59993006,
     "mfe": 2.11890557,
     "ret": -1.02859494
+   },
+   "72": {
+    "avance": -17.19948908,
+    "mae": -36.78255503,
+    "marche": -5.2238806,
+    "mfe": 3.3120757,
+    "ret": -22.42336968
    }
   },
   "liste": "carnet",
@@ -196210,6 +196245,13 @@
     "marche": 1.59993006,
     "mfe": 2.995577,
     "ret": -0.52271813
+   },
+   "72": {
+    "avance": 35.78536749,
+    "mae": -3.42983514,
+    "marche": 5.2238806,
+    "mfe": 43.5464415,
+    "ret": 41.00924809
    }
   },
   "liste": "carnet",
@@ -196318,6 +196360,13 @@
     "marche": 1.59993006,
     "mfe": 4.32330827,
     "ret": 4.17293233
+   },
+   "72": {
+    "avance": -6.27651218,
+    "mae": -1.72932331,
+    "marche": 5.2238806,
+    "mfe": 15.07518797,
+    "ret": -1.05263158
    }
   },
   "liste": "bb_marche",
@@ -235446,6 +235495,7 @@
   "base": "DGAI",
   "detail": "Retracement",
   "eval": {
+   "24": null,
    "4": {
     "avance": -0.49420871,
     "mae": -2.04,
@@ -235502,6 +235552,7 @@
   "base": "GDX",
   "detail": "haut",
   "eval": {
+   "24": null,
    "4": {
     "avance": 1.75627975,
     "mae": -0.08390435,
@@ -260279,5 +260330,73 @@
   "symbol": "AAVE/USDT:USDT",
   "tradfi": false,
   "ts": 1795705647
+ },
+ {
+  "base": "SNXX",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 1.518,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "SNXX/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795707803
+ },
+ {
+  "base": "UVXY",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 25.082,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "UVXY/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795707803
+ },
+ {
+  "base": "ZCSH",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_probable",
+  "penalite": false,
+  "prix": 18.444,
+  "raisons": [
+   "setup",
+   "divergence",
+   "foule"
+  ],
+  "score": 3,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "ZCSH/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795707803
+ },
+ {
+  "base": "KSTR",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 16.66,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "KSTR/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795707803
  }
 ]
