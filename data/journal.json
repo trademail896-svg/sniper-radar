@@ -206184,6 +206184,13 @@
     "marche": -0.61425061,
     "mfe": -0.28414299,
     "ret": -0.56828598
+   },
+   "72": {
+    "avance": -3.36155784,
+    "mae": -10.59578368,
+    "marche": -3.540367,
+    "mfe": 3.29055912,
+    "ret": -6.90192484
    }
   },
   "liste": "carnet",
@@ -206243,6 +206250,13 @@
     "marche": 0.61425061,
     "mfe": 4.55987778,
     "ret": 4.07803502
+   },
+   "72": {
+    "avance": 2.77059786,
+    "mae": 0.69338348,
+    "marche": 3.540367,
+    "mfe": 12.21060054,
+    "ret": 6.31096486
    }
   },
   "liste": "demo_carnet",
@@ -263022,7 +263036,15 @@
  {
   "base": "ARIA",
   "detail": "Retournement",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -1.7593699,
+    "mae": -4.5275473,
+    "marche": 0.43423411,
+    "mfe": 2.07425536,
+    "ret": -1.3251358
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.33506,
@@ -263040,7 +263062,15 @@
  {
   "base": "MMT",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 7.42448554,
+    "mae": 2.07505519,
+    "marche": 0.43423411,
+    "mfe": 19.42604857,
+    "ret": 7.85871965
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.2265,
@@ -263055,7 +263085,15 @@
  {
   "base": "SSPC",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -1.07157608,
+    "mae": -0.8985477,
+    "marche": 0.43423411,
+    "mfe": 0.0731376,
+    "ret": -0.63734197
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 9.571,
@@ -263085,7 +263123,15 @@
  {
   "base": "BLUR",
   "detail": "Zone de rebond",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 1.79691754,
+    "mae": -1.57232704,
+    "marche": -0.43423411,
+    "mfe": 2.93501048,
+    "ret": 1.36268344
+   }
+  },
   "liste": "carnet",
   "penalite": true,
   "prix": 0.00954,
@@ -264802,5 +264848,132 @@
   "symbol": "APT/USDT:USDT",
   "tradfi": false,
   "ts": 1795716448
+ },
+ {
+  "base": "EVAA",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 2.3304,
+  "raisons": [],
+  "score": 0,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "EVAA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795720041
+ },
+ {
+  "base": "XMR",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 433.89,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Confidentialité",
+  "sens": "long",
+  "symbol": "XMR/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795720041
+ },
+ {
+  "base": "WIF",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.1416,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Memes",
+  "sens": "long",
+  "symbol": "WIF/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795720041
+ },
+ {
+  "base": "OPG",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.1747,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "OPG/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795720041
+ },
+ {
+  "base": "MUU",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 9.689,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "MUU/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795720041
+ },
+ {
+  "base": "PIEVERSE",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 4.05686,
+  "raisons": [
+   "MSO",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "PIEVERSE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795720041
+ },
+ {
+  "base": "BGB",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 1.5088,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "Non classé",
+  "sens": "long",
+  "symbol": "BGB/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795720041
+ },
+ {
+  "base": "XMR",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "demo_carnet",
+  "penalite": false,
+  "prix": 432.08,
+  "raisons": [
+   "divergence"
+  ],
+  "score": 1,
+  "secteur": "Confidentialité",
+  "sens": "short",
+  "symbol": "XMR/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795720041
  }
 ]
