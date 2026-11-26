@@ -322,7 +322,7 @@
      "avance": 0.30460116,
      "gagnants": 45.27687296,
      "mae": -1.95935543,
-     "mfe": 2.33025806,
+     "mfe": 2.33025805,
      "moy": 0.11909728,
      "n": 307
     },
@@ -530,13 +530,13 @@
   }
  },
  "jours": 14,
- "maj": 1795669653,
- "nb_signaux": 5702,
+ "maj": 1795670794,
+ "nb_signaux": 5703,
  "rates": [
   {
    "base": "FLNC",
    "mso4h": 75.84114727,
-   "pct24": 20.907,
+   "pct24": 20.674,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "FLNC/USDT:USDT"
@@ -544,7 +544,7 @@
   {
    "base": "KIOXIA",
    "mso4h": 33.48308698,
-   "pct24": 14.411,
+   "pct24": 13.932,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "KIOXIA/USDT:USDT"
@@ -552,26 +552,26 @@
   {
    "base": "QNTSTOCK",
    "mso4h": 100.0,
-   "pct24": 11.428,
+   "pct24": 12.223,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "QNTSTOCK/USDT:USDT"
   },
   {
+   "base": "BABY",
+   "mso4h": 100.0,
+   "pct24": 11.445,
+   "secteur": "Memes",
+   "sens": "long",
+   "symbol": "BABY/USDT:USDT"
+  },
+  {
    "base": "METU",
    "mso4h": 72.42659611,
-   "pct24": 11.115,
+   "pct24": 11.376,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "METU/USDT:USDT"
-  },
-  {
-   "base": "LAYER",
-   "mso4h": 71.28260953,
-   "pct24": 10.531,
-   "secteur": "DeFi",
-   "sens": "long",
-   "symbol": "LAYER/USDT:USDT"
   }
  ]
 }

@@ -252277,5 +252277,22 @@
   "symbol": "ETHFI/USDT:USDT",
   "tradfi": false,
   "ts": 1795669653
+ },
+ {
+  "base": "MSTU",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 10.0004,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "MSTU/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795670794
  }
 ]
