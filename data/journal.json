@@ -246474,5 +246474,182 @@
   "symbol": "USELESS/USDT:USDT",
   "tradfi": false,
   "ts": 1795648043
+ },
+ {
+  "base": "BLUR",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.01087,
+  "raisons": [
+   "MSO",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "BLUR/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795651642
+ },
+ {
+  "base": "MOVE",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.005914,
+  "raisons": [],
+  "score": 0,
+  "secteur": "L1",
+  "sens": "long",
+  "symbol": "MOVE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795651642
+ },
+ {
+  "base": "SLX",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.03237,
+  "raisons": [
+   "MSO",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "Gaming",
+  "sens": "short",
+  "symbol": "SLX/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795651642
+ },
+ {
+  "base": "XPL",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.04742,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "L1",
+  "sens": "short",
+  "symbol": "XPL/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795651642
+ },
+ {
+  "base": "META",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 611.7,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Actions US",
+  "sens": "short",
+  "symbol": "META/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795651642
+ },
+ {
+  "base": "MOVE",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 0.005914,
+  "raisons": [],
+  "score": 0,
+  "secteur": "L1",
+  "sens": "short",
+  "symbol": "MOVE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795651642
+ },
+ {
+  "base": "CFG",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 0.05268,
+  "raisons": [],
+  "score": 0,
+  "secteur": "RWA",
+  "sens": "short",
+  "symbol": "CFG/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795651642
+ },
+ {
+  "base": "METU",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 20.731,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "METU/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795651642
+ },
+ {
+  "base": "XPL",
+  "detail": "haut",
+  "eval": {},
+  "liste": "demo_bb_sans",
+  "penalite": false,
+  "prix": 0.04751,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "L1",
+  "sens": "short",
+  "symbol": "XPL/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795651642
+ },
+ {
+  "base": "AXL",
+  "detail": "haut",
+  "eval": {},
+  "liste": "demo_bb_sans",
+  "penalite": false,
+  "prix": 0.03244,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "AXL/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795651642
+ },
+ {
+  "base": "M",
+  "detail": "haut",
+  "eval": {},
+  "liste": "demo_bb_marche",
+  "penalite": true,
+  "prix": 0.8424,
+  "raisons": [
+   "divergence"
+  ],
+  "score": 1,
+  "secteur": "Memes",
+  "sens": "short",
+  "symbol": "M/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795651642
  }
 ]
