@@ -185690,7 +185690,8 @@
     "marche": -0.05018151,
     "mfe": 0.72282458,
     "ret": -3.25271059
-   }
+   },
+   "72": null
   },
   "liste": "carnet",
   "penalite": false,
@@ -188940,6 +188941,13 @@
     "marche": 2.2429426,
     "mfe": 8.33836858,
     "ret": 4.93454179
+   },
+   "72": {
+    "avance": 6.97223729,
+    "mae": -11.21852971,
+    "marche": 2.81628234,
+    "mfe": 33.33333333,
+    "ret": 9.78851964
    }
   },
   "liste": "carnet",
@@ -188973,6 +188981,13 @@
     "marche": 2.2429426,
     "mfe": 7.16670948,
     "ret": 5.44567172
+   },
+   "72": {
+    "avance": -5.15381124,
+    "mae": -21.06344721,
+    "marche": 2.81628234,
+    "mfe": 29.61726175,
+    "ret": -2.3375289
    }
   },
   "liste": "carnet",
@@ -189005,6 +189020,13 @@
     "marche": 2.2429426,
     "mfe": 7.53368483,
     "ret": 5.41300527
+   },
+   "72": {
+    "avance": -1.53918802,
+    "mae": -17.10603398,
+    "marche": 2.81628234,
+    "mfe": 32.25541886,
+    "ret": 1.27709432
    }
   },
   "liste": "carnet",
@@ -189037,6 +189059,13 @@
     "marche": 2.2429426,
     "mfe": 5.79766537,
     "ret": 5.44747082
+   },
+   "72": {
+    "avance": -6.82406444,
+    "mae": -17.60311284,
+    "marche": 2.81628234,
+    "mfe": 17.68871595,
+    "ret": -4.0077821
    }
   },
   "liste": "carnet",
@@ -189069,6 +189098,13 @@
     "marche": 2.2429426,
     "mfe": 5.85945298,
     "ret": 5.85945298
+   },
+   "72": {
+    "avance": -6.11035302,
+    "mae": -16.87961669,
+    "marche": 2.81628234,
+    "mfe": 17.92773009,
+    "ret": -3.29407067
    }
   },
   "liste": "carnet",
@@ -189101,6 +189137,13 @@
     "marche": -2.2429426,
     "mfe": 3.90861547,
     "ret": 1.15606936
+   },
+   "72": {
+    "avance": 23.98336189,
+    "mae": -1.92678227,
+    "marche": -2.81628234,
+    "mfe": 23.6718965,
+    "ret": 21.16707955
    }
   },
   "liste": "carnet",
@@ -189131,6 +189174,13 @@
     "marche": -2.2429426,
     "mfe": 0.40644506,
     "ret": -1.68021484
+   },
+   "72": {
+    "avance": 48.35627363,
+    "mae": -4.35476847,
+    "marche": -2.81628234,
+    "mfe": 48.39599361,
+    "ret": 45.53999129
    }
   },
   "liste": "carnet",
@@ -189194,6 +189244,13 @@
     "marche": 2.2429426,
     "mfe": 1.85683531,
     "ret": -1.69537137
+   },
+   "72": {
+    "avance": -12.47720807,
+    "mae": -14.47793326,
+    "marche": 2.81628234,
+    "mfe": 21.98600646,
+    "ret": -9.66092573
    }
   },
   "liste": "carnet",
@@ -189227,6 +189284,13 @@
     "marche": 2.2429426,
     "mfe": 2.63872135,
     "ret": -0.48250905
+   },
+   "72": {
+    "avance": -3.10277209,
+    "mae": -9.55971049,
+    "marche": 2.81628234,
+    "mfe": 13.04282268,
+    "ret": -0.28648975
    }
   },
   "liste": "carnet",
@@ -189291,6 +189355,13 @@
     "marche": 2.2429426,
     "mfe": 1.64338537,
     "ret": 0.73952342
+   },
+   "72": {
+    "avance": -12.84093312,
+    "mae": -25.39030403,
+    "marche": 2.81628234,
+    "mfe": 13.80443714,
+    "ret": -10.02465078
    }
   },
   "liste": "demo_bb_marche",
@@ -189325,6 +189396,13 @@
     "marche": -2.2429426,
     "mfe": 0.12030284,
     "ret": -0.3981385
+   },
+   "72": {
+    "avance": 3.25081732,
+    "mae": -2.21629506,
+    "marche": -2.81628234,
+    "mfe": 4.8951865,
+    "ret": 0.43453497
    }
   },
   "liste": "demo_bb_marche",
@@ -234000,6 +234078,13 @@
   "base": "OPG",
   "detail": "Essoufflement",
   "eval": {
+   "24": {
+    "avance": 13.59773237,
+    "mae": -7.76014109,
+    "marche": -3.897556,
+    "mfe": 11.52263374,
+    "ret": 9.70017637
+   },
    "4": {
     "avance": 0.12299766,
     "mae": -7.76014109,
@@ -234028,6 +234113,13 @@
   "base": "CSOPSS2LHKD",
   "detail": "Impulsion",
   "eval": {
+   "24": {
+    "avance": 3.13558212,
+    "mae": -5.22496372,
+    "marche": -3.897556,
+    "mfe": 13.02612482,
+    "ret": -0.76197388
+   },
    "4": {
     "avance": 0.97132047,
     "mae": -1.66908563,
@@ -234053,6 +234145,13 @@
   "base": "BIGTIME",
   "detail": "Retracement",
   "eval": {
+   "24": {
+    "avance": 33.13697345,
+    "mae": -0.99300384,
+    "marche": 3.897556,
+    "mfe": 62.42383209,
+    "ret": 37.03452945
+   },
    "4": {
     "avance": 40.58124378,
     "mae": -0.99300384,
@@ -234078,6 +234177,13 @@
   "base": "SOXS",
   "detail": "Retracement",
   "eval": {
+   "24": {
+    "avance": -11.07004792,
+    "mae": -10.21754773,
+    "marche": 3.897556,
+    "mfe": 16.54801819,
+    "ret": -7.17249192
+   },
    "4": {
     "avance": 1.88775014,
     "mae": -3.12619605,
@@ -234103,6 +234209,13 @@
   "base": "SKDD",
   "detail": "Impulsion",
   "eval": {
+   "24": {
+    "avance": -8.99129797,
+    "mae": -9.90497389,
+    "marche": 3.897556,
+    "mfe": 12.55885626,
+    "ret": -5.09374197
+   },
    "4": {
     "avance": 0.76619964,
     "mae": -1.19852752,
@@ -234126,6 +234239,13 @@
   "base": "SOXL",
   "detail": "Impulsion",
   "eval": {
+   "24": {
+    "avance": -4.18657151,
+    "mae": -11.43608281,
+    "marche": -3.897556,
+    "mfe": 18.9615511,
+    "ret": -8.08412751
+   },
    "4": {
     "avance": 2.29884558,
     "mae": -3.45054223,
@@ -234152,6 +234272,13 @@
   "base": "ZHIPU",
   "detail": "Impulsion",
   "eval": {
+   "24": {
+    "avance": -1.3501013,
+    "mae": -7.57697456,
+    "marche": -3.897556,
+    "mfe": 13.84203481,
+    "ret": -5.2476573
+   },
    "4": {
     "avance": 4.29446306,
     "mae": 0.58902276,
@@ -234178,6 +234305,13 @@
   "base": "ZHIPUHKD",
   "detail": "Impulsion",
   "eval": {
+   "24": {
+    "avance": -1.86244948,
+    "mae": -7.92214912,
+    "marche": -3.897556,
+    "mfe": 13.45942982,
+    "ret": -5.76000548
+   },
    "4": {
     "avance": 4.05612209,
     "mae": 0.32552083,
@@ -234204,6 +234338,13 @@
   "base": "SNXX",
   "detail": "Impulsion",
   "eval": {
+   "24": {
+    "avance": 3.43428664,
+    "mae": -5.0297816,
+    "marche": -3.897556,
+    "mfe": 21.70747849,
+    "ret": -0.46326936
+   },
    "4": {
     "avance": 0.06420871,
     "mae": -2.77961615,
@@ -234229,6 +234370,13 @@
   "base": "USELESS",
   "detail": "Impulsion",
   "eval": {
+   "24": {
+    "avance": -3.58821665,
+    "mae": -9.54326572,
+    "marche": -3.897556,
+    "mfe": 8.49263096,
+    "ret": -7.48577265
+   },
    "4": {
     "avance": 0.2684988,
     "mae": -0.67123887,
@@ -234277,6 +234425,13 @@
   "base": "BIGTIME",
   "detail": "haut",
   "eval": {
+   "24": {
+    "avance": -33.13697345,
+    "mae": -62.42383209,
+    "marche": -3.897556,
+    "mfe": 0.99300384,
+    "ret": -37.03452945
+   },
    "4": {
     "avance": -40.58124378,
     "mae": -62.42383209,
@@ -238131,7 +238286,9 @@
  {
   "base": "2Z",
   "detail": "haut",
-  "eval": {},
+  "eval": {
+   "4": null
+  },
   "liste": "bb_probable",
   "penalite": false,
   "prix": 0.01636,
@@ -248055,7 +248212,15 @@
  {
   "base": "AT",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -4.62608718,
+    "mae": -4.76190476,
+    "marche": 1.29275384,
+    "mfe": 2.22222222,
+    "ret": -3.33333333
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.063,
@@ -248074,7 +248239,15 @@
  {
   "base": "NVDA",
   "detail": "Zone de rebond",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 0.5018089,
+    "mae": 0.78344717,
+    "marche": 1.29275384,
+    "mfe": 2.42399893,
+    "ret": 1.79456274
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 149.34,
@@ -248093,7 +248266,15 @@
  {
   "base": "FLNC",
   "detail": "Pause",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -0.06317836,
+    "mae": -2.11864407,
+    "marche": -1.29275384,
+    "mfe": -0.14830508,
+    "ret": -1.3559322
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 4.72,
@@ -248110,7 +248291,15 @@
  {
   "base": "NIGHT",
   "detail": "Retracement",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -3.24307205,
+    "mae": -2.1350852,
+    "marche": 1.29275384,
+    "mfe": 2.03243687,
+    "ret": -1.95031821
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.04871,
@@ -248127,7 +248316,15 @@
  {
   "base": "AXTI",
   "detail": "Retracement",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -1.54921992,
+    "mae": -3.84134916,
+    "marche": -1.29275384,
+    "mfe": -1.24921924,
+    "ret": -2.84197377
+   }
+  },
   "liste": "carnet",
   "penalite": true,
   "prix": 32.02,
@@ -248144,7 +248341,15 @@
  {
   "base": "USELESS",
   "detail": "Retracement",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -4.84557469,
+    "mae": -8.17002882,
+    "marche": -1.29275384,
+    "mfe": -3.71757925,
+    "ret": -6.13832853
+   }
+  },
   "liste": "carnet",
   "penalite": true,
   "prix": 0.0694,
@@ -248159,7 +248364,15 @@
  {
   "base": "XPT",
   "detail": "bas",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 0.07643893,
+    "mae": -0.84652304,
+    "marche": 1.29275384,
+    "mfe": 1.91360805,
+    "ret": 1.36919277
+   }
+  },
   "liste": "bb_probable",
   "penalite": false,
   "prix": 1287.62,
@@ -248179,7 +248392,15 @@
  {
   "base": "USELESS",
   "detail": "bas",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 4.84557469,
+    "mae": 3.71757925,
+    "marche": 1.29275384,
+    "mfe": 8.17002882,
+    "ret": 6.13832853
+   }
+  },
   "liste": "bb_sans",
   "penalite": false,
   "prix": 0.0694,
@@ -249234,5 +249455,420 @@
   "symbol": "AAVE/USDT:USDT",
   "tradfi": false,
   "ts": 1795662441
+ },
+ {
+  "base": "SKYAI",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.03279,
+  "raisons": [
+   "divergence",
+   "météo"
+  ],
+  "score": 2,
+  "secteur": "Non classé",
+  "sens": "long",
+  "symbol": "SKYAI/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "INTW",
+  "detail": "Zone de rebond",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 4.884,
+  "raisons": [
+   "setup"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "INTW/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795666040
+ },
+ {
+  "base": "SLX",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.03449,
+  "raisons": [
+   "météo",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "Gaming",
+  "sens": "long",
+  "symbol": "SLX/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "BTW",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.94942,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "DeFi",
+  "sens": "long",
+  "symbol": "BTW/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "ARIA",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.34247,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "Gaming",
+  "sens": "long",
+  "symbol": "ARIA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "ELSA",
+  "detail": "Impulsion",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 0.11339,
+  "raisons": [
+   "météo"
+  ],
+  "score": 1,
+  "secteur": "IA",
+  "sens": "long",
+  "symbol": "ELSA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "ACE",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.0654,
+  "raisons": [
+   "MSO",
+   "météo",
+   "foule"
+  ],
+  "score": 3,
+  "secteur": "IA",
+  "sens": "long",
+  "symbol": "ACE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "BLUR",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.01071,
+  "raisons": [
+   "MSO",
+   "divergence",
+   "foule"
+  ],
+  "score": 3,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "BLUR/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "MMT",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.2989,
+  "raisons": [
+   "MSO",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "MMT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "BGB",
+  "detail": "bas",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 1.5142,
+  "raisons": [
+   "MSO",
+   "météo"
+  ],
+  "score": 2,
+  "secteur": "Non classé",
+  "sens": "long",
+  "symbol": "BGB/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "MOODENG",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.02905,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "Memes",
+  "sens": "short",
+  "symbol": "MOODENG/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "BTW",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.94942,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "BTW/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "ELSA",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.11339,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "ELSA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "NANYA",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 9.071,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "NANYA/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795666040
+ },
+ {
+  "base": "PIEVERSE",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 3.68091,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "PIEVERSE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "FET",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.1128,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "FET/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "TIA",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 0.3476,
+  "raisons": [],
+  "score": 0,
+  "secteur": "L1",
+  "sens": "short",
+  "symbol": "TIA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "ME",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 0.03892,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "ME/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "WIF",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 0.132,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "Memes",
+  "sens": "short",
+  "symbol": "WIF/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "BCH",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 208.19,
+  "raisons": [],
+  "score": 0,
+  "secteur": "L1",
+  "sens": "short",
+  "symbol": "BCH/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "SKY",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 0.04286,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "SKY/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "TIA",
+  "detail": "haut",
+  "eval": {},
+  "liste": "demo_bb_sans",
+  "penalite": false,
+  "prix": 0.3478,
+  "raisons": [],
+  "score": 0,
+  "secteur": "L1",
+  "sens": "short",
+  "symbol": "TIA/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "TURBO",
+  "detail": "haut",
+  "eval": {},
+  "liste": "demo_bb_marche",
+  "penalite": true,
+  "prix": 0.0005858,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Memes",
+  "sens": "short",
+  "symbol": "TURBO/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "AXL",
+  "detail": "haut",
+  "eval": {},
+  "liste": "demo_bb_marche",
+  "penalite": true,
+  "prix": 0.0328,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Non classé",
+  "sens": "short",
+  "symbol": "AXL/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
+ },
+ {
+  "base": "BCH",
+  "detail": "haut",
+  "eval": {},
+  "liste": "demo_bb_marche",
+  "penalite": true,
+  "prix": 208.07,
+  "raisons": [],
+  "score": 0,
+  "secteur": "L1",
+  "sens": "short",
+  "symbol": "BCH/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795666040
  }
 ]
