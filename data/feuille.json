@@ -362,12 +362,12 @@
     "n": 3114
    },
    "demo": {
-    "avance": -0.78183401,
-    "gagnants": 42.93537788,
-    "mae": -7.2349175,
-    "mfe": 7.23795659,
-    "moy": -1.12639232,
-    "n": 913
+    "avance": -0.77917003,
+    "gagnants": 42.99781182,
+    "mae": -7.23045119,
+    "mfe": 7.24092462,
+    "moy": -1.1186924,
+    "n": 914
    },
    "demo_haut": {
     "avance": -0.82175276,
@@ -530,13 +530,13 @@
   }
  },
  "jours": 14,
- "maj": 1795802850,
- "nb_signaux": 6310,
+ "maj": 1795803448,
+ "nb_signaux": 6311,
  "rates": [
   {
    "base": "KSTR",
    "mso4h": 98.16378633,
-   "pct24": 16.026,
+   "pct24": 15.591,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "KSTR/USDT:USDT"
@@ -544,15 +544,23 @@
   {
    "base": "KORU",
    "mso4h": 34.08866727,
-   "pct24": 15.487,
+   "pct24": 14.283,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "KORU/USDT:USDT"
   },
   {
+   "base": "RAM",
+   "mso4h": 29.17371402,
+   "pct24": 14.225,
+   "secteur": "Actions",
+   "sens": "long",
+   "symbol": "RAM/USDT:USDT"
+  },
+  {
    "base": "SKUU",
    "mso4h": 30.97003207,
-   "pct24": 15.255,
+   "pct24": 13.907,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "SKUU/USDT:USDT"
@@ -560,18 +568,10 @@
   {
    "base": "SKDD",
    "mso4h": 25.21488266,
-   "pct24": -14.859,
+   "pct24": -13.773,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "SKDD/USDT:USDT"
-  },
-  {
-   "base": "RAM",
-   "mso4h": 29.17371402,
-   "pct24": 14.495,
-   "secteur": "Actions",
-   "sens": "long",
-   "symbol": "RAM/USDT:USDT"
   }
  ]
 }

@@ -235955,6 +235955,13 @@
     "marche": 0.59761388,
     "mfe": 1.21510673,
     "ret": 0.591133
+   },
+   "72": {
+    "avance": 1.65304347,
+    "mae": -3.15270936,
+    "marche": 4.25828658,
+    "mfe": 9.95073892,
+    "ret": 5.91133005
    }
   },
   "liste": "demo_bb_sans",
@@ -285080,5 +285087,22 @@
   "symbol": "MMT/USDT:USDT",
   "tradfi": false,
   "ts": 1795802850
+ },
+ {
+  "base": "TTWO",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_sans",
+  "penalite": false,
+  "prix": 229.88,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "TTWO/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795803448
  }
 ]
