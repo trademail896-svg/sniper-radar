@@ -9,7 +9,7 @@
   "extreme_ts": 1795694400000,
   "move_pct": 16.39692226,
   "phase": "Retracement",
-  "phase_depuis_h": 3.99833333,
+  "phase_depuis_h": 4.99777778,
   "phases": [
    {
     "phase": "Impulsion",
@@ -28,8 +28,8 @@
     "ts": 1795802850
    }
   ],
-  "prix": 0.837,
-  "retr": 0.32686084,
+  "prix": 0.8361,
+  "retr": 0.33414239,
   "sens": "pump",
   "symbol": "M/USDT:USDT"
  },
@@ -43,7 +43,7 @@
   "extreme_ts": 1795719600000,
   "move_pct": 30.50901043,
   "phase": "Retracement",
-  "phase_depuis_h": 7.99944444,
+  "phase_depuis_h": 8.99888889,
   "phases": [
    {
     "phase": "Impulsion",
@@ -70,8 +70,8 @@
     "ts": 1795788446
    }
   ],
-  "prix": 0.03824,
-  "retr": 0.31502591,
+  "prix": 0.03836,
+  "retr": 0.30259067,
   "sens": "pump",
   "symbol": "SEI/USDT:USDT"
  },
@@ -85,15 +85,15 @@
   "extreme_ts": 1795809600000,
   "move_pct": -15.79693034,
   "phase": "Impulsion",
-  "phase_depuis_h": 1.99944444,
+  "phase_depuis_h": 2.99888889,
   "phases": [
    {
     "phase": "Impulsion",
     "ts": 1795810046
    }
   ],
-  "prix": 0.03653,
-  "retr": 0.13004484,
+  "prix": 0.03686,
+  "retr": 0.1793722,
   "sens": "dump",
   "symbol": "WLFI/USDT:USDT"
  },
@@ -106,8 +106,8 @@
   "extreme": 394.78,
   "extreme_ts": 1795802400000,
   "move_pct": -23.45813056,
-  "phase": "Impulsion",
-  "phase_depuis_h": 6.99972222,
+  "phase": "Essoufflement",
+  "phase_depuis_h": 0.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -132,10 +132,14 @@
    {
     "phase": "Impulsion",
     "ts": 1795792045
+   },
+   {
+    "phase": "Essoufflement",
+    "ts": 1795820842
    }
   ],
-  "prix": 406.2,
-  "retr": 0.09438797,
+  "prix": 407.98,
+  "retr": 0.10909993,
   "sens": "dump",
   "symbol": "XMR/USDT:USDT"
  },
@@ -149,7 +153,7 @@
   "extreme_ts": 1795705200000,
   "move_pct": -23.06959119,
   "phase": "Retracement",
-  "phase_depuis_h": 7.99944444,
+  "phase_depuis_h": 8.99888889,
   "phases": [
    {
     "phase": "Impulsion",
@@ -228,8 +232,8 @@
     "ts": 1795788446
    }
   ],
-  "prix": 735.71,
-  "retr": 0.37219731,
+  "prix": 728.23,
+  "retr": 0.33450899,
   "sens": "dump",
   "symbol": "ZEC/USDT:USDT"
  }
