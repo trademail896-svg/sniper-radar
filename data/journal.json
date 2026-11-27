@@ -226502,6 +226502,13 @@
     "marche": 1.28949183,
     "mfe": 2.97530497,
     "ret": 1.30913419
+   },
+   "72": {
+    "avance": 11.82427751,
+    "mae": -0.08925915,
+    "marche": -2.21404246,
+    "mfe": 20.70812258,
+    "ret": 9.61023505
    }
   },
   "liste": "carnet",
@@ -226564,6 +226571,13 @@
     "marche": -1.28949183,
     "mfe": 0.61009429,
     "ret": 0.55463117
+   },
+   "72": {
+    "avance": -3.26784168,
+    "mae": -1.05379922,
+    "marche": 2.21404246,
+    "mfe": 4.0765391,
+    "ret": -1.05379922
    }
   },
   "liste": "bb_probable",
@@ -226597,6 +226611,13 @@
     "marche": 1.28949183,
     "mfe": 2.92701,
     "ret": 1.42027912
+   },
+   "72": {
+    "avance": -0.57711476,
+    "mae": -3.38396937,
+    "marche": -2.21404246,
+    "mfe": 8.08941583,
+    "ret": -2.79115722
    }
   },
   "liste": "bb_sans",
@@ -226629,6 +226650,13 @@
     "marche": 1.28949183,
     "mfe": 0.65903573,
     "ret": 0.13874436
+   },
+   "72": {
+    "avance": -1.44534013,
+    "mae": -4.52653486,
+    "marche": -2.21404246,
+    "mfe": 4.07561568,
+    "ret": -3.65938259
    }
   },
   "liste": "bb_sans",
@@ -226661,6 +226689,13 @@
     "marche": 1.28949183,
     "mfe": 2.11453744,
     "ret": 1.12334802
+   },
+   "72": {
+    "avance": -5.03265358,
+    "mae": -8.30396476,
+    "marche": -2.21404246,
+    "mfe": 4.55947137,
+    "ret": -7.24669604
    }
   },
   "liste": "bb_sans",
@@ -226693,6 +226728,13 @@
     "marche": 1.28949183,
     "mfe": 2.15517241,
     "ret": 1.00574713
+   },
+   "72": {
+    "avance": -2.16814145,
+    "mae": -4.56896552,
+    "marche": -2.21404246,
+    "mfe": 6.36494253,
+    "ret": -4.38218391
    }
   },
   "liste": "bb_sans",
@@ -226757,6 +226799,13 @@
     "marche": 1.28949183,
     "mfe": 2.13609337,
     "ret": 1.14512222
+   },
+   "72": {
+    "avance": -5.00903616,
+    "mae": -8.28011451,
+    "marche": -2.21404246,
+    "mfe": 4.58048888,
+    "ret": -7.22307862
    }
   },
   "liste": "demo_bb_sans",
@@ -226789,6 +226838,13 @@
     "marche": 1.28949183,
     "mfe": 2.03462431,
     "ret": 1.32072104
+   },
+   "72": {
+    "avance": -5.10346602,
+    "mae": -7.67446011,
+    "marche": -2.21404246,
+    "mfe": 4.97947528,
+    "ret": -7.31750848
    }
   },
   "liste": "demo_bb_sans",
@@ -256562,6 +256618,7 @@
   "base": "SPCH",
   "detail": "Retracement",
   "eval": {
+   "24": null,
    "4": {
     "avance": -0.18054628,
     "mae": -1.52003685,
@@ -257086,6 +257143,7 @@
   "base": "ERA",
   "detail": "haut",
   "eval": {
+   "24": null,
    "4": null
   },
   "liste": "bb_sans",
@@ -257103,6 +257161,7 @@
   "base": "SAHARA",
   "detail": "haut",
   "eval": {
+   "24": null,
    "4": null
   },
   "liste": "bb_sans",
@@ -257219,6 +257278,7 @@
   "base": "AMZU",
   "detail": "bas",
   "eval": {
+   "24": null,
    "4": {
     "avance": 0.62689017,
     "mae": 0.00317874,
@@ -275652,7 +275712,15 @@
  {
   "base": "MUU",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -0.088706,
+    "mae": -3.25892437,
+    "marche": 0.66325625,
+    "mfe": 1.83667703,
+    "ret": 0.57455025
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 10.617,
@@ -275671,7 +275739,15 @@
  {
   "base": "ICNT",
   "detail": "Essoufflement",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 4.77152636,
+    "mae": 4.38405797,
+    "marche": 0.66325625,
+    "mfe": 11.5942029,
+    "ret": 5.43478261
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.276,
@@ -275689,7 +275765,15 @@
  {
   "base": "ZHONGJI",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 0.39432307,
+    "mae": -1.54067111,
+    "marche": 0.66325625,
+    "mfe": 1.4623319,
+    "ret": 1.05757932
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 76.59,
@@ -275706,7 +275790,15 @@
  {
   "base": "AKE",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 1.4259301,
+    "mae": -1.61507402,
+    "marche": -0.66325625,
+    "mfe": 3.78645132,
+    "ret": 0.76267384
+   }
+  },
   "liste": "carnet",
   "penalite": true,
   "prix": 0.0011145,
@@ -275721,7 +275813,15 @@
  {
   "base": "BLUR",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -0.19231472,
+    "mae": -19.25254813,
+    "marche": 0.305565,
+    "mfe": 0.90600227,
+    "ret": 0.11325028
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.00883,
@@ -275739,7 +275839,15 @@
  {
   "base": "ZHIPU",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -0.10020596,
+    "mae": -0.51848512,
+    "marche": -0.305565,
+    "mfe": 2.50225428,
+    "ret": -0.40577096
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 44.36,
@@ -275756,7 +275864,15 @@
  {
   "base": "MINIMAXHKD",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -1.40810869,
+    "mae": -1.77615137,
+    "marche": -0.305565,
+    "mfe": 0.80328454,
+    "ret": -1.71367369
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 112.04,
@@ -275773,7 +275889,15 @@
  {
   "base": "ZHIPUHKD",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -0.02768215,
+    "mae": -0.40506765,
+    "marche": -0.305565,
+    "mfe": 2.42466029,
+    "ret": -0.33324715
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 348.09,
@@ -275790,7 +275914,15 @@
  {
   "base": "MMT",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 2.02906535,
+    "mae": -8.22679266,
+    "marche": 0.305565,
+    "mfe": 10.3946637,
+    "ret": 2.33463035
+   }
+  },
   "liste": "carnet",
   "penalite": false,
   "prix": 0.1799,
@@ -275805,7 +275937,15 @@
  {
   "base": "MINIMAX",
   "detail": "Impulsion",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": -1.38364787,
+    "mae": -1.80135978,
+    "marche": -0.305565,
+    "mfe": 1.21959767,
+    "ret": -1.68921287
+   }
+  },
   "liste": "carnet",
   "penalite": true,
   "prix": 14.267,
@@ -275822,7 +275962,15 @@
  {
   "base": "SOPH",
   "detail": "haut",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 0.43205354,
+    "mae": -1.47523709,
+    "marche": 0.305565,
+    "mfe": 3.16122234,
+    "ret": 0.73761855
+   }
+  },
   "liste": "bb_sans",
   "penalite": false,
   "prix": 0.000949,
@@ -275839,7 +275987,15 @@
  {
   "base": "W",
   "detail": "haut",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 3.32891059,
+    "mae": -1.66147456,
+    "marche": 0.305565,
+    "mfe": 4.25752856,
+    "ret": 3.6344756
+   }
+  },
   "liste": "bb_marche",
   "penalite": true,
   "prix": 0.00963,
@@ -277106,5 +277262,100 @@
   "symbol": "BCH/USDT:USDT",
   "tradfi": false,
   "ts": 1795770445
+ },
+ {
+  "base": "AKE",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.0010929,
+  "raisons": [
+   "MSO",
+   "foule"
+  ],
+  "score": 2,
+  "secteur": "IA",
+  "sens": "long",
+  "symbol": "AKE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795774046
+ },
+ {
+  "base": "SOXS",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 53.993,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "SOXS/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795774046
+ },
+ {
+  "base": "SOXL",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 36.32,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Indices",
+  "sens": "short",
+  "symbol": "SOXL/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795774046
+ },
+ {
+  "base": "PIEVERSE",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": true,
+  "prix": 3.85206,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "long",
+  "symbol": "PIEVERSE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795774046
+ },
+ {
+  "base": "EWZ",
+  "detail": "haut",
+  "eval": {},
+  "liste": "bb_marche",
+  "penalite": true,
+  "prix": 33.792,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Actions",
+  "sens": "short",
+  "symbol": "EWZ/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795774046
+ },
+ {
+  "base": "JUP",
+  "detail": "haut",
+  "eval": {},
+  "liste": "demo_bb_sans",
+  "penalite": false,
+  "prix": 0.2501,
+  "raisons": [],
+  "score": 0,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "JUP/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795774046
  }
 ]
