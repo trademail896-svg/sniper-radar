@@ -9,7 +9,7 @@
   "extreme_ts": 1795694400000,
   "move_pct": 16.39692226,
   "phase": "Retracement",
-  "phase_depuis_h": 18.0,
+  "phase_depuis_h": 19.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -20,8 +20,8 @@
     "ts": 1795712843
    }
   ],
-  "prix": 0.8393,
-  "retr": 0.30825243,
+  "prix": 0.837,
+  "retr": 0.32686084,
   "sens": "pump",
   "symbol": "M/USDT:USDT"
  },
@@ -34,7 +34,7 @@
   "extreme": 0.04128,
   "extreme_ts": 1795719600000,
   "move_pct": 30.50901043,
-  "phase": "Retracement",
+  "phase": "Pause",
   "phase_depuis_h": 0.0,
   "phases": [
    {
@@ -52,10 +52,14 @@
    {
     "phase": "Retracement",
     "ts": 1795777643
+   },
+   {
+    "phase": "Pause",
+    "ts": 1795781243
    }
   ],
-  "prix": 0.03886,
-  "retr": 0.2507772,
+  "prix": 0.03945,
+  "retr": 0.18963731,
   "sens": "pump",
   "symbol": "SEI/USDT:USDT"
  },
@@ -69,7 +73,7 @@
   "extreme_ts": 1795240800000,
   "move_pct": -21.29746835,
   "phase": "Retracement",
-  "phase_depuis_h": 40.99861111,
+  "phase_depuis_h": 41.99861111,
   "phases": [
    {
     "phase": "Essoufflement",
@@ -152,8 +156,8 @@
     "ts": 1795630048
    }
   ],
-  "prix": 0.2823,
-  "retr": 0.49925706,
+  "prix": 0.2821,
+  "retr": 0.49628529,
   "sens": "dump",
   "symbol": "SPX/USDT:USDT"
  },
@@ -167,7 +171,7 @@
   "extreme_ts": 1795719600000,
   "move_pct": -16.84083991,
   "phase": "Pause",
-  "phase_depuis_h": 0.0,
+  "phase_depuis_h": 1.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -190,8 +194,8 @@
     "ts": 1795777643
    }
   ],
-  "prix": 445.88,
-  "retr": 0.19537186,
+  "prix": 441.53,
+  "retr": 0.14529127,
   "sens": "dump",
   "symbol": "XMR/USDT:USDT"
  },
@@ -205,7 +209,7 @@
   "extreme_ts": 1795705200000,
   "move_pct": -23.06959119,
   "phase": "Retracement",
-  "phase_depuis_h": 4.00027778,
+  "phase_depuis_h": 5.00027778,
   "phases": [
    {
     "phase": "Impulsion",
@@ -276,8 +280,8 @@
     "ts": 1795763242
    }
   ],
-  "prix": 758.99,
-  "retr": 0.48949463,
+  "prix": 756.02,
+  "retr": 0.47453016,
   "sens": "dump",
   "symbol": "ZEC/USDT:USDT"
  }
