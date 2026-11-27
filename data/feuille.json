@@ -2,12 +2,12 @@
  "horizons": {
   "24": {
    "bas": {
-    "avance": 0.14730826,
-    "gagnants": 57.05852156,
-    "mae": -6.6509258,
-    "mfe": 7.04203321,
-    "moy": 0.64327125,
-    "n": 3896
+    "avance": 0.1497412,
+    "gagnants": 57.06954067,
+    "mae": -6.64954025,
+    "mfe": 7.04390308,
+    "moy": 0.64591337,
+    "n": 3897
    },
    "demo": {
     "avance": -0.120042,
@@ -59,12 +59,12 @@
      "n": 2320
     },
     "carnet": {
-     "avance": -0.1558394,
-     "gagnants": 46.86998395,
-     "mae": -10.16714457,
-     "mfe": 10.82632652,
-     "moy": -0.16200503,
-     "n": 1246
+     "avance": -0.14799312,
+     "gagnants": 46.91259022,
+     "mae": -10.15999484,
+     "mfe": 10.82913534,
+     "moy": -0.15310236,
+     "n": 1247
     }
    },
    "par_phase": {
@@ -101,12 +101,12 @@
      "n": 18
     },
     "Retracement": {
-     "avance": -1.68701036,
-     "gagnants": 37.57961783,
-     "mae": -10.90793242,
-     "mfe": 10.18564938,
-     "moy": -1.92388846,
-     "n": 314
+     "avance": -1.65108821,
+     "gagnants": 37.77777778,
+     "mae": -10.87727687,
+     "mfe": 10.19880262,
+     "moy": -1.88305193,
+     "n": 315
     },
     "Zone de rebond": {
      "avance": 2.12848167,
@@ -127,12 +127,12 @@
      "n": 658
     },
     "1": {
-     "avance": 0.41556301,
-     "gagnants": 57.49646393,
-     "mae": -5.82903742,
-     "mfe": 6.41661094,
-     "moy": 0.60760949,
-     "n": 1414
+     "avance": 0.4220739,
+     "gagnants": 57.52650177,
+     "mae": -5.82580237,
+     "mfe": 6.42220267,
+     "moy": 0.61491126,
+     "n": 1415
     },
     "2": {
      "avance": -0.58227648,
@@ -530,48 +530,48 @@
   }
  },
  "jours": 14,
- "maj": 1795795645,
- "nb_signaux": 6275,
+ "maj": 1795799243,
+ "nb_signaux": 6299,
  "rates": [
   {
    "base": "KSTR",
    "mso4h": 98.16378633,
-   "pct24": 14.603,
+   "pct24": 14.644,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "KSTR/USDT:USDT"
   },
   {
-   "base": "ITUB",
-   "mso4h": 100.0,
-   "pct24": 12.119,
-   "secteur": "Actions",
-   "sens": "long",
-   "symbol": "ITUB/USDT:USDT"
-  },
-  {
    "base": "KORU",
    "mso4h": 34.08866727,
-   "pct24": 12.058,
+   "pct24": 13.066,
    "secteur": "Actions",
    "sens": "long",
    "symbol": "KORU/USDT:USDT"
   },
   {
-   "base": "REZ",
-   "mso4h": 43.30396259,
-   "pct24": 11.045,
-   "secteur": "DeFi",
+   "base": "ITUB",
+   "mso4h": 100.0,
+   "pct24": 12.101,
+   "secteur": "Actions",
    "sens": "long",
-   "symbol": "REZ/USDT:USDT"
+   "symbol": "ITUB/USDT:USDT"
   },
   {
-   "base": "KAVA",
-   "mso4h": 68.81997372,
-   "pct24": 11.006,
-   "secteur": "L1",
+   "base": "SKUU",
+   "mso4h": 30.97003207,
+   "pct24": 11.425,
+   "secteur": "Actions",
    "sens": "long",
-   "symbol": "KAVA/USDT:USDT"
+   "symbol": "SKUU/USDT:USDT"
+  },
+  {
+   "base": "SKDD",
+   "mso4h": 25.21488266,
+   "pct24": -11.151,
+   "secteur": "Actions",
+   "sens": "short",
+   "symbol": "SKDD/USDT:USDT"
   }
  ]
 }
