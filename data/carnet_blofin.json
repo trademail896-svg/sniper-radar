@@ -9,7 +9,7 @@
   "extreme_ts": 1795719600000,
   "move_pct": 30.50901043,
   "phase": "Retracement",
-  "phase_depuis_h": 26.0,
+  "phase_depuis_h": 26.99916667,
   "phases": [
    {
     "phase": "Impulsion",
@@ -36,8 +36,8 @@
     "ts": 1795788446
    }
   ],
-  "prix": 0.03737,
-  "retr": 0.40518135,
+  "prix": 0.03723,
+  "retr": 0.41968912,
   "sens": "pump",
   "symbol": "SEI/USDT:USDT"
  },
@@ -47,19 +47,19 @@
   "capture_ts": 1795874842,
   "depart": 0.882,
   "depart_ts": 1795784400000,
-  "extreme": 0.737,
-  "extreme_ts": 1795874400000,
-  "move_pct": -16.4399093,
+  "extreme": 0.735,
+  "extreme_ts": 1795881600000,
+  "move_pct": -16.66666667,
   "phase": "Impulsion",
-  "phase_depuis_h": 2.00111111,
+  "phase_depuis_h": 3.00027778,
   "phases": [
    {
     "phase": "Impulsion",
     "ts": 1795874842
    }
   ],
-  "prix": 0.75,
-  "retr": 0.08965517,
+  "prix": 0.749,
+  "retr": 0.0952381,
   "sens": "dump",
   "symbol": "TRUMP/USDT:USDT"
  },
@@ -73,7 +73,7 @@
   "extreme_ts": 1795842000000,
   "move_pct": -62.24321133,
   "phase": "Essoufflement",
-  "phase_depuis_h": 5.99916667,
+  "phase_depuis_h": 6.99833333,
   "phases": [
    {
     "phase": "Impulsion",
@@ -84,8 +84,8 @@
     "ts": 1795860449
    }
   ],
-  "prix": 0.01779,
-  "retr": 0.06828528,
+  "prix": 0.01765,
+  "retr": 0.0629742,
   "sens": "dump",
   "symbol": "WLFI/USDT:USDT"
  },
@@ -98,8 +98,8 @@
   "extreme": 394.78,
   "extreme_ts": 1795802400000,
   "move_pct": -23.45813056,
-  "phase": "Retracement",
-  "phase_depuis_h": 9.0,
+  "phase": "Pause",
+  "phase_depuis_h": 0.0,
   "phases": [
    {
     "phase": "Impulsion",
@@ -132,10 +132,14 @@
    {
     "phase": "Retracement",
     "ts": 1795849646
+   },
+   {
+    "phase": "Pause",
+    "ts": 1795885643
    }
   ],
-  "prix": 426.93,
-  "retr": 0.26572444,
+  "prix": 418.07,
+  "retr": 0.19249525,
   "sens": "dump",
   "symbol": "XMR/USDT:USDT"
  },
@@ -149,7 +153,7 @@
   "extreme_ts": 1795705200000,
   "move_pct": -23.06959119,
   "phase": "Retracement",
-  "phase_depuis_h": 26.0,
+  "phase_depuis_h": 26.99916667,
   "phases": [
    {
     "phase": "Impulsion",
@@ -228,8 +232,8 @@
     "ts": 1795788446
    }
   ],
-  "prix": 721.64,
-  "retr": 0.30130498,
+  "prix": 722.85,
+  "retr": 0.30740162,
   "sens": "dump",
   "symbol": "ZEC/USDT:USDT"
  }
