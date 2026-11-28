@@ -248413,6 +248413,13 @@
     "marche": -1.9341389,
     "mfe": 1.08577633,
     "ret": -1.20114007
+   },
+   "72": {
+    "avance": -4.34439851,
+    "mae": -4.02415852,
+    "marche": 4.93478939,
+    "mfe": 6.75895765,
+    "ret": 0.59039088
    }
   },
   "liste": "carnet",
@@ -248445,6 +248452,13 @@
     "marche": -1.9341389,
     "mfe": 2.2782503,
     "ret": -2.52126367
+   },
+   "72": {
+    "avance": -3.60581004,
+    "mae": -8.59659781,
+    "marche": 4.93478939,
+    "mfe": 13.60115431,
+    "ret": 1.32897934
    }
   },
   "liste": "carnet",
@@ -248477,6 +248491,13 @@
     "marche": -1.9341389,
     "mfe": 0.21263024,
     "ret": -2.2538805
+   },
+   "72": {
+    "avance": 7.10008197,
+    "mae": -3.23197959,
+    "marche": 4.93478939,
+    "mfe": 12.92791835,
+    "ret": 12.03487136
    }
   },
   "liste": "carnet",
@@ -248507,6 +248528,13 @@
     "marche": 1.9341389,
     "mfe": 2.71084337,
     "ret": 2.64390897
+   },
+   "72": {
+    "avance": -15.1455319,
+    "mae": -23.3601071,
+    "marche": -4.93478939,
+    "mfe": 7.42971888,
+    "ret": -20.08032129
    }
   },
   "liste": "carnet",
@@ -248571,6 +248599,13 @@
     "marche": -1.9341389,
     "mfe": 0.53425519,
     "ret": -1.25707102
+   },
+   "72": {
+    "avance": 13.82699565,
+    "mae": -2.38843495,
+    "marche": 4.93478939,
+    "mfe": 29.69830295,
+    "ret": 18.76178504
    }
   },
   "liste": "bb_sans",
@@ -248604,6 +248639,13 @@
     "marche": -1.9341389,
     "mfe": 0.83905416,
     "ret": -2.05949657
+   },
+   "72": {
+    "avance": -1.46415628,
+    "mae": -3.39435545,
+    "marche": 4.93478939,
+    "mfe": 9.15331808,
+    "ret": 3.4706331
    }
   },
   "liste": "demo_carnet",
@@ -248637,6 +248679,13 @@
     "marche": -1.9341389,
     "mfe": 0.73945553,
     "ret": -4.65154707
+   },
+   "72": {
+    "avance": -4.05212459,
+    "mae": -8.7426502,
+    "marche": 4.93478939,
+    "mfe": 8.62698118,
+    "ret": 0.88266479
    }
   },
   "liste": "demo_carnet",
@@ -248669,6 +248718,13 @@
     "marche": -1.9341389,
     "mfe": 0.47110553,
     "ret": -1.31909548
+   },
+   "72": {
+    "avance": 13.75239654,
+    "mae": -2.44974874,
+    "marche": 4.93478939,
+    "mfe": 29.61683417,
+    "ret": 18.68718593
    }
   },
   "liste": "demo_bb_sans",
@@ -284596,6 +284652,13 @@
   "base": "MINIMAX",
   "detail": "Essoufflement",
   "eval": {
+   "24": {
+    "avance": -6.53622911,
+    "mae": -4.70831256,
+    "marche": 2.51172594,
+    "mfe": 3.03440416,
+    "ret": -4.02450317
+   },
    "4": {
     "avance": -1.74335311,
     "mae": -0.67668637,
@@ -284622,6 +284685,13 @@
   "base": "XMR",
   "detail": "Pause",
   "eval": {
+   "24": {
+    "avance": -1.17382723,
+    "mae": -11.68546366,
+    "marche": -2.51172594,
+    "mfe": -0.40503043,
+    "ret": -3.68555317
+   },
    "4": {
     "avance": -2.34648628,
     "mae": -9.10311493,
@@ -284645,6 +284715,13 @@
   "base": "ZHIPU",
   "detail": "Pause",
   "eval": {
+   "24": {
+    "avance": -6.01375938,
+    "mae": -5.01581563,
+    "marche": 2.51172594,
+    "mfe": 4.29281518,
+    "ret": -3.50203344
+   },
    "4": {
     "avance": -0.85681784,
     "mae": -0.81337551,
@@ -284668,6 +284745,13 @@
   "base": "ZHONGJI",
   "detail": "Pause",
   "eval": {
+   "24": {
+    "avance": -6.97577992,
+    "mae": -5.69685959,
+    "marche": 2.51172594,
+    "mfe": 3.21827148,
+    "ret": -4.46405398
+   },
    "4": {
     "avance": -1.5729868,
     "mae": -0.0519076,
@@ -284714,6 +284798,13 @@
   "base": "ZHIPUHKD",
   "detail": "Pause",
   "eval": {
+   "24": {
+    "avance": -6.0471086,
+    "mae": -4.82150066,
+    "marche": 2.51172594,
+    "mfe": 4.09481516,
+    "ret": -3.53538266
+   },
    "4": {
     "avance": -0.78868472,
     "mae": -0.6747794,
@@ -284737,6 +284828,13 @@
   "base": "ELSA",
   "detail": "Pause",
   "eval": {
+   "24": {
+    "avance": 10.99312051,
+    "mae": -6.02301933,
+    "marche": -2.51172594,
+    "mfe": 12.20248072,
+    "ret": 8.48139457
+   },
    "4": {
     "avance": -0.81255306,
     "mae": -6.02301933,
@@ -284783,6 +284881,13 @@
   "base": "XMR",
   "detail": "Pause",
   "eval": {
+   "24": {
+    "avance": -1.37599681,
+    "mae": -11.87084096,
+    "marche": -2.51172594,
+    "mfe": -0.61408602,
+    "ret": -3.88772275
+   },
    "4": {
     "avance": -2.54402448,
     "mae": -9.29391273,
@@ -297168,5 +297273,101 @@
   "symbol": "WLFI/USDT:USDT",
   "tradfi": false,
   "ts": 1795860449
+ },
+ {
+  "base": "INIT",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.08626,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "L1",
+  "sens": "long",
+  "symbol": "INIT/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795864044
+ },
+ {
+  "base": "ACE",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.0791,
+  "raisons": [
+   "foule"
+  ],
+  "score": 1,
+  "secteur": "IA",
+  "sens": "long",
+  "symbol": "ACE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795864044
+ },
+ {
+  "base": "VELVET",
+  "detail": "Essoufflement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 0.09645,
+  "raisons": [
+   "MSO"
+  ],
+  "score": 1,
+  "secteur": "IA",
+  "sens": "short",
+  "symbol": "VELVET/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795864044
+ },
+ {
+  "base": "PIEVERSE",
+  "detail": "Retracement",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 3.9187,
+  "raisons": [],
+  "score": 0,
+  "secteur": "IA",
+  "sens": "long",
+  "symbol": "PIEVERSE/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795864044
+ },
+ {
+  "base": "SOXS",
+  "detail": "Pause",
+  "eval": {},
+  "liste": "carnet",
+  "penalite": false,
+  "prix": 54.16,
+  "raisons": [],
+  "score": 0,
+  "secteur": "Actions",
+  "sens": "long",
+  "symbol": "SOXS/USDT:USDT",
+  "tradfi": true,
+  "ts": 1795864044
+ },
+ {
+  "base": "JUP",
+  "detail": "haut",
+  "eval": {},
+  "liste": "demo_bb_sans",
+  "penalite": false,
+  "prix": 0.2419,
+  "raisons": [],
+  "score": 0,
+  "secteur": "DeFi",
+  "sens": "short",
+  "symbol": "JUP/USDT:USDT",
+  "tradfi": false,
+  "ts": 1795864044
  }
 ]
