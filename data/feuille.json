@@ -186,12 +186,12 @@
     "n": 4850
    },
    "demo": {
-    "avance": -0.06150528,
-    "gagnants": 50.11547344,
-    "mae": -1.27050242,
-    "mfe": 1.2905963,
-    "moy": -0.06663542,
-    "n": 1299
+    "avance": -0.06096684,
+    "gagnants": 50.15384615,
+    "mae": -1.26943845,
+    "mfe": 1.2907012,
+    "moy": -0.06577536,
+    "n": 1300
    },
    "demo_haut": {
     "avance": 0.09712501,
@@ -530,45 +530,45 @@
   }
  },
  "jours": 14,
- "maj": 1795856848,
+ "maj": 1795857870,
  "nb_signaux": 6567,
  "rates": [
   {
-   "base": "TLM",
-   "mso4h": 73.26378539,
-   "pct24": 12.434,
-   "secteur": "Gaming",
-   "sens": "long",
-   "symbol": "TLM/USDT:USDT"
-  },
-  {
-   "base": "LISTA",
-   "mso4h": 42.31823091,
-   "pct24": -12.377,
-   "secteur": "DeFi",
-   "sens": "short",
-   "symbol": "LISTA/USDT:USDT"
-  },
-  {
    "base": "TRUMP",
    "mso4h": 0.48341781,
-   "pct24": -12.071,
+   "pct24": -12.12,
    "secteur": "Memes",
    "sens": "short",
    "symbol": "TRUMP/USDT:USDT"
   },
   {
+   "base": "LISTA",
+   "mso4h": 42.31823091,
+   "pct24": -11.094,
+   "secteur": "DeFi",
+   "sens": "short",
+   "symbol": "LISTA/USDT:USDT"
+  },
+  {
    "base": "NVDL",
    "mso4h": 15.36693495,
-   "pct24": -10.18,
+   "pct24": -10.777,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "NVDL/USDT:USDT"
   },
   {
+   "base": "TLM",
+   "mso4h": 73.26378539,
+   "pct24": 10.224,
+   "secteur": "Gaming",
+   "sens": "long",
+   "symbol": "TLM/USDT:USDT"
+  },
+  {
    "base": "MSTU",
    "mso4h": 16.54520676,
-   "pct24": -8.359,
+   "pct24": -8.049,
    "secteur": "Actions",
    "sens": "short",
    "symbol": "MSTU/USDT:USDT"

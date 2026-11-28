@@ -239448,7 +239448,8 @@
     "marche": -0.52342805,
     "mfe": 1.74173118,
     "ret": -7.54750176
-   }
+   },
+   "72": null
   },
   "liste": "carnet",
   "penalite": true,
@@ -239520,7 +239521,8 @@
     "marche": -0.52342805,
     "mfe": 0.34337327,
     "ret": -0.66808495
-   }
+   },
+   "72": null
   },
   "liste": "bb_sans",
   "penalite": false,
@@ -294735,7 +294737,15 @@
  {
   "base": "KAS",
   "detail": "haut",
-  "eval": {},
+  "eval": {
+   "4": {
+    "avance": 0.63846639,
+    "mae": 0.1126549,
+    "marche": 0.41297935,
+    "mfe": 1.42696207,
+    "ret": 1.05144574
+   }
+  },
   "liste": "demo_bb_sans",
   "penalite": false,
   "prix": 0.02663,
